@@ -14,7 +14,7 @@ before_install:
 
 install:
   # Install all Python requirements (application and tests)
-  - ./test/setup_test.sh
+  - sudo ./test/setup_test.sh
   # To help eventual debug: knowing which exact versions are in use can be rather useful.
   - pip freeze
 
