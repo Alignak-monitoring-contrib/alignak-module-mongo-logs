@@ -66,7 +66,6 @@ SWITCHING = 3
 
 class MongoLogsError(Exception):
     """Specific module exception"""
-    pass
 
 
 class UTCFormatter(logging.Formatter):
@@ -164,17 +163,17 @@ class MonitoringLogsCollector(BaseModule):
             logger.error("Wrong format for max_logs_age. "
                          "Must be <number>[d|w|m|y] or <number> and not %s", max_logs_age)
             return
-        else:
-            if not maxmatch.group(2):
-                self.max_logs_age = int(maxmatch.group(1))
-            elif maxmatch.group(2) == 'd':
-                self.max_logs_age = int(maxmatch.group(1))
-            elif maxmatch.group(2) == 'w':
-                self.max_logs_age = int(maxmatch.group(1)) * 7
-            elif maxmatch.group(2) == 'm':
-                self.max_logs_age = int(maxmatch.group(1)) * 31
-            elif maxmatch.group(2) == 'y':
-                self.max_logs_age = int(maxmatch.group(1)) * 365
+
+        if not maxmatch.group(2):
+            self.max_logs_age = int(maxmatch.group(1))
+        elif maxmatch.group(2) == 'd':
+            self.max_logs_age = int(maxmatch.group(1))
+        elif maxmatch.group(2) == 'w':
+            self.max_logs_age = int(maxmatch.group(1)) * 7
+        elif maxmatch.group(2) == 'm':
+            self.max_logs_age = int(maxmatch.group(1)) * 31
+        elif maxmatch.group(2) == 'y':
+            self.max_logs_age = int(maxmatch.group(1)) * 365
         logger.info('max_logs_age: %s', self.max_logs_age)
 
         self.is_connected = DISCONNECTED
