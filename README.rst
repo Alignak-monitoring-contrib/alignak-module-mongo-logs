@@ -14,8 +14,8 @@ Alignak Log MongoDB Module
     :target: https://landscape.io/github/Alignak-monitoring-contrib/alignak-module-mongo-logs/develop
     :alt: Development code static analysis
 
-.. image:: https://coveralls.io/repos/Alignak-monitoring-contrib/alignak-module-mongo-logs/badge.svg?branch=develop
-    :target: https://coveralls.io/r/Alignak-monitoring-contrib/alignak-module-mongo-logs
+.. image:: https://codecov.io/gh/Alignak-monitoring-contrib/alignak-module-mongo-logs/branch/develop/graph/badge.svg
+    :target: https://codecov.io/gh/Alignak-monitoring-contrib/alignak-module-mongo-logs
     :alt: Development code tests coverage
 
 .. image:: https://badge.fury.io/py/alignak_module_mongo_logs.svg
