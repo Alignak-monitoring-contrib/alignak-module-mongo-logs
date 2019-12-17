@@ -24,7 +24,7 @@ BASE_PATH=$(dirname "$THIS_PATH")
 
 cd $BASE_PATH
 
-echo 'Upgrade pip ...'
+echo 'Upgradind pip ...'
 pip install --upgrade pip
 
 echo 'Installing application requirements ...'
