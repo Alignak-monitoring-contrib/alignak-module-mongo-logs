@@ -1,0 +1,721 @@
+[1489791754] INFO: SERVICE ALERT: cogny;GLPI proxy;UNKNOWN;SOFT;1;CHECK_NRPE: Error receiving data from daemon.
+[1489791782] INFO: SERVICE ALERT: cogny;GLPI proxy;OK;SOFT;2;TCP OK - 0.000 second response time on 10.0.1.252 port 80
+[1489791801] INFO: SERVICE ALERT: cogny;Disk var;UNKNOWN;SOFT;1;CHECK_NRPE: Error receiving data from daemon.
+[1489791801] INFO: SERVICE ALERT: cogny;Mysql threads;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1489791806] INFO: SERVICE ALERT: cogny;Disk var;OK;SOFT;2;DISK OK - free space: /var 61511 MB (97% inode=99%);
+[1489791836] INFO: SERVICE ALERT: cogny;Mysql threads;OK;SOFT;2;OK - 6 client connection threads
+[1489792324] INFO: RETENTION SAVE
+[1489792330] INFO: RETENTION SAVE
+[1489792386] INFO: RETENTION SAVE
+[1489792620] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 30>30
+[1489792656] INFO: RETENTION SAVE
+[1489792676] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489794134] INFO: RETENTION SAVE
+[1489794141] INFO: RETENTION SAVE
+[1489794199] INFO: RETENTION SAVE
+[1489794208] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1489794272] INFO: SERVICE ALERT: chazay;NTP;OK;SOFT;2;NTP OK: Offset -2.002716064e-05 secs
+[1489794371] INFO: SERVICE ALERT: denice;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1489794475] INFO: RETENTION SAVE
+[1489794671] INFO: SERVICE ALERT: denice;NTP;UNKNOWN;SOFT;2;CHECK_NRPE: Socket timeout after 10 seconds.
+[1489794763] INFO: SERVICE ALERT: denice;NTP;OK;SOFT;3;NTP OK: Offset 0.03398990631 secs
+[1489795944] INFO: RETENTION SAVE
+[1489795950] INFO: RETENTION SAVE
+[1489796012] INFO: RETENTION SAVE
+[1489796220] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 261>30
+[1489796294] INFO: RETENTION SAVE
+[1489796345] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489797670] INFO: SERVICE ALERT: denice;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1489797711] INFO: SERVICE ALERT: denice;NTP;OK;SOFT;2;NTP OK: Offset 0.04028689861 secs
+[1489797753] INFO: RETENTION SAVE
+[1489797760] INFO: RETENTION SAVE
+[1489797824] INFO: RETENTION SAVE
+[1489798017] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 461>30
+[1489798040] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489798102] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 71>30
+[1489798113] INFO: RETENTION SAVE
+[1489798161] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489799563] INFO: RETENTION SAVE
+[1489799570] INFO: RETENTION SAVE
+[1489799638] INFO: RETENTION SAVE
+[1489799932] INFO: RETENTION SAVE
+[1489800806] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1489800934] INFO: SERVICE ALERT: chazay;NTP;OK;SOFT;2;NTP OK: Offset -0.001532435417 secs
+[1489801373] INFO: RETENTION SAVE
+[1489801379] INFO: RETENTION SAVE
+[1489801451] INFO: RETENTION SAVE
+[1489801620] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 387>30
+[1489801698] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489801751] INFO: RETENTION SAVE
+[1489802219] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 279>30
+[1489802301] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 127>30
+[1489802368] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489802519] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;2;CRITICAL - svc_t 310>30
+[1489802536] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;3;OK - data received
+[1489803183] INFO: RETENTION SAVE
+[1489803190] INFO: RETENTION SAVE
+[1489803264] INFO: RETENTION SAVE
+[1489803420] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 100>30
+[1489803570] INFO: RETENTION SAVE
+[1489803718] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;2;CRITICAL - svc_t 287>30
+[1489804020] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;3;CRITICAL - svc_t 46>30
+[1489804318] ERROR: SERVICE NOTIFICATION: imported_admin;lachassagne;I/O stats disk 2;CRITICAL;notify-service-by-email;CRITICAL - svc_t 148>30
+[1489804318] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;HARD;4;CRITICAL - svc_t 148>30
+[1489804318] ERROR: SERVICE NOTIFICATION: guest;lachassagne;I/O stats disk 2;CRITICAL;notify-service-by-email;CRITICAL - svc_t 148>30
+[1489804703] INFO: SERVICE NOTIFICATION: guest;lachassagne;I/O stats disk 2;OK;notify-service-by-email;OK - data received
+[1489804703] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;HARD;4;OK - data received
+[1489804703] INFO: SERVICE NOTIFICATION: imported_admin;lachassagne;I/O stats disk 2;OK;notify-service-by-email;OK - data received
+[1489804993] INFO: RETENTION SAVE
+[1489805001] INFO: RETENTION SAVE
+[1489805077] INFO: RETENTION SAVE
+[1489805389] INFO: RETENTION SAVE
+[1489806119] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 207>30
+[1489806209] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1489806250] INFO: SERVICE ALERT: chazay;NTP;OK;SOFT;2;NTP OK: Offset -0.0009027719498 secs
+[1489806419] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;2;CRITICAL - svc_t 32>30
+[1489806490] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;3;OK - data received
+[1489806803] INFO: RETENTION SAVE
+[1489806810] INFO: RETENTION SAVE
+[1489806891] INFO: RETENTION SAVE
+[1489807019] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 33>30
+[1489807107] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1489807108] INFO: SERVICE FLAPPING ALERT: lachassagne;I/O stats disk 2;STARTED; Service appears to have started flapping (50.3% change >= 50.0% threshold)
+[1489807109] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489807168] INFO: SERVICE ALERT: lachassagne;Opened files;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1489807213] INFO: RETENTION SAVE
+[1489807214] INFO: SERVICE ALERT: chazay;NTP;OK;SOFT;2;NTP OK: Offset -0.01782131195 secs
+[1489807278] INFO: SERVICE ALERT: lachassagne;Opened files;OK;SOFT;2;OK kern.openfiles: 1905 (less than 1044259 / 1045759 [ kern.maxfiles: 1046259 ])
+[1489807700] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 115>30
+[1489807786] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489808519] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 59>30
+[1489808601] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 38>30
+[1489808606] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1489808612] INFO: RETENTION SAVE
+[1489808613] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489808620] INFO: RETENTION SAVE
+[1489808670] INFO: SERVICE ALERT: chazay;NTP;OK;SOFT;2;NTP OK: Offset -0.02202367783 secs
+[1489808683] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489808706] INFO: RETENTION SAVE
+[1489809034] INFO: RETENTION SAVE
+[1489809201] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 63>30
+[1489809262] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489809419] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 77>30
+[1489809539] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489810319] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 34>30
+[1489810401] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 353>30
+[1489810422] INFO: RETENTION SAVE
+[1489810430] INFO: RETENTION SAVE
+[1489810464] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489810520] INFO: RETENTION SAVE
+[1489810619] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;2;CRITICAL - svc_t 35>30
+[1489810711] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;3;OK - data received
+[1489810854] INFO: RETENTION SAVE
+[1489811170] INFO: SERVICE ALERT: denice;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1489811279] INFO: SERVICE ALERT: denice;NTP;OK;SOFT;2;NTP OK: Offset -0.0009315013885 secs
+[1489811819] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 52>30
+[1489811898] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489812232] INFO: RETENTION SAVE
+[1489812239] INFO: RETENTION SAVE
+[1489812333] INFO: RETENTION SAVE
+[1489812508] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1489812608] INFO: SERVICE ALERT: chazay;NTP;OK;SOFT;2;NTP OK: Offset 0.04233705997 secs
+[1489812673] INFO: RETENTION SAVE
+[1489813018] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - writes 22592>18000
+[1489813318] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;2;CRITICAL - svc_t 32>30
+[1489813619] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;3;CRITICAL - svc_t 99>30
+[1489813702] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;4;OK - data received
+[1489814042] INFO: RETENTION SAVE
+[1489814049] INFO: RETENTION SAVE
+[1489814146] INFO: RETENTION SAVE
+[1489814219] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 39>30
+[1489814275] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489814493] INFO: RETENTION SAVE
+[1489815418] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 34>30
+[1489815472] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489815852] INFO: RETENTION SAVE
+[1489815859] INFO: RETENTION SAVE
+[1489815959] INFO: RETENTION SAVE
+[1489816019] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - writes 18826>18000
+[1489816313] INFO: RETENTION SAVE
+[1489816320] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;2;CRITICAL - writes 23153>18000
+[1489816379] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;3;OK - data received
+[1489817300] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;1;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
+[1489817300] ERROR: SERVICE ALERT: cogny;Mysql threads;CRITICAL;SOFT;1;CRITICAL - 517 client connection threads
+[1489817300] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 51>30
+[1489817360] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489817600] WARNING: SERVICE ALERT: cogny;Processus;WARNING;SOFT;1;PROCS WARNING: 2648 processes
+[1489817600] WARNING: SERVICE ALERT: cogny;Mysql connection time;WARNING;SOFT;1;WARNING - 1.65 seconds to connect as root
+[1489817600] ERROR: SERVICE ALERT: cogny;Mysql threads;CRITICAL;SOFT;2;CRITICAL - 581 client connection threads
+[1489817600] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;2;CRITICAL - CPU usage is 100% for server cogny.siprossii.com.
+[1489817635] INFO: SERVICE ALERT: cogny;Mysql connection time;OK;SOFT;2;OK - 0.08 seconds to connect as root
+[1489817662] INFO: RETENTION SAVE
+[1489817669] INFO: RETENTION SAVE
+[1489817696] INFO: SERVICE ALERT: cogny;Processus;OK;SOFT;2;PROCS OK: 1697 processes
+[1489817772] INFO: RETENTION SAVE
+[1489817772] INFO: SERVICE ALERT: denice;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1489817855] INFO: SERVICE ALERT: denice;NTP;OK;SOFT;2;NTP OK: Offset -0.01618015766 secs
+[1489817900] ERROR: SERVICE ALERT: cogny;Mysql threads;CRITICAL;SOFT;3;CRITICAL - 631 client connection threads
+[1489817900] ERROR: SERVICE ALERT: cogny;Mysql long running procs;CRITICAL;SOFT;1;CRITICAL - 15 long running processes
+[1489817900] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;3;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
+[1489817907] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1489818002] INFO: SERVICE ALERT: chazay;NTP;OK;SOFT;2;NTP OK: Offset 0.003374576569 secs
+[1489818132] INFO: RETENTION SAVE
+[1489818200] ERROR: SERVICE NOTIFICATION: guest;cogny;CPU;CRITICAL;notify-service-by-email;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
+[1489818200] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;HARD;4;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
+[1489818200] ERROR: SERVICE ALERT: cogny;Mysql threads;CRITICAL;HARD;4;CRITICAL - 1023 client connection threads
+[1489818200] WARNING: SERVICE ALERT: cogny;Mysql long running procs;WARNING;SOFT;2;WARNING - 2 long running processes
+[1489818200] ERROR: SERVICE NOTIFICATION: imported_admin;cogny;CPU;CRITICAL;notify-service-by-email;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
+[1489818200] ERROR: SERVICE NOTIFICATION: guest;cogny;Mysql threads;CRITICAL;notify-service-by-email;CRITICAL - 1023 client connection threads
+[1489818200] ERROR: SERVICE NOTIFICATION: imported_admin;cogny;Mysql threads;CRITICAL;notify-service-by-email;CRITICAL - 1023 client connection threads
+[1489818200] ERROR: SERVICE ALERT: cogny;I/O stats;CRITICAL;SOFT;1;CRITICAL - writes 20798>18000
+[1489818319] INFO: SERVICE ALERT: cogny;I/O stats;OK;SOFT;2;OK - data received
+[1489818501] ERROR: SERVICE ALERT: cogny;Mysql long running procs;CRITICAL;SOFT;3;CRITICAL - 296 long running processes
+[1489818719] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 94>30
+[1489818800] ERROR: SERVICE NOTIFICATION: imported_admin;cogny;Mysql long running procs;CRITICAL;notify-service-by-email;CRITICAL - 93 long running processes
+[1489818800] ERROR: SERVICE NOTIFICATION: guest;cogny;Mysql long running procs;CRITICAL;notify-service-by-email;CRITICAL - 93 long running processes
+[1489818800] ERROR: SERVICE ALERT: cogny;Mysql long running procs;CRITICAL;HARD;4;CRITICAL - 93 long running processes
+[1489818800] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 113>30
+[1489818881] INFO: SERVICE NOTIFICATION: imported_admin;cogny;CPU;OK;notify-service-by-email;OK - CPU usage is 15% for server cogny.siprossii.com.
+[1489818881] INFO: SERVICE ALERT: cogny;CPU;OK;HARD;4;OK - CPU usage is 15% for server cogny.siprossii.com.
+[1489818881] INFO: SERVICE NOTIFICATION: guest;cogny;CPU;OK;notify-service-by-email;OK - CPU usage is 15% for server cogny.siprossii.com.
+[1489818884] INFO: SERVICE NOTIFICATION: guest;cogny;Mysql threads;OK;notify-service-by-email;OK - 10 client connection threads
+[1489818884] INFO: SERVICE ALERT: cogny;Mysql threads;OK;HARD;4;OK - 10 client connection threads
+[1489818884] INFO: SERVICE NOTIFICATION: imported_admin;cogny;Mysql threads;OK;notify-service-by-email;OK - 10 client connection threads
+[1489818893] INFO: SERVICE ALERT: cogny;Mysql long running procs;OK;HARD;4;OK - 0 long running processes
+[1489818893] INFO: SERVICE NOTIFICATION: imported_admin;cogny;Mysql long running procs;OK;notify-service-by-email;OK - 0 long running processes
+[1489818893] INFO: SERVICE NOTIFICATION: guest;cogny;Mysql long running procs;OK;notify-service-by-email;OK - 0 long running processes
+[1489819020] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;2;CRITICAL - writes 19786>18000
+[1489819082] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;3;OK - data received
+[1489819101] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;2;CRITICAL - svc_t 708>30
+[1489819160] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;3;OK - data received
+[1489819272] INFO: SERVICE ALERT: denice;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1489819328] INFO: SERVICE ALERT: denice;NTP;OK;SOFT;2;NTP OK: Offset 0.03720581532 secs
+[1489819400] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;1;CRITICAL - CPU usage is 98% for server cogny.siprossii.com.
+[1489819413] INFO: SERVICE ALERT: cogny;CPU;OK;SOFT;2;OK - CPU usage is 95% for server cogny.siprossii.com.
+[1489819472] INFO: RETENTION SAVE
+[1489819479] INFO: RETENTION SAVE
+[1489819585] INFO: RETENTION SAVE
+[1489819618] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 41>30
+[1489819682] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489819701] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 278>30
+[1489819793] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489819951] INFO: RETENTION SAVE
+[1489820000] WARNING: SERVICE ALERT: cogny;CPU;WARNING;SOFT;1;WARNING - CPU usage is 85% for server cogny.siprossii.com.
+[1489820220] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 48>30
+[1489820290] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489820300] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;2;CRITICAL - CPU usage is 100% for server cogny.siprossii.com.
+[1489820601] WARNING: SERVICE ALERT: cogny;Mysql threads;WARNING;SOFT;1;WARNING - 105 client connection threads
+[1489820601] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;3;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
+[1489820821] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 30>30
+[1489820902] ERROR: SERVICE NOTIFICATION: guest;cogny;CPU;CRITICAL;notify-service-by-email;CRITICAL - CPU usage is 100% for server cogny.siprossii.com.
+[1489820902] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 210>30
+[1489820902] ERROR: SERVICE ALERT: cogny;Mysql threads;CRITICAL;SOFT;2;CRITICAL - 191 client connection threads
+[1489820902] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;HARD;4;CRITICAL - CPU usage is 100% for server cogny.siprossii.com.
+[1489820902] ERROR: SERVICE NOTIFICATION: imported_admin;cogny;CPU;CRITICAL;notify-service-by-email;CRITICAL - CPU usage is 100% for server cogny.siprossii.com.
+[1489821119] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;2;CRITICAL - svc_t 109>30
+[1489821200] ERROR: SERVICE ALERT: cogny;Mysql threads;CRITICAL;SOFT;3;CRITICAL - 279 client connection threads
+[1489821200] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;2;CRITICAL - svc_t 44>30
+[1489821213] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;3;OK - data received
+[1489821231] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;3;OK - data received
+[1489821281] INFO: RETENTION SAVE
+[1489821289] INFO: RETENTION SAVE
+[1489821398] INFO: RETENTION SAVE
+[1489821500] ERROR: SERVICE NOTIFICATION: imported_admin;cogny;Mysql threads;CRITICAL;notify-service-by-email;CRITICAL - 203 client connection threads
+[1489821500] ERROR: SERVICE NOTIFICATION: guest;cogny;Mysql threads;CRITICAL;notify-service-by-email;CRITICAL - 203 client connection threads
+[1489821500] ERROR: SERVICE ALERT: cogny;Mysql threads;CRITICAL;HARD;4;CRITICAL - 203 client connection threads
+[1489821769] INFO: RETENTION SAVE
+[1489821835] INFO: SERVICE ALERT: cogny;Mysql threads;OK;HARD;4;OK - 67 client connection threads
+[1489821835] INFO: SERVICE NOTIFICATION: imported_admin;cogny;Mysql threads;OK;notify-service-by-email;OK - 67 client connection threads
+[1489821835] INFO: SERVICE NOTIFICATION: guest;cogny;Mysql threads;OK;notify-service-by-email;OK - 67 client connection threads
+[1489821867] INFO: SERVICE FLAPPING ALERT: lachassagne;System up-to-date;STARTED; Service appears to have started flapping (52.2% change >= 50.0% threshold)
+[1489822108] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1489822165] INFO: SERVICE ALERT: chazay;NTP;OK;SOFT;2;NTP OK: Offset -0.003409266472 secs
+[1489822401] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 137>30
+[1489822416] INFO: SERVICE NOTIFICATION: guest;cogny;CPU;OK;notify-service-by-email;OK - CPU usage is 55% for server cogny.siprossii.com.
+[1489822416] INFO: SERVICE ALERT: cogny;CPU;OK;HARD;4;OK - CPU usage is 55% for server cogny.siprossii.com.
+[1489822416] INFO: SERVICE NOTIFICATION: imported_admin;cogny;CPU;OK;notify-service-by-email;OK - CPU usage is 55% for server cogny.siprossii.com.
+[1489822428] INFO: SERVICE FLAPPING ALERT: cogny;I/O stats disk 2;STARTED; Service appears to have started flapping (51.1% change >= 50.0% threshold)
+[1489822428] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489822999] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 266>30
+[1489822999] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;1;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
+[1489823091] INFO: RETENTION SAVE
+[1489823100] INFO: RETENTION SAVE
+[1489823212] INFO: RETENTION SAVE
+[1489823301] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;2;CRITICAL - svc_t 40>30
+[1489823301] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;2;CRITICAL - CPU usage is 98% for server cogny.siprossii.com.
+[1489823315] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;3;OK - data received
+[1489823589] INFO: RETENTION SAVE
+[1489823601] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;3;CRITICAL - CPU usage is 100% for server cogny.siprossii.com.
+[1489823607] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1489823713] INFO: SERVICE ALERT: chazay;NTP;OK;SOFT;2;NTP OK: Offset -0.001218914986 secs
+[1489823771] INFO: SERVICE ALERT: denice;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1489823833] INFO: SERVICE ALERT: denice;NTP;OK;SOFT;2;NTP OK: Offset 0.06324279308 secs
+[1489823900] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - writes 23195>18000
+[1489823900] WARNING: SERVICE NOTIFICATION: imported_admin;cogny;CPU;WARNING;notify-service-by-email;WARNING - CPU usage is 88% for server cogny.siprossii.com.
+[1489823900] WARNING: SERVICE ALERT: cogny;CPU;WARNING;HARD;4;WARNING - CPU usage is 88% for server cogny.siprossii.com.
+[1489823900] WARNING: SERVICE NOTIFICATION: guest;cogny;CPU;WARNING;notify-service-by-email;WARNING - CPU usage is 88% for server cogny.siprossii.com.
+[1489823980] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489824201] ERROR: SERVICE NOTIFICATION: imported_admin;cogny;CPU;CRITICAL;notify-service-by-email;CRITICAL - CPU usage is 100% for server cogny.siprossii.com.
+[1489824201] ERROR: SERVICE NOTIFICATION: guest;cogny;CPU;CRITICAL;notify-service-by-email;CRITICAL - CPU usage is 100% for server cogny.siprossii.com.
+[1489824201] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;HARD;4;CRITICAL - CPU usage is 100% for server cogny.siprossii.com.
+[1489824501] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 117>30
+[1489824800] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;2;CRITICAL - svc_t 262>30
+[1489824900] INFO: RETENTION SAVE
+[1489824908] INFO: RETENTION SAVE
+[1489825025] INFO: RETENTION SAVE
+[1489825101] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;3;CRITICAL - svc_t 93>30
+[1489825189] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;4;OK - data received
+[1489825408] INFO: RETENTION SAVE
+[1489825416] INFO: SERVICE FLAPPING ALERT: lachassagne;I/O stats disk 2;STOPPED; Service appears to have stopped flapping (21.6% change < 25.0% threshold)
+[1489825701] ERROR: SERVICE ALERT: cogny;I/O stats;CRITICAL;SOFT;1;CRITICAL - writes 20410>18000
+[1489825701] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 72>30
+[1489825712] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489825766] INFO: SERVICE ALERT: cogny;I/O stats;OK;SOFT;2;OK - data received
+[1489826300] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 65>30
+[1489826300] WARNING: SERVICE NOTIFICATION: guest;cogny;CPU;WARNING;notify-service-by-email;WARNING - CPU usage is 91% for server cogny.siprossii.com.
+[1489826300] WARNING: SERVICE NOTIFICATION: imported_admin;cogny;CPU;WARNING;notify-service-by-email;WARNING - CPU usage is 91% for server cogny.siprossii.com.
+[1489826300] WARNING: SERVICE ALERT: cogny;CPU;WARNING;HARD;4;WARNING - CPU usage is 91% for server cogny.siprossii.com.
+[1489826306] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1489826345] INFO: SERVICE ALERT: chazay;NTP;OK;SOFT;2;NTP OK: Offset 0.001636981964 secs
+[1489826365] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489826601] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;HARD;4;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
+[1489826601] ERROR: SERVICE NOTIFICATION: imported_admin;cogny;CPU;CRITICAL;notify-service-by-email;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
+[1489826601] ERROR: SERVICE NOTIFICATION: guest;cogny;CPU;CRITICAL;notify-service-by-email;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
+[1489826710] INFO: RETENTION SAVE
+[1489826719] INFO: RETENTION SAVE
+[1489826820] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 214>30
+[1489826839] INFO: RETENTION SAVE
+[1489826887] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489826906] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1489827013] INFO: SERVICE ALERT: chazay;NTP;OK;SOFT;2;NTP OK: Offset 0.0004638433456 secs
+[1489827228] INFO: RETENTION SAVE
+[1489827419] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 156>30
+[1489827434] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489827570] INFO: SERVICE FLAPPING ALERT: lachassagne;System up-to-date;STOPPED; Service appears to have stopped flapping (24.9% change < 25.0% threshold)
+[1489827807] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1489827933] INFO: SERVICE ALERT: chazay;NTP;OK;SOFT;2;NTP OK: Offset -0.000415802002 secs
+[1489828101] WARNING: SERVICE ALERT: cogny;CPU;WARNING;HARD;4;WARNING - CPU usage is 83% for server cogny.siprossii.com.
+[1489828101] WARNING: SERVICE NOTIFICATION: imported_admin;cogny;CPU;WARNING;notify-service-by-email;WARNING - CPU usage is 83% for server cogny.siprossii.com.
+[1489828101] WARNING: SERVICE NOTIFICATION: guest;cogny;CPU;WARNING;notify-service-by-email;WARNING - CPU usage is 83% for server cogny.siprossii.com.
+[1489828400] ERROR: SERVICE ALERT: cogny;I/O stats;CRITICAL;SOFT;1;CRITICAL - svc_t 169>30
+[1489828400] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 169>30
+[1489828472] INFO: SERVICE ALERT: cogny;I/O stats;OK;SOFT;2;OK - data received
+[1489828514] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489828520] INFO: RETENTION SAVE
+[1489828528] INFO: RETENTION SAVE
+[1489828652] INFO: RETENTION SAVE
+[1489829002] ERROR: SERVICE NOTIFICATION: imported_admin;cogny;CPU;CRITICAL;notify-service-by-email;CRITICAL - CPU usage is 98% for server cogny.siprossii.com.
+[1489829002] ERROR: SERVICE NOTIFICATION: guest;cogny;CPU;CRITICAL;notify-service-by-email;CRITICAL - CPU usage is 98% for server cogny.siprossii.com.
+[1489829002] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;HARD;4;CRITICAL - CPU usage is 98% for server cogny.siprossii.com.
+[1489829049] INFO: RETENTION SAVE
+[1489829301] ERROR: SERVICE ALERT: cogny;I/O stats;CRITICAL;SOFT;1;CRITICAL - writes 20676>18000
+[1489829384] INFO: SERVICE ALERT: cogny;I/O stats;OK;SOFT;2;OK - data received
+[1489829519] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 431>30
+[1489829586] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489829600] WARNING: SERVICE NOTIFICATION: imported_admin;cogny;CPU;WARNING;notify-service-by-email;WARNING - CPU usage is 88% for server cogny.siprossii.com.
+[1489829600] WARNING: SERVICE NOTIFICATION: guest;cogny;CPU;WARNING;notify-service-by-email;WARNING - CPU usage is 88% for server cogny.siprossii.com.
+[1489829600] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 35>30
+[1489829600] WARNING: SERVICE ALERT: cogny;CPU;WARNING;HARD;4;WARNING - CPU usage is 88% for server cogny.siprossii.com.
+[1489829725] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489829900] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;HARD;4;CRITICAL - CPU usage is 97% for server cogny.siprossii.com.
+[1489829900] ERROR: SERVICE NOTIFICATION: guest;cogny;CPU;CRITICAL;notify-service-by-email;CRITICAL - CPU usage is 97% for server cogny.siprossii.com.
+[1489829900] ERROR: SERVICE NOTIFICATION: imported_admin;cogny;CPU;CRITICAL;notify-service-by-email;CRITICAL - CPU usage is 97% for server cogny.siprossii.com.
+[1489830118] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 175>30
+[1489830243] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489830330] INFO: RETENTION SAVE
+[1489830339] INFO: RETENTION SAVE
+[1489830465] INFO: RETENTION SAVE
+[1489830802] WARNING: SERVICE ALERT: cogny;CPU;WARNING;HARD;4;WARNING - CPU usage is 90% for server cogny.siprossii.com.
+[1489830802] WARNING: SERVICE NOTIFICATION: guest;cogny;CPU;WARNING;notify-service-by-email;WARNING - CPU usage is 90% for server cogny.siprossii.com.
+[1489830802] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 190>30
+[1489830802] WARNING: SERVICE NOTIFICATION: imported_admin;cogny;CPU;WARNING;notify-service-by-email;WARNING - CPU usage is 90% for server cogny.siprossii.com.
+[1489830869] INFO: RETENTION SAVE
+[1489830870] INFO: SERVICE ALERT: cogny;CPU;OK;HARD;4;OK - CPU usage is 67% for server cogny.siprossii.com.
+[1489830870] INFO: SERVICE NOTIFICATION: imported_admin;cogny;CPU;OK;notify-service-by-email;OK - CPU usage is 67% for server cogny.siprossii.com.
+[1489830870] INFO: SERVICE NOTIFICATION: guest;cogny;CPU;OK;notify-service-by-email;OK - CPU usage is 67% for server cogny.siprossii.com.
+[1489830899] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489830971] INFO: SERVICE ALERT: denice;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1489831025] INFO: SERVICE ALERT: denice;NTP;OK;SOFT;2;NTP OK: Offset 0.06526505947 secs
+[1489831401] WARNING: SERVICE ALERT: cogny;CPU;WARNING;SOFT;1;WARNING - CPU usage is 92% for server cogny.siprossii.com.
+[1489831700] WARNING: SERVICE ALERT: cogny;CPU;WARNING;SOFT;2;WARNING - CPU usage is 93% for server cogny.siprossii.com.
+[1489831700] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 157>30
+[1489831719] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489832000] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;3;CRITICAL - CPU usage is 100% for server cogny.siprossii.com.
+[1489832000] INFO: SERVICE FLAPPING ALERT: cogny;CPU;STARTED; Service appears to have started flapping (51.6% change >= 50.0% threshold)
+[1489832139] INFO: RETENTION SAVE
+[1489832148] INFO: RETENTION SAVE
+[1489832279] INFO: RETENTION SAVE
+[1489832300] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;HARD;4;CRITICAL - CPU usage is 98% for server cogny.siprossii.com.
+[1489832607] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1489832688] INFO: RETENTION SAVE
+[1489832722] INFO: SERVICE ALERT: chazay;NTP;OK;SOFT;2;NTP OK: Offset -0.0004148483276 secs
+[1489832900] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 41>30
+[1489833028] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489833070] INFO: SERVICE ALERT: denice;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1489833089] INFO: SERVICE ALERT: denice;NTP;OK;SOFT;2;NTP OK: Offset 0.01084113121 secs
+[1489833508] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1489833673] INFO: SERVICE ALERT: denice;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1489833705] INFO: SERVICE ALERT: denice;NTP;OK;SOFT;2;NTP OK: Offset 0.03567695618 secs
+[1489833807] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;2;CHECK_NRPE: Socket timeout after 10 seconds.
+[1489833820] INFO: SERVICE ALERT: cogny;CPU;OK;HARD;4;OK - CPU usage is 77% for server cogny.siprossii.com.
+[1489833833] INFO: SERVICE ALERT: chazay;NTP;OK;SOFT;3;NTP OK: Offset -0.0005216598511 secs
+[1489833949] INFO: RETENTION SAVE
+[1489833959] INFO: RETENTION SAVE
+[1489834092] INFO: RETENTION SAVE
+[1489834508] INFO: RETENTION SAVE
+[1489834700] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 90>30
+[1489834700] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;1;CRITICAL - CPU usage is 98% for server cogny.siprossii.com.
+[1489834804] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489835000] WARNING: SERVICE ALERT: cogny;CPU;WARNING;SOFT;2;WARNING - CPU usage is 92% for server cogny.siprossii.com.
+[1489835172] INFO: SERVICE ALERT: denice;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1489835279] INFO: SERVICE ALERT: denice;NTP;OK;SOFT;2;NTP OK: Offset 0.09197151661 secs
+[1489835300] WARNING: SERVICE ALERT: cogny;CPU;WARNING;SOFT;3;WARNING - CPU usage is 85% for server cogny.siprossii.com.
+[1489835601] WARNING: SERVICE ALERT: cogny;CPU;WARNING;HARD;4;WARNING - CPU usage is 86% for server cogny.siprossii.com.
+[1489835759] INFO: RETENTION SAVE
+[1489835769] INFO: RETENTION SAVE
+[1489835901] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;HARD;4;CRITICAL - CPU usage is 97% for server cogny.siprossii.com.
+[1489835905] INFO: RETENTION SAVE
+[1489836327] INFO: RETENTION SAVE
+[1489836421] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 101>30
+[1489836491] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489836501] WARNING: SERVICE ALERT: cogny;CPU;WARNING;HARD;4;WARNING - CPU usage is 89% for server cogny.siprossii.com.
+[1489836801] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;HARD;4;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
+[1489836891] INFO: SERVICE ALERT: cogny;CPU;OK;HARD;4;OK - CPU usage is 72% for server cogny.siprossii.com.
+[1489836972] INFO: SERVICE ALERT: denice;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1489837051] INFO: SERVICE ALERT: denice;NTP;OK;SOFT;2;NTP OK: Offset 0.01843416691 secs
+[1489837401] WARNING: SERVICE ALERT: cogny;CPU;WARNING;SOFT;1;WARNING - CPU usage is 86% for server cogny.siprossii.com.
+[1489837504] INFO: SERVICE FLAPPING ALERT: cogny;I/O stats disk 2;STOPPED; Service appears to have stopped flapping (23.1% change < 25.0% threshold)
+[1489837569] INFO: RETENTION SAVE
+[1489837578] INFO: RETENTION SAVE
+[1489837701] WARNING: SERVICE ALERT: cogny;CPU;WARNING;SOFT;2;WARNING - CPU usage is 81% for server cogny.siprossii.com.
+[1489837707] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1489837719] INFO: RETENTION SAVE
+[1489837755] INFO: SERVICE ALERT: cogny;CPU;OK;SOFT;3;OK - CPU usage is 69% for server cogny.siprossii.com.
+[1489837805] INFO: SERVICE ALERT: chazay;NTP;OK;SOFT;2;NTP OK: Offset -0.005021572113 secs
+[1489838147] INFO: RETENTION SAVE
+[1489838172] INFO: SERVICE ALERT: denice;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1489838243] INFO: SERVICE ALERT: denice;NTP;OK;SOFT;2;NTP OK: Offset 0.06291151047 secs
+[1489838243] INFO: SERVICE FLAPPING ALERT: denice;NTP;STARTED; Service appears to have started flapping (50.3% change >= 50.0% threshold)
+[1489838302] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;1;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
+[1489838601] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;2;CRITICAL - CPU usage is 98% for server cogny.siprossii.com.
+[1489838668] INFO: SERVICE FLAPPING ALERT: lachassagne;System up-to-date;STARTED; Service appears to have started flapping (54.2% change >= 50.0% threshold)
+[1489838900] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;3;CRITICAL - CPU usage is 98% for server cogny.siprossii.com.
+[1489838908] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1489838925] INFO: SERVICE ALERT: chazay;NTP;OK;SOFT;2;NTP OK: Offset 0.006433963776 secs
+[1489839070] INFO: SERVICE ALERT: denice;Memory;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1489839118] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 437>30
+[1489839134] INFO: SERVICE ALERT: denice;Memory;OK;SOFT;2;Memory OK - 28.2% (9704980480 kB) used
+[1489839200] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;HARD;4;CRITICAL - CPU usage is 97% for server cogny.siprossii.com.
+[1489839243] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489839379] INFO: RETENTION SAVE
+[1489839389] INFO: RETENTION SAVE
+[1489839502] WARNING: SERVICE ALERT: cogny;CPU;WARNING;HARD;4;WARNING - CPU usage is 94% for server cogny.siprossii.com.
+[1489839533] INFO: RETENTION SAVE
+[1489839718] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - writes 18933>18000
+[1489839798] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489839801] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;HARD;4;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
+[1489839858] INFO: SERVICE ALERT: cogny;CPU;OK;HARD;4;OK - CPU usage is 61% for server cogny.siprossii.com.
+[1489839967] INFO: RETENTION SAVE
+[1489840400] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;1;CRITICAL - CPU usage is 96% for server cogny.siprossii.com.
+[1489840521] INFO: SERVICE ALERT: cogny;CPU;OK;SOFT;2;OK - CPU usage is 95% for server cogny.siprossii.com.
+[1489840930] INFO: SERVICE FLAPPING ALERT: denice;NTP;STOPPED; Service appears to have stopped flapping (23.5% change < 25.0% threshold)
+[1489841001] WARNING: SERVICE ALERT: cogny;CPU;WARNING;SOFT;1;WARNING - CPU usage is 94% for server cogny.siprossii.com.
+[1489841189] INFO: RETENTION SAVE
+[1489841199] INFO: RETENTION SAVE
+[1489841302] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;2;CRITICAL - CPU usage is 100% for server cogny.siprossii.com.
+[1489841346] INFO: RETENTION SAVE
+[1489841470] INFO: SERVICE ALERT: denice;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1489841488] INFO: SERVICE ALERT: denice;NTP;OK;SOFT;2;NTP OK: Offset 0.05586838722 secs
+[1489841602] ERROR: SERVICE ALERT: cogny;I/O stats;CRITICAL;SOFT;1;CRITICAL - svc_t 40>30
+[1489841602] WARNING: SERVICE ALERT: cogny;CPU;WARNING;SOFT;3;WARNING - CPU usage is 88% for server cogny.siprossii.com.
+[1489841672] INFO: SERVICE ALERT: cogny;I/O stats;OK;SOFT;2;OK - data received
+[1489841786] INFO: RETENTION SAVE
+[1489841900] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;HARD;4;CRITICAL - CPU usage is 97% for server cogny.siprossii.com.
+[1489842322] INFO: SERVICE ALERT: cogny;CPU;OK;HARD;4;OK - CPU usage is 95% for server cogny.siprossii.com.
+[1489842801] WARNING: SERVICE ALERT: cogny;CPU;WARNING;SOFT;1;WARNING - CPU usage is 94% for server cogny.siprossii.com.
+[1489842998] INFO: RETENTION SAVE
+[1489843010] INFO: RETENTION SAVE
+[1489843100] WARNING: SERVICE ALERT: cogny;CPU;WARNING;SOFT;2;WARNING - CPU usage is 86% for server cogny.siprossii.com.
+[1489843159] INFO: RETENTION SAVE
+[1489843399] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;3;CRITICAL - CPU usage is 98% for server cogny.siprossii.com.
+[1489843605] INFO: RETENTION SAVE
+[1489843618] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - writes 19617>18000 svc_t 30>30
+[1489843696] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489843701] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;HARD;4;CRITICAL - CPU usage is 100% for server cogny.siprossii.com.
+[1489844607] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1489844637] INFO: SERVICE ALERT: chazay;NTP;OK;SOFT;2;NTP OK: Offset -0.0006548166275 secs
+[1489844809] INFO: RETENTION SAVE
+[1489844819] INFO: RETENTION SAVE
+[1489844972] INFO: RETENTION SAVE
+[1489845202] WARNING: SERVICE ALERT: cogny;CPU;WARNING;HARD;4;WARNING - CPU usage is 93% for server cogny.siprossii.com.
+[1489845425] INFO: RETENTION SAVE
+[1489845502] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;HARD;4;CRITICAL - CPU usage is 96% for server cogny.siprossii.com.
+[1489845502] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 196>30
+[1489845557] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489845800] WARNING: SERVICE ALERT: cogny;CPU;WARNING;HARD;4;WARNING - CPU usage is 92% for server cogny.siprossii.com.
+[1489846101] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 144>30
+[1489846114] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489846401] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;HARD;4;CRITICAL - CPU usage is 98% for server cogny.siprossii.com.
+[1489846406] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1489846536] INFO: SERVICE ALERT: chazay;NTP;OK;SOFT;2;NTP OK: Offset 0.002850651741 secs
+[1489846619] INFO: RETENTION SAVE
+[1489846630] INFO: RETENTION SAVE
+[1489846785] INFO: RETENTION SAVE
+[1489847000] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 448>30
+[1489847100] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489847244] INFO: RETENTION SAVE
+[1489847676] INFO: SERVICE ALERT: cogny;CPU;OK;HARD;4;OK - CPU usage is 75% for server cogny.siprossii.com.
+[1489848120] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 47>30
+[1489848200] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 30>30
+[1489848200] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;1;CRITICAL - CPU usage is 96% for server cogny.siprossii.com.
+[1489848235] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489848246] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489848370] INFO: SERVICE ALERT: denice;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1489848428] INFO: RETENTION SAVE
+[1489848439] INFO: RETENTION SAVE
+[1489848483] INFO: SERVICE ALERT: denice;NTP;OK;SOFT;2;NTP OK: Offset 0.0486240387 secs
+[1489848499] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;2;CRITICAL - CPU usage is 98% for server cogny.siprossii.com.
+[1489848537] INFO: SERVICE ALERT: cogny;CPU;OK;SOFT;3;OK - CPU usage is 66% for server cogny.siprossii.com.
+[1489848597] INFO: RETENTION SAVE
+[1489848719] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 281>30
+[1489848740] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489849064] INFO: RETENTION SAVE
+[1489849400] ERROR: SERVICE ALERT: cogny;I/O stats;CRITICAL;SOFT;1;CRITICAL - writes 28594>18000
+[1489849527] INFO: SERVICE ALERT: cogny;I/O stats;OK;SOFT;2;OK - data received
+[1489849700] WARNING: SERVICE ALERT: cogny;CPU;WARNING;SOFT;1;WARNING - CPU usage is 94% for server cogny.siprossii.com.
+[1489849700] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 100>30
+[1489849801] INFO: SERVICE FLAPPING ALERT: cogny;I/O stats disk 2;STARTED; Service appears to have started flapping (51.5% change >= 50.0% threshold)
+[1489849801] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489850000] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;2;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
+[1489850093] INFO: SERVICE ALERT: cogny;CPU;OK;SOFT;3;OK - CPU usage is 95% for server cogny.siprossii.com.
+[1489850238] INFO: RETENTION SAVE
+[1489850249] INFO: RETENTION SAVE
+[1489850410] INFO: RETENTION SAVE
+[1489850519] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 99>30
+[1489850600] WARNING: SERVICE ALERT: cogny;CPU;WARNING;SOFT;1;WARNING - CPU usage is 85% for server cogny.siprossii.com.
+[1489850818] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;2;CRITICAL - svc_t 38>30
+[1489850883] INFO: RETENTION SAVE
+[1489850899] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 71>30
+[1489850899] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;2;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
+[1489850919] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;3;OK - data received
+[1489851200] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;2;CRITICAL - svc_t 58>30
+[1489851200] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;3;CRITICAL - CPU usage is 100% for server cogny.siprossii.com.
+[1489851501] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;3;CRITICAL - svc_t 460>30
+[1489851501] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;HARD;4;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
+[1489851800] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;HARD;4;CRITICAL - svc_t 76>30
+[1489852049] INFO: RETENTION SAVE
+[1489852058] INFO: RETENTION SAVE
+[1489852161] INFO: SERVICE ALERT: cogny;CPU;OK;HARD;4;OK - CPU usage is 65% for server cogny.siprossii.com.
+[1489852223] INFO: RETENTION SAVE
+[1489852704] INFO: RETENTION SAVE
+[1489852705] WARNING: SERVICE ALERT: cogny;CPU;WARNING;SOFT;1;WARNING - CPU usage is 90% for server cogny.siprossii.com.
+[1489853001] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;2;CRITICAL - CPU usage is 97% for server cogny.siprossii.com.
+[1489853301] INFO: SERVICE FLAPPING ALERT: cogny;I/O stats disk 2;STOPPED; Service appears to have stopped flapping (23.6% change < 25.0% threshold)
+[1489853301] ERROR: SERVICE NOTIFICATION: guest;cogny;I/O stats disk 2;CRITICAL;notify-service-by-email;CRITICAL - svc_t 57>30
+[1489853301] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;3;CRITICAL - CPU usage is 98% for server cogny.siprossii.com.
+[1489853301] ERROR: SERVICE NOTIFICATION: imported_admin;cogny;I/O stats disk 2;CRITICAL;notify-service-by-email;CRITICAL - svc_t 57>30
+[1489853395] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;HARD;4;OK - data received
+[1489853395] INFO: SERVICE NOTIFICATION: imported_admin;cogny;I/O stats disk 2;OK;notify-service-by-email;OK - data received
+[1489853395] INFO: SERVICE NOTIFICATION: guest;cogny;I/O stats disk 2;OK;notify-service-by-email;OK - data received
+[1489853519] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 69>30
+[1489853544] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489853600] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;HARD;4;CRITICAL - CPU usage is 100% for server cogny.siprossii.com.
+[1489853858] INFO: RETENTION SAVE
+[1489853868] INFO: RETENTION SAVE
+[1489853901] WARNING: SERVICE ALERT: cogny;CPU;WARNING;HARD;4;WARNING - CPU usage is 85% for server cogny.siprossii.com.
+[1489854037] INFO: RETENTION SAVE
+[1489854200] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;HARD;4;CRITICAL - CPU usage is 100% for server cogny.siprossii.com.
+[1489854524] INFO: RETENTION SAVE
+[1489854719] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 56>30
+[1489854761] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489854825] INFO: SERVICE ALERT: cogny;CPU;OK;HARD;4;OK - CPU usage is 20% for server cogny.siprossii.com.
+[1489855100] ERROR: SERVICE ALERT: cogny;I/O stats;CRITICAL;SOFT;1;CRITICAL - svc_t 72>30
+[1489855170] INFO: SERVICE ALERT: cogny;I/O stats;OK;SOFT;2;OK - data received
+[1489855399] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;1;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
+[1489855620] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 39>30
+[1489855636] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489855668] INFO: RETENTION SAVE
+[1489855679] INFO: RETENTION SAVE
+[1489855700] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;2;CRITICAL - CPU usage is 98% for server cogny.siprossii.com.
+[1489855700] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 204>30
+[1489855706] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1489855794] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489855850] INFO: RETENTION SAVE
+[1489856001] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;3;CRITICAL - CPU usage is 100% for server cogny.siprossii.com.
+[1489856008] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;2;CHECK_NRPE: Socket timeout after 10 seconds.
+[1489856056] INFO: SERVICE ALERT: chazay;NTP;OK;SOFT;3;NTP OK: Offset -0.00133061409 secs
+[1489856094] INFO: SERVICE ALERT: cogny;CPU;OK;SOFT;4;OK - CPU usage is 49% for server cogny.siprossii.com.
+[1489856303] ERROR: SERVICE ALERT: cogny;I/O stats;CRITICAL;SOFT;1;CRITICAL - writes 19568>18000
+[1489856342] INFO: RETENTION SAVE
+[1489856419] INFO: SERVICE ALERT: cogny;I/O stats;OK;SOFT;2;OK - data received
+[1489856602] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 39>30
+[1489856602] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;1;CRITICAL - CPU usage is 98% for server cogny.siprossii.com.
+[1489856716] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489856901] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;2;CRITICAL - CPU usage is 97% for server cogny.siprossii.com.
+[1489857201] WARNING: SERVICE ALERT: cogny;CPU;WARNING;SOFT;3;WARNING - CPU usage is 89% for server cogny.siprossii.com.
+[1489857211] INFO: SERVICE ALERT: cogny;CPU;OK;SOFT;4;OK - CPU usage is 95% for server cogny.siprossii.com.
+[1489857370] INFO: SERVICE ALERT: denice;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1489857414] INFO: SERVICE ALERT: denice;NTP;OK;SOFT;2;NTP OK: Offset -0.02342939377 secs
+[1489857478] INFO: RETENTION SAVE
+[1489857489] INFO: RETENTION SAVE
+[1489857568] INFO: SERVICE FLAPPING ALERT: lachassagne;System up-to-date;STOPPED; Service appears to have stopped flapping (22.7% change < 25.0% threshold)
+[1489857663] INFO: RETENTION SAVE
+[1489857801] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 133>30
+[1489857801] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;1;CRITICAL - CPU usage is 100% for server cogny.siprossii.com.
+[1489857889] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489858099] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;2;CRITICAL - CPU usage is 100% for server cogny.siprossii.com.
+[1489858099] ERROR: SERVICE ALERT: cogny;I/O stats;CRITICAL;SOFT;1;CRITICAL - writes 20624>18000
+[1489858162] INFO: RETENTION SAVE
+[1489858187] INFO: SERVICE ALERT: cogny;I/O stats;OK;SOFT;2;OK - data received
+[1489858400] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;3;CRITICAL - CPU usage is 100% for server cogny.siprossii.com.
+[1489858700] ERROR: SERVICE ALERT: cogny;I/O stats;CRITICAL;SOFT;1;CRITICAL - svc_t 33>30
+[1489858700] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 227>30
+[1489858700] WARNING: SERVICE ALERT: cogny;CPU;WARNING;HARD;4;WARNING - CPU usage is 93% for server cogny.siprossii.com.
+[1489858764] INFO: SERVICE ALERT: cogny;CPU;OK;HARD;4;OK - CPU usage is 63% for server cogny.siprossii.com.
+[1489858774] INFO: SERVICE ALERT: cogny;I/O stats;OK;SOFT;2;OK - data received
+[1489859002] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;2;CRITICAL - svc_t 100>30
+[1489859007] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1489859033] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;3;OK - data received
+[1489859087] INFO: SERVICE ALERT: chazay;NTP;OK;SOFT;2;NTP OK: Offset -0.007132172585 secs
+[1489859289] INFO: RETENTION SAVE
+[1489859298] INFO: RETENTION SAVE
+[1489859301] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;1;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
+[1489859476] INFO: RETENTION SAVE
+[1489859600] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;2;CRITICAL - CPU usage is 100% for server cogny.siprossii.com.
+[1489859621] INFO: SERVICE ALERT: cogny;CPU;OK;SOFT;3;OK - CPU usage is 11% for server cogny.siprossii.com.
+[1489859983] INFO: RETENTION SAVE
+[1489860200] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;1;CRITICAL - CPU usage is 98% for server cogny.siprossii.com.
+[1489860502] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;2;CRITICAL - CPU usage is 96% for server cogny.siprossii.com.
+[1489860801] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;3;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
+[1489861097] INFO: RETENTION SAVE
+[1489861101] WARNING: SERVICE ALERT: cogny;CPU;WARNING;HARD;4;WARNING - CPU usage is 91% for server cogny.siprossii.com.
+[1489861108] INFO: RETENTION SAVE
+[1489861289] INFO: RETENTION SAVE
+[1489861319] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 156>30
+[1489861401] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;HARD;4;CRITICAL - CPU usage is 100% for server cogny.siprossii.com.
+[1489861500] INFO: SERVICE ALERT: cogny;CPU;OK;HARD;4;OK - CPU usage is 95% for server cogny.siprossii.com.
+[1489861571] INFO: SERVICE ALERT: denice;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1489861578] INFO: SERVICE ALERT: denice;NTP;OK;SOFT;2;NTP OK: Offset -0.002074480057 secs
+[1489861618] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;2;CRITICAL - svc_t 196>30
+[1489861687] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;3;OK - data received
+[1489861700] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 79>30
+[1489861784] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489861802] INFO: RETENTION SAVE
+[1489862600] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;1;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
+[1489862631] INFO: SERVICE ALERT: cogny;CPU;OK;SOFT;2;OK - CPU usage is 77% for server cogny.siprossii.com.
+[1489862908] INFO: RETENTION SAVE
+[1489862917] INFO: RETENTION SAVE
+[1489863103] INFO: RETENTION SAVE
+[1489863201] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 37>30
+[1489863201] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;1;CRITICAL - CPU usage is 97% for server cogny.siprossii.com.
+[1489863300] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489863420] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 228>30
+[1489863501] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;2;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
+[1489863507] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1489863509] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489863621] INFO: RETENTION SAVE
+[1489863637] INFO: SERVICE ALERT: chazay;NTP;OK;SOFT;2;NTP OK: Offset 0.0008273124695 secs
+[1489863800] WARNING: SERVICE ALERT: cogny;CPU;WARNING;SOFT;3;WARNING - CPU usage is 87% for server cogny.siprossii.com.
+[1489863800] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 41>30
+[1489864103] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;HARD;4;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
+[1489864103] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;2;CRITICAL - svc_t 58>30
+[1489864401] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;3;CRITICAL - svc_t 37>30
+[1489864700] WARNING: SERVICE ALERT: cogny;CPU;WARNING;HARD;4;WARNING - CPU usage is 91% for server cogny.siprossii.com.
+[1489864700] ERROR: SERVICE NOTIFICATION: guest;cogny;I/O stats disk 2;CRITICAL;notify-service-by-email;CRITICAL - svc_t 85>30
+[1489864700] ERROR: SERVICE NOTIFICATION: imported_admin;cogny;I/O stats disk 2;CRITICAL;notify-service-by-email;CRITICAL - svc_t 85>30
+[1489864700] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;HARD;4;CRITICAL - svc_t 85>30
+[1489864717] INFO: RETENTION SAVE
+[1489864728] INFO: RETENTION SAVE
+[1489864813] INFO: SERVICE NOTIFICATION: guest;cogny;I/O stats disk 2;OK;notify-service-by-email;OK - data received
+[1489864813] INFO: SERVICE NOTIFICATION: imported_admin;cogny;I/O stats disk 2;OK;notify-service-by-email;OK - data received
+[1489864813] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;HARD;4;OK - data received
+[1489864916] INFO: RETENTION SAVE
+[1489864918] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 95>30
+[1489865000] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;HARD;4;CRITICAL - CPU usage is 98% for server cogny.siprossii.com.
+[1489865096] INFO: SERVICE ALERT: cogny;CPU;OK;HARD;4;OK - CPU usage is 80% for server cogny.siprossii.com.
+[1489865218] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;2;CRITICAL - svc_t 437>30
+[1489865301] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 126>30
+[1489865344] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489865440] INFO: RETENTION SAVE
+[1489865520] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;3;CRITICAL - writes 18796>18000
+[1489865612] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;4;OK - data received
+[1489865902] WARNING: SERVICE ALERT: cogny;CPU;WARNING;SOFT;1;WARNING - CPU usage is 81% for server cogny.siprossii.com.
+[1489866071] INFO: SERVICE ALERT: denice;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1489866132] INFO: SERVICE ALERT: denice;NTP;OK;SOFT;2;NTP OK: Offset 0.02839529514 secs
+[1489866202] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;2;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
+[1489866502] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;3;CRITICAL - CPU usage is 98% for server cogny.siprossii.com.
+[1489866527] INFO: RETENTION SAVE
+[1489866537] INFO: RETENTION SAVE
+[1489866728] INFO: RETENTION SAVE
+[1489866801] WARNING: SERVICE ALERT: cogny;CPU;WARNING;HARD;4;WARNING - CPU usage is 88% for server cogny.siprossii.com.
+[1489867101] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 139>30
+[1489867168] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489867168] INFO: SERVICE FLAPPING ALERT: cogny;I/O stats disk 2;STARTED; Service appears to have started flapping (50.2% change >= 50.0% threshold)
+[1489867259] INFO: RETENTION SAVE
+[1489867401] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;HARD;4;CRITICAL - CPU usage is 98% for server cogny.siprossii.com.
+[1489867469] INFO: SERVICE ALERT: cogny;CPU;OK;HARD;4;OK - CPU usage is 54% for server cogny.siprossii.com.
+[1489867572] INFO: SERVICE ALERT: denice;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1489867581] INFO: SERVICE ALERT: denice;NTP;OK;SOFT;2;NTP OK: Offset 0.08656406403 secs
+[1489868337] INFO: RETENTION SAVE
+[1489868347] INFO: RETENTION SAVE
+[1489868541] INFO: RETENTION SAVE
+[1489869079] INFO: RETENTION SAVE
+[1489869441] ERROR: HOST NOTIFICATION: imported_admin;always_down;DOWN;notify-host-by-email;Alarm timeout
+[1489869567] INFO: SERVICE FLAPPING ALERT: cogny;I/O stats disk 2;STOPPED; Service appears to have stopped flapping (23.8% change < 25.0% threshold)
+[1489869718] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 201>30
+[1489869822] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489869970] INFO: SERVICE ALERT: denice;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1489870093] INFO: SERVICE ALERT: denice;NTP;OK;SOFT;2;NTP OK: Offset 0.04509711266 secs
+[1489870147] INFO: RETENTION SAVE
+[1489870157] INFO: RETENTION SAVE
+[1489870320] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 172>30
+[1489870354] INFO: RETENTION SAVE
+[1489870388] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489870709] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1489870763] INFO: SERVICE ALERT: chazay;NTP;OK;SOFT;2;NTP OK: Offset 0.002408027649 secs
+[1489870899] INFO: RETENTION SAVE
+[1489871067] INFO: SERVICE FLAPPING ALERT: lachassagne;System up-to-date;STARTED; Service appears to have started flapping (51.1% change >= 50.0% threshold)
+[1489871069] INFO: SERVICE FLAPPING ALERT: cogny;CPU;STOPPED; Service appears to have stopped flapping (22.5% change < 25.0% threshold)
+[1489871606] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1489871643] INFO: SERVICE ALERT: chazay;NTP;OK;SOFT;2;NTP OK: Offset -0.002767562866 secs
+[1489871956] INFO: RETENTION SAVE
+[1489871967] INFO: RETENTION SAVE
+[1489872168] INFO: RETENTION SAVE
+[1489872717] INFO: RETENTION SAVE
+[1489872718] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 144>30
+[1489872801] ERROR: SERVICE ALERT: cogny;I/O stats;CRITICAL;SOFT;1;CRITICAL - svc_t 39>30
+[1489872809] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489872817] INFO: SERVICE ALERT: cogny;I/O stats;OK;SOFT;2;OK - data received
+[1489873272] INFO: SERVICE ALERT: denice;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1489873400] INFO: SERVICE ALERT: denice;NTP;OK;SOFT;2;NTP OK: Offset 0.03347301483 secs
+[1489873619] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 116>30
+[1489873699] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489873767] INFO: RETENTION SAVE
+[1489873777] INFO: RETENTION SAVE
+[1489873871] INFO: SERVICE ALERT: denice;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1489873948] INFO: SERVICE ALERT: denice;NTP;OK;SOFT;2;NTP OK: Offset 0.05358695984 secs
+[1489873981] INFO: RETENTION SAVE
+[1489874219] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 200>30
+[1489874519] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;2;CRITICAL - svc_t 321>30
+[1489874538] INFO: RETENTION SAVE
+[1489874564] INFO: SERVICE FLAPPING ALERT: lachassagne;I/O stats disk 2;STARTED; Service appears to have started flapping (51.6% change >= 50.0% threshold)
+[1489874564] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;3;OK - data received
+[1489875070] INFO: SERVICE ALERT: denice;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1489875122] INFO: SERVICE ALERT: denice;NTP;OK;SOFT;2;NTP OK: Offset -0.01921105385 secs
+[1489875506] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1489875562] INFO: SERVICE ALERT: chazay;NTP;OK;SOFT;2;NTP OK: Offset 0.0014950037 secs
+[1489875576] INFO: RETENTION SAVE
+[1489875588] INFO: RETENTION SAVE
+[1489875718] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 299>30
+[1489875794] INFO: RETENTION SAVE
+[1489875824] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1489876357] INFO: RETENTION SAVE
+[1489876919] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 83>30
+[1489877068] INFO: SERVICE FLAPPING ALERT: lachassagne;System up-to-date;STOPPED; Service appears to have stopped flapping (21.0% change < 25.0% threshold)
+[1489877219] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;2;CRITICAL - svc_t 31>30
+[1489877259] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;3;OK - data received
+[1489877306] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1489877378] INFO: SERVICE ALERT: chazay;NTP;OK;SOFT;2;NTP OK: Offset 0.0001052618027 secs
+[1489877386] INFO: RETENTION SAVE
+[1489877398] INFO: RETENTION SAVE
+[1489877607] INFO: RETENTION SAVE

@@ -48,8 +48,6 @@ from alignak.basemodule import BaseModule
 
 from alignak_module_mongo_logs.logevent import LogEvent
 
-from .log_line import (Logline, LOGCLASS_INVALID)
-
 logger = logging.getLogger(__name__)  # pylint: disable=invalid-name
 for handler in logger.parent.handlers:
     if isinstance(handler, logging.StreamHandler):

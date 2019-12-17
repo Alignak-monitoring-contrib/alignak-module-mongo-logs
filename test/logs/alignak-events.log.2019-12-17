@@ -1,0 +1,1068 @@
+[2019-12-17 08:35:39] INFO: RETENTION LOAD: scheduler-master
+[2019-12-17 08:35:56] INFO: SERVICE ALERT: north_host_005;dummy_unknown;UNKNOWN;SOFT;1;north_host_005-dummy_unknown-3
+[2019-12-17 08:36:06] ERROR: HOST ALERT: my-secured-elasticsearch-es2;DOWN;SOFT;1;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:39:26] INFO: RETENTION LOAD: scheduler-master
+[2019-12-17 08:43:18] INFO: RETENTION LOAD: scheduler-master
+[2019-12-17 08:44:02] WARNING: SERVICE ALERT: my-mongo-primary;check-memory-mapped;WARNING;SOFT;1;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 08:44:47] ERROR: HOST ALERT: my-elasticsearch-es1;DOWN;HARD;2;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:44:47] INFO: SERVICE ALERT: my-elasticsearch-es1;NTP time;UNREACHABLE;SOFT;1;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:44:47] INFO: SERVICE ALERT: my-elasticsearch-es1;Processus;UNREACHABLE;SOFT;1;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:44:47] INFO: SERVICE ALERT: my-elasticsearch-es1;Load;UNREACHABLE;SOFT;2;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:44:48] ERROR: HOST NOTIFICATION: notified;my-elasticsearch-es1;DOWN;1;notify-host-by-log;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:45:06] WARNING: SERVICE ALERT: my-mongo-alone;check-free-connections;WARNING;SOFT;1;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 08:45:06] WARNING: SERVICE ALERT: my-mongo-alone;check-memory-mapped;WARNING;SOFT;1;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 08:45:06] INFO: SERVICE ALERT: my-mongo-alone;Load;UNKNOWN;SOFT;1;connect to address 127.0.0.1 port 5666: Connection refused
+[2019-12-17 08:45:06] INFO: SERVICE ALERT: my-mongo-alone;Nrpe-status;UNKNOWN;SOFT;1;connect to address 127.0.0.1 port 5666: Connection refused
+[2019-12-17 08:45:06] INFO: SERVICE ALERT: my-mongo-alone;NTP time;UNKNOWN;SOFT;1;connect to address 127.0.0.1 port 5666: Connection refused
+[2019-12-17 08:45:06] INFO: SERVICE ALERT: my-mongo-alone;Zombies;UNKNOWN;SOFT;1;connect to address 127.0.0.1 port 5666: Connection refused
+[2019-12-17 08:45:10] WARNING: SERVICE ALERT: localhost;Shk2-poller;WARNING;SOFT;1;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_shinken2.py", line 95
+[2019-12-17 08:45:10] WARNING: SERVICE ALERT: localhost;Shk2-arbiter;WARNING;SOFT;1;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_shinken2.py", line 95
+[2019-12-17 08:45:10] WARNING: SERVICE ALERT: localhost;Shk2-reactionner;WARNING;SOFT;1;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_shinken2.py", line 95
+[2019-12-17 08:45:15] INFO: SERVICE ALERT: my-mongo-slave;NTP time;UNKNOWN;SOFT;1;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:45:15] INFO: SERVICE ALERT: my-mongo-slave;Load;UNKNOWN;SOFT;1;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:45:15] WARNING: SERVICE ALERT: my-mongo-slave;check-free-connections;WARNING;SOFT;1;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 08:45:15] WARNING: SERVICE ALERT: my-mongo-slave;check-replicaset-status;WARNING;SOFT;1;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 08:45:15] WARNING: SERVICE ALERT: my-mongo-slave;check-memory-usage;WARNING;SOFT;1;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 08:45:15] INFO: SERVICE ALERT: my-mongo-slave;Nrpe-status;UNKNOWN;SOFT;1;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:46:06] ERROR: HOST ALERT: my-secured-elasticsearch-es2;DOWN;HARD;2;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:46:06] INFO: SERVICE ALERT: my-secured-elasticsearch-es2;check-es-http-alive;UNREACHABLE;SOFT;1;CRITICAL - Socket timeout after 10 seconds
+[2019-12-17 08:46:06] INFO: SERVICE ALERT: my-secured-elasticsearch-es2;Nrpe-status;UNREACHABLE;SOFT;1;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:46:06] INFO: SERVICE ALERT: my-secured-elasticsearch-es2;Cpu;UNREACHABLE;SOFT;1;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:46:06] INFO: SERVICE ALERT: my-secured-elasticsearch-es2;Up-to-date;UNREACHABLE;SOFT;1;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:46:06] INFO: SERVICE ALERT: my-secured-elasticsearch-es2;check-es-tcp-alive;UNREACHABLE;SOFT;1;CRITICAL - Socket timeout after 10 seconds
+[2019-12-17 08:46:06] INFO: SERVICE ALERT: my-secured-elasticsearch-es2;Users;UNREACHABLE;SOFT;1;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:46:06] INFO: SERVICE ALERT: my-secured-elasticsearch-es2;Opened files;UNREACHABLE;SOFT;1;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:46:08] ERROR: HOST NOTIFICATION: notified;my-secured-elasticsearch-es2;DOWN;1;notify-host-by-log;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:46:46] ERROR: SERVICE ALERT: docker_shinken;process_scheduler-south.ini;CRITICAL;SOFT;1;CRITICAL - Process is not running!
+[2019-12-17 08:46:46] ERROR: SERVICE ALERT: docker_shinken;process_shinken-reactionner;CRITICAL;SOFT;1;CRITICAL - Process is not running!
+[2019-12-17 08:46:46] ERROR: SERVICE ALERT: docker_shinken;process_scheduler-master2.ini;CRITICAL;SOFT;1;CRITICAL - Process is not running!
+[2019-12-17 08:46:46] ERROR: SERVICE ALERT: docker_shinken;process_shinken-receiver;CRITICAL;SOFT;1;CRITICAL - Process is not running!
+[2019-12-17 08:46:46] WARNING: SERVICE ALERT: docker_shinken;local_check_procs;WARNING;SOFT;1;PROCS WARNING: 345 processes
+[2019-12-17 08:46:46] ERROR: SERVICE ALERT: docker_shinken;process_scheduler-north.ini;CRITICAL;SOFT;1;CRITICAL - Process is not running!
+[2019-12-17 08:46:46] ERROR: SERVICE ALERT: docker_shinken;process_shinken-arbiter;CRITICAL;SOFT;1;CRITICAL - Process is not running!
+[2019-12-17 08:46:46] ERROR: SERVICE ALERT: docker_shinken;local_check_disk;CRITICAL;SOFT;1;Can't locate Sys/Statistics/Linux.pm in @INC (you may need to install the Sys::Statistics::Linux module) (@INC contains: /usr/local/nagios/libexec /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.26.1 /usr/local/share/perl/5.26.1 /usr/lib/x86_64-linux-gnu/perl5/5.26 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.26 /usr/share/perl/5.26 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at ./check_linux_stats.pl line 31.
+[2019-12-17 08:46:46] ERROR: SERVICE ALERT: docker_shinken;process_shinken-poller;CRITICAL;SOFT;1;CRITICAL - Process is not running!
+[2019-12-17 08:46:57] ERROR: SERVICE ALERT: localhost2;Satellite-scheduler-second;CRITICAL;SOFT;1;connect to address 127.0.0.1 and port 17768: Connection refused
+[2019-12-17 08:46:57] ERROR: SERVICE ALERT: localhost2;Satellite-scheduler-third;CRITICAL;SOFT;1;connect to address 127.0.0.1 and port 27768: Connection refused
+[2019-12-17 08:48:18] ERROR: HOST ALERT: my-elasticsearch-es3;DOWN;SOFT;1;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:48:18] INFO: SERVICE ALERT: my-elasticsearch-es3;check-es-http-alive;UNREACHABLE;SOFT;1;CRITICAL - Socket timeout after 10 seconds
+[2019-12-17 08:48:18] INFO: SERVICE ALERT: my-elasticsearch-es3;Opened files;UNREACHABLE;SOFT;1;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:48:18] INFO: SERVICE ALERT: my-elasticsearch-es3;Load;UNREACHABLE;SOFT;1;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:48:18] INFO: SERVICE ALERT: my-elasticsearch-es3;Users;UNREACHABLE;SOFT;1;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:48:18] INFO: SERVICE ALERT: my-elasticsearch-es3;check-es-tcp-alive;UNREACHABLE;SOFT;1;CRITICAL - Socket timeout after 10 seconds
+[2019-12-17 08:48:18] INFO: SERVICE ALERT: my-elasticsearch-es3;NTP time;UNREACHABLE;SOFT;1;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:48:18] INFO: SERVICE ALERT: my-elasticsearch-es3;Cpu;UNREACHABLE;SOFT;1;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:48:18] INFO: SERVICE ALERT: my-elasticsearch-es3;Zombies;UNREACHABLE;SOFT;1;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:48:18] INFO: SERVICE ALERT: my-elasticsearch-es3;Processus;UNREACHABLE;SOFT;1;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:48:18] INFO: SERVICE ALERT: my-elasticsearch-es3;Up-to-date;UNREACHABLE;SOFT;1;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:48:18] INFO: SERVICE ALERT: my-elasticsearch-es3;check-es-status;UNREACHABLE;SOFT;1;CRITICAL - Could not connect to server 10.0.2.73
+[2019-12-17 08:48:18] INFO: SERVICE ALERT: my-elasticsearch-es3;Nrpe-status;UNREACHABLE;SOFT;1;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:49:02] INFO: SERVICE ALERT: my-mongo-primary;Opened files;UNKNOWN;SOFT;1;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:49:02] INFO: SERVICE ALERT: my-mongo-primary;Processus;UNKNOWN;SOFT;1;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:49:02] INFO: SERVICE ALERT: my-mongo-primary;Zombies;UNKNOWN;SOFT;1;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:49:02] WARNING: SERVICE ALERT: my-mongo-primary;check-replication-lag-percentage;WARNING;SOFT;1;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 08:49:02] WARNING: SERVICE ALERT: my-mongo-primary;check-memory-usage;WARNING;SOFT;1;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 08:49:02] WARNING: SERVICE ALERT: my-mongo-primary;check-free-connections;WARNING;SOFT;1;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 08:49:02] WARNING: SERVICE ALERT: my-mongo-primary;check-connection;WARNING;SOFT;1;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 08:49:02] WARNING: SERVICE ALERT: my-mongo-primary;check-replication-primary;WARNING;SOFT;1;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 08:49:02] WARNING: SERVICE ALERT: my-mongo-primary;check-index-miss-ratio;WARNING;SOFT;1;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 08:49:02] INFO: SERVICE ALERT: my-mongo-primary;Load;UNKNOWN;SOFT;1;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:49:02] INFO: SERVICE ALERT: my-mongo-primary;Cpu;UNKNOWN;SOFT;1;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:49:02] WARNING: SERVICE ALERT: my-mongo-primary;check-lock-time;WARNING;SOFT;1;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 08:49:02] WARNING: SERVICE ALERT: my-mongo-primary;check-average-flush-time;WARNING;SOFT;1;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 08:49:02] INFO: SERVICE ALERT: my-mongo-primary;Nrpe-status;UNKNOWN;SOFT;1;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:49:02] WARNING: SERVICE ALERT: my-mongo-primary;check-memory-mapped;WARNING;SOFT;2;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 08:49:02] WARNING: SERVICE ALERT: my-mongo-primary;check-replicaset-status;WARNING;SOFT;1;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 08:49:02] INFO: SERVICE ALERT: my-mongo-primary;NTP time;UNKNOWN;SOFT;1;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:49:02] INFO: SERVICE ALERT: my-mongo-primary;Up-to-date;UNKNOWN;SOFT;1;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:49:02] INFO: SERVICE ALERT: my-mongo-primary;Users;UNKNOWN;SOFT;1;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:49:02] WARNING: SERVICE ALERT: my-mongo-primary;check-replication-lag;WARNING;SOFT;1;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 08:50:03] INFO: RETENTION LOAD: scheduler-master
+[2019-12-17 08:50:10] WARNING: SERVICE ALERT: localhost;Shk2-reactionner;WARNING;SOFT;2;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_shinken2.py", line 95
+[2019-12-17 08:50:57] INFO: SERVICE ALERT: north_host_005;dummy_unknown;UNKNOWN;SOFT;2;north_host_005-dummy_unknown-3
+[2019-12-17 08:51:07] INFO: SERVICE ALERT: my-secured-elasticsearch-es2;Users;UNREACHABLE;SOFT;2;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:51:07] INFO: SERVICE ALERT: my-secured-elasticsearch-es2;Up-to-date;UNREACHABLE;SOFT;2;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:51:10] INFO: SERVICE ALERT: south_host_008;dummy_unknown;UNKNOWN;SOFT;1;south_host_008-dummy_unknown-3
+[2019-12-17 08:51:37] INFO: SERVICE ALERT: north_host_008;dummy_unknown;UNKNOWN;SOFT;1;north_host_008-dummy_unknown-3
+[2019-12-17 08:51:42] INFO: SERVICE ALERT: south_host_005;dummy_unknown;UNKNOWN;SOFT;1;south_host_005-dummy_unknown-3
+[2019-12-17 08:51:45] WARNING: SERVICE ALERT: south_host_003;dummy_warning;WARNING;SOFT;1;south_host_003-dummy_warning-1
+[2019-12-17 08:51:46] ERROR: SERVICE ALERT: docker_shinken;local_check_disk_inode;CRITICAL;SOFT;1;DISK CRITICAL - /var/lib/docker/overlay2/0b1d740938c50528c746b88bc2195fe43715e5ba0021235a5312c9f308207a07/merged is not accessible: Permission denied
+[2019-12-17 08:51:46] WARNING: SERVICE ALERT: docker_shinken;local_check_procs;WARNING;SOFT;2;PROCS WARNING: 341 processes
+[2019-12-17 08:51:46] ERROR: SERVICE ALERT: docker_shinken;process_shinken-poller;CRITICAL;SOFT;2;CRITICAL - Process is not running!
+[2019-12-17 08:51:46] ERROR: SERVICE ALERT: docker_shinken;process_scheduler-master2.ini;CRITICAL;SOFT;2;CRITICAL - Process is not running!
+[2019-12-17 08:51:46] ERROR: SERVICE ALERT: docker_shinken;process_shinken-receiver;CRITICAL;SOFT;2;CRITICAL - Process is not running!
+[2019-12-17 08:51:46] ERROR: SERVICE ALERT: docker_shinken;process_scheduler-north.ini;CRITICAL;SOFT;2;CRITICAL - Process is not running!
+[2019-12-17 08:51:46] ERROR: SERVICE ALERT: docker_shinken;process_shinken-reactionner;CRITICAL;SOFT;2;CRITICAL - Process is not running!
+[2019-12-17 08:51:46] ERROR: SERVICE ALERT: docker_shinken;process_shinken-arbiter;CRITICAL;SOFT;2;CRITICAL - Process is not running!
+[2019-12-17 08:51:46] ERROR: SERVICE ALERT: docker_shinken;local_check_disk;CRITICAL;SOFT;2;Can't locate Sys/Statistics/Linux.pm in @INC (you may need to install the Sys::Statistics::Linux module) (@INC contains: /usr/local/nagios/libexec /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.26.1 /usr/local/share/perl/5.26.1 /usr/lib/x86_64-linux-gnu/perl5/5.26 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.26 /usr/share/perl/5.26 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at ./check_linux_stats.pl line 31.
+[2019-12-17 08:51:46] ERROR: SERVICE ALERT: docker_shinken;process_scheduler-south.ini;CRITICAL;SOFT;2;CRITICAL - Process is not running!
+[2019-12-17 08:51:57] ERROR: HOST ALERT: host_3;DOWN;SOFT;1;I am always Unknown
+[2019-12-17 08:51:57] INFO: SERVICE ALERT: host_3;dummy_unknown;UNREACHABLE;SOFT;1;host_3-dummy_unknown-3
+[2019-12-17 08:51:57] ERROR: SERVICE ALERT: localhost2;Satellite-scheduler-second;CRITICAL;SOFT;2;connect to address 127.0.0.1 and port 17768: Connection refused
+[2019-12-17 08:51:57] ERROR: SERVICE ALERT: localhost2;Satellite-scheduler-third;CRITICAL;SOFT;2;connect to address 127.0.0.1 and port 27768: Connection refused
+[2019-12-17 08:52:20] INFO: SERVICE ALERT: north_host_007;dummy_unreachable;UNREACHABLE;SOFT;1;north_host_007-dummy_unreachable-4
+[2019-12-17 08:52:20] INFO: SERVICE ALERT: north_host_007;dummy_unknown;UNKNOWN;SOFT;1;north_host_007-dummy_unknown-3
+[2019-12-17 08:52:20] ERROR: SERVICE ALERT: north_host_007;dummy_critical;CRITICAL;SOFT;1;north_host_007-dummy_critical-2
+[2019-12-17 08:52:37] INFO: SERVICE ALERT: north_host_009;dummy_unreachable;UNREACHABLE;SOFT;1;north_host_009-dummy_unreachable-4
+[2019-12-17 08:52:57] ERROR: HOST ALERT: host_3;DOWN;SOFT;2;I am always Unknown
+[2019-12-17 08:52:57] INFO: SERVICE ALERT: host_3;dummy_unknown;UNREACHABLE;SOFT;2;host_3-dummy_unknown-4
+[2019-12-17 08:53:11] WARNING: SERVICE ALERT: south_host_009;dummy_warning;WARNING;SOFT;1;south_host_009-dummy_warning-1
+[2019-12-17 08:53:11] INFO: SERVICE ALERT: south_host_009;dummy_unknown;UNKNOWN;SOFT;1;south_host_009-dummy_unknown-3
+[2019-12-17 08:53:17] ERROR: HOST ALERT: my-elasticsearch-es3;DOWN;HARD;2;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:53:17] INFO: SERVICE ALERT: my-elasticsearch-es3;check-es-http-alive;UNREACHABLE;SOFT;2;CRITICAL - Socket timeout after 10 seconds
+[2019-12-17 08:53:17] INFO: SERVICE ALERT: my-elasticsearch-es3;check-es-status;UNREACHABLE;SOFT;2;CRITICAL - Could not connect to server 10.0.2.73
+[2019-12-17 08:53:17] INFO: SERVICE ALERT: my-elasticsearch-es3;Cpu;UNREACHABLE;SOFT;2;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:53:17] INFO: SERVICE ALERT: my-elasticsearch-es3;Up-to-date;UNREACHABLE;SOFT;2;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:53:17] INFO: SERVICE ALERT: my-elasticsearch-es3;Zombies;UNREACHABLE;SOFT;2;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:53:17] INFO: SERVICE ALERT: my-elasticsearch-es3;Load;UNREACHABLE;SOFT;2;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:53:17] INFO: SERVICE ALERT: my-elasticsearch-es3;Nrpe-status;UNREACHABLE;HARD;2;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:53:17] INFO: SERVICE ALERT: my-elasticsearch-es3;check-es-tcp-alive;UNREACHABLE;SOFT;2;CRITICAL - Socket timeout after 10 seconds
+[2019-12-17 08:53:17] INFO: SERVICE ALERT: my-elasticsearch-es3;Opened files;UNREACHABLE;SOFT;2;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:53:17] INFO: SERVICE ALERT: my-elasticsearch-es3;Processus;UNREACHABLE;SOFT;2;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:53:17] INFO: SERVICE ALERT: my-elasticsearch-es3;NTP time;UNREACHABLE;SOFT;2;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:53:17] INFO: SERVICE ALERT: my-elasticsearch-es3;Users;UNREACHABLE;SOFT;2;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:53:18] ERROR: HOST NOTIFICATION: notified;my-elasticsearch-es3;DOWN;1;notify-host-by-log;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:53:34] ERROR: HOST ALERT: host_11;DOWN;SOFT;1;I am changing for 2
+[2019-12-17 08:53:34] INFO: SERVICE ALERT: host_11;dummy_unreachable;UNREACHABLE;SOFT;1;host_11-dummy_unreachable-4
+[2019-12-17 08:53:48] INFO: SERVICE ALERT: north_host_006;dummy_unknown;UNKNOWN;SOFT;1;north_host_006-dummy_unknown-3
+[2019-12-17 08:53:48] ERROR: SERVICE ALERT: north_host_006;dummy_critical;CRITICAL;SOFT;1;north_host_006-dummy_critical-2
+[2019-12-17 08:53:48] INFO: SERVICE ALERT: north_host_006;dummy_unreachable;UNREACHABLE;SOFT;1;north_host_006-dummy_unreachable-4
+[2019-12-17 08:53:54] WARNING: SERVICE ALERT: host_0;dummy_warning;WARNING;SOFT;1;host_0-dummy_warning-1
+[2019-12-17 08:53:54] ERROR: SERVICE ALERT: host_0;dummy_critical;CRITICAL;SOFT;1;host_0-dummy_critical-2
+[2019-12-17 08:53:54] ERROR: SERVICE ALERT: host_0;dummy_random;CRITICAL;SOFT;1;Service internal check result: 2
+[2019-12-17 08:53:54] INFO: SERVICE ALERT: host_0;dummy_unknown;UNKNOWN;SOFT;1;host_0-dummy_unknown-3
+[2019-12-17 08:53:54] INFO: SERVICE ALERT: host_0;dummy_unreachable;UNREACHABLE;SOFT;1;host_0-dummy_unreachable-4
+[2019-12-17 08:53:57] ERROR: HOST ALERT: host_3;DOWN;HARD;3;I am always Unknown
+[2019-12-17 08:53:57] INFO: SERVICE ALERT: host_3;dummy_unknown;UNREACHABLE;HARD;3;host_3-dummy_unknown-4
+[2019-12-17 08:53:57] INFO: SERVICE ALERT: host_3;dummy_unreachable;UNREACHABLE;SOFT;1;host_3-dummy_unreachable-4
+[2019-12-17 08:54:02] ERROR: HOST ALERT: host_2;DOWN;SOFT;1;I am always Down
+[2019-12-17 08:54:02] WARNING: SERVICE ALERT: my-mongo-primary;check-connection;WARNING;SOFT;2;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 08:54:02] WARNING: SERVICE ALERT: my-mongo-primary;check-memory-mapped;WARNING;HARD;3;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 08:54:02] INFO: SERVICE ALERT: my-mongo-primary;Cpu;UNKNOWN;SOFT;2;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:54:02] INFO: SERVICE ALERT: host_2;dummy_warning;UNREACHABLE;SOFT;1;host_2-dummy_warning-1
+[2019-12-17 08:54:02] WARNING: SERVICE ALERT: my-mongo-primary;check-replication-lag-percentage;WARNING;SOFT;2;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 08:54:02] INFO: SERVICE ALERT: my-mongo-primary;Zombies;UNKNOWN;SOFT;2;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:54:02] INFO: SERVICE ALERT: host_2;dummy_random;UNREACHABLE;SOFT;1;Service internal check result: 1
+[2019-12-17 08:54:02] WARNING: SERVICE ALERT: my-mongo-primary;check-memory-usage;WARNING;SOFT;2;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 08:54:02] WARNING: SERVICE ALERT: my-mongo-primary;check-replicaset-status;WARNING;SOFT;2;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 08:54:02] INFO: SERVICE ALERT: my-mongo-primary;Up-to-date;UNKNOWN;SOFT;2;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:54:02] INFO: SERVICE ALERT: host_2;dummy_unreachable;UNREACHABLE;SOFT;1;host_2-dummy_unreachable-4
+[2019-12-17 08:54:02] WARNING: SERVICE ALERT: my-mongo-primary;check-index-miss-ratio;WARNING;SOFT;2;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 08:54:02] WARNING: SERVICE ALERT: my-mongo-primary;check-average-flush-time;WARNING;SOFT;2;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 08:54:02] INFO: SERVICE ALERT: my-mongo-primary;Processus;UNKNOWN;SOFT;2;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:54:02] INFO: SERVICE ALERT: my-mongo-primary;Users;UNKNOWN;SOFT;2;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:54:02] WARNING: SERVICE ALERT: my-mongo-primary;check-replication-lag;WARNING;SOFT;2;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 08:54:02] INFO: SERVICE ALERT: my-mongo-primary;NTP time;UNKNOWN;SOFT;2;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:54:02] INFO: SERVICE ALERT: host_2;dummy_unknown;UNREACHABLE;SOFT;1;host_2-dummy_unknown-3
+[2019-12-17 08:54:02] INFO: SERVICE ALERT: my-mongo-primary;Load;UNKNOWN;SOFT;2;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:54:02] WARNING: SERVICE ALERT: my-mongo-primary;check-lock-time;WARNING;SOFT;2;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 08:54:02] INFO: SERVICE ALERT: my-mongo-primary;Nrpe-status;UNKNOWN;HARD;2;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:54:02] WARNING: SERVICE ALERT: my-mongo-primary;check-replication-primary;WARNING;SOFT;2;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 08:54:02] INFO: SERVICE ALERT: my-mongo-primary;Opened files;UNKNOWN;SOFT;2;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:54:02] INFO: SERVICE ALERT: host_2;dummy_critical;UNREACHABLE;SOFT;1;host_2-dummy_critical-2
+[2019-12-17 08:54:02] WARNING: SERVICE ALERT: my-mongo-primary;check-free-connections;WARNING;SOFT;2;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 08:54:03] WARNING: SERVICE NOTIFICATION: notified;my-mongo-primary;check-memory-mapped;WARNING;1;notify-service-by-log;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 08:54:06] WARNING: SERVICE ALERT: south_host_006;dummy_random;WARNING;SOFT;1;Service internal check result: 1
+[2019-12-17 08:54:06] INFO: SERVICE ALERT: south_host_006;dummy_unknown;UNKNOWN;SOFT;1;south_host_006-dummy_unknown-3
+[2019-12-17 08:54:06] INFO: SERVICE ALERT: south_host_006;dummy_unreachable;UNREACHABLE;SOFT;1;south_host_006-dummy_unreachable-4
+[2019-12-17 08:54:06] ERROR: SERVICE ALERT: south_host_006;dummy_critical;CRITICAL;SOFT;1;south_host_006-dummy_critical-2
+[2019-12-17 08:54:08] INFO: SERVICE ALERT: north_host_002;dummy_unreachable;UNREACHABLE;SOFT;1;north_host_002-dummy_unreachable-4
+[2019-12-17 08:54:08] WARNING: SERVICE ALERT: north_host_002;dummy_warning;WARNING;SOFT;1;north_host_002-dummy_warning-1
+[2019-12-17 08:54:08] ERROR: SERVICE ALERT: north_host_002;dummy_critical;CRITICAL;SOFT;1;north_host_002-dummy_critical-2
+[2019-12-17 08:54:08] INFO: SERVICE ALERT: north_host_002;dummy_unknown;UNKNOWN;SOFT;1;north_host_002-dummy_unknown-3
+[2019-12-17 08:54:26] INFO: SERVICE ALERT: south_host_007;dummy_unreachable;UNREACHABLE;SOFT;1;south_host_007-dummy_unreachable-4
+[2019-12-17 08:54:26] ERROR: SERVICE ALERT: south_host_007;dummy_critical;CRITICAL;SOFT;1;south_host_007-dummy_critical-2
+[2019-12-17 08:54:26] WARNING: SERVICE ALERT: south_host_007;dummy_warning;WARNING;SOFT;1;south_host_007-dummy_warning-1
+[2019-12-17 08:54:26] INFO: SERVICE ALERT: south_host_007;dummy_unknown;UNKNOWN;SOFT;1;south_host_007-dummy_unknown-3
+[2019-12-17 08:54:34] ERROR: HOST ALERT: host_11;DOWN;SOFT;2;I am changing for 1
+[2019-12-17 08:54:34] INFO: SERVICE ALERT: host_11;dummy_unreachable;UNREACHABLE;SOFT;2;host_11-dummy_unreachable-4
+[2019-12-17 08:54:34] INFO: SERVICE ALERT: host_11;dummy_critical;UNREACHABLE;SOFT;1;host_11-dummy_critical-2
+[2019-12-17 08:54:47] INFO: SERVICE ALERT: my-elasticsearch-es1;Load;UNREACHABLE;SOFT;3;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:54:47] INFO: SERVICE ALERT: my-elasticsearch-es1;NTP time;UNREACHABLE;SOFT;2;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:54:47] INFO: SERVICE ALERT: my-elasticsearch-es1;Processus;UNREACHABLE;SOFT;2;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:56:10] INFO: RETENTION LOAD: scheduler-master
+[2019-12-17 08:56:33] ERROR: HOST ALERT: host_2;DOWN;SOFT;2;I am always Down
+[2019-12-17 08:56:33] INFO: SERVICE ALERT: host_2;dummy_warning;UNREACHABLE;SOFT;2;host_2-dummy_warning-4
+[2019-12-17 08:56:34] ERROR: HOST ALERT: host_11;DOWN;HARD;3;I am changing for 1
+[2019-12-17 08:56:46] ERROR: SERVICE ALERT: docker_shinken;process_scheduler-master2.ini;CRITICAL;HARD;3;CRITICAL - Process is not running!
+[2019-12-17 08:56:46] ERROR: SERVICE ALERT: docker_shinken;process_scheduler-north.ini;CRITICAL;HARD;3;CRITICAL - Process is not running!
+[2019-12-17 08:56:46] ERROR: SERVICE ALERT: docker_shinken;process_scheduler-south.ini;CRITICAL;HARD;3;CRITICAL - Process is not running!
+[2019-12-17 08:56:47] ERROR: SERVICE NOTIFICATION: notified;docker_shinken;process_scheduler-master2.ini;CRITICAL;1;notify-service-by-log;CRITICAL - Process is not running!
+[2019-12-17 08:56:47] ERROR: SERVICE NOTIFICATION: notified;docker_shinken;process_scheduler-north.ini;CRITICAL;1;notify-service-by-log;CRITICAL - Process is not running!
+[2019-12-17 08:56:47] ERROR: SERVICE NOTIFICATION: notified;docker_shinken;process_scheduler-south.ini;CRITICAL;1;notify-service-by-log;CRITICAL - Process is not running!
+[2019-12-17 08:56:48] ERROR: SERVICE ALERT: docker_shinken;http_port_30001;CRITICAL;SOFT;1;connect to address localhost and port 30001: Connection refused
+[2019-12-17 08:56:48] ERROR: SERVICE ALERT: docker_shinken;process_shinken-arbiter;CRITICAL;HARD;3;CRITICAL - Process is not running!
+[2019-12-17 08:56:50] ERROR: SERVICE NOTIFICATION: notified;docker_shinken;process_shinken-arbiter;CRITICAL;1;notify-service-by-log;CRITICAL - Process is not running!
+[2019-12-17 08:56:57] ERROR: SERVICE ALERT: localhost2;Satellite-scheduler-second;CRITICAL;HARD;3;connect to address 127.0.0.1 and port 17768: Connection refused
+[2019-12-17 08:56:58] ERROR: SERVICE NOTIFICATION: notified;localhost2;Satellite-scheduler-second;CRITICAL;1;notify-service-by-log;connect to address 127.0.0.1 and port 17768: Connection refused
+[2019-12-17 08:57:34] ERROR: HOST ALERT: host_2;DOWN;HARD;3;I am always Down
+[2019-12-17 08:57:34] INFO: SERVICE ALERT: host_2;dummy_warning;UNREACHABLE;HARD;3;host_2-dummy_warning-4
+[2019-12-17 08:57:34] INFO: SERVICE ALERT: host_2;dummy_unreachable;UNREACHABLE;SOFT;2;host_2-dummy_unreachable-4
+[2019-12-17 08:57:34] INFO: SERVICE ALERT: host_2;dummy_unknown;UNREACHABLE;SOFT;2;host_2-dummy_unknown-4
+[2019-12-17 08:57:34] INFO: SERVICE ALERT: host_2;dummy_random;UNREACHABLE;SOFT;2;Service internal check result: 4
+[2019-12-17 08:57:34] INFO: SERVICE ALERT: host_2;dummy_critical;UNREACHABLE;SOFT;2;host_2-dummy_critical-4
+[2019-12-17 08:58:18] INFO: SERVICE ALERT: my-elasticsearch-es3;check-es-http-alive;UNREACHABLE;HARD;3;CRITICAL - Socket timeout after 10 seconds
+[2019-12-17 08:58:18] INFO: SERVICE ALERT: my-elasticsearch-es3;check-es-tcp-alive;UNREACHABLE;HARD;3;CRITICAL - Socket timeout after 10 seconds
+[2019-12-17 08:58:18] INFO: SERVICE ALERT: my-elasticsearch-es3;Zombies;UNREACHABLE;SOFT;3;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:58:18] INFO: SERVICE ALERT: my-elasticsearch-es3;check-es-status;UNREACHABLE;HARD;3;CRITICAL - Could not connect to server 10.0.2.73
+[2019-12-17 08:58:18] INFO: SERVICE ALERT: my-elasticsearch-es3;Users;UNREACHABLE;SOFT;3;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:58:18] INFO: SERVICE ALERT: my-elasticsearch-es3;Opened files;UNREACHABLE;SOFT;3;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:58:18] INFO: SERVICE ALERT: my-elasticsearch-es3;Up-to-date;UNREACHABLE;SOFT;3;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:58:18] INFO: SERVICE ALERT: my-elasticsearch-es3;Cpu;UNREACHABLE;SOFT;3;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:58:18] INFO: SERVICE ALERT: my-elasticsearch-es3;Load;UNREACHABLE;SOFT;3;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:58:18] INFO: SERVICE ALERT: my-elasticsearch-es3;NTP time;UNREACHABLE;SOFT;3;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:58:18] INFO: SERVICE ALERT: my-elasticsearch-es3;Processus;UNREACHABLE;SOFT;3;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:59:02] WARNING: SERVICE ALERT: my-mongo-primary;check-replicaset-status;WARNING;HARD;3;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 08:59:02] INFO: SERVICE ALERT: my-mongo-primary;NTP time;UNKNOWN;SOFT;3;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:59:02] WARNING: SERVICE ALERT: my-mongo-primary;check-index-miss-ratio;WARNING;HARD;3;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 08:59:02] INFO: SERVICE ALERT: my-mongo-primary;Processus;UNKNOWN;SOFT;3;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:59:02] INFO: SERVICE ALERT: my-mongo-primary;Opened files;UNKNOWN;SOFT;3;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:59:02] WARNING: SERVICE ALERT: my-mongo-primary;check-replication-lag;WARNING;HARD;3;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 08:59:02] WARNING: SERVICE ALERT: my-mongo-primary;check-replication-lag-percentage;WARNING;HARD;3;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 08:59:02] INFO: SERVICE ALERT: my-mongo-primary;Users;UNKNOWN;SOFT;3;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:59:02] WARNING: SERVICE ALERT: my-mongo-primary;check-replication-primary;WARNING;HARD;3;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 08:59:02] INFO: SERVICE ALERT: my-mongo-primary;Cpu;UNKNOWN;SOFT;3;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:59:02] WARNING: SERVICE ALERT: my-mongo-primary;check-connection;WARNING;HARD;3;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 08:59:02] WARNING: SERVICE ALERT: my-mongo-primary;check-lock-time;WARNING;HARD;3;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 08:59:02] INFO: SERVICE ALERT: my-mongo-primary;Up-to-date;UNKNOWN;SOFT;3;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:59:02] WARNING: SERVICE ALERT: my-mongo-primary;check-free-connections;WARNING;HARD;3;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 08:59:02] INFO: SERVICE ALERT: my-mongo-primary;Load;UNKNOWN;SOFT;3;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:59:02] WARNING: SERVICE ALERT: my-mongo-primary;check-average-flush-time;WARNING;HARD;3;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 08:59:02] INFO: SERVICE ALERT: my-mongo-primary;Zombies;UNKNOWN;SOFT;3;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:59:02] WARNING: SERVICE ALERT: my-mongo-primary;check-memory-usage;WARNING;HARD;3;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 08:59:03] WARNING: SERVICE NOTIFICATION: notified;my-mongo-primary;check-replicaset-status;WARNING;1;notify-service-by-log;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 08:59:03] WARNING: SERVICE NOTIFICATION: notified;my-mongo-primary;check-index-miss-ratio;WARNING;1;notify-service-by-log;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 08:59:03] WARNING: SERVICE NOTIFICATION: notified;my-mongo-primary;check-replication-lag;WARNING;1;notify-service-by-log;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 08:59:03] WARNING: SERVICE NOTIFICATION: notified;my-mongo-primary;check-replication-lag-percentage;WARNING;1;notify-service-by-log;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 08:59:03] WARNING: SERVICE NOTIFICATION: notified;my-mongo-primary;check-replication-primary;WARNING;1;notify-service-by-log;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 08:59:03] WARNING: SERVICE NOTIFICATION: notified;my-mongo-primary;check-connection;WARNING;1;notify-service-by-log;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 08:59:03] WARNING: SERVICE NOTIFICATION: notified;my-mongo-primary;check-lock-time;WARNING;1;notify-service-by-log;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 08:59:03] WARNING: SERVICE NOTIFICATION: notified;my-mongo-primary;check-free-connections;WARNING;1;notify-service-by-log;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 08:59:03] WARNING: SERVICE NOTIFICATION: notified;my-mongo-primary;check-average-flush-time;WARNING;1;notify-service-by-log;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 08:59:03] WARNING: SERVICE NOTIFICATION: notified;my-mongo-primary;check-memory-usage;WARNING;1;notify-service-by-log;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 08:59:41] INFO: EXTERNAL COMMAND: [1576569580] ACKNOWLEDGE_HOST_PROBLEM;host_2;2;1;1;admin;Acknowledged from WebUI by Administrator.
+[2019-12-17 08:59:41] INFO: EXTERNAL COMMAND: [1576569580] ACKNOWLEDGE_SVC_PROBLEM;host_2;dummy_warning;2;1;1;admin;Acknowledged from WebUI by Administrator.
+[2019-12-17 08:59:41] INFO: EXTERNAL COMMAND: [1576569580] ACKNOWLEDGE_SVC_PROBLEM;host_2;dummy_unreachable;2;1;1;admin;Acknowledged from WebUI by Administrator.
+[2019-12-17 08:59:41] INFO: EXTERNAL COMMAND: [1576569580] ACKNOWLEDGE_SVC_PROBLEM;host_2;dummy_unknown;2;1;1;admin;Acknowledged from WebUI by Administrator.
+[2019-12-17 08:59:41] INFO: EXTERNAL COMMAND: [1576569580] ACKNOWLEDGE_SVC_PROBLEM;host_2;dummy_random;2;1;1;admin;Acknowledged from WebUI by Administrator.
+[2019-12-17 08:59:41] INFO: EXTERNAL COMMAND: [1576569580] ACKNOWLEDGE_SVC_PROBLEM;host_2;dummy_no_output;2;1;1;admin;Acknowledged from WebUI by Administrator.
+[2019-12-17 08:59:41] INFO: EXTERNAL COMMAND: [1576569580] ACKNOWLEDGE_SVC_PROBLEM;host_2;dummy_ok;2;1;1;admin;Acknowledged from WebUI by Administrator.
+[2019-12-17 08:59:41] INFO: EXTERNAL COMMAND: [1576569580] ACKNOWLEDGE_SVC_PROBLEM;host_2;dummy_critical;2;1;1;admin;Acknowledged from WebUI by Administrator.
+[2019-12-17 08:59:41] INFO: EXTERNAL COMMAND: [1576569580] ACKNOWLEDGE_SVC_PROBLEM;host_2;dummy_echo;2;1;1;admin;Acknowledged from WebUI by Administrator.
+[2019-12-17 08:59:41] INFO: HOST ACKNOWLEDGE ALERT: host_2;STARTED; Host problem has been acknowledged
+[2019-12-17 08:59:41] INFO: SERVICE ACKNOWLEDGE ALERT: host_2;dummy_warning;STARTED; Service problem has been acknowledged
+[2019-12-17 08:59:41] INFO: SERVICE ACKNOWLEDGE ALERT: host_2;dummy_warning;STARTED; Service problem has been acknowledged
+[2019-12-17 08:59:41] INFO: SERVICE ACKNOWLEDGE ALERT: host_2;dummy_echo;STARTED; Service problem has been acknowledged
+[2019-12-17 08:59:41] INFO: SERVICE ACKNOWLEDGE ALERT: host_2;dummy_echo;STARTED; Service problem has been acknowledged
+[2019-12-17 08:59:41] INFO: SERVICE ACKNOWLEDGE ALERT: host_2;dummy_unreachable;STARTED; Service problem has been acknowledged
+[2019-12-17 08:59:41] INFO: SERVICE ACKNOWLEDGE ALERT: host_2;dummy_unreachable;STARTED; Service problem has been acknowledged
+[2019-12-17 08:59:41] INFO: SERVICE ACKNOWLEDGE ALERT: host_2;dummy_ok;STARTED; Service problem has been acknowledged
+[2019-12-17 08:59:41] INFO: SERVICE ACKNOWLEDGE ALERT: host_2;dummy_ok;STARTED; Service problem has been acknowledged
+[2019-12-17 08:59:41] INFO: SERVICE ACKNOWLEDGE ALERT: host_2;dummy_unknown;STARTED; Service problem has been acknowledged
+[2019-12-17 08:59:41] INFO: SERVICE ACKNOWLEDGE ALERT: host_2;dummy_unknown;STARTED; Service problem has been acknowledged
+[2019-12-17 08:59:41] INFO: SERVICE ACKNOWLEDGE ALERT: host_2;dummy_random;STARTED; Service problem has been acknowledged
+[2019-12-17 08:59:41] INFO: SERVICE ACKNOWLEDGE ALERT: host_2;dummy_random;STARTED; Service problem has been acknowledged
+[2019-12-17 08:59:41] INFO: SERVICE ACKNOWLEDGE ALERT: host_2;dummy_no_output;STARTED; Service problem has been acknowledged
+[2019-12-17 08:59:41] INFO: SERVICE ACKNOWLEDGE ALERT: host_2;dummy_no_output;STARTED; Service problem has been acknowledged
+[2019-12-17 08:59:41] INFO: SERVICE ACKNOWLEDGE ALERT: host_2;dummy_critical;STARTED; Service problem has been acknowledged
+[2019-12-17 08:59:41] INFO: SERVICE ACKNOWLEDGE ALERT: host_2;dummy_critical;STARTED; Service problem has been acknowledged
+[2019-12-17 08:59:47] INFO: SERVICE ALERT: my-elasticsearch-es1;NTP time;UNREACHABLE;SOFT;3;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:59:47] INFO: SERVICE ALERT: my-elasticsearch-es1;Load;UNREACHABLE;HARD;4;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 08:59:47] INFO: SERVICE ALERT: my-elasticsearch-es1;Processus;UNREACHABLE;SOFT;3;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:00:06] INFO: SERVICE ALERT: my-mongo-alone;NTP time;UNKNOWN;SOFT;2;connect to address 127.0.0.1 port 5666: Connection refused
+[2019-12-17 09:00:06] INFO: SERVICE ALERT: my-mongo-alone;Opened files;UNKNOWN;SOFT;1;connect to address 127.0.0.1 port 5666: Connection refused
+[2019-12-17 09:00:06] INFO: SERVICE ALERT: my-mongo-alone;Users;UNKNOWN;SOFT;1;connect to address 127.0.0.1 port 5666: Connection refused
+[2019-12-17 09:00:06] INFO: SERVICE ALERT: my-mongo-alone;Load;UNKNOWN;SOFT;2;connect to address 127.0.0.1 port 5666: Connection refused
+[2019-12-17 09:00:06] WARNING: SERVICE ALERT: my-mongo-alone;check-average-flush-time;WARNING;SOFT;1;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:00:06] WARNING: SERVICE ALERT: my-mongo-alone;check-index-miss-ratio;WARNING;SOFT;1;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:00:06] INFO: SERVICE ALERT: my-mongo-alone;Nrpe-status;UNKNOWN;HARD;2;connect to address 127.0.0.1 port 5666: Connection refused
+[2019-12-17 09:00:06] WARNING: SERVICE ALERT: my-mongo-alone;check-free-connections;WARNING;SOFT;2;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:00:06] WARNING: SERVICE ALERT: my-mongo-alone;check-connection;WARNING;SOFT;1;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:00:06] INFO: SERVICE ALERT: my-mongo-alone;Up-to-date;UNKNOWN;SOFT;1;connect to address 127.0.0.1 port 5666: Connection refused
+[2019-12-17 09:00:06] INFO: SERVICE ALERT: my-mongo-alone;Zombies;UNKNOWN;SOFT;2;connect to address 127.0.0.1 port 5666: Connection refused
+[2019-12-17 09:00:06] WARNING: SERVICE ALERT: my-mongo-alone;check-memory-mapped;WARNING;SOFT;2;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:00:06] INFO: SERVICE ALERT: my-mongo-alone;Cpu;UNKNOWN;SOFT;1;connect to address 127.0.0.1 port 5666: Connection refused
+[2019-12-17 09:00:06] WARNING: SERVICE ALERT: my-mongo-alone;check-lock-time;WARNING;SOFT;1;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:00:06] WARNING: SERVICE ALERT: my-mongo-alone;check-memory-usage;WARNING;SOFT;1;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:00:10] WARNING: SERVICE ALERT: localhost;Shk2-poller;WARNING;SOFT;2;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_shinken2.py", line 95
+[2019-12-17 09:00:10] WARNING: SERVICE ALERT: localhost;Shk2-arbiter;WARNING;SOFT;2;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_shinken2.py", line 95
+[2019-12-17 09:00:10] WARNING: SERVICE ALERT: localhost;Shk2-broker;WARNING;SOFT;1;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_shinken2.py", line 95
+[2019-12-17 09:00:10] WARNING: SERVICE ALERT: localhost;Shk2-scheduler;WARNING;SOFT;1;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_shinken2.py", line 95
+[2019-12-17 09:00:10] WARNING: SERVICE ALERT: localhost;Shk2-reactionner;WARNING;HARD;3;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_shinken2.py", line 95
+[2019-12-17 09:00:11] WARNING: SERVICE NOTIFICATION: notified;localhost;Shk2-reactionner;WARNING;1;notify-service-by-log;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_shinken2.py", line 95
+[2019-12-17 09:00:15] INFO: SERVICE ALERT: my-mongo-slave;Users;UNKNOWN;SOFT;1;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:00:15] WARNING: SERVICE ALERT: my-mongo-slave;check-replication-lag;WARNING;SOFT;1;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:00:15] WARNING: SERVICE ALERT: my-mongo-slave;check-memory-usage;WARNING;SOFT;2;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:00:15] WARNING: SERVICE ALERT: my-mongo-slave;check-connection-primary;WARNING;SOFT;1;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:00:15] INFO: SERVICE ALERT: my-mongo-slave;Up-to-date;UNKNOWN;SOFT;1;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:00:15] INFO: SERVICE ALERT: my-mongo-slave;Opened files;UNKNOWN;SOFT;1;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:00:15] WARNING: SERVICE ALERT: my-mongo-slave;check-index-miss-ratio;WARNING;SOFT;1;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:00:15] INFO: SERVICE ALERT: my-mongo-slave;NTP time;UNKNOWN;SOFT;2;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:00:15] INFO: SERVICE ALERT: my-mongo-slave;Cpu;UNKNOWN;SOFT;1;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:00:15] INFO: SERVICE ALERT: my-mongo-slave;Processus;UNKNOWN;SOFT;1;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:00:15] WARNING: SERVICE ALERT: my-mongo-slave;check-replicaset-status;WARNING;SOFT;2;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:00:15] WARNING: SERVICE ALERT: my-mongo-slave;check-free-connections;WARNING;SOFT;2;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:00:15] WARNING: SERVICE ALERT: my-mongo-slave;check-average-flush-time;WARNING;SOFT;1;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:00:15] INFO: SERVICE ALERT: my-mongo-slave;Zombies;UNKNOWN;SOFT;1;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:00:15] WARNING: SERVICE ALERT: my-mongo-slave;check-connection;WARNING;SOFT;1;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:00:15] INFO: SERVICE ALERT: my-mongo-slave;Load;UNKNOWN;SOFT;2;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:00:15] WARNING: SERVICE ALERT: my-mongo-slave;check-lock-time;WARNING;SOFT;1;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:00:15] WARNING: SERVICE ALERT: my-mongo-slave;check-memory-mapped;WARNING;SOFT;1;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:00:15] INFO: SERVICE ALERT: my-mongo-slave;Nrpe-status;UNKNOWN;HARD;2;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:01:17] INFO: RETENTION LOAD: scheduler-master
+[2019-12-17 09:01:44] INFO: EXTERNAL COMMAND: [1576569703] ACKNOWLEDGE_HOST_PROBLEM;host_2;2;1;1;admin;Acknowledged from WebUI by Administrator.
+[2019-12-17 09:01:44] INFO: EXTERNAL COMMAND: [1576569703] ACKNOWLEDGE_SVC_PROBLEM;host_2;dummy_warning;2;1;1;admin;Acknowledged from WebUI by Administrator.
+[2019-12-17 09:01:44] INFO: EXTERNAL COMMAND: [1576569703] ACKNOWLEDGE_SVC_PROBLEM;host_2;dummy_unreachable;2;1;1;admin;Acknowledged from WebUI by Administrator.
+[2019-12-17 09:01:44] INFO: EXTERNAL COMMAND: [1576569703] ACKNOWLEDGE_SVC_PROBLEM;host_2;dummy_unknown;2;1;1;admin;Acknowledged from WebUI by Administrator.
+[2019-12-17 09:01:44] INFO: EXTERNAL COMMAND: [1576569703] ACKNOWLEDGE_SVC_PROBLEM;host_2;dummy_random;2;1;1;admin;Acknowledged from WebUI by Administrator.
+[2019-12-17 09:01:44] INFO: EXTERNAL COMMAND: [1576569703] ACKNOWLEDGE_SVC_PROBLEM;host_2;dummy_no_output;2;1;1;admin;Acknowledged from WebUI by Administrator.
+[2019-12-17 09:01:44] INFO: EXTERNAL COMMAND: [1576569703] ACKNOWLEDGE_SVC_PROBLEM;host_2;dummy_ok;2;1;1;admin;Acknowledged from WebUI by Administrator.
+[2019-12-17 09:01:44] INFO: EXTERNAL COMMAND: [1576569703] ACKNOWLEDGE_SVC_PROBLEM;host_2;dummy_critical;2;1;1;admin;Acknowledged from WebUI by Administrator.
+[2019-12-17 09:01:44] INFO: EXTERNAL COMMAND: [1576569703] ACKNOWLEDGE_SVC_PROBLEM;host_2;dummy_echo;2;1;1;admin;Acknowledged from WebUI by Administrator.
+[2019-12-17 09:01:44] INFO: HOST ACKNOWLEDGE ALERT: host_2;STARTED; Host problem has been acknowledged
+[2019-12-17 09:01:44] INFO: SERVICE ACKNOWLEDGE ALERT: host_2;dummy_warning;STARTED; Service problem has been acknowledged
+[2019-12-17 09:01:44] INFO: SERVICE ACKNOWLEDGE ALERT: host_2;dummy_warning;STARTED; Service problem has been acknowledged
+[2019-12-17 09:01:44] INFO: SERVICE ACKNOWLEDGE ALERT: host_2;dummy_no_output;STARTED; Service problem has been acknowledged
+[2019-12-17 09:01:44] INFO: SERVICE ACKNOWLEDGE ALERT: host_2;dummy_no_output;STARTED; Service problem has been acknowledged
+[2019-12-17 09:01:44] INFO: SERVICE ACKNOWLEDGE ALERT: host_2;dummy_echo;STARTED; Service problem has been acknowledged
+[2019-12-17 09:01:44] INFO: SERVICE ACKNOWLEDGE ALERT: host_2;dummy_echo;STARTED; Service problem has been acknowledged
+[2019-12-17 09:01:44] INFO: SERVICE ACKNOWLEDGE ALERT: host_2;dummy_critical;STARTED; Service problem has been acknowledged
+[2019-12-17 09:01:44] INFO: SERVICE ACKNOWLEDGE ALERT: host_2;dummy_critical;STARTED; Service problem has been acknowledged
+[2019-12-17 09:01:44] INFO: SERVICE ACKNOWLEDGE ALERT: host_2;dummy_unknown;STARTED; Service problem has been acknowledged
+[2019-12-17 09:01:44] INFO: SERVICE ACKNOWLEDGE ALERT: host_2;dummy_unknown;STARTED; Service problem has been acknowledged
+[2019-12-17 09:01:44] INFO: SERVICE ACKNOWLEDGE ALERT: host_2;dummy_random;STARTED; Service problem has been acknowledged
+[2019-12-17 09:01:44] INFO: SERVICE ACKNOWLEDGE ALERT: host_2;dummy_random;STARTED; Service problem has been acknowledged
+[2019-12-17 09:01:44] INFO: SERVICE ACKNOWLEDGE ALERT: host_2;dummy_unreachable;STARTED; Service problem has been acknowledged
+[2019-12-17 09:01:44] INFO: SERVICE ACKNOWLEDGE ALERT: host_2;dummy_unreachable;STARTED; Service problem has been acknowledged
+[2019-12-17 09:01:44] INFO: SERVICE ACKNOWLEDGE ALERT: host_2;dummy_ok;STARTED; Service problem has been acknowledged
+[2019-12-17 09:01:44] INFO: SERVICE ACKNOWLEDGE ALERT: host_2;dummy_ok;STARTED; Service problem has been acknowledged
+[2019-12-17 09:01:46] ERROR: SERVICE ALERT: docker_shinken;process_shinken-receiver;CRITICAL;HARD;3;CRITICAL - Process is not running!
+[2019-12-17 09:01:47] ERROR: SERVICE NOTIFICATION: notified;docker_shinken;process_shinken-receiver;CRITICAL;1;notify-service-by-log;CRITICAL - Process is not running!
+[2019-12-17 09:03:17] INFO: SERVICE ALERT: my-elasticsearch-es3;Processus;UNREACHABLE;HARD;4;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:03:17] INFO: SERVICE ALERT: my-elasticsearch-es3;Cpu;UNREACHABLE;HARD;4;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:03:17] INFO: SERVICE ALERT: my-elasticsearch-es3;Opened files;UNREACHABLE;HARD;4;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:03:17] INFO: SERVICE ALERT: my-elasticsearch-es3;Users;UNREACHABLE;HARD;4;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:03:17] INFO: SERVICE ALERT: my-elasticsearch-es3;Zombies;UNREACHABLE;HARD;4;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:03:17] INFO: SERVICE ALERT: my-elasticsearch-es3;Up-to-date;UNREACHABLE;HARD;4;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:04:02] INFO: SERVICE ALERT: my-mongo-primary;Cpu;UNKNOWN;HARD;4;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:04:02] INFO: SERVICE ALERT: my-mongo-primary;Processus;UNKNOWN;HARD;4;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:04:02] INFO: SERVICE ALERT: my-mongo-primary;Users;UNKNOWN;HARD;4;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:04:02] INFO: SERVICE ALERT: my-mongo-primary;Opened files;UNKNOWN;HARD;4;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:04:02] INFO: SERVICE ALERT: my-mongo-primary;Up-to-date;UNKNOWN;HARD;4;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:04:02] INFO: SERVICE ALERT: my-mongo-primary;Zombies;UNKNOWN;HARD;4;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:04:02] INFO: SERVICE ALERT: my-mongo-primary;NTP time;UNKNOWN;HARD;4;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:04:02] INFO: SERVICE ALERT: my-mongo-primary;Load;UNKNOWN;HARD;4;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:04:46] INFO: SERVICE ALERT: my-elasticsearch-es1;Processus;UNREACHABLE;HARD;4;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:04:46] INFO: SERVICE ALERT: my-elasticsearch-es1;NTP time;UNREACHABLE;HARD;4;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:05:06] INFO: SERVICE ALERT: my-mongo-alone;Load;UNKNOWN;SOFT;3;connect to address 127.0.0.1 port 5666: Connection refused
+[2019-12-17 09:05:06] WARNING: SERVICE ALERT: my-mongo-alone;check-index-miss-ratio;WARNING;SOFT;2;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:05:06] INFO: SERVICE ALERT: my-mongo-alone;NTP time;UNKNOWN;SOFT;3;connect to address 127.0.0.1 port 5666: Connection refused
+[2019-12-17 09:05:06] INFO: SERVICE ALERT: my-mongo-alone;Users;UNKNOWN;SOFT;2;connect to address 127.0.0.1 port 5666: Connection refused
+[2019-12-17 09:05:06] WARNING: SERVICE ALERT: my-mongo-alone;check-connection;WARNING;SOFT;2;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:05:06] WARNING: SERVICE ALERT: my-mongo-alone;check-memory-usage;WARNING;SOFT;2;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:05:06] WARNING: SERVICE ALERT: my-mongo-alone;check-free-connections;WARNING;HARD;3;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:05:06] INFO: SERVICE ALERT: my-mongo-alone;Cpu;UNKNOWN;SOFT;2;connect to address 127.0.0.1 port 5666: Connection refused
+[2019-12-17 09:05:06] INFO: SERVICE ALERT: my-mongo-alone;Opened files;UNKNOWN;SOFT;2;connect to address 127.0.0.1 port 5666: Connection refused
+[2019-12-17 09:05:06] INFO: SERVICE ALERT: my-mongo-alone;Zombies;UNKNOWN;SOFT;3;connect to address 127.0.0.1 port 5666: Connection refused
+[2019-12-17 09:05:06] INFO: SERVICE ALERT: my-mongo-alone;Up-to-date;UNKNOWN;SOFT;2;connect to address 127.0.0.1 port 5666: Connection refused
+[2019-12-17 09:05:06] WARNING: SERVICE ALERT: my-mongo-alone;check-lock-time;WARNING;SOFT;2;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:05:06] WARNING: SERVICE ALERT: my-mongo-alone;check-memory-mapped;WARNING;HARD;3;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:05:06] WARNING: SERVICE ALERT: my-mongo-alone;check-average-flush-time;WARNING;SOFT;2;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:05:07] WARNING: SERVICE NOTIFICATION: notified;my-mongo-alone;check-free-connections;WARNING;1;notify-service-by-log;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:05:07] WARNING: SERVICE NOTIFICATION: notified;my-mongo-alone;check-memory-mapped;WARNING;1;notify-service-by-log;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:05:11] WARNING: SERVICE ALERT: localhost;Shk2-broker;WARNING;SOFT;2;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_shinken2.py", line 95
+[2019-12-17 09:05:11] WARNING: SERVICE ALERT: localhost;Shk2-arbiter;WARNING;HARD;3;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_shinken2.py", line 95
+[2019-12-17 09:05:11] WARNING: SERVICE ALERT: localhost;Shk2-poller;WARNING;HARD;3;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_shinken2.py", line 95
+[2019-12-17 09:05:11] WARNING: SERVICE ALERT: localhost;Shk2-scheduler;WARNING;SOFT;2;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_shinken2.py", line 95
+[2019-12-17 09:05:12] WARNING: SERVICE NOTIFICATION: notified;localhost;Shk2-arbiter;WARNING;1;notify-service-by-log;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_shinken2.py", line 95
+[2019-12-17 09:05:12] WARNING: SERVICE NOTIFICATION: notified;localhost;Shk2-poller;WARNING;1;notify-service-by-log;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_shinken2.py", line 95
+[2019-12-17 09:05:14] WARNING: SERVICE ALERT: my-mongo-slave;check-memory-usage;WARNING;HARD;3;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:05:14] WARNING: SERVICE ALERT: my-mongo-slave;check-index-miss-ratio;WARNING;SOFT;2;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:05:14] WARNING: SERVICE ALERT: my-mongo-slave;check-lock-time;WARNING;SOFT;2;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:05:14] INFO: SERVICE ALERT: my-mongo-slave;Load;UNKNOWN;SOFT;3;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:05:14] INFO: SERVICE ALERT: my-mongo-slave;Processus;UNKNOWN;SOFT;2;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:05:14] INFO: SERVICE ALERT: my-mongo-slave;Up-to-date;UNKNOWN;SOFT;2;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:05:14] WARNING: SERVICE ALERT: my-mongo-slave;check-connection-primary;WARNING;SOFT;2;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:05:14] WARNING: SERVICE ALERT: my-mongo-slave;check-free-connections;WARNING;HARD;3;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:05:14] INFO: SERVICE ALERT: my-mongo-slave;Users;UNKNOWN;SOFT;2;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:05:14] WARNING: SERVICE ALERT: my-mongo-slave;check-connection;WARNING;SOFT;2;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:05:14] WARNING: SERVICE ALERT: my-mongo-slave;check-replicaset-status;WARNING;HARD;3;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:05:14] WARNING: SERVICE ALERT: my-mongo-slave;check-average-flush-time;WARNING;SOFT;2;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:05:14] INFO: SERVICE ALERT: my-mongo-slave;Opened files;UNKNOWN;SOFT;2;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:05:14] WARNING: SERVICE ALERT: my-mongo-slave;check-replication-lag;WARNING;SOFT;2;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:05:14] INFO: SERVICE ALERT: my-mongo-slave;Cpu;UNKNOWN;SOFT;2;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:05:14] INFO: SERVICE ALERT: my-mongo-slave;NTP time;UNKNOWN;SOFT;3;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:05:14] INFO: SERVICE ALERT: my-mongo-slave;Zombies;UNKNOWN;SOFT;2;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:05:14] WARNING: SERVICE ALERT: my-mongo-slave;check-memory-mapped;WARNING;SOFT;2;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:05:15] WARNING: SERVICE NOTIFICATION: notified;my-mongo-slave;check-memory-usage;WARNING;1;notify-service-by-log;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:05:15] WARNING: SERVICE NOTIFICATION: notified;my-mongo-slave;check-free-connections;WARNING;1;notify-service-by-log;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:05:15] WARNING: SERVICE NOTIFICATION: notified;my-mongo-slave;check-replicaset-status;WARNING;1;notify-service-by-log;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:05:56] INFO: SERVICE ALERT: north_host_005;dummy_unknown;UNKNOWN;HARD;3;north_host_005-dummy_unknown-3
+[2019-12-17 09:06:07] INFO: SERVICE ALERT: my-secured-elasticsearch-es2;Cpu;UNREACHABLE;SOFT;2;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:06:07] INFO: SERVICE ALERT: my-secured-elasticsearch-es2;Nrpe-status;UNREACHABLE;HARD;2;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:06:07] INFO: SERVICE ALERT: my-secured-elasticsearch-es2;Users;UNREACHABLE;SOFT;3;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:06:07] INFO: SERVICE ALERT: my-secured-elasticsearch-es2;check-es-http-alive;UNREACHABLE;SOFT;2;CRITICAL - Socket timeout after 10 seconds
+[2019-12-17 09:06:07] INFO: SERVICE ALERT: my-secured-elasticsearch-es2;check-es-tcp-alive;UNREACHABLE;SOFT;2;CRITICAL - Socket timeout after 10 seconds
+[2019-12-17 09:06:07] INFO: SERVICE ALERT: my-secured-elasticsearch-es2;Opened files;UNREACHABLE;SOFT;2;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:06:07] INFO: SERVICE ALERT: my-secured-elasticsearch-es2;Up-to-date;UNREACHABLE;SOFT;3;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:06:10] INFO: SERVICE ALERT: south_host_008;dummy_unknown;UNKNOWN;SOFT;2;south_host_008-dummy_unknown-3
+[2019-12-17 09:06:17] INFO: SERVICE ACKNOWLEDGE ALERT: host_2;dummy_no_output;EXPIRED; Service problem acknowledge expired
+[2019-12-17 09:06:17] INFO: SERVICE ALERT: host_2;dummy_no_output;OK;HARD;1;Service internal check result: 0
+[2019-12-17 09:06:38] INFO: SERVICE ALERT: north_host_008;dummy_unknown;UNKNOWN;SOFT;2;north_host_008-dummy_unknown-3
+[2019-12-17 09:06:46] ERROR: SERVICE ALERT: docker_shinken;local_check_disk;CRITICAL;HARD;3;Can't locate Sys/Statistics/Linux.pm in @INC (you may need to install the Sys::Statistics::Linux module) (@INC contains: /usr/local/nagios/libexec /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.26.1 /usr/local/share/perl/5.26.1 /usr/lib/x86_64-linux-gnu/perl5/5.26 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.26 /usr/share/perl/5.26 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at ./check_linux_stats.pl line 31.
+[2019-12-17 09:06:46] WARNING: SERVICE ALERT: docker_shinken;local_check_procs;WARNING;HARD;3;PROCS WARNING: 354 processes
+[2019-12-17 09:06:46] ERROR: SERVICE ALERT: docker_shinken;http_port_30001;CRITICAL;SOFT;2;connect to address localhost and port 30001: Connection refused
+[2019-12-17 09:06:46] ERROR: SERVICE ALERT: docker_shinken;process_shinken-broker;CRITICAL;SOFT;1;CRITICAL - Process is not running!
+[2019-12-17 09:06:46] ERROR: SERVICE ALERT: docker_shinken;local_check_disk_inode;CRITICAL;SOFT;2;DISK CRITICAL - /var/lib/docker/overlay2/0b1d740938c50528c746b88bc2195fe43715e5ba0021235a5312c9f308207a07/merged is not accessible: Permission denied
+[2019-12-17 09:06:46] ERROR: SERVICE ALERT: docker_shinken;process_scheduler-master.ini;CRITICAL;SOFT;1;CRITICAL - Process is not running!
+[2019-12-17 09:06:46] ERROR: SERVICE ALERT: docker_shinken;process_shinken-poller;CRITICAL;HARD;3;CRITICAL - Process is not running!
+[2019-12-17 09:06:46] ERROR: SERVICE ALERT: docker_shinken;process_shinken-reactionner;CRITICAL;HARD;3;CRITICAL - Process is not running!
+[2019-12-17 09:06:48] ERROR: SERVICE NOTIFICATION: notified;docker_shinken;local_check_disk;CRITICAL;1;notify-service-by-log;Can't locate Sys/Statistics/Linux.pm in @INC (you may need to install the Sys::Statistics::Linux module) (@INC contains: /usr/local/nagios/libexec /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.26.1 /usr/local/share/perl/5.26.1 /usr/lib/x86_64-linux-gnu/perl5/5.26 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.26 /usr/share/perl/5.26 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at ./check_linux_stats.pl line 31.
+[2019-12-17 09:06:48] WARNING: SERVICE NOTIFICATION: notified;docker_shinken;local_check_procs;WARNING;1;notify-service-by-log;PROCS WARNING: 354 processes
+[2019-12-17 09:06:48] ERROR: SERVICE NOTIFICATION: notified;docker_shinken;process_shinken-poller;CRITICAL;1;notify-service-by-log;CRITICAL - Process is not running!
+[2019-12-17 09:06:48] ERROR: SERVICE NOTIFICATION: notified;docker_shinken;process_shinken-reactionner;CRITICAL;1;notify-service-by-log;CRITICAL - Process is not running!
+[2019-12-17 09:06:57] ERROR: SERVICE ALERT: localhost2;Satellite-scheduler-third;CRITICAL;HARD;3;connect to address 127.0.0.1 and port 27768: Connection refused
+[2019-12-17 09:06:59] ERROR: SERVICE NOTIFICATION: notified;localhost2;Satellite-scheduler-third;CRITICAL;1;notify-service-by-log;connect to address 127.0.0.1 and port 27768: Connection refused
+[2019-12-17 09:07:02] ERROR: HOST ALERT: south_host_003;DOWN;SOFT;1;I am always Up but sometimes Down...
+[2019-12-17 09:07:02] ERROR: HOST ALERT: south_host_005;DOWN;SOFT;1;I am always Up but sometimes Down...
+[2019-12-17 09:07:02] ERROR: HOST ALERT: south_host_001;DOWN;SOFT;1;I am always Up but sometimes Down...
+[2019-12-17 09:07:02] INFO: SERVICE ALERT: south_host_001;dummy_warning;UNREACHABLE;SOFT;1;south_host_001-dummy_warning-1
+[2019-12-17 09:07:02] INFO: SERVICE ALERT: south_host_001;dummy_unreachable;UNREACHABLE;SOFT;1;south_host_001-dummy_unreachable-4
+[2019-12-17 09:07:02] INFO: SERVICE ALERT: south_host_005;dummy_unknown;UNREACHABLE;SOFT;2;south_host_005-dummy_unknown-3
+[2019-12-17 09:07:02] INFO: SERVICE ALERT: south_host_003;dummy_warning;UNREACHABLE;SOFT;2;south_host_003-dummy_warning-1
+[2019-12-17 09:07:21] INFO: SERVICE ALERT: north_host_007;dummy_unknown;UNKNOWN;SOFT;2;north_host_007-dummy_unknown-3
+[2019-12-17 09:07:21] INFO: SERVICE ALERT: north_host_007;dummy_unreachable;UNREACHABLE;SOFT;2;north_host_007-dummy_unreachable-4
+[2019-12-17 09:07:21] ERROR: SERVICE ALERT: north_host_007;dummy_critical;CRITICAL;SOFT;2;north_host_007-dummy_critical-2
+[2019-12-17 09:07:37] INFO: SERVICE ALERT: north_host_009;dummy_unreachable;UNREACHABLE;SOFT;2;north_host_009-dummy_unreachable-4
+[2019-12-17 09:08:11] INFO: SERVICE ALERT: south_host_009;dummy_unknown;UNKNOWN;SOFT;2;south_host_009-dummy_unknown-3
+[2019-12-17 09:08:11] ERROR: SERVICE ALERT: south_host_009;dummy_random;CRITICAL;SOFT;1;Service internal check result: 2
+[2019-12-17 09:08:11] WARNING: SERVICE ALERT: south_host_009;dummy_warning;WARNING;SOFT;2;south_host_009-dummy_warning-1
+[2019-12-17 09:08:15] INFO: SERVICE ALERT: south_host_000;dummy_unreachable;UNREACHABLE;SOFT;1;south_host_000-dummy_unreachable-4
+[2019-12-17 09:08:15] INFO: SERVICE ALERT: south_host_000;dummy_unknown;UNKNOWN;SOFT;1;south_host_000-dummy_unknown-3
+[2019-12-17 09:08:17] INFO: SERVICE ALERT: my-elasticsearch-es3;NTP time;UNREACHABLE;HARD;4;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:08:17] INFO: SERVICE ALERT: my-elasticsearch-es3;Load;UNREACHABLE;HARD;4;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:08:33] INFO: SERVICE ACKNOWLEDGE ALERT: host_2;dummy_ok;EXPIRED; Service problem acknowledge expired
+[2019-12-17 09:08:33] INFO: SERVICE ALERT: host_2;dummy_ok;OK;HARD;1;host_2
+[2019-12-17 09:08:38] INFO: SERVICE ALERT: south_host_004;dummy_unknown;UNKNOWN;SOFT;1;south_host_004-dummy_unknown-3
+[2019-12-17 09:08:38] ERROR: SERVICE ALERT: south_host_004;dummy_critical;CRITICAL;SOFT;1;south_host_004-dummy_critical-2
+[2019-12-17 09:08:38] INFO: SERVICE ALERT: south_host_004;dummy_unreachable;UNREACHABLE;SOFT;1;south_host_004-dummy_unreachable-4
+[2019-12-17 09:08:38] WARNING: SERVICE ALERT: south_host_004;dummy_warning;WARNING;SOFT;1;south_host_004-dummy_warning-1
+[2019-12-17 09:08:49] INFO: SERVICE ALERT: north_host_006;dummy_unreachable;UNREACHABLE;SOFT;2;north_host_006-dummy_unreachable-4
+[2019-12-17 09:08:49] INFO: SERVICE ALERT: north_host_006;dummy_unknown;UNKNOWN;SOFT;2;north_host_006-dummy_unknown-3
+[2019-12-17 09:08:49] ERROR: SERVICE ALERT: north_host_006;dummy_critical;CRITICAL;SOFT;2;north_host_006-dummy_critical-2
+[2019-12-17 09:08:54] INFO: SERVICE ALERT: host_0;dummy_unknown;UNKNOWN;SOFT;2;host_0-dummy_unknown-3
+[2019-12-17 09:08:54] INFO: SERVICE ALERT: host_0;dummy_unreachable;UNREACHABLE;SOFT;2;host_0-dummy_unreachable-4
+[2019-12-17 09:08:54] WARNING: SERVICE ALERT: host_0;dummy_warning;WARNING;SOFT;2;host_0-dummy_warning-1
+[2019-12-17 09:08:54] ERROR: SERVICE ALERT: host_0;dummy_random;CRITICAL;SOFT;2;Service internal check result: 2
+[2019-12-17 09:08:54] ERROR: SERVICE ALERT: host_0;dummy_critical;CRITICAL;SOFT;2;host_0-dummy_critical-2
+[2019-12-17 09:08:58] INFO: SERVICE ALERT: host_3;dummy_unreachable;UNREACHABLE;SOFT;2;host_3-dummy_unreachable-4
+[2019-12-17 09:09:06] WARNING: SERVICE ALERT: south_host_006;dummy_random;WARNING;SOFT;2;Service internal check result: 1
+[2019-12-17 09:09:06] ERROR: SERVICE ALERT: south_host_006;dummy_critical;CRITICAL;SOFT;2;south_host_006-dummy_critical-2
+[2019-12-17 09:09:06] INFO: SERVICE ALERT: south_host_006;dummy_unreachable;UNREACHABLE;SOFT;2;south_host_006-dummy_unreachable-4
+[2019-12-17 09:09:06] INFO: SERVICE ALERT: south_host_006;dummy_unknown;UNKNOWN;SOFT;2;south_host_006-dummy_unknown-3
+[2019-12-17 09:09:09] ERROR: SERVICE ALERT: north_host_002;dummy_critical;CRITICAL;SOFT;2;north_host_002-dummy_critical-2
+[2019-12-17 09:09:09] WARNING: SERVICE ALERT: north_host_002;dummy_warning;WARNING;SOFT;2;north_host_002-dummy_warning-1
+[2019-12-17 09:09:09] INFO: SERVICE ALERT: north_host_002;dummy_unknown;UNKNOWN;SOFT;2;north_host_002-dummy_unknown-3
+[2019-12-17 09:09:09] INFO: SERVICE ALERT: north_host_002;dummy_unreachable;UNREACHABLE;SOFT;2;north_host_002-dummy_unreachable-4
+[2019-12-17 09:09:10] INFO: SERVICE ALERT: host_11;dummy_no_output;OK;HARD;1;Service internal check result: 0
+[2019-12-17 09:09:26] INFO: SERVICE ALERT: south_host_007;dummy_unknown;UNKNOWN;SOFT;2;south_host_007-dummy_unknown-3
+[2019-12-17 09:09:26] WARNING: SERVICE ALERT: south_host_007;dummy_warning;WARNING;SOFT;2;south_host_007-dummy_warning-1
+[2019-12-17 09:09:26] ERROR: SERVICE ALERT: south_host_007;dummy_critical;CRITICAL;SOFT;2;south_host_007-dummy_critical-2
+[2019-12-17 09:09:26] INFO: SERVICE ALERT: south_host_007;dummy_unreachable;UNREACHABLE;SOFT;2;south_host_007-dummy_unreachable-4
+[2019-12-17 09:09:57] ERROR: HOST ALERT: host_1;DOWN;SOFT;1;I am always Unreachable
+[2019-12-17 09:09:57] INFO: SERVICE ALERT: host_1;dummy_unreachable;UNREACHABLE;SOFT;1;host_1-dummy_unreachable-4
+[2019-12-17 09:09:57] INFO: SERVICE ALERT: host_1;dummy_warning;UNREACHABLE;SOFT;1;host_1-dummy_warning-1
+[2019-12-17 09:09:57] INFO: SERVICE ALERT: host_1;dummy_critical;UNREACHABLE;SOFT;1;host_1-dummy_critical-2
+[2019-12-17 09:09:57] INFO: SERVICE ALERT: host_1;dummy_unknown;UNREACHABLE;SOFT;1;host_1-dummy_unknown-3
+[2019-12-17 09:10:00] WARNING: SERVICE ALERT: north_host_001;dummy_warning;WARNING;SOFT;1;north_host_001-dummy_warning-1
+[2019-12-17 09:10:00] INFO: SERVICE ALERT: north_host_001;dummy_unknown;UNKNOWN;SOFT;1;north_host_001-dummy_unknown-3
+[2019-12-17 09:10:00] ERROR: SERVICE ALERT: north_host_001;dummy_critical;CRITICAL;SOFT;1;north_host_001-dummy_critical-2
+[2019-12-17 09:10:00] INFO: SERVICE ALERT: north_host_001;dummy_unreachable;UNREACHABLE;SOFT;1;north_host_001-dummy_unreachable-4
+[2019-12-17 09:10:06] INFO: SERVICE ALERT: my-mongo-alone;Load;UNKNOWN;HARD;4;connect to address 127.0.0.1 port 5666: Connection refused
+[2019-12-17 09:10:06] WARNING: SERVICE ALERT: my-mongo-alone;check-index-miss-ratio;WARNING;HARD;3;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:10:06] INFO: SERVICE ALERT: my-mongo-alone;NTP time;UNKNOWN;HARD;4;connect to address 127.0.0.1 port 5666: Connection refused
+[2019-12-17 09:10:06] INFO: SERVICE ALERT: my-mongo-alone;Users;UNKNOWN;SOFT;3;connect to address 127.0.0.1 port 5666: Connection refused
+[2019-12-17 09:10:06] WARNING: SERVICE ALERT: my-mongo-alone;check-connection;WARNING;HARD;3;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:10:06] WARNING: SERVICE ALERT: my-mongo-alone;check-memory-usage;WARNING;HARD;3;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:10:06] INFO: SERVICE ALERT: my-mongo-alone;Processus;UNKNOWN;SOFT;1;connect to address 127.0.0.1 port 5666: Connection refused
+[2019-12-17 09:10:06] INFO: SERVICE ALERT: my-mongo-alone;Cpu;UNKNOWN;SOFT;3;connect to address 127.0.0.1 port 5666: Connection refused
+[2019-12-17 09:10:06] INFO: SERVICE ALERT: my-mongo-alone;Opened files;UNKNOWN;SOFT;3;connect to address 127.0.0.1 port 5666: Connection refused
+[2019-12-17 09:10:06] INFO: SERVICE ALERT: my-mongo-alone;Zombies;UNKNOWN;HARD;4;connect to address 127.0.0.1 port 5666: Connection refused
+[2019-12-17 09:10:06] INFO: SERVICE ALERT: my-mongo-alone;Up-to-date;UNKNOWN;SOFT;3;connect to address 127.0.0.1 port 5666: Connection refused
+[2019-12-17 09:10:06] WARNING: SERVICE ALERT: my-mongo-alone;check-lock-time;WARNING;HARD;3;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:10:06] WARNING: SERVICE ALERT: my-mongo-alone;check-average-flush-time;WARNING;HARD;3;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:10:07] WARNING: SERVICE NOTIFICATION: notified;my-mongo-alone;check-index-miss-ratio;WARNING;1;notify-service-by-log;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:10:07] WARNING: SERVICE NOTIFICATION: notified;my-mongo-alone;check-connection;WARNING;1;notify-service-by-log;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:10:07] WARNING: SERVICE NOTIFICATION: notified;my-mongo-alone;check-memory-usage;WARNING;1;notify-service-by-log;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:10:07] WARNING: SERVICE NOTIFICATION: notified;my-mongo-alone;check-lock-time;WARNING;1;notify-service-by-log;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:10:07] WARNING: SERVICE NOTIFICATION: notified;my-mongo-alone;check-average-flush-time;WARNING;1;notify-service-by-log;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:10:10] WARNING: SERVICE ALERT: localhost;Shk2-broker;WARNING;HARD;3;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_shinken2.py", line 95
+[2019-12-17 09:10:10] WARNING: SERVICE ALERT: localhost;Shk2-scheduler;WARNING;HARD;3;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_shinken2.py", line 95
+[2019-12-17 09:10:11] WARNING: SERVICE NOTIFICATION: notified;localhost;Shk2-broker;WARNING;1;notify-service-by-log;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_shinken2.py", line 95
+[2019-12-17 09:10:11] WARNING: SERVICE NOTIFICATION: notified;localhost;Shk2-scheduler;WARNING;1;notify-service-by-log;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_shinken2.py", line 95
+[2019-12-17 09:10:12] INFO: SERVICE ALERT: host_11;dummy_ok;OK;HARD;0;host_11
+[2019-12-17 09:10:15] WARNING: SERVICE ALERT: my-mongo-slave;check-index-miss-ratio;WARNING;HARD;3;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:10:15] WARNING: SERVICE ALERT: my-mongo-slave;check-lock-time;WARNING;HARD;3;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:10:15] WARNING: SERVICE ALERT: my-mongo-slave;check-replication-lag-percentage;WARNING;SOFT;1;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:10:15] INFO: SERVICE ALERT: my-mongo-slave;Load;UNKNOWN;HARD;4;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:10:15] INFO: SERVICE ALERT: my-mongo-slave;Processus;UNKNOWN;SOFT;3;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:10:15] INFO: SERVICE ALERT: my-mongo-slave;Up-to-date;UNKNOWN;SOFT;3;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:10:15] WARNING: SERVICE ALERT: my-mongo-slave;check-connection-primary;WARNING;HARD;3;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:10:15] INFO: SERVICE ALERT: my-mongo-slave;Users;UNKNOWN;SOFT;3;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:10:15] WARNING: SERVICE ALERT: my-mongo-slave;check-connection;WARNING;HARD;3;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:10:15] WARNING: SERVICE ALERT: my-mongo-slave;check-average-flush-time;WARNING;HARD;3;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:10:15] INFO: SERVICE ALERT: my-mongo-slave;Opened files;UNKNOWN;SOFT;3;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:10:15] WARNING: SERVICE ALERT: my-mongo-slave;check-replication-lag;WARNING;HARD;3;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:10:15] INFO: SERVICE ALERT: my-mongo-slave;Cpu;UNKNOWN;SOFT;3;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:10:15] INFO: SERVICE ALERT: my-mongo-slave;NTP time;UNKNOWN;HARD;4;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:10:15] INFO: SERVICE ALERT: my-mongo-slave;Zombies;UNKNOWN;SOFT;3;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:10:15] WARNING: SERVICE ALERT: my-mongo-slave;check-memory-mapped;WARNING;HARD;3;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:10:16] WARNING: SERVICE NOTIFICATION: notified;my-mongo-slave;check-index-miss-ratio;WARNING;1;notify-service-by-log;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:10:16] WARNING: SERVICE NOTIFICATION: notified;my-mongo-slave;check-lock-time;WARNING;1;notify-service-by-log;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:10:16] WARNING: SERVICE NOTIFICATION: notified;my-mongo-slave;check-connection-primary;WARNING;1;notify-service-by-log;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:10:16] WARNING: SERVICE NOTIFICATION: notified;my-mongo-slave;check-connection;WARNING;1;notify-service-by-log;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:10:16] WARNING: SERVICE NOTIFICATION: notified;my-mongo-slave;check-average-flush-time;WARNING;1;notify-service-by-log;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:10:16] WARNING: SERVICE NOTIFICATION: notified;my-mongo-slave;check-replication-lag;WARNING;1;notify-service-by-log;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:10:16] WARNING: SERVICE NOTIFICATION: notified;my-mongo-slave;check-memory-mapped;WARNING;1;notify-service-by-log;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:10:31] INFO: SERVICE ALERT: host_3;dummy_ok;OK;HARD;0;host_3
+[2019-12-17 09:10:37] INFO: SERVICE ALERT: north_host_003;dummy_unreachable;UNREACHABLE;SOFT;1;north_host_003-dummy_unreachable-4
+[2019-12-17 09:10:37] WARNING: SERVICE ALERT: north_host_003;dummy_warning;WARNING;SOFT;1;north_host_003-dummy_warning-1
+[2019-12-17 09:10:37] INFO: SERVICE ALERT: north_host_003;dummy_unknown;UNKNOWN;SOFT;1;north_host_003-dummy_unknown-3
+[2019-12-17 09:10:37] INFO: SERVICE ALERT: north_host_003;dummy_random;UNKNOWN;SOFT;1;Service internal check result: 3
+[2019-12-17 09:10:37] ERROR: SERVICE ALERT: north_host_003;dummy_critical;CRITICAL;SOFT;1;north_host_003-dummy_critical-2
+[2019-12-17 09:10:58] ERROR: HOST ALERT: host_1;DOWN;SOFT;2;I am always Unreachable
+[2019-12-17 09:10:58] INFO: SERVICE ALERT: host_1;dummy_warning;UNREACHABLE;SOFT;2;host_1-dummy_warning-4
+[2019-12-17 09:10:58] INFO: SERVICE ALERT: host_1;dummy_critical;UNREACHABLE;SOFT;2;host_1-dummy_critical-4
+[2019-12-17 09:10:58] INFO: SERVICE ALERT: host_1;dummy_unknown;UNREACHABLE;SOFT;2;host_1-dummy_unknown-4
+[2019-12-17 09:10:59] ERROR: HOST ALERT: host_1;DOWN;HARD;3;I am always Unreachable
+[2019-12-17 09:10:59] INFO: SERVICE ALERT: host_1;dummy_unreachable;UNREACHABLE;SOFT;2;host_1-dummy_unreachable-4
+[2019-12-17 09:11:08] INFO: SERVICE ALERT: my-secured-elasticsearch-es2;Cpu;UNREACHABLE;SOFT;3;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:11:08] INFO: SERVICE ALERT: my-secured-elasticsearch-es2;Users;UNREACHABLE;HARD;4;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:11:08] INFO: SERVICE ALERT: my-secured-elasticsearch-es2;check-es-http-alive;UNREACHABLE;HARD;3;CRITICAL - Socket timeout after 10 seconds
+[2019-12-17 09:11:08] INFO: SERVICE ALERT: my-secured-elasticsearch-es2;check-es-tcp-alive;UNREACHABLE;HARD;3;CRITICAL - Socket timeout after 10 seconds
+[2019-12-17 09:11:08] INFO: SERVICE ALERT: my-secured-elasticsearch-es2;Opened files;UNREACHABLE;SOFT;3;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:11:08] INFO: SERVICE ALERT: my-secured-elasticsearch-es2;Up-to-date;UNREACHABLE;HARD;4;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:11:34] INFO: HOST ALERT: host_11;UP;HARD;3;I am changing for 0
+[2019-12-17 09:11:34] INFO: SERVICE ALERT: host_11;dummy_critical;UNREACHABLE;SOFT;2;host_11-dummy_critical-4
+[2019-12-17 09:11:34] WARNING: SERVICE ALERT: host_11;dummy_warning;WARNING;HARD;0;host_11-dummy_warning-1
+[2019-12-17 09:11:34] INFO: SERVICE ALERT: host_11;dummy_unreachable;UNREACHABLE;HARD;3;host_11-dummy_unreachable-4
+[2019-12-17 09:11:35] WARNING: SERVICE NOTIFICATION: notified;host_11;dummy_warning;WARNING;1;notify-service-by-log;host_11-dummy_warning-1
+[2019-12-17 09:11:46] ERROR: SERVICE ALERT: docker_shinken;http_port_17768;CRITICAL;SOFT;1;connect to address localhost and port 17768: Connection refused
+[2019-12-17 09:11:46] ERROR: SERVICE ALERT: docker_shinken;http_port_30002;CRITICAL;SOFT;1;connect to address localhost and port 30002: Connection refused
+[2019-12-17 09:11:46] ERROR: SERVICE ALERT: docker_shinken;http_port_30001;CRITICAL;HARD;3;connect to address localhost and port 30001: Connection refused
+[2019-12-17 09:11:46] ERROR: SERVICE ALERT: docker_shinken;process_shinken-broker;CRITICAL;SOFT;2;CRITICAL - Process is not running!
+[2019-12-17 09:11:46] ERROR: SERVICE ALERT: docker_shinken;local_network_usage;CRITICAL;SOFT;1;Can't locate Sys/Statistics/Linux.pm in @INC (you may need to install the Sys::Statistics::Linux module) (@INC contains: /usr/local/nagios/libexec /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.26.1 /usr/local/share/perl/5.26.1 /usr/lib/x86_64-linux-gnu/perl5/5.26 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.26 /usr/share/perl/5.26 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at ./check_linux_stats.pl line 31.
+[2019-12-17 09:11:46] ERROR: SERVICE ALERT: docker_shinken;local_check_disk_inode;CRITICAL;HARD;3;DISK CRITICAL - /var/lib/docker/overlay2/0b1d740938c50528c746b88bc2195fe43715e5ba0021235a5312c9f308207a07/merged is not accessible: Permission denied
+[2019-12-17 09:11:46] ERROR: SERVICE ALERT: docker_shinken;process_scheduler-master.ini;CRITICAL;SOFT;2;CRITICAL - Process is not running!
+[2019-12-17 09:11:46] INFO: SERVICE ALERT: docker_shinken;local_fping_google;UNKNOWN;SOFT;1;FPING UNKNOWN - www.google.com
+[2019-12-17 09:11:46] ERROR: SERVICE ALERT: docker_shinken;local_check_disk_root;CRITICAL;SOFT;1;DISK CRITICAL - free space: / 2678 MB (6% inode=65%);
+[2019-12-17 09:11:47] ERROR: SERVICE NOTIFICATION: notified;docker_shinken;http_port_30001;CRITICAL;1;notify-service-by-log;connect to address localhost and port 30001: Connection refused
+[2019-12-17 09:11:47] ERROR: SERVICE NOTIFICATION: notified;docker_shinken;local_check_disk_inode;CRITICAL;1;notify-service-by-log;DISK CRITICAL - /var/lib/docker/overlay2/0b1d740938c50528c746b88bc2195fe43715e5ba0021235a5312c9f308207a07/merged is not accessible: Permission denied
+[2019-12-17 09:12:03] ERROR: HOST ALERT: south_host_003;DOWN;SOFT;2;I am always Up but sometimes Down...
+[2019-12-17 09:12:03] ERROR: HOST ALERT: south_host_005;DOWN;SOFT;2;I am always Up but sometimes Down...
+[2019-12-17 09:12:03] ERROR: HOST ALERT: south_host_001;DOWN;SOFT;2;I am always Up but sometimes Down...
+[2019-12-17 09:12:03] INFO: SERVICE ALERT: south_host_005;dummy_warning;UNREACHABLE;SOFT;1;south_host_005-dummy_warning-1
+[2019-12-17 09:12:03] INFO: SERVICE ALERT: south_host_003;dummy_unknown;UNREACHABLE;SOFT;1;south_host_003-dummy_unknown-3
+[2019-12-17 09:12:03] INFO: SERVICE ALERT: south_host_001;dummy_warning;UNREACHABLE;SOFT;2;south_host_001-dummy_warning-4
+[2019-12-17 09:12:03] INFO: SERVICE ALERT: south_host_001;dummy_critical;UNREACHABLE;SOFT;1;south_host_001-dummy_critical-2
+[2019-12-17 09:12:03] INFO: SERVICE ALERT: south_host_005;dummy_critical;UNREACHABLE;SOFT;1;south_host_005-dummy_critical-2
+[2019-12-17 09:12:03] INFO: SERVICE ALERT: south_host_005;dummy_random;UNREACHABLE;SOFT;1;Service internal check result: 2
+[2019-12-17 09:12:03] INFO: SERVICE ALERT: south_host_003;dummy_unreachable;UNREACHABLE;SOFT;1;south_host_003-dummy_unreachable-4
+[2019-12-17 09:12:03] INFO: SERVICE ALERT: south_host_005;dummy_unreachable;UNREACHABLE;SOFT;1;south_host_005-dummy_unreachable-4
+[2019-12-17 09:12:03] INFO: SERVICE ALERT: south_host_001;dummy_unreachable;UNREACHABLE;SOFT;2;south_host_001-dummy_unreachable-4
+[2019-12-17 09:12:03] INFO: SERVICE ALERT: south_host_005;dummy_unknown;UNREACHABLE;HARD;3;south_host_005-dummy_unknown-4
+[2019-12-17 09:12:03] INFO: SERVICE ALERT: south_host_003;dummy_critical;UNREACHABLE;SOFT;1;south_host_003-dummy_critical-2
+[2019-12-17 09:12:03] INFO: SERVICE ALERT: south_host_003;dummy_warning;UNREACHABLE;HARD;3;south_host_003-dummy_warning-4
+[2019-12-17 09:12:03] INFO: SERVICE ALERT: south_host_001;dummy_unknown;UNREACHABLE;SOFT;1;south_host_001-dummy_unknown-3
+[2019-12-17 09:12:33] INFO: SERVICE ALERT: host_2;dummy_critical;UNREACHABLE;HARD;3;host_2-dummy_critical-4
+[2019-12-17 09:12:33] INFO: SERVICE ALERT: host_2;dummy_unknown;UNREACHABLE;HARD;3;host_2-dummy_unknown-4
+[2019-12-17 09:12:33] INFO: SERVICE ALERT: host_2;dummy_random;UNREACHABLE;HARD;3;Service internal check result: 4
+[2019-12-17 09:12:33] INFO: SERVICE ALERT: host_2;dummy_unreachable;UNREACHABLE;HARD;3;host_2-dummy_unreachable-4
+[2019-12-17 09:12:53] ERROR: HOST ALERT: internal-router-north;DOWN;SOFT;1;I am not always Up, sometimes down
+[2019-12-17 09:15:32] INFO: RETENTION LOAD: scheduler-master
+[2019-12-17 09:16:46] ERROR: SERVICE ALERT: docker_shinken;http_port_17768;CRITICAL;SOFT;2;connect to address localhost and port 17768: Connection refused
+[2019-12-17 09:16:46] ERROR: SERVICE ALERT: docker_shinken;process_scheduler-master.ini;CRITICAL;HARD;3;CRITICAL - Process is not running!
+[2019-12-17 09:16:46] ERROR: SERVICE ALERT: docker_shinken;process_shinken-broker;CRITICAL;HARD;3;CRITICAL - Process is not running!
+[2019-12-17 09:16:46] ERROR: SERVICE ALERT: docker_shinken;local_network_usage;CRITICAL;SOFT;2;Can't locate Sys/Statistics/Linux.pm in @INC (you may need to install the Sys::Statistics::Linux module) (@INC contains: /usr/local/nagios/libexec /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.26.1 /usr/local/share/perl/5.26.1 /usr/lib/x86_64-linux-gnu/perl5/5.26 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.26 /usr/share/perl/5.26 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at ./check_linux_stats.pl line 31.
+[2019-12-17 09:16:46] ERROR: SERVICE ALERT: docker_shinken;http_port_30002;CRITICAL;SOFT;2;connect to address localhost and port 30002: Connection refused
+[2019-12-17 09:16:46] INFO: SERVICE ALERT: docker_shinken;local_fping_google;UNKNOWN;SOFT;2;FPING UNKNOWN - www.google.com
+[2019-12-17 09:16:46] ERROR: SERVICE ALERT: docker_shinken;local_check_disk_root;CRITICAL;SOFT;2;DISK CRITICAL - free space: / 2677 MB (6% inode=65%);
+[2019-12-17 09:16:47] ERROR: SERVICE NOTIFICATION: notified;docker_shinken;process_scheduler-master.ini;CRITICAL;1;notify-service-by-log;CRITICAL - Process is not running!
+[2019-12-17 09:16:47] ERROR: SERVICE NOTIFICATION: notified;docker_shinken;process_shinken-broker;CRITICAL;1;notify-service-by-log;CRITICAL - Process is not running!
+[2019-12-17 09:17:02] ERROR: HOST ALERT: south_host_001;DOWN;HARD;3;I am always Up but sometimes Down...
+[2019-12-17 09:17:02] ERROR: HOST ALERT: south_host_005;DOWN;HARD;3;I am always Up but sometimes Down...
+[2019-12-17 09:17:02] ERROR: HOST ALERT: south_host_003;DOWN;HARD;3;I am always Up but sometimes Down...
+[2019-12-17 09:17:02] INFO: SERVICE ALERT: south_host_001;dummy_warning;UNREACHABLE;HARD;3;south_host_001-dummy_warning-4
+[2019-12-17 09:17:02] INFO: SERVICE ALERT: south_host_003;dummy_critical;UNREACHABLE;SOFT;2;south_host_003-dummy_critical-4
+[2019-12-17 09:17:02] INFO: SERVICE ALERT: south_host_003;dummy_unreachable;UNREACHABLE;SOFT;2;south_host_003-dummy_unreachable-4
+[2019-12-17 09:17:02] INFO: SERVICE ALERT: south_host_005;dummy_unreachable;UNREACHABLE;SOFT;2;south_host_005-dummy_unreachable-4
+[2019-12-17 09:17:02] INFO: SERVICE ALERT: south_host_001;dummy_critical;UNREACHABLE;SOFT;2;south_host_001-dummy_critical-4
+[2019-12-17 09:17:02] INFO: SERVICE ALERT: south_host_001;dummy_unreachable;UNREACHABLE;HARD;3;south_host_001-dummy_unreachable-4
+[2019-12-17 09:17:02] INFO: SERVICE ALERT: south_host_001;dummy_unknown;UNREACHABLE;SOFT;2;south_host_001-dummy_unknown-4
+[2019-12-17 09:17:02] INFO: SERVICE ALERT: south_host_005;dummy_critical;UNREACHABLE;SOFT;2;south_host_005-dummy_critical-4
+[2019-12-17 09:17:02] INFO: SERVICE ALERT: south_host_003;dummy_unknown;UNREACHABLE;SOFT;2;south_host_003-dummy_unknown-4
+[2019-12-17 09:17:02] INFO: SERVICE ALERT: south_host_005;dummy_warning;UNREACHABLE;SOFT;2;south_host_005-dummy_warning-4
+[2019-12-17 09:17:02] INFO: SERVICE ALERT: south_host_005;dummy_random;UNREACHABLE;SOFT;2;Service internal check result: 4
+[2019-12-17 09:17:03] ERROR: HOST NOTIFICATION: notified;south_host_001;DOWN;1;notify-host-by-log;I am always Up but sometimes Down...
+[2019-12-17 09:17:03] ERROR: HOST NOTIFICATION: notified;south_host_005;DOWN;1;notify-host-by-log;I am always Up but sometimes Down...
+[2019-12-17 09:17:03] ERROR: HOST NOTIFICATION: notified;south_host_003;DOWN;1;notify-host-by-log;I am always Up but sometimes Down...
+[2019-12-17 09:17:53] ERROR: HOST ALERT: internal-router-north;DOWN;HARD;2;I am not always Up, sometimes down
+[2019-12-17 09:18:41] INFO: RETENTION LOAD: scheduler-master
+[2019-12-17 09:20:06] INFO: SERVICE ALERT: my-mongo-alone;Up-to-date;UNKNOWN;HARD;4;connect to address 127.0.0.1 port 5666: Connection refused
+[2019-12-17 09:20:06] INFO: SERVICE ALERT: my-mongo-alone;Processus;UNKNOWN;SOFT;2;connect to address 127.0.0.1 port 5666: Connection refused
+[2019-12-17 09:20:06] INFO: SERVICE ALERT: my-mongo-alone;Users;UNKNOWN;HARD;4;connect to address 127.0.0.1 port 5666: Connection refused
+[2019-12-17 09:20:15] INFO: SERVICE ALERT: my-mongo-slave;Users;UNKNOWN;HARD;4;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:20:15] INFO: SERVICE ALERT: my-mongo-slave;Opened files;UNKNOWN;HARD;4;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:20:15] WARNING: SERVICE ALERT: my-mongo-slave;check-replication-lag-percentage;WARNING;SOFT;2;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:20:15] INFO: SERVICE ALERT: my-mongo-slave;Zombies;UNKNOWN;HARD;4;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:20:15] INFO: SERVICE ALERT: my-mongo-slave;Up-to-date;UNKNOWN;HARD;4;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:20:15] INFO: SERVICE ALERT: my-mongo-slave;Processus;UNKNOWN;HARD;4;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:20:15] INFO: SERVICE ALERT: my-mongo-slave;Cpu;UNKNOWN;HARD;4;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:20:54] INFO: SERVICE ALERT: south_host_001;dummy_no_output;OK;HARD;1;Service internal check result: 0
+[2019-12-17 09:20:56] INFO: HOST ALERT: north_host_005;UP;HARD;1;I am always Up
+[2019-12-17 09:20:59] INFO: SERVICE ALERT: north_host_005;dummy_no_output;OK;HARD;1;Service internal check result: 0
+[2019-12-17 09:21:01] INFO: SERVICE ALERT: north_host_001;dummy_no_output;OK;HARD;1;Service internal check result: 0
+[2019-12-17 09:21:08] INFO: SERVICE ALERT: my-secured-elasticsearch-es2;Cpu;UNREACHABLE;HARD;4;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:21:08] INFO: SERVICE ALERT: my-secured-elasticsearch-es2;Opened files;UNREACHABLE;HARD;4;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+[2019-12-17 09:21:10] INFO: SERVICE ALERT: south_host_008;dummy_unknown;UNKNOWN;HARD;3;south_host_008-dummy_unknown-3
+[2019-12-17 09:21:11] INFO: SERVICE ALERT: north_host_002;dummy_no_output;OK;HARD;1;Service internal check result: 0
+[2019-12-17 09:21:12] INFO: HOST ALERT: north_host_004;UP;HARD;1;I am always Up
+[2019-12-17 09:21:14] INFO: SERVICE ALERT: south_host_001;dummy_ok;OK;HARD;1;south_host_001
+[2019-12-17 09:21:17] INFO: SERVICE ALERT: host_2;dummy_no_output;OK;HARD;1;Service internal check result: 0
+[2019-12-17 09:21:37] INFO: HOST ALERT: north_host_008;UP;HARD;1;I am always Up
+[2019-12-17 09:21:37] INFO: SERVICE ALERT: north_host_006;dummy_no_output;OK;HARD;1;Service internal check result: 0
+[2019-12-17 09:21:37] INFO: SERVICE ALERT: north_host_008;dummy_unknown;UNREACHABLE;HARD;3;north_host_008-dummy_unknown-4
+[2019-12-17 09:21:37] INFO: SERVICE ALERT: north_host_007;dummy_ok;OK;HARD;1;north_host_007
+[2019-12-17 09:21:42] INFO: HOST ALERT: north_host_000;UP;HARD;1;I am always Up
+[2019-12-17 09:21:42] INFO: SERVICE ALERT: north_host_003;dummy_ok;OK;HARD;1;north_host_003
+[2019-12-17 09:21:46] ERROR: SERVICE ALERT: docker_shinken;http_port_17768;CRITICAL;HARD;3;connect to address localhost and port 17768: Connection refused
+[2019-12-17 09:21:46] ERROR: SERVICE ALERT: docker_shinken;http_port_30002;CRITICAL;HARD;3;connect to address localhost and port 30002: Connection refused
+[2019-12-17 09:21:46] INFO: SERVICE ALERT: docker_shinken;local_fping_google;UNKNOWN;HARD;3;FPING UNKNOWN - www.google.com
+[2019-12-17 09:21:46] ERROR: SERVICE ALERT: docker_shinken;local_network_usage;CRITICAL;HARD;3;Can't locate Sys/Statistics/Linux.pm in @INC (you may need to install the Sys::Statistics::Linux module) (@INC contains: /usr/local/nagios/libexec /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.26.1 /usr/local/share/perl/5.26.1 /usr/lib/x86_64-linux-gnu/perl5/5.26 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.26 /usr/share/perl/5.26 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at ./check_linux_stats.pl line 31.
+[2019-12-17 09:21:46] ERROR: SERVICE ALERT: docker_shinken;local_check_disk_root;CRITICAL;HARD;3;DISK CRITICAL - free space: / 2676 MB (6% inode=65%);
+[2019-12-17 09:21:47] ERROR: SERVICE NOTIFICATION: notified;docker_shinken;http_port_17768;CRITICAL;1;notify-service-by-log;connect to address localhost and port 17768: Connection refused
+[2019-12-17 09:21:47] ERROR: SERVICE NOTIFICATION: notified;docker_shinken;http_port_30002;CRITICAL;1;notify-service-by-log;connect to address localhost and port 30002: Connection refused
+[2019-12-17 09:21:47] ERROR: SERVICE NOTIFICATION: notified;docker_shinken;local_network_usage;CRITICAL;1;notify-service-by-log;Can't locate Sys/Statistics/Linux.pm in @INC (you may need to install the Sys::Statistics::Linux module) (@INC contains: /usr/local/nagios/libexec /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.26.1 /usr/local/share/perl/5.26.1 /usr/lib/x86_64-linux-gnu/perl5/5.26 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.26 /usr/share/perl/5.26 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at ./check_linux_stats.pl line 31.
+[2019-12-17 09:21:47] ERROR: SERVICE NOTIFICATION: notified;docker_shinken;local_check_disk_root;CRITICAL;1;notify-service-by-log;DISK CRITICAL - free space: / 2676 MB (6% inode=65%);
+[2019-12-17 09:21:48] INFO: SERVICE ALERT: north_host_008;dummy_no_output;OK;HARD;1;Service internal check result: 0
+[2019-12-17 09:21:56] INFO: SERVICE ALERT: north_host_000;dummy_no_output;OK;HARD;1;Service internal check result: 0
+[2019-12-17 09:22:07] INFO: SERVICE ALERT: host_11;dummy_random;OK;HARD;1;Service internal check result: 0
+[2019-12-17 09:22:08] INFO: SERVICE ALERT: south_host_003;dummy_ok;OK;HARD;1;south_host_003
+[2019-12-17 09:22:14] INFO: SERVICE ALERT: north_host_001;dummy_random;OK;HARD;1;Service internal check result: 0
+[2019-12-17 09:22:20] INFO: HOST ALERT: north_host_007;UP;HARD;1;I am always Up
+[2019-12-17 09:22:20] INFO: SERVICE ALERT: north_host_007;dummy_unreachable;UNREACHABLE;HARD;3;north_host_007-dummy_unreachable-4
+[2019-12-17 09:22:20] INFO: SERVICE ALERT: north_host_007;dummy_unknown;UNREACHABLE;HARD;3;north_host_007-dummy_unknown-4
+[2019-12-17 09:22:20] INFO: SERVICE ALERT: north_host_007;dummy_critical;UNREACHABLE;HARD;3;north_host_007-dummy_critical-4
+[2019-12-17 09:22:25] INFO: SERVICE ALERT: north_host_009;dummy_ok;OK;HARD;1;north_host_009
+[2019-12-17 09:22:31] INFO: SERVICE ALERT: north_host_001;dummy_ok;OK;HARD;1;north_host_001
+[2019-12-17 09:22:37] INFO: HOST ALERT: north_host_009;UP;HARD;1;I am always Up
+[2019-12-17 09:22:37] INFO: SERVICE ALERT: north_host_009;dummy_unreachable;UNREACHABLE;HARD;3;north_host_009-dummy_unreachable-4
+[2019-12-17 09:22:38] INFO: SERVICE ALERT: host_1;dummy_no_output;OK;HARD;1;Service internal check result: 0
+[2019-12-17 09:22:47] INFO: SERVICE ALERT: north_host_006;dummy_ok;OK;HARD;1;north_host_006
+[2019-12-17 09:22:52] INFO: SERVICE ALERT: south_host_005;dummy_ok;OK;HARD;1;south_host_005
+[2019-12-17 09:23:08] INFO: SERVICE ALERT: north_host_008;dummy_ok;OK;HARD;1;north_host_008
+[2019-12-17 09:23:11] INFO: SERVICE ALERT: south_host_009;dummy_unknown;UNKNOWN;HARD;3;south_host_009-dummy_unknown-3
+[2019-12-17 09:23:11] WARNING: SERVICE ALERT: south_host_009;dummy_warning;WARNING;HARD;3;south_host_009-dummy_warning-1
+[2019-12-17 09:23:11] ERROR: SERVICE ALERT: south_host_009;dummy_random;CRITICAL;SOFT;2;Service internal check result: 2
+[2019-12-17 09:23:12] WARNING: SERVICE NOTIFICATION: notified;south_host_009;dummy_warning;WARNING;1;notify-service-by-log;south_host_009-dummy_warning-1
+[2019-12-17 09:23:14] INFO: SERVICE ALERT: south_host_000;dummy_unreachable;UNREACHABLE;SOFT;2;south_host_000-dummy_unreachable-4
+[2019-12-17 09:23:14] INFO: SERVICE ALERT: south_host_000;dummy_unknown;UNKNOWN;SOFT;2;south_host_000-dummy_unknown-3
+[2019-12-17 09:23:22] INFO: SERVICE ALERT: south_host_003;dummy_no_output;OK;HARD;1;Service internal check result: 0
+[2019-12-17 09:23:25] INFO: SERVICE ALERT: south_host_005;dummy_no_output;OK;HARD;1;Service internal check result: 0
+[2019-12-17 09:23:30] INFO: SERVICE ALERT: north_host_007;dummy_no_output;OK;HARD;1;Service internal check result: 0
+[2019-12-17 09:23:33] INFO: SERVICE ALERT: host_2;dummy_ok;OK;HARD;1;host_2
+[2019-12-17 09:23:37] WARNING: SERVICE ALERT: south_host_004;dummy_random;WARNING;SOFT;1;Service internal check result: 1
+[2019-12-17 09:23:37] INFO: SERVICE ALERT: south_host_004;dummy_unreachable;UNREACHABLE;SOFT;2;south_host_004-dummy_unreachable-4
+[2019-12-17 09:23:37] WARNING: SERVICE ALERT: south_host_004;dummy_warning;WARNING;SOFT;2;south_host_004-dummy_warning-1
+[2019-12-17 09:23:37] INFO: SERVICE ALERT: north_host_009;dummy_random;OK;HARD;1;Service internal check result: 0
+[2019-12-17 09:23:37] INFO: SERVICE ALERT: south_host_004;dummy_unknown;UNKNOWN;SOFT;2;south_host_004-dummy_unknown-3
+[2019-12-17 09:23:37] ERROR: SERVICE ALERT: south_host_004;dummy_critical;CRITICAL;SOFT;2;south_host_004-dummy_critical-2
+[2019-12-17 09:23:47] INFO: SERVICE ALERT: north_host_005;dummy_ok;OK;HARD;1;north_host_005
+[2019-12-17 09:23:48] INFO: HOST ALERT: north_host_006;UP;HARD;1;I am always Up
+[2019-12-17 09:23:48] INFO: SERVICE ALERT: north_host_006;dummy_critical;UNREACHABLE;HARD;3;north_host_006-dummy_critical-4
+[2019-12-17 09:23:48] INFO: SERVICE ALERT: north_host_006;dummy_unknown;UNREACHABLE;HARD;3;north_host_006-dummy_unknown-4
+[2019-12-17 09:23:48] INFO: SERVICE ALERT: north_host_006;dummy_unreachable;UNREACHABLE;HARD;3;north_host_006-dummy_unreachable-4
+[2019-12-17 09:23:54] INFO: SERVICE ALERT: host_0;dummy_unknown;UNKNOWN;HARD;3;host_0-dummy_unknown-3
+[2019-12-17 09:23:54] ERROR: SERVICE ALERT: host_0;dummy_random;CRITICAL;HARD;3;Service internal check result: 2
+[2019-12-17 09:23:54] ERROR: SERVICE ALERT: host_0;dummy_critical;CRITICAL;HARD;3;host_0-dummy_critical-2
+[2019-12-17 09:23:54] INFO: SERVICE ALERT: host_0;dummy_unreachable;UNREACHABLE;HARD;3;host_0-dummy_unreachable-4
+[2019-12-17 09:23:54] WARNING: SERVICE ALERT: host_0;dummy_warning;WARNING;HARD;3;host_0-dummy_warning-1
+[2019-12-17 09:23:55] ERROR: SERVICE NOTIFICATION: notified;host_0;dummy_random;CRITICAL;1;notify-service-by-log;Service internal check result: 2
+[2019-12-17 09:23:55] ERROR: SERVICE NOTIFICATION: notified;host_0;dummy_critical;CRITICAL;1;notify-service-by-log;host_0-dummy_critical-2
+[2019-12-17 09:23:55] WARNING: SERVICE NOTIFICATION: notified;host_0;dummy_warning;WARNING;1;notify-service-by-log;host_0-dummy_warning-1
+[2019-12-17 09:23:57] INFO: SERVICE ALERT: host_3;dummy_unreachable;UNREACHABLE;HARD;3;host_3-dummy_unreachable-4
+[2019-12-17 09:24:06] INFO: SERVICE ALERT: south_host_006;dummy_unreachable;UNREACHABLE;HARD;3;south_host_006-dummy_unreachable-4
+[2019-12-17 09:24:06] INFO: SERVICE ALERT: north_host_000;dummy_ok;OK;HARD;1;north_host_000
+[2019-12-17 09:24:06] WARNING: SERVICE ALERT: south_host_006;dummy_random;WARNING;HARD;3;Service internal check result: 1
+[2019-12-17 09:24:06] INFO: SERVICE ALERT: south_host_006;dummy_unknown;UNKNOWN;HARD;3;south_host_006-dummy_unknown-3
+[2019-12-17 09:24:06] ERROR: SERVICE ALERT: south_host_006;dummy_critical;CRITICAL;HARD;3;south_host_006-dummy_critical-2
+[2019-12-17 09:24:07] WARNING: SERVICE NOTIFICATION: notified;south_host_006;dummy_random;WARNING;1;notify-service-by-log;Service internal check result: 1
+[2019-12-17 09:24:07] ERROR: SERVICE NOTIFICATION: notified;south_host_006;dummy_critical;CRITICAL;1;notify-service-by-log;south_host_006-dummy_critical-2
+[2019-12-17 09:24:08] INFO: HOST ALERT: north_host_002;UP;HARD;1;I am always Up
+[2019-12-17 09:24:08] INFO: SERVICE ALERT: north_host_002;dummy_unknown;UNREACHABLE;HARD;3;north_host_002-dummy_unknown-4
+[2019-12-17 09:24:08] INFO: SERVICE ALERT: north_host_002;dummy_critical;UNREACHABLE;HARD;3;north_host_002-dummy_critical-4
+[2019-12-17 09:24:08] INFO: SERVICE ALERT: north_host_002;dummy_warning;UNREACHABLE;HARD;3;north_host_002-dummy_warning-4
+[2019-12-17 09:24:08] INFO: SERVICE ALERT: north_host_002;dummy_unreachable;UNREACHABLE;HARD;3;north_host_002-dummy_unreachable-4
+[2019-12-17 09:24:25] INFO: SERVICE ALERT: north_host_000;dummy_random;OK;HARD;1;Service internal check result: 0
+[2019-12-17 09:24:26] INFO: SERVICE ALERT: north_host_007;dummy_random;OK;HARD;1;Service internal check result: 0
+[2019-12-17 09:24:29] INFO: SERVICE ALERT: host_3;dummy_random;OK;HARD;0;Service internal check result: 0
+[2019-12-17 09:24:53] INFO: SERVICE ALERT: north_host_009;dummy_no_output;OK;HARD;1;Service internal check result: 0
+[2019-12-17 09:24:55] INFO: SERVICE ALERT: north_host_003;dummy_no_output;OK;HARD;1;Service internal check result: 0
+[2019-12-17 09:25:00] INFO: HOST ALERT: north_host_001;UP;HARD;1;I am always Up
+[2019-12-17 09:25:00] INFO: SERVICE ALERT: north_host_001;dummy_warning;UNREACHABLE;SOFT;2;north_host_001-dummy_warning-4
+[2019-12-17 09:25:00] INFO: SERVICE ALERT: north_host_001;dummy_unknown;UNREACHABLE;SOFT;2;north_host_001-dummy_unknown-4
+[2019-12-17 09:25:00] INFO: SERVICE ALERT: north_host_002;dummy_ok;OK;HARD;1;north_host_002
+[2019-12-17 09:25:00] INFO: SERVICE ALERT: north_host_001;dummy_unreachable;UNREACHABLE;SOFT;2;north_host_001-dummy_unreachable-4
+[2019-12-17 09:25:00] INFO: SERVICE ALERT: north_host_001;dummy_critical;UNREACHABLE;SOFT;2;north_host_001-dummy_critical-4
+[2019-12-17 09:25:02] INFO: SERVICE ALERT: host_1;dummy_ok;OK;HARD;1;host_1
+[2019-12-17 09:25:07] INFO: SERVICE ALERT: my-mongo-alone;Cpu;UNKNOWN;HARD;4;connect to address 127.0.0.1 port 5666: Connection refused
+[2019-12-17 09:25:07] INFO: SERVICE ALERT: my-mongo-alone;Opened files;UNKNOWN;HARD;4;connect to address 127.0.0.1 port 5666: Connection refused
+[2019-12-17 09:25:07] INFO: SERVICE ALERT: my-mongo-alone;Processus;UNKNOWN;SOFT;3;connect to address 127.0.0.1 port 5666: Connection refused
+[2019-12-17 09:25:14] WARNING: SERVICE ALERT: my-mongo-slave;check-replication-lag-percentage;WARNING;HARD;3;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:25:16] WARNING: SERVICE NOTIFICATION: notified;my-mongo-slave;check-replication-lag-percentage;WARNING;1;notify-service-by-log;File "/home/fred/mod-webui/test/test-configurations/alignak/commands/check_mongodb.py", line 38
+[2019-12-17 09:25:15] INFO: SERVICE ALERT: south_host_003;dummy_random;OK;HARD;1;Service internal check result: 0
+[2019-12-17 09:25:32] INFO: SERVICE ALERT: north_host_004;dummy_ok;OK;HARD;1;north_host_004
+[2019-12-17 09:25:36] INFO: HOST ALERT: north_host_003;UP;HARD;1;I am always Up
+[2019-12-17 09:25:36] INFO: SERVICE ALERT: north_host_003;dummy_warning;UNREACHABLE;SOFT;2;north_host_003-dummy_warning-4
+[2019-12-17 09:25:36] INFO: SERVICE ALERT: north_host_003;dummy_critical;UNREACHABLE;SOFT;2;north_host_003-dummy_critical-4
+[2019-12-17 09:25:36] INFO: SERVICE ALERT: north_host_003;dummy_unknown;UNREACHABLE;SOFT;2;north_host_003-dummy_unknown-4
+[2019-12-17 09:25:36] INFO: SERVICE ALERT: north_host_003;dummy_unreachable;UNREACHABLE;SOFT;2;north_host_003-dummy_unreachable-4
+[2019-12-17 09:25:36] INFO: SERVICE ALERT: north_host_003;dummy_random;UNREACHABLE;SOFT;2;Service internal check result: 4
+[2019-12-17 09:25:40] INFO: SERVICE ALERT: north_host_004;dummy_no_output;OK;HARD;1;Service internal check result: 0
+[2019-12-17 09:25:57] INFO: SERVICE ALERT: host_1;dummy_warning;UNREACHABLE;HARD;3;host_1-dummy_warning-4
+[2019-12-17 09:25:57] INFO: SERVICE ALERT: host_1;dummy_unreachable;UNREACHABLE;HARD;3;host_1-dummy_unreachable-4
+[2019-12-17 09:25:57] INFO: SERVICE ALERT: host_1;dummy_critical;UNREACHABLE;HARD;3;host_1-dummy_critical-4
+[2019-12-17 09:25:57] INFO: SERVICE ALERT: host_1;dummy_unknown;UNREACHABLE;HARD;3;host_1-dummy_unknown-4
+[2019-12-17 09:26:34] ERROR: HOST ALERT: host_11;DOWN;SOFT;1;I am changing for 2
+[2019-12-17 09:26:34] INFO: SERVICE ALERT: host_11;dummy_critical;UNREACHABLE;HARD;3;host_11-dummy_critical-4
+[2019-12-17 09:27:02] ERROR: HOST ALERT: south_host_007;DOWN;SOFT;1;I am always Up but sometimes Down...
+[2019-12-17 09:27:02] INFO: SERVICE ALERT: south_host_007;dummy_unknown;UNREACHABLE;HARD;3;south_host_007-dummy_unknown-3
+[2019-12-17 09:27:02] INFO: SERVICE ALERT: south_host_007;dummy_unreachable;UNREACHABLE;HARD;3;south_host_007-dummy_unreachable-4
+[2019-12-17 09:27:02] INFO: SERVICE ALERT: south_host_007;dummy_warning;UNREACHABLE;HARD;3;south_host_007-dummy_warning-1
+[2019-12-17 09:27:02] INFO: SERVICE ALERT: south_host_007;dummy_critical;UNREACHABLE;HARD;3;south_host_007-dummy_critical-2
+[2019-12-17 09:27:02] INFO: SERVICE ALERT: south_host_007;dummy_random;UNREACHABLE;SOFT;1;Service internal check result: 1
+[2019-12-17 09:27:34] ERROR: HOST ALERT: host_11;DOWN;SOFT;2;I am changing for 1
+[2019-12-17 09:28:34] ERROR: HOST ALERT: host_11;DOWN;HARD;3;I am changing for 1
+[2019-12-17 09:30:06] INFO: SERVICE ALERT: my-mongo-alone;Processus;UNKNOWN;HARD;4;connect to address 127.0.0.1 port 5666: Connection refused
+[2019-12-17 09:30:40] INFO: HOST ALERT: south_host_003;UP;HARD;3;I am always Up but sometimes Down...
+[2019-12-17 09:30:40] INFO: HOST NOTIFICATION: notified;south_host_003;UP;0;notify-host-by-log;I am always Up but sometimes Down...
+[2019-12-17 09:30:40] WARNING: SERVICE ALERT: south_host_003;dummy_warning;WARNING;HARD;3;south_host_003-dummy_warning-1
+[2019-12-17 09:30:40] INFO: SERVICE ALERT: south_host_003;dummy_critical;UNREACHABLE;HARD;3;south_host_003-dummy_critical-4
+[2019-12-17 09:30:40] INFO: SERVICE ALERT: south_host_003;dummy_unreachable;UNREACHABLE;HARD;3;south_host_003-dummy_unreachable-4
+[2019-12-17 09:30:40] INFO: SERVICE ALERT: south_host_003;dummy_unknown;UNREACHABLE;HARD;3;south_host_003-dummy_unknown-4
+[2019-12-17 09:30:42] WARNING: SERVICE NOTIFICATION: notified;south_host_003;dummy_warning;WARNING;1;notify-service-by-log;south_host_003-dummy_warning-1
+[2019-12-17 09:31:25] INFO: HOST ALERT: south_host_005;UP;HARD;3;I am always Up but sometimes Down...
+[2019-12-17 09:31:25] INFO: HOST NOTIFICATION: notified;south_host_005;UP;0;notify-host-by-log;I am always Up but sometimes Down...
+[2019-12-17 09:31:25] INFO: SERVICE ALERT: south_host_005;dummy_warning;UNREACHABLE;HARD;3;south_host_005-dummy_warning-4
+[2019-12-17 09:31:25] INFO: SERVICE ALERT: south_host_005;dummy_unreachable;UNREACHABLE;HARD;3;south_host_005-dummy_unreachable-4
+[2019-12-17 09:31:25] INFO: SERVICE ALERT: south_host_005;dummy_critical;UNREACHABLE;HARD;3;south_host_005-dummy_critical-4
+[2019-12-17 09:31:25] INFO: SERVICE ALERT: south_host_005;dummy_random;UNREACHABLE;HARD;3;Service internal check result: 4
+[2019-12-17 09:32:02] ERROR: HOST ALERT: south_host_007;DOWN;SOFT;2;I am always Up but sometimes Down...
+[2019-12-17 09:32:02] INFO: SERVICE ALERT: south_host_001;dummy_critical;UNREACHABLE;HARD;3;south_host_001-dummy_critical-4
+[2019-12-17 09:32:02] INFO: SERVICE ALERT: south_host_001;dummy_unknown;UNREACHABLE;HARD;3;south_host_001-dummy_unknown-4
+[2019-12-17 09:32:02] INFO: SERVICE ALERT: south_host_007;dummy_random;UNREACHABLE;SOFT;2;Service internal check result: 4
+[2019-12-17 09:32:05] INFO: SERVICE ACKNOWLEDGE ALERT: host_2;dummy_random;EXPIRED; Service problem acknowledge expired
+[2019-12-17 09:32:05] INFO: SERVICE ALERT: host_2;dummy_random;OK;HARD;3;Service internal check result: 0
+[2019-12-17 09:32:53] INFO: HOST ALERT: internal-router-north;UP;HARD;2;I am not always Up, sometimes down
+[2019-12-17 09:33:55] INFO: SERVICE ALERT: host_0;dummy_random;OK;HARD;3;Service internal check result: 0
+[2019-12-17 09:33:55] INFO: SERVICE NOTIFICATION: notified;host_0;dummy_random;OK;0;notify-service-by-log;Service internal check result: 0
+[2019-12-17 09:35:57] WARNING: SERVICE ALERT: north_host_005;dummy_random;WARNING;HARD;0;Service internal check result: 1
+[2019-12-17 09:35:57] WARNING: SERVICE ALERT: north_host_005;dummy_warning;WARNING;HARD;0;north_host_005-dummy_warning-1
+[2019-12-17 09:35:57] ERROR: SERVICE ALERT: north_host_005;dummy_critical;CRITICAL;HARD;0;north_host_005-dummy_critical-2
+[2019-12-17 09:35:58] WARNING: SERVICE NOTIFICATION: notified;north_host_005;dummy_random;WARNING;1;notify-service-by-log;Service internal check result: 1
+[2019-12-17 09:35:58] WARNING: SERVICE NOTIFICATION: notified;north_host_005;dummy_warning;WARNING;1;notify-service-by-log;north_host_005-dummy_warning-1
+[2019-12-17 09:35:58] ERROR: SERVICE NOTIFICATION: notified;north_host_005;dummy_critical;CRITICAL;1;notify-service-by-log;north_host_005-dummy_critical-2
+[2019-12-17 09:36:10] ERROR: SERVICE ALERT: south_host_008;dummy_critical;CRITICAL;SOFT;1;south_host_008-dummy_critical-2
+[2019-12-17 09:36:10] INFO: SERVICE ALERT: south_host_008;dummy_unreachable;UNREACHABLE;SOFT;1;south_host_008-dummy_unreachable-4
+[2019-12-17 09:36:10] ERROR: SERVICE ALERT: south_host_008;dummy_random;CRITICAL;SOFT;1;Service internal check result: 2
+[2019-12-17 09:36:10] WARNING: SERVICE ALERT: south_host_008;dummy_warning;WARNING;SOFT;1;south_host_008-dummy_warning-1
+[2019-12-17 09:36:12] ERROR: SERVICE ALERT: north_host_004;dummy_critical;CRITICAL;HARD;0;north_host_004-dummy_critical-2
+[2019-12-17 09:36:12] ERROR: SERVICE ALERT: north_host_004;dummy_random;CRITICAL;HARD;0;Service internal check result: 2
+[2019-12-17 09:36:12] WARNING: SERVICE ALERT: north_host_004;dummy_warning;WARNING;HARD;0;north_host_004-dummy_warning-1
+[2019-12-17 09:36:13] ERROR: SERVICE NOTIFICATION: notified;north_host_004;dummy_critical;CRITICAL;1;notify-service-by-log;north_host_004-dummy_critical-2
+[2019-12-17 09:36:13] ERROR: SERVICE NOTIFICATION: notified;north_host_004;dummy_random;CRITICAL;1;notify-service-by-log;Service internal check result: 2
+[2019-12-17 09:36:13] WARNING: SERVICE NOTIFICATION: notified;north_host_004;dummy_warning;WARNING;1;notify-service-by-log;north_host_004-dummy_warning-1
+[2019-12-17 09:36:37] ERROR: SERVICE ALERT: north_host_008;dummy_critical;CRITICAL;HARD;0;north_host_008-dummy_critical-2
+[2019-12-17 09:36:37] WARNING: SERVICE ALERT: north_host_008;dummy_warning;WARNING;HARD;0;north_host_008-dummy_warning-1
+[2019-12-17 09:36:37] WARNING: SERVICE ALERT: north_host_008;dummy_random;WARNING;HARD;1;Service internal check result: 1
+[2019-12-17 09:36:38] ERROR: SERVICE NOTIFICATION: notified;north_host_008;dummy_critical;CRITICAL;1;notify-service-by-log;north_host_008-dummy_critical-2
+[2019-12-17 09:36:38] WARNING: SERVICE NOTIFICATION: notified;north_host_008;dummy_warning;WARNING;1;notify-service-by-log;north_host_008-dummy_warning-1
+[2019-12-17 09:36:38] WARNING: SERVICE NOTIFICATION: notified;north_host_008;dummy_random;WARNING;1;notify-service-by-log;Service internal check result: 1
+[2019-12-17 09:36:42] WARNING: SERVICE ALERT: north_host_000;dummy_warning;WARNING;HARD;0;north_host_000-dummy_warning-1
+[2019-12-17 09:36:42] ERROR: SERVICE ALERT: north_host_000;dummy_critical;CRITICAL;HARD;0;north_host_000-dummy_critical-2
+[2019-12-17 09:36:43] WARNING: SERVICE NOTIFICATION: notified;north_host_000;dummy_warning;WARNING;1;notify-service-by-log;north_host_000-dummy_warning-1
+[2019-12-17 09:36:43] ERROR: SERVICE NOTIFICATION: notified;north_host_000;dummy_critical;CRITICAL;1;notify-service-by-log;north_host_000-dummy_critical-2
+[2019-12-17 09:37:03] ERROR: HOST ALERT: south_host_002;DOWN;SOFT;1;I am always Up but sometimes Down...
+[2019-12-17 09:37:03] ERROR: HOST ALERT: south_host_007;DOWN;HARD;3;I am always Up but sometimes Down...
+[2019-12-17 09:37:03] INFO: SERVICE ALERT: south_host_002;dummy_critical;UNREACHABLE;SOFT;1;south_host_002-dummy_critical-2
+[2019-12-17 09:37:03] INFO: SERVICE ALERT: south_host_002;dummy_unknown;UNREACHABLE;SOFT;1;south_host_002-dummy_unknown-3
+[2019-12-17 09:37:03] INFO: SERVICE ALERT: south_host_002;dummy_random;UNREACHABLE;SOFT;1;Service internal check result: 4
+[2019-12-17 09:37:03] INFO: SERVICE ALERT: south_host_002;dummy_unreachable;UNREACHABLE;SOFT;1;south_host_002-dummy_unreachable-4
+[2019-12-17 09:37:03] INFO: SERVICE ALERT: south_host_002;dummy_warning;UNREACHABLE;SOFT;1;south_host_002-dummy_warning-1
+[2019-12-17 09:37:03] INFO: SERVICE ALERT: south_host_007;dummy_random;UNREACHABLE;HARD;3;Service internal check result: 4
+[2019-12-17 09:37:04] ERROR: HOST NOTIFICATION: notified;south_host_007;DOWN;1;notify-host-by-log;I am always Up but sometimes Down...
+[2019-12-17 09:37:20] WARNING: SERVICE ALERT: north_host_007;dummy_warning;WARNING;HARD;0;north_host_007-dummy_warning-1
+[2019-12-17 09:37:20] ERROR: SERVICE ALERT: north_host_007;dummy_critical;CRITICAL;HARD;3;north_host_007-dummy_critical-2
+[2019-12-17 09:37:21] WARNING: SERVICE NOTIFICATION: notified;north_host_007;dummy_warning;WARNING;1;notify-service-by-log;north_host_007-dummy_warning-1
+[2019-12-17 09:37:21] ERROR: SERVICE NOTIFICATION: notified;north_host_007;dummy_critical;CRITICAL;1;notify-service-by-log;north_host_007-dummy_critical-2
+[2019-12-17 09:37:37] WARNING: SERVICE ALERT: north_host_009;dummy_warning;WARNING;HARD;0;north_host_009-dummy_warning-1
+[2019-12-17 09:37:37] ERROR: SERVICE ALERT: north_host_009;dummy_critical;CRITICAL;HARD;0;north_host_009-dummy_critical-2
+[2019-12-17 09:37:38] WARNING: SERVICE NOTIFICATION: notified;north_host_009;dummy_warning;WARNING;1;notify-service-by-log;north_host_009-dummy_warning-1
+[2019-12-17 09:37:38] ERROR: SERVICE NOTIFICATION: notified;north_host_009;dummy_critical;CRITICAL;1;notify-service-by-log;north_host_009-dummy_critical-2
+[2019-12-17 09:37:53] INFO: SERVICE ALERT: south_host_001;dummy_random;OK;HARD;1;Service internal check result: 0
+[2019-12-17 09:38:11] INFO: SERVICE ALERT: south_host_009;dummy_unreachable;UNREACHABLE;SOFT;1;south_host_009-dummy_unreachable-4
+[2019-12-17 09:38:11] ERROR: SERVICE ALERT: south_host_009;dummy_critical;CRITICAL;SOFT;1;south_host_009-dummy_critical-2
+[2019-12-17 09:38:11] ERROR: SERVICE ALERT: south_host_009;dummy_random;CRITICAL;HARD;3;Service internal check result: 2
+[2019-12-17 09:38:12] ERROR: SERVICE NOTIFICATION: notified;south_host_009;dummy_random;CRITICAL;1;notify-service-by-log;Service internal check result: 2
+[2019-12-17 09:38:14] INFO: SERVICE ALERT: south_host_000;dummy_unreachable;UNREACHABLE;HARD;3;south_host_000-dummy_unreachable-4
+[2019-12-17 09:38:14] INFO: SERVICE ALERT: south_host_000;dummy_unknown;UNKNOWN;HARD;3;south_host_000-dummy_unknown-3
+[2019-12-17 09:38:14] ERROR: SERVICE ALERT: south_host_000;dummy_critical;CRITICAL;SOFT;1;south_host_000-dummy_critical-2
+[2019-12-17 09:38:14] WARNING: SERVICE ALERT: south_host_000;dummy_warning;WARNING;SOFT;1;south_host_000-dummy_warning-1
+[2019-12-17 09:38:29] INFO: SERVICE ALERT: south_host_009;dummy_random;OK;HARD;3;Service internal check result: 0
+[2019-12-17 09:38:29] INFO: SERVICE NOTIFICATION: notified;south_host_009;dummy_random;OK;0;notify-service-by-log;Service internal check result: 0
+[2019-12-17 09:38:48] ERROR: SERVICE ALERT: north_host_006;dummy_critical;CRITICAL;HARD;3;north_host_006-dummy_critical-2
+[2019-12-17 09:38:48] WARNING: SERVICE ALERT: north_host_006;dummy_warning;WARNING;HARD;0;north_host_006-dummy_warning-1
+[2019-12-17 09:38:48] INFO: SERVICE ALERT: north_host_008;dummy_random;OK;HARD;1;Service internal check result: 0
+[2019-12-17 09:38:48] INFO: SERVICE NOTIFICATION: notified;north_host_008;dummy_random;OK;0;notify-service-by-log;Service internal check result: 0
+[2019-12-17 09:38:50] ERROR: SERVICE NOTIFICATION: notified;north_host_006;dummy_critical;CRITICAL;1;notify-service-by-log;north_host_006-dummy_critical-2
+[2019-12-17 09:38:50] WARNING: SERVICE NOTIFICATION: notified;north_host_006;dummy_warning;WARNING;1;notify-service-by-log;north_host_006-dummy_warning-1
+[2019-12-17 09:40:59] INFO: RETENTION LOAD: scheduler-master
+[2019-12-17 09:42:02] ERROR: HOST ALERT: south_host_002;DOWN;SOFT;2;I am always Up but sometimes Down...
+[2019-12-17 09:42:02] INFO: SERVICE ALERT: south_host_002;dummy_unknown;UNREACHABLE;SOFT;2;south_host_002-dummy_unknown-4
+[2019-12-17 09:42:02] INFO: SERVICE ALERT: south_host_002;dummy_unreachable;UNREACHABLE;SOFT;2;south_host_002-dummy_unreachable-4
+[2019-12-17 09:42:02] INFO: SERVICE ALERT: south_host_002;dummy_warning;UNREACHABLE;SOFT;2;south_host_002-dummy_warning-4
+[2019-12-17 09:42:02] INFO: SERVICE ALERT: south_host_002;dummy_critical;UNREACHABLE;SOFT;2;south_host_002-dummy_critical-4
+[2019-12-17 09:42:02] INFO: SERVICE ALERT: south_host_002;dummy_random;UNREACHABLE;SOFT;2;Service internal check result: 4
+[2019-12-17 09:42:53] ERROR: HOST ALERT: internal-router-north;DOWN;SOFT;1;I am not always Up, sometimes down
+[2019-12-17 09:43:35] INFO: HOST ALERT: host_11;UP;HARD;3;I am changing for 0
+[2019-12-17 09:46:16] INFO: RETENTION LOAD: scheduler-master
+[2019-12-17 09:57:01] INFO: RETENTION LOAD: scheduler-master
+[2019-12-17 09:58:50] INFO: RETENTION LOAD: scheduler-master
+[2019-12-17 10:00:09] INFO: SERVICE ALERT: north_host_002;dummy_random;OK;HARD;0;Service internal check result: 0
+[2019-12-17 10:01:15] INFO: RETENTION LOAD: scheduler-master
+[2019-12-17 10:01:51] ERROR: HOST ALERT: south_host_002;DOWN;HARD;3;I am always Up but sometimes Down...
+[2019-12-17 10:01:51] INFO: SERVICE ALERT: south_host_002;dummy_unknown;UNREACHABLE;HARD;3;south_host_002-dummy_unknown-4
+[2019-12-17 10:01:51] INFO: SERVICE ALERT: south_host_002;dummy_warning;UNREACHABLE;HARD;3;south_host_002-dummy_warning-4
+[2019-12-17 10:01:51] INFO: SERVICE ALERT: south_host_002;dummy_unreachable;UNREACHABLE;HARD;3;south_host_002-dummy_unreachable-4
+[2019-12-17 10:01:52] ERROR: HOST NOTIFICATION: notified;south_host_002;DOWN;1;notify-host-by-log;I am always Up but sometimes Down...
+[2019-12-17 10:02:35] INFO: SERVICE ALERT: south_host_007;dummy_random;OK;HARD;3;Service internal check result: 0
+[2019-12-17 10:02:47] ERROR: HOST ALERT: internal-router-north;DOWN;HARD;2;I am not always Up, sometimes down
+[2019-12-17 10:06:17] INFO: SERVICE ALERT: host_2;dummy_no_output;OK;HARD;1;Service internal check result: 0
+[2019-12-17 10:06:27] INFO: SERVICE ALERT: south_host_007;dummy_no_output;OK;HARD;1;Service internal check result: 0
+[2019-12-17 10:06:50] ERROR: HOST ALERT: south_host_008;DOWN;SOFT;1;I am always Up but sometimes Down...
+[2019-12-17 10:06:50] INFO: SERVICE ALERT: south_host_008;dummy_warning;UNREACHABLE;SOFT;2;south_host_008-dummy_warning-1
+[2019-12-17 10:06:50] INFO: SERVICE ALERT: south_host_008;dummy_unreachable;UNREACHABLE;SOFT;2;south_host_008-dummy_unreachable-4
+[2019-12-17 10:06:50] INFO: SERVICE ALERT: south_host_008;dummy_critical;UNREACHABLE;SOFT;2;south_host_008-dummy_critical-2
+[2019-12-17 10:06:50] INFO: SERVICE ALERT: south_host_008;dummy_random;UNREACHABLE;SOFT;2;Service internal check result: 2
+[2019-12-17 10:07:07] INFO: SERVICE ALERT: host_11;dummy_random;OK;HARD;1;Service internal check result: 0
+[2019-12-17 10:08:11] INFO: SERVICE ALERT: south_host_009;dummy_unreachable;UNREACHABLE;SOFT;2;south_host_009-dummy_unreachable-4
+[2019-12-17 10:08:11] ERROR: SERVICE ALERT: south_host_009;dummy_critical;CRITICAL;SOFT;2;south_host_009-dummy_critical-2
+[2019-12-17 10:08:14] ERROR: SERVICE ALERT: south_host_000;dummy_critical;CRITICAL;SOFT;2;south_host_000-dummy_critical-2
+[2019-12-17 10:08:14] WARNING: SERVICE ALERT: south_host_000;dummy_warning;WARNING;SOFT;2;south_host_000-dummy_warning-1
+[2019-12-17 10:08:33] INFO: SERVICE ALERT: host_2;dummy_ok;OK;HARD;1;host_2
+[2019-12-17 10:08:37] ERROR: SERVICE ALERT: south_host_004;dummy_critical;CRITICAL;HARD;3;south_host_004-dummy_critical-2
+[2019-12-17 10:08:37] WARNING: SERVICE ALERT: south_host_004;dummy_warning;WARNING;HARD;3;south_host_004-dummy_warning-1
+[2019-12-17 10:08:37] INFO: SERVICE ALERT: south_host_004;dummy_unreachable;UNREACHABLE;HARD;3;south_host_004-dummy_unreachable-4
+[2019-12-17 10:08:37] INFO: SERVICE ALERT: south_host_004;dummy_unknown;UNKNOWN;HARD;3;south_host_004-dummy_unknown-3
+[2019-12-17 10:08:37] WARNING: SERVICE ALERT: south_host_004;dummy_random;WARNING;SOFT;2;Service internal check result: 1
+[2019-12-17 10:08:38] ERROR: SERVICE NOTIFICATION: notified;south_host_004;dummy_critical;CRITICAL;1;notify-service-by-log;south_host_004-dummy_critical-2
+[2019-12-17 10:08:38] WARNING: SERVICE NOTIFICATION: notified;south_host_004;dummy_warning;WARNING;1;notify-service-by-log;south_host_004-dummy_warning-1
+[2019-12-17 10:09:26] INFO: RETENTION LOAD: scheduler-master
+[2019-12-17 10:09:29] INFO: SERVICE ALERT: host_3;dummy_random;OK;HARD;1;Service internal check result: 0
+[2019-12-17 10:09:53] INFO: SERVICE ALERT: north_host_009;dummy_no_output;OK;HARD;1;Service internal check result: 0
+[2019-12-17 10:09:54] INFO: SERVICE ALERT: north_host_003;dummy_no_output;OK;HARD;1;Service internal check result: 0
+[2019-12-17 10:10:01] INFO: HOST ALERT: north_host_001;UP;HARD;1;I am always Up
+[2019-12-17 10:10:01] INFO: SERVICE ALERT: south_host_002;dummy_ok;OK;HARD;1;south_host_002
+[2019-12-17 10:10:01] INFO: SERVICE ALERT: north_host_001;dummy_unknown;UNREACHABLE;HARD;3;north_host_001-dummy_unknown-4
+[2019-12-17 10:10:01] INFO: SERVICE ALERT: north_host_001;dummy_unreachable;UNREACHABLE;HARD;3;north_host_001-dummy_unreachable-4
+[2019-12-17 10:10:01] INFO: SERVICE ALERT: north_host_002;dummy_ok;OK;HARD;1;north_host_002
+[2019-12-17 10:10:01] INFO: SERVICE ALERT: north_host_001;dummy_warning;UNREACHABLE;HARD;3;north_host_001-dummy_warning-4
+[2019-12-17 10:10:02] INFO: SERVICE ALERT: host_1;dummy_ok;OK;HARD;1;host_1
+[2019-12-17 10:10:05] INFO: SERVICE ALERT: host_1;dummy_random;OK;HARD;1;Service internal check result: 0
+[2019-12-17 10:10:12] INFO: SERVICE ALERT: host_11;dummy_ok;OK;HARD;1;host_11
+[2019-12-17 10:10:32] INFO: SERVICE ALERT: north_host_006;dummy_random;OK;HARD;1;Service internal check result: 0
+[2019-12-17 10:10:32] INFO: SERVICE ALERT: host_3;dummy_ok;OK;HARD;1;host_3
+[2019-12-17 10:10:33] INFO: SERVICE ALERT: north_host_004;dummy_ok;OK;HARD;1;north_host_004
+[2019-12-17 10:10:36] INFO: HOST ALERT: north_host_003;UP;HARD;1;I am always Up
+[2019-12-17 10:10:36] INFO: SERVICE ALERT: north_host_003;dummy_unknown;UNREACHABLE;HARD;3;north_host_003-dummy_unknown-4
+[2019-12-17 10:10:36] INFO: SERVICE ALERT: north_host_003;dummy_unreachable;UNREACHABLE;HARD;3;north_host_003-dummy_unreachable-4
+[2019-12-17 10:10:36] INFO: SERVICE ALERT: north_host_003;dummy_random;UNREACHABLE;HARD;3;Service internal check result: 4
+[2019-12-17 10:10:36] INFO: SERVICE ALERT: north_host_003;dummy_critical;UNREACHABLE;HARD;3;north_host_003-dummy_critical-4
+[2019-12-17 10:10:36] INFO: SERVICE ALERT: north_host_003;dummy_warning;UNREACHABLE;HARD;3;north_host_003-dummy_warning-4
+[2019-12-17 10:10:40] INFO: SERVICE ALERT: north_host_004;dummy_no_output;OK;HARD;1;Service internal check result: 0
+[2019-12-17 10:11:50] ERROR: HOST ALERT: south_host_008;DOWN;SOFT;2;I am always Up but sometimes Down...
+[2019-12-17 10:11:50] INFO: SERVICE ALERT: south_host_008;dummy_warning;UNREACHABLE;HARD;3;south_host_008-dummy_warning-4
+[2019-12-17 10:11:50] INFO: SERVICE ALERT: south_host_008;dummy_unreachable;UNREACHABLE;HARD;3;south_host_008-dummy_unreachable-4
+[2019-12-17 10:11:50] INFO: SERVICE ALERT: south_host_008;dummy_critical;UNREACHABLE;HARD;3;south_host_008-dummy_critical-4
+[2019-12-17 10:11:50] INFO: SERVICE ALERT: south_host_008;dummy_random;UNREACHABLE;HARD;3;Service internal check result: 4
+[2019-12-17 10:12:48] INFO: RETENTION LOAD: scheduler-master
+[2019-12-17 10:21:41] INFO: RETENTION LOAD: scheduler-master
+[2019-12-17 10:21:43] ERROR: HOST NOTIFICATION: notified;south_host_001;DOWN;2;notify-host-by-log;I am always Up but sometimes Down...
+[2019-12-17 10:21:51] ERROR: HOST ALERT: south_host_008;DOWN;HARD;3;I am always Up but sometimes Down...
+[2019-12-17 10:21:52] ERROR: HOST NOTIFICATION: notified;south_host_008;DOWN;1;notify-host-by-log;I am always Up but sometimes Down...
+[2019-12-17 10:23:04] INFO: RETENTION LOAD: scheduler-master
+[2019-12-17 10:23:12] WARNING: SERVICE NOTIFICATION: notified;south_host_009;dummy_warning;WARNING;2;notify-service-by-log;south_host_009-dummy_warning-1
+[2019-12-17 10:23:37] WARNING: SERVICE ALERT: south_host_004;dummy_random;WARNING;HARD;3;Service internal check result: 1
+[2019-12-17 10:23:38] WARNING: SERVICE NOTIFICATION: notified;south_host_004;dummy_random;WARNING;1;notify-service-by-log;Service internal check result: 1
+[2019-12-17 10:23:48] INFO: SERVICE ALERT: north_host_008;dummy_random;OK;HARD;1;Service internal check result: 0
+[2019-12-17 10:23:55] WARNING: SERVICE NOTIFICATION: notified;host_0;dummy_warning;WARNING;2;notify-service-by-log;host_0-dummy_warning-1
+[2019-12-17 10:23:55] ERROR: SERVICE NOTIFICATION: notified;host_0;dummy_critical;CRITICAL;2;notify-service-by-log;host_0-dummy_critical-2
+[2019-12-17 10:24:06] INFO: SERVICE ALERT: north_host_000;dummy_ok;OK;HARD;1;north_host_000
+[2019-12-17 10:24:07] WARNING: SERVICE NOTIFICATION: notified;south_host_006;dummy_random;WARNING;2;notify-service-by-log;Service internal check result: 1
+[2019-12-17 10:24:07] ERROR: SERVICE NOTIFICATION: notified;south_host_006;dummy_critical;CRITICAL;2;notify-service-by-log;south_host_006-dummy_critical-2
+[2019-12-17 10:24:08] INFO: HOST ALERT: north_host_002;UP;HARD;1;I am always Up
+[2019-12-17 10:24:09] INFO: SERVICE ALERT: host_11;dummy_no_output;OK;HARD;1;Service internal check result: 0
+[2019-12-17 10:24:12] INFO: SERVICE ALERT: north_host_004;dummy_random;OK;HARD;0;Service internal check result: 0
+[2019-12-17 10:24:12] INFO: SERVICE NOTIFICATION: notified;north_host_004;dummy_random;OK;0;notify-service-by-log;Service internal check result: 0
+[2019-12-17 10:24:23] INFO: SERVICE ALERT: host_3;dummy_no_output;OK;HARD;1;Service internal check result: 0
+[2019-12-17 10:24:25] INFO: SERVICE ALERT: north_host_000;dummy_random;OK;HARD;1;Service internal check result: 0
+[2019-12-17 10:24:26] INFO: SERVICE ALERT: north_host_007;dummy_random;OK;HARD;1;Service internal check result: 0
+[2019-12-17 10:24:26] INFO: SERVICE ALERT: south_host_007;dummy_ok;OK;HARD;1;south_host_007
+[2019-12-17 10:25:00] INFO: SERVICE ALERT: north_host_001;dummy_critical;UNREACHABLE;HARD;3;north_host_001-dummy_critical-4
+[2019-12-17 10:25:00] WARNING: SERVICE ALERT: north_host_001;dummy_warning;WARNING;HARD;3;north_host_001-dummy_warning-1
+[2019-12-17 10:25:01] WARNING: SERVICE NOTIFICATION: notified;north_host_001;dummy_warning;WARNING;1;notify-service-by-log;north_host_001-dummy_warning-1
+[2019-12-17 10:25:02] INFO: SERVICE ALERT: host_1;dummy_ok;OK;HARD;1;host_1
+[2019-12-17 10:25:07] INFO: SERVICE ALERT: south_host_008;dummy_ok;OK;HARD;1;south_host_008
+[2019-12-17 10:25:36] WARNING: SERVICE ALERT: north_host_003;dummy_warning;WARNING;HARD;3;north_host_003-dummy_warning-1
+[2019-12-17 10:25:36] ERROR: SERVICE ALERT: north_host_003;dummy_critical;CRITICAL;HARD;3;north_host_003-dummy_critical-2
+[2019-12-17 10:25:37] WARNING: SERVICE NOTIFICATION: notified;north_host_003;dummy_warning;WARNING;1;notify-service-by-log;north_host_003-dummy_warning-1
+[2019-12-17 10:25:37] ERROR: SERVICE NOTIFICATION: notified;north_host_003;dummy_critical;CRITICAL;1;notify-service-by-log;north_host_003-dummy_critical-2
+[2019-12-17 10:26:50] ERROR: HOST ALERT: south_host_000;DOWN;SOFT;1;I am always Up but sometimes Down...
+[2019-12-17 10:26:50] INFO: SERVICE ALERT: south_host_000;dummy_random;UNREACHABLE;SOFT;1;Service internal check result: 2
+[2019-12-17 10:26:50] INFO: SERVICE ALERT: south_host_000;dummy_warning;UNREACHABLE;HARD;3;south_host_000-dummy_warning-1
+[2019-12-17 10:26:50] INFO: SERVICE ALERT: south_host_000;dummy_critical;UNREACHABLE;HARD;3;south_host_000-dummy_critical-2
+[2019-12-17 10:27:47] INFO: HOST ALERT: internal-router-north;UP;HARD;2;I am not always Up, sometimes down
+[2019-12-17 10:30:10] INFO: SERVICE ALERT: north_host_002;dummy_random;OK;HARD;1;Service internal check result: 0
+[2019-12-17 10:30:42] WARNING: SERVICE NOTIFICATION: notified;south_host_003;dummy_warning;WARNING;2;notify-service-by-log;south_host_003-dummy_warning-1
+[2019-12-17 10:31:48] INFO: HOST ALERT: south_host_002;UP;HARD;3;I am always Up but sometimes Down...
+[2019-12-17 10:31:48] INFO: HOST NOTIFICATION: notified;south_host_002;UP;0;notify-host-by-log;I am always Up but sometimes Down...
+[2019-12-17 10:31:48] WARNING: SERVICE ALERT: south_host_002;dummy_warning;WARNING;HARD;3;south_host_002-dummy_warning-1
+[2019-12-17 10:31:48] INFO: SERVICE ALERT: south_host_002;dummy_critical;UNREACHABLE;HARD;3;south_host_002-dummy_critical-4
+[2019-12-17 10:31:48] INFO: SERVICE ALERT: south_host_002;dummy_random;UNREACHABLE;HARD;3;Service internal check result: 4
+[2019-12-17 10:31:49] WARNING: SERVICE NOTIFICATION: notified;south_host_002;dummy_warning;WARNING;1;notify-service-by-log;south_host_002-dummy_warning-1
+[2019-12-17 10:31:50] ERROR: HOST ALERT: south_host_000;DOWN;SOFT;2;I am always Up but sometimes Down...
+[2019-12-17 10:31:50] ERROR: HOST ALERT: south_host_003;DOWN;SOFT;1;I am always Up but sometimes Down...
+[2019-12-17 10:31:50] ERROR: HOST ALERT: south_host_005;DOWN;SOFT;1;I am always Up but sometimes Down...
+[2019-12-17 10:31:50] INFO: SERVICE ALERT: south_host_000;dummy_random;UNREACHABLE;SOFT;2;Service internal check result: 4
+[2019-12-17 10:34:00] INFO: SERVICE ALERT: south_host_005;dummy_random;OK;HARD;3;Service internal check result: 0
+[2019-12-17 10:36:12] INFO: SERVICE ALERT: north_host_005;dummy_random;OK;HARD;0;Service internal check result: 0
+[2019-12-17 10:36:12] INFO: SERVICE NOTIFICATION: notified;north_host_005;dummy_random;OK;0;notify-service-by-log;Service internal check result: 0
+[2019-12-17 10:36:12] ERROR: SERVICE ALERT: north_host_004;dummy_critical;CRITICAL;HARD;0;north_host_004-dummy_critical-2
+[2019-12-17 10:36:12] ERROR: SERVICE NOTIFICATION: notified;north_host_004;dummy_critical;CRITICAL;2;notify-service-by-log;north_host_004-dummy_critical-2
+[2019-12-17 10:36:12] WARNING: SERVICE ALERT: north_host_004;dummy_warning;WARNING;HARD;0;north_host_004-dummy_warning-1
+[2019-12-17 10:36:12] WARNING: SERVICE NOTIFICATION: notified;north_host_004;dummy_warning;WARNING;2;notify-service-by-log;north_host_004-dummy_warning-1
+[2019-12-17 10:36:28] INFO: SERVICE ALERT: south_host_007;dummy_no_output;OK;HARD;1;Service internal check result: 0
+[2019-12-17 10:36:42] ERROR: SERVICE ALERT: north_host_000;dummy_critical;CRITICAL;HARD;0;north_host_000-dummy_critical-2
+[2019-12-17 10:36:42] ERROR: SERVICE NOTIFICATION: notified;north_host_000;dummy_critical;CRITICAL;2;notify-service-by-log;north_host_000-dummy_critical-2
+[2019-12-17 10:36:42] WARNING: SERVICE ALERT: north_host_000;dummy_warning;WARNING;HARD;0;north_host_000-dummy_warning-1
+[2019-12-17 10:36:42] WARNING: SERVICE NOTIFICATION: notified;north_host_000;dummy_warning;WARNING;2;notify-service-by-log;north_host_000-dummy_warning-1
+[2019-12-17 10:36:43] INFO: HOST ALERT: south_host_008;UP;HARD;3;I am always Up but sometimes Down...
+[2019-12-17 10:36:43] INFO: HOST NOTIFICATION: notified;south_host_008;UP;0;notify-host-by-log;I am always Up but sometimes Down...
+[2019-12-17 10:36:43] WARNING: SERVICE ALERT: south_host_008;dummy_warning;WARNING;HARD;3;south_host_008-dummy_warning-1
+[2019-12-17 10:36:43] ERROR: SERVICE ALERT: south_host_008;dummy_critical;CRITICAL;HARD;3;south_host_008-dummy_critical-2
+[2019-12-17 10:36:44] WARNING: SERVICE NOTIFICATION: notified;south_host_008;dummy_warning;WARNING;1;notify-service-by-log;south_host_008-dummy_warning-1
+[2019-12-17 10:36:44] ERROR: SERVICE NOTIFICATION: notified;south_host_008;dummy_critical;CRITICAL;1;notify-service-by-log;south_host_008-dummy_critical-2
+[2019-12-17 10:36:50] ERROR: HOST ALERT: south_host_000;DOWN;HARD;3;I am always Up but sometimes Down...
+[2019-12-17 10:36:50] ERROR: HOST ALERT: south_host_003;DOWN;SOFT;2;I am always Up but sometimes Down...
+[2019-12-17 10:36:50] ERROR: HOST ALERT: south_host_005;DOWN;SOFT;2;I am always Up but sometimes Down...
+[2019-12-17 10:36:50] INFO: SERVICE ALERT: south_host_000;dummy_random;UNREACHABLE;HARD;3;Service internal check result: 4
+[2019-12-17 10:36:51] ERROR: HOST NOTIFICATION: notified;south_host_000;DOWN;1;notify-host-by-log;I am always Up but sometimes Down...
+[2019-12-17 10:37:04] ERROR: HOST NOTIFICATION: notified;south_host_007;DOWN;2;notify-host-by-log;I am always Up but sometimes Down...
+[2019-12-17 10:37:21] WARNING: SERVICE ALERT: north_host_007;dummy_warning;WARNING;HARD;0;north_host_007-dummy_warning-1
+[2019-12-17 10:37:21] WARNING: SERVICE NOTIFICATION: notified;north_host_007;dummy_warning;WARNING;2;notify-service-by-log;north_host_007-dummy_warning-1
+[2019-12-17 10:37:21] ERROR: SERVICE NOTIFICATION: notified;north_host_007;dummy_critical;CRITICAL;2;notify-service-by-log;north_host_007-dummy_critical-2
+[2019-12-17 10:37:37] ERROR: SERVICE ALERT: north_host_009;dummy_critical;CRITICAL;HARD;0;north_host_009-dummy_critical-2
+[2019-12-17 10:37:37] ERROR: SERVICE NOTIFICATION: notified;north_host_009;dummy_critical;CRITICAL;2;notify-service-by-log;north_host_009-dummy_critical-2
+[2019-12-17 10:37:37] WARNING: SERVICE ALERT: north_host_009;dummy_warning;WARNING;HARD;0;north_host_009-dummy_warning-1
+[2019-12-17 10:37:37] WARNING: SERVICE NOTIFICATION: notified;north_host_009;dummy_warning;WARNING;2;notify-service-by-log;north_host_009-dummy_warning-1
+[2019-12-17 10:37:38] INFO: SERVICE ALERT: host_1;dummy_no_output;OK;HARD;1;Service internal check result: 0
+[2019-12-17 10:38:11] ERROR: SERVICE ALERT: south_host_009;dummy_critical;CRITICAL;HARD;3;south_host_009-dummy_critical-2
+[2019-12-17 10:38:11] INFO: SERVICE ALERT: south_host_009;dummy_unreachable;UNREACHABLE;HARD;3;south_host_009-dummy_unreachable-4
+[2019-12-17 10:38:12] ERROR: SERVICE NOTIFICATION: notified;south_host_009;dummy_critical;CRITICAL;1;notify-service-by-log;south_host_009-dummy_critical-2
+[2019-12-17 10:38:27] INFO: SERVICE ALERT: south_host_004;dummy_random;OK;HARD;3;Service internal check result: 0
+[2019-12-17 10:38:27] INFO: SERVICE NOTIFICATION: notified;south_host_004;dummy_random;OK;0;notify-service-by-log;Service internal check result: 0
+[2019-12-17 10:38:38] INFO: SERVICE ALERT: north_host_009;dummy_random;OK;HARD;1;Service internal check result: 0
+[2019-12-17 10:38:49] ERROR: SERVICE NOTIFICATION: notified;north_host_006;dummy_critical;CRITICAL;2;notify-service-by-log;north_host_006-dummy_critical-2
+[2019-12-17 10:38:49] ERROR: SERVICE ALERT: north_host_006;dummy_random;CRITICAL;SOFT;1;Service internal check result: 2
+[2019-12-17 10:38:49] WARNING: SERVICE ALERT: north_host_006;dummy_warning;WARNING;HARD;0;north_host_006-dummy_warning-1
+[2019-12-17 10:38:49] WARNING: SERVICE NOTIFICATION: notified;north_host_006;dummy_warning;WARNING;2;notify-service-by-log;north_host_006-dummy_warning-1
+[2019-12-17 10:38:57] INFO: SERVICE ALERT: host_3;dummy_random;UNREACHABLE;SOFT;1;Service internal check result: 4
+[2019-12-17 10:39:06] ERROR: SERVICE ALERT: south_host_006;dummy_random;CRITICAL;HARD;3;Service internal check result: 2
+[2019-12-17 10:39:06] ERROR: SERVICE NOTIFICATION: notified;south_host_006;dummy_random;CRITICAL;3;notify-service-by-log;Service internal check result: 2
+[2019-12-17 10:39:06] WARNING: SERVICE ALERT: south_host_006;dummy_warning;WARNING;SOFT;1;south_host_006-dummy_warning-1
+[2019-12-17 10:39:08] WARNING: SERVICE ALERT: north_host_002;dummy_warning;WARNING;HARD;3;north_host_002-dummy_warning-1
+[2019-12-17 10:39:08] ERROR: SERVICE ALERT: north_host_002;dummy_critical;CRITICAL;HARD;3;north_host_002-dummy_critical-2
+[2019-12-17 10:39:10] WARNING: SERVICE NOTIFICATION: notified;north_host_002;dummy_warning;WARNING;1;notify-service-by-log;north_host_002-dummy_warning-1
+[2019-12-17 10:39:10] ERROR: SERVICE NOTIFICATION: notified;north_host_002;dummy_critical;CRITICAL;1;notify-service-by-log;north_host_002-dummy_critical-2
+[2019-12-17 10:39:54] INFO: SERVICE ALERT: north_host_003;dummy_random;OK;HARD;3;Service internal check result: 0
+[2019-12-17 10:40:00] ERROR: SERVICE ALERT: north_host_001;dummy_critical;CRITICAL;HARD;3;north_host_001-dummy_critical-2
+[2019-12-17 10:40:01] ERROR: SERVICE NOTIFICATION: notified;north_host_001;dummy_critical;CRITICAL;1;notify-service-by-log;north_host_001-dummy_critical-2
+[2019-12-17 10:40:13] INFO: SERVICE ALERT: south_host_008;dummy_random;OK;HARD;3;Service internal check result: 0
+[2019-12-17 10:41:50] ERROR: HOST ALERT: south_host_003;DOWN;HARD;3;I am always Up but sometimes Down...
+[2019-12-17 10:41:50] ERROR: HOST ALERT: south_host_005;DOWN;HARD;3;I am always Up but sometimes Down...
+[2019-12-17 10:41:50] INFO: SERVICE ALERT: south_host_003;dummy_random;UNREACHABLE;SOFT;1;Service internal check result: 1
+[2019-12-17 10:41:52] ERROR: HOST NOTIFICATION: notified;south_host_003;DOWN;1;notify-host-by-log;I am always Up but sometimes Down...
+[2019-12-17 10:41:52] ERROR: HOST NOTIFICATION: notified;south_host_005;DOWN;1;notify-host-by-log;I am always Up but sometimes Down...
+[2019-12-17 10:43:34] ERROR: HOST ALERT: host_11;DOWN;SOFT;1;I am changing for 2
+[2019-12-17 10:43:34] INFO: SERVICE ALERT: host_11;dummy_random;UNREACHABLE;SOFT;1;Service internal check result: 4
+[2019-12-17 10:44:35] ERROR: HOST ALERT: host_11;DOWN;SOFT;2;I am changing for 1
+[2019-12-17 10:44:35] INFO: SERVICE ALERT: host_11;dummy_random;UNREACHABLE;SOFT;2;Service internal check result: 4
+[2019-12-17 10:45:34] ERROR: HOST ALERT: host_11;DOWN;HARD;3;I am changing for 1
+[2019-12-17 10:45:34] INFO: SERVICE ALERT: host_11;dummy_random;UNREACHABLE;HARD;3;Service internal check result: 4
+[2019-12-17 10:45:53] INFO: HOST ALERT: south_host_001;UP;HARD;3;I am always Up but sometimes Down...
+[2019-12-17 10:45:53] INFO: HOST NOTIFICATION: notified;south_host_001;UP;0;notify-host-by-log;I am always Up but sometimes Down...
+[2019-12-17 10:45:53] WARNING: SERVICE ALERT: south_host_001;dummy_random;WARNING;SOFT;1;Service internal check result: 1
+[2019-12-17 10:45:53] WARNING: SERVICE ALERT: south_host_001;dummy_warning;WARNING;HARD;3;south_host_001-dummy_warning-1
+[2019-12-17 10:45:53] ERROR: SERVICE ALERT: south_host_001;dummy_critical;CRITICAL;HARD;3;south_host_001-dummy_critical-2
+[2019-12-17 10:45:54] WARNING: SERVICE NOTIFICATION: notified;south_host_001;dummy_warning;WARNING;1;notify-service-by-log;south_host_001-dummy_warning-1
+[2019-12-17 10:45:54] ERROR: SERVICE NOTIFICATION: notified;south_host_001;dummy_critical;CRITICAL;1;notify-service-by-log;south_host_001-dummy_critical-2
+[2019-12-17 10:46:47] ERROR: SERVICE ALERT: south_host_002;dummy_critical;CRITICAL;HARD;3;south_host_002-dummy_critical-2
+[2019-12-17 10:46:47] WARNING: SERVICE ALERT: south_host_002;dummy_random;WARNING;HARD;3;Service internal check result: 1
+[2019-12-17 10:46:48] ERROR: SERVICE NOTIFICATION: notified;south_host_002;dummy_critical;CRITICAL;1;notify-service-by-log;south_host_002-dummy_critical-2
+[2019-12-17 10:46:48] WARNING: SERVICE NOTIFICATION: notified;south_host_002;dummy_random;WARNING;1;notify-service-by-log;Service internal check result: 1
+[2019-12-17 10:47:02] INFO: SERVICE ALERT: south_host_000;dummy_random;OK;HARD;3;Service internal check result: 0
+[2019-12-17 10:47:09] INFO: HOST ALERT: south_host_000;UP;HARD;3;I am always Up but sometimes Down...
+[2019-12-17 10:47:09] INFO: HOST NOTIFICATION: notified;south_host_000;UP;0;notify-host-by-log;I am always Up but sometimes Down...
+[2019-12-17 10:47:10] WARNING: SERVICE NOTIFICATION: notified;south_host_000;dummy_warning;WARNING;1;notify-service-by-log;south_host_000-dummy_warning-1
+[2019-12-17 10:47:10] ERROR: SERVICE NOTIFICATION: notified;south_host_000;dummy_critical;CRITICAL;1;notify-service-by-log;south_host_000-dummy_critical-2
+[2019-12-17 10:47:35] INFO: HOST ALERT: south_host_007;UP;HARD;3;I am always Up but sometimes Down...
+[2019-12-17 10:47:35] INFO: HOST NOTIFICATION: notified;south_host_007;UP;0;notify-host-by-log;I am always Up but sometimes Down...
+[2019-12-17 10:50:56] WARNING: SERVICE ALERT: north_host_005;dummy_warning;WARNING;HARD;0;north_host_005-dummy_warning-1
+[2019-12-17 10:50:56] WARNING: SERVICE NOTIFICATION: notified;north_host_005;dummy_warning;WARNING;2;notify-service-by-log;north_host_005-dummy_warning-1
+[2019-12-17 10:50:56] ERROR: SERVICE ALERT: north_host_005;dummy_critical;CRITICAL;HARD;0;north_host_005-dummy_critical-2
+[2019-12-17 10:50:56] ERROR: SERVICE NOTIFICATION: notified;north_host_005;dummy_critical;CRITICAL;2;notify-service-by-log;north_host_005-dummy_critical-2
+[2019-12-17 10:51:38] ERROR: SERVICE ALERT: north_host_008;dummy_critical;CRITICAL;HARD;0;north_host_008-dummy_critical-2
+[2019-12-17 10:51:38] ERROR: SERVICE NOTIFICATION: notified;north_host_008;dummy_critical;CRITICAL;2;notify-service-by-log;north_host_008-dummy_critical-2
+[2019-12-17 10:51:38] WARNING: SERVICE ALERT: north_host_008;dummy_warning;WARNING;HARD;0;north_host_008-dummy_warning-1
+[2019-12-17 10:51:38] WARNING: SERVICE NOTIFICATION: notified;north_host_008;dummy_warning;WARNING;2;notify-service-by-log;north_host_008-dummy_warning-1
+[2019-12-17 10:51:42] ERROR: SERVICE ALERT: north_host_000;dummy_random;CRITICAL;SOFT;1;Service internal check result: 2
+[2019-12-17 10:51:56] INFO: HOST ALERT: south_host_003;UP;HARD;3;I am always Up but sometimes Down...
+[2019-12-17 10:51:56] INFO: HOST NOTIFICATION: notified;south_host_003;UP;0;notify-host-by-log;I am always Up but sometimes Down...
+[2019-12-17 10:51:56] INFO: SERVICE ALERT: south_host_003;dummy_random;UNREACHABLE;SOFT;2;Service internal check result: 4
+[2019-12-17 10:51:56] ERROR: SERVICE ALERT: south_host_003;dummy_critical;CRITICAL;HARD;3;south_host_003-dummy_critical-2
+[2019-12-17 10:51:57] ERROR: SERVICE NOTIFICATION: notified;south_host_003;dummy_critical;CRITICAL;1;notify-service-by-log;south_host_003-dummy_critical-2
+[2019-12-17 10:52:01] INFO: HOST ALERT: south_host_005;UP;HARD;3;I am always Up but sometimes Down...
+[2019-12-17 10:52:01] INFO: HOST NOTIFICATION: notified;south_host_005;UP;0;notify-host-by-log;I am always Up but sometimes Down...
+[2019-12-17 10:52:01] WARNING: SERVICE ALERT: south_host_005;dummy_warning;WARNING;HARD;3;south_host_005-dummy_warning-1
+[2019-12-17 10:52:01] WARNING: SERVICE ALERT: south_host_005;dummy_random;WARNING;SOFT;1;Service internal check result: 1
+[2019-12-17 10:52:01] ERROR: SERVICE ALERT: south_host_005;dummy_critical;CRITICAL;HARD;3;south_host_005-dummy_critical-2
+[2019-12-17 10:52:02] WARNING: SERVICE NOTIFICATION: notified;south_host_005;dummy_warning;WARNING;1;notify-service-by-log;south_host_005-dummy_warning-1
+[2019-12-17 10:52:02] ERROR: SERVICE NOTIFICATION: notified;south_host_005;dummy_critical;CRITICAL;1;notify-service-by-log;south_host_005-dummy_critical-2
+[2019-12-17 10:52:47] ERROR: HOST ALERT: internal-router-north;DOWN;SOFT;1;I am not always Up, sometimes down
+[2019-12-17 10:53:11] WARNING: SERVICE ALERT: south_host_009;dummy_random;WARNING;SOFT;1;Service internal check result: 1
+[2019-12-17 10:53:12] INFO: SERVICE ALERT: south_host_002;dummy_random;OK;HARD;3;Service internal check result: 0
+[2019-12-17 10:53:12] INFO: SERVICE NOTIFICATION: notified;south_host_002;dummy_random;OK;0;notify-service-by-log;Service internal check result: 0
+[2019-12-17 10:53:49] ERROR: SERVICE ALERT: north_host_006;dummy_random;CRITICAL;SOFT;2;Service internal check result: 2
+[2019-12-17 10:53:57] INFO: SERVICE ALERT: host_3;dummy_random;UNREACHABLE;SOFT;2;Service internal check result: 4
+[2019-12-17 10:55:05] INFO: SERVICE ALERT: host_1;dummy_random;OK;HARD;1;Service internal check result: 0
+[2019-12-17 10:56:50] ERROR: HOST ALERT: south_host_006;DOWN;SOFT;1;I am always Up but sometimes Down...
+[2019-12-17 10:56:50] INFO: SERVICE ALERT: south_host_006;dummy_warning;UNREACHABLE;SOFT;2;south_host_006-dummy_warning-1
+[2019-12-17 10:57:47] ERROR: HOST ALERT: internal-router-north;DOWN;HARD;2;I am not always Up, sometimes down
+[2019-12-17 10:58:06] INFO: SERVICE FLAPPING ALERT: my-elasticsearch-es3;check-es-http-alive;STARTED; Service appears to have started flapping (101.0% change >= 50.0% threshold)
+[2019-12-17 10:58:06] INFO: SERVICE FLAPPING ALERT: my-elasticsearch-es3;Opened files;STARTED; Service appears to have started flapping (101.0% change >= 50.0% threshold)
+[2019-12-17 10:59:18] INFO: SERVICE FLAPPING ALERT: my-elasticsearch-es1;Load;STARTED; Service appears to have started flapping (101.0% change >= 50.0% threshold)
+[2019-12-17 11:00:34] INFO: HOST ALERT: host_11;UP;HARD;3;I am changing for 0
+[2019-12-17 11:00:34] ERROR: SERVICE ALERT: host_11;dummy_critical;CRITICAL;HARD;3;host_11-dummy_critical-2
+[2019-12-17 11:00:34] WARNING: SERVICE ALERT: host_11;dummy_random;WARNING;HARD;3;Service internal check result: 1
+[2019-12-17 11:00:35] ERROR: SERVICE NOTIFICATION: notified;host_11;dummy_critical;CRITICAL;1;notify-service-by-log;host_11-dummy_critical-2
+[2019-12-17 11:00:35] WARNING: SERVICE NOTIFICATION: notified;host_11;dummy_random;WARNING;1;notify-service-by-log;Service internal check result: 1

@@ -1,0 +1,1450 @@
+[1490137657] INFO: RETENTION SAVE
+[1490138720] INFO: RETENTION SAVE
+[1490138720] INFO: RETENTION SAVE
+[1490138913] INFO: RETENTION SAVE
+[1490139480] INFO: RETENTION SAVE
+[1490140205] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490140245] INFO: SERVICE ALERT: chazay;NTP;OK;SOFT;2;NTP OK: Offset -0.00332057476 secs
+[1490140533] INFO: RETENTION SAVE
+[1490140534] INFO: RETENTION SAVE
+[1490140731] INFO: RETENTION SAVE
+[1490141304] INFO: RETENTION SAVE
+[1490141770] INFO: SERVICE ALERT: denice;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490141879] INFO: SERVICE ALERT: denice;NTP;OK;SOFT;2;NTP OK: Offset -0.02200782299 secs
+[1490142348] INFO: RETENTION SAVE
+[1490142348] INFO: RETENTION SAVE
+[1490142413] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 219>30
+[1490142518] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490142549] INFO: RETENTION SAVE
+[1490142604] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490142694] INFO: SERVICE ALERT: chazay;NTP;OK;SOFT;2;NTP OK: Offset -0.001349806786 secs
+[1490142972] INFO: SERVICE ALERT: denice;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490143035] INFO: SERVICE ALERT: denice;NTP;OK;SOFT;2;NTP OK: Offset 0.01752007008 secs
+[1490143128] INFO: RETENTION SAVE
+[1490143311] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 119>30
+[1490143421] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490143705] ERROR: SERVICE ALERT: cogny;NTP;CRITICAL;SOFT;1;NTP CRITICAL: Offset 1.465054631 secs
+[1490143720] INFO: SERVICE ALERT: cogny;NTP;OK;SOFT;2;NTP OK: Offset 0.04871952534 secs
+[1490144161] INFO: RETENTION SAVE
+[1490144163] INFO: RETENTION SAVE
+[1490144214] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 156>30
+[1490144301] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490144368] INFO: RETENTION SAVE
+[1490144405] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490144529] INFO: SERVICE ALERT: chazay;NTP;OK;SOFT;2;NTP OK: Offset -0.004068851471 secs
+[1490144951] INFO: RETENTION SAVE
+[1490145073] INFO: SERVICE ALERT: denice;IPMI sensors;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490145073] INFO: SERVICE ALERT: denice;Shinken Main Reactionner;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490145113] INFO: SERVICE ALERT: lachassagne;Disk usr;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490145113] INFO: SERVICE ALERT: lachassagne;Processus;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490145143] INFO: SERVICE ALERT: denice;IPMI sensors;OK;SOFT;2;OK:  Fan1A RPM is at 2280 RPM,  Fan2A RPM is at 2280 RPM,  Fan3A RPM is at 2280 RPM,  Fan4A RPM is at 2280 RPM,  Fan5A RPM is at 2400 RPM,  Fan6A RPM is at 2400 RPM,  Inlet Temp is 19C,  Exhaust Temp is 41C,  Temp is 60C,  Temp is 65C,  Fan7A RPM is at 2400 RPM,  Fan1B RPM is at 2160 RPM,  Fan2B RPM is at 2160 RPM,  Fan3B RPM is at 2280 RPM,  Fan4B RPM is at 2160 RPM,  Fan5B RPM is at 2280 RPM,  Fan6B RPM is at 2280 RPM,  Fan7B RPM is at 2280 RPM
+[1490145153] INFO: SERVICE ALERT: cogny;Disk usr;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490145153] ERROR: SERVICE ALERT: cogny;Https;CRITICAL;SOFT;1;CRITICAL - Socket timeout
+[1490145153] INFO: SERVICE ALERT: cogny;NSCA Proxy;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490145153] INFO: SERVICE ALERT: cogny;Disk 2;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490145153] ERROR: SERVICE ALERT: cogny;Http;CRITICAL;SOFT;1;CRITICAL - Socket timeout
+[1490145153] INFO: SERVICE ALERT: cogny;Disk root;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490145162] INFO: SERVICE ALERT: denice;Shinken Main Reactionner;OK;SOFT;2;TCP OK - 0.000 second response time on 10.0.2.7 port 7769
+[1490145164] INFO: SERVICE ALERT: lachassagne;Processus;OK;SOFT;2;PROCS OK: 257 processes
+[1490145188] INFO: SERVICE ALERT: lachassagne;Disk usr;OK;SOFT;2;DISK OK - free space: /usr 62627 MB (90% inode=99%);
+[1490145191] INFO: SERVICE ALERT: cogny;Https;OK;SOFT;2;HTTP OK: HTTP/1.1 200 OK - 2575 bytes in 0.176 second response time
+[1490145206] INFO: SERVICE ALERT: cogny;Disk root;OK;SOFT;2;DISK OK - free space: / 66603 MB (97% inode=99%);
+[1490145235] INFO: SERVICE ALERT: cogny;Http;OK;SOFT;2;HTTP OK: HTTP/1.1 200 OK - 2535 bytes in 0.115 second response time
+[1490145235] INFO: SERVICE ALERT: cogny;NSCA Proxy;OK;SOFT;2;TCP OK - 0.000 second response time on 10.0.1.252 port 5667
+[1490145265] INFO: SERVICE ALERT: cogny;Disk 2;OK;SOFT;2;DISK OK - free space: /zdisk2 222132 MB (99% inode=99%);
+[1490145269] INFO: SERVICE ALERT: cogny;Disk usr;OK;SOFT;2;DISK OK - free space: /usr 66595 MB (81% inode=99%);
+[1490145904] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490145976] INFO: RETENTION SAVE
+[1490145977] INFO: RETENTION SAVE
+[1490145998] INFO: SERVICE ALERT: chazay;NTP;OK;SOFT;2;NTP OK: Offset -0.0009514093399 secs
+[1490146014] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 184>30
+[1490146117] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490146186] INFO: RETENTION SAVE
+[1490146270] INFO: SERVICE ALERT: denice;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490146404] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 183>30
+[1490146503] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490146504] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490146569] INFO: SERVICE ALERT: denice;NTP;UNKNOWN;SOFT;2;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490146574] INFO: SERVICE ALERT: chazay;NTP;OK;SOFT;2;NTP OK: Offset -0.001192808151 secs
+[1490146774] INFO: RETENTION SAVE
+[1490146871] INFO: SERVICE ALERT: denice;NTP;UNKNOWN;SOFT;3;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490146959] INFO: SERVICE ALERT: denice;NTP;OK;SOFT;4;NTP OK: Offset 0.03194010258 secs
+[1490147790] INFO: RETENTION SAVE
+[1490147791] INFO: RETENTION SAVE
+[1490148004] INFO: RETENTION SAVE
+[1490148072] INFO: SERVICE ALERT: denice;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490148112] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - writes 21962>18000
+[1490148222] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490148373] INFO: SERVICE ALERT: denice;NTP;UNKNOWN;SOFT;2;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490148482] INFO: SERVICE ALERT: denice;NTP;OK;SOFT;3;NTP OK: Offset 0.08975636959 secs
+[1490148507] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 175>30
+[1490148597] INFO: RETENTION SAVE
+[1490148630] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490149603] INFO: RETENTION SAVE
+[1490149604] INFO: RETENTION SAVE
+[1490149820] INFO: RETENTION SAVE
+[1490149913] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 71>30
+[1490150022] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490150420] INFO: RETENTION SAVE
+[1490150471] INFO: SERVICE ALERT: denice;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490150538] INFO: SERVICE ALERT: denice;NTP;OK;SOFT;2;NTP OK: Offset 0.03168559074 secs
+[1490150813] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 206>30
+[1490151006] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490151113] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;2;CRITICAL - svc_t 161>30
+[1490151125] INFO: SERVICE ALERT: chazay;NTP;OK;SOFT;2;NTP OK: Offset -0.001058101654 secs
+[1490151413] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;3;CRITICAL - svc_t 400>30
+[1490151414] INFO: RETENTION SAVE
+[1490151416] INFO: RETENTION SAVE
+[1490151504] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 91>30
+[1490151515] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490151536] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;4;OK - data received
+[1490151637] INFO: RETENTION SAVE
+[1490151970] INFO: SERVICE ALERT: denice;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490152246] INFO: RETENTION SAVE
+[1490152270] INFO: SERVICE ALERT: denice;NTP;UNKNOWN;SOFT;2;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490152306] INFO: SERVICE ALERT: denice;NTP;OK;SOFT;3;NTP OK: Offset -0.01103448868 secs
+[1490153214] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 62>30
+[1490153227] INFO: RETENTION SAVE
+[1490153229] INFO: RETENTION SAVE
+[1490153304] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 37>30
+[1490153332] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490153454] INFO: RETENTION SAVE
+[1490153512] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;2;CRITICAL - svc_t 104>30
+[1490153812] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;3;CRITICAL - svc_t 173>30
+[1490153865] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;4;OK - data received
+[1490153904] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 65>30
+[1490154029] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490154069] INFO: RETENTION SAVE
+[1490154414] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 242>30
+[1490154479] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490155013] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 83>30
+[1490155041] INFO: RETENTION SAVE
+[1490155043] INFO: RETENTION SAVE
+[1490155271] INFO: RETENTION SAVE
+[1490155312] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;2;CRITICAL - svc_t 127>30
+[1490155613] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;3;CRITICAL - svc_t 117>30
+[1490155664] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;4;OK - data received
+[1490155892] INFO: RETENTION SAVE
+[1490156772] INFO: SERVICE ALERT: denice;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490156814] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - writes 19787>18000
+[1490156855] INFO: RETENTION SAVE
+[1490156856] INFO: RETENTION SAVE
+[1490156863] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490156873] INFO: SERVICE ALERT: denice;NTP;OK;SOFT;2;NTP OK: Offset 0.0009627342224 secs
+[1490157088] INFO: RETENTION SAVE
+[1490157413] INFO: SERVICE FLAPPING ALERT: lachassagne;I/O stats disk 2;STARTED; Service appears to have started flapping (52.1% change >= 50.0% threshold)
+[1490157413] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 85>30
+[1490157500] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490157603] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490157625] INFO: SERVICE ALERT: chazay;NTP;OK;SOFT;2;NTP OK: Offset 0.000321149826 secs
+[1490157715] INFO: RETENTION SAVE
+[1490158313] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 63>30
+[1490158439] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490158571] INFO: SERVICE ALERT: denice;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490158627] INFO: SERVICE ALERT: denice;NTP;OK;SOFT;2;NTP OK: Offset 0.06454908848 secs
+[1490158669] INFO: RETENTION SAVE
+[1490158671] INFO: RETENTION SAVE
+[1490158905] INFO: RETENTION SAVE
+[1490158913] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 145>30
+[1490159106] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490159134] INFO: SERVICE ALERT: chazay;NTP;OK;SOFT;2;NTP OK: Offset -0.00383067131 secs
+[1490159213] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;2;CRITICAL - svc_t 60>30
+[1490159513] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;3;CRITICAL - svc_t 159>30
+[1490159528] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;4;OK - data received
+[1490159539] INFO: RETENTION SAVE
+[1490160414] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - writes 18361>18000
+[1490160437] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490160482] INFO: RETENTION SAVE
+[1490160484] INFO: RETENTION SAVE
+[1490160724] INFO: RETENTION SAVE
+[1490161363] INFO: RETENTION SAVE
+[1490161503] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490161596] INFO: SERVICE ALERT: chazay;NTP;OK;SOFT;2;NTP OK: Offset -0.007724046707 secs
+[1490161613] ERROR: SERVICE ALERT: lachassagne;I/O stats;CRITICAL;SOFT;1;CRITICAL - writes 19719>18000
+[1490161721] INFO: SERVICE ALERT: lachassagne;I/O stats;OK;SOFT;2;OK - data received
+[1490162296] INFO: RETENTION SAVE
+[1490162299] INFO: RETENTION SAVE
+[1490162541] INFO: RETENTION SAVE
+[1490162606] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 84>30
+[1490162616] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490162706] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490162795] ERROR: SERVICE ALERT: cogny;TCP proxy;CRITICAL;SOFT;1;connect to address 10.0.1.252 and port 5667: Connection reset by peer
+[1490162815] INFO: SERVICE ALERT: chazay;NTP;OK;SOFT;2;NTP OK: Offset -0.01022005081 secs
+[1490162886] INFO: SERVICE ALERT: cogny;TCP proxy;OK;SOFT;2;TCP OK - 0.001 second response time on 10.0.1.252 port 5667
+[1490162906] ERROR: SERVICE ALERT: cogny;Mysql long running procs;CRITICAL;SOFT;1;CRITICAL - 24 long running processes
+[1490162906] ERROR: SERVICE ALERT: cogny;Mysql threads;CRITICAL;SOFT;1;CRITICAL - 1395 client connection threads
+[1490162906] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;1;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
+[1490163112] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 249>30
+[1490163135] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490163185] INFO: RETENTION SAVE
+[1490163205] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;2;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
+[1490163205] ERROR: SERVICE ALERT: cogny;I/O stats;CRITICAL;SOFT;1;CRITICAL - writes 24512>18000
+[1490163205] ERROR: SERVICE ALERT: cogny;Mysql threads;CRITICAL;SOFT;2;CRITICAL - 1956 client connection threads
+[1490163205] INFO: SERVICE ALERT: cogny;Mysql tmp tables;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490163205] WARNING: SERVICE ALERT: cogny;Processus;WARNING;SOFT;1;PROCS WARNING: 2902 processes
+[1490163205] INFO: SERVICE ALERT: cogny;Mysql long running procs;UNKNOWN;SOFT;2;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490163205] INFO: SERVICE ALERT: cogny;Mysql connection time;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490163205] INFO: SERVICE ALERT: cogny;I/O stats disk 2;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490163221] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490163242] INFO: SERVICE ALERT: cogny;Mysql tmp tables;OK;SOFT;2;OK - 52.22% of 392 tables were created on disk
+[1490163250] INFO: SERVICE ALERT: cogny;I/O stats;OK;SOFT;2;OK - data received
+[1490163268] INFO: SERVICE ALERT: cogny;Processus;OK;SOFT;2;PROCS OK: 2187 processes
+[1490163288] INFO: SERVICE ALERT: cogny;Mysql connection time;OK;SOFT;2;OK - 0.10 seconds to connect as root
+[1490163454] ERROR: SERVICE ALERT: cogny;Https;CRITICAL;SOFT;1;HTTP CRITICAL: HTTP/1.1 502 Bad Gateway - 504 bytes in 0.105 second response time
+[1490163454] ERROR: SERVICE ALERT: cogny;Http;CRITICAL;SOFT;1;CRITICAL - Socket timeout
+[1490163506] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;3;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
+[1490163506] ERROR: SERVICE ALERT: cogny;Mysql long running procs;CRITICAL;SOFT;3;CRITICAL - 1358 long running processes
+[1490163506] ERROR: SERVICE ALERT: cogny;Mysql threads;CRITICAL;SOFT;3;CRITICAL - 2055 client connection threads
+[1490163713] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 46>30
+[1490163752] ERROR: SERVICE ALERT: cogny;Http;CRITICAL;SOFT;2;CRITICAL - Socket timeout
+[1490163752] ERROR: SERVICE ALERT: cogny;Https;CRITICAL;SOFT;2;CRITICAL - Socket timeout
+[1490163762] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490163805] ERROR: SERVICE ALERT: cogny;Mysql long running procs;CRITICAL;HARD;4;CRITICAL - 1421 long running processes
+[1490163805] ERROR: SERVICE NOTIFICATION: imported_admin;cogny;CPU;CRITICAL;notify-service-by-email;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
+[1490163805] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;HARD;4;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
+[1490163805] ERROR: SERVICE ALERT: cogny;Mysql threads;CRITICAL;HARD;4;CRITICAL - 2055 client connection threads
+[1490163805] ERROR: SERVICE NOTIFICATION: imported_admin;cogny;Mysql long running procs;CRITICAL;notify-service-by-email;CRITICAL - 1421 long running processes
+[1490163805] ERROR: SERVICE NOTIFICATION: guest;cogny;Mysql threads;CRITICAL;notify-service-by-email;CRITICAL - 2055 client connection threads
+[1490163805] ERROR: SERVICE NOTIFICATION: imported_admin;cogny;Mysql threads;CRITICAL;notify-service-by-email;CRITICAL - 2055 client connection threads
+[1490163805] ERROR: SERVICE NOTIFICATION: guest;cogny;CPU;CRITICAL;notify-service-by-email;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
+[1490163805] ERROR: SERVICE NOTIFICATION: guest;cogny;Mysql long running procs;CRITICAL;notify-service-by-email;CRITICAL - 1421 long running processes
+[1490164053] ERROR: SERVICE NOTIFICATION: imported_admin;cogny;Http;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout
+[1490164053] ERROR: SERVICE NOTIFICATION: guest;cogny;Https;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout
+[1490164053] ERROR: SERVICE NOTIFICATION: imported_admin;cogny;Https;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout
+[1490164053] ERROR: SERVICE ALERT: cogny;Https;CRITICAL;HARD;3;CRITICAL - Socket timeout
+[1490164053] ERROR: SERVICE ALERT: cogny;Http;CRITICAL;HARD;3;CRITICAL - Socket timeout
+[1490164053] ERROR: SERVICE NOTIFICATION: guest;cogny;Http;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout
+[1490164066] INFO: SERVICE ALERT: cogny;Http;OK;HARD;3;HTTP OK: HTTP/1.1 200 OK - 2535 bytes in 0.326 second response time
+[1490164066] INFO: SERVICE NOTIFICATION: imported_admin;cogny;Http;OK;notify-service-by-email;HTTP OK: HTTP/1.1 200 OK - 2535 bytes in 0.326 second response time
+[1490164066] INFO: SERVICE NOTIFICATION: guest;cogny;Http;OK;notify-service-by-email;HTTP OK: HTTP/1.1 200 OK - 2535 bytes in 0.326 second response time
+[1490164109] INFO: RETENTION SAVE
+[1490164112] INFO: RETENTION SAVE
+[1490164125] INFO: SERVICE NOTIFICATION: imported_admin;cogny;Https;OK;notify-service-by-email;HTTP OK: HTTP/1.1 200 OK - 2575 bytes in 0.513 second response time
+[1490164126] INFO: SERVICE ALERT: cogny;Https;OK;HARD;3;HTTP OK: HTTP/1.1 200 OK - 2575 bytes in 0.513 second response time
+[1490164126] INFO: SERVICE NOTIFICATION: guest;cogny;Https;OK;notify-service-by-email;HTTP OK: HTTP/1.1 200 OK - 2575 bytes in 0.513 second response time
+[1490164204] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490164296] INFO: SERVICE ALERT: chazay;NTP;OK;SOFT;2;NTP OK: Offset -0.0005155801773 secs
+[1490164359] INFO: RETENTION SAVE
+[1490164572] INFO: SERVICE ALERT: denice;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490164669] INFO: SERVICE ALERT: denice;NTP;OK;SOFT;2;NTP OK: Offset 0.02253425121 secs
+[1490164734] INFO: SERVICE NOTIFICATION: imported_admin;cogny;Mysql threads;OK;notify-service-by-email;OK - 24 client connection threads
+[1490164734] INFO: SERVICE ALERT: cogny;Mysql threads;OK;HARD;4;OK - 24 client connection threads
+[1490164734] INFO: SERVICE NOTIFICATION: guest;cogny;Mysql threads;OK;notify-service-by-email;OK - 24 client connection threads
+[1490164750] INFO: SERVICE NOTIFICATION: imported_admin;cogny;CPU;OK;notify-service-by-email;OK - CPU usage is 51% for server cogny.siprossii.com.
+[1490164750] INFO: SERVICE NOTIFICATION: guest;cogny;CPU;OK;notify-service-by-email;OK - CPU usage is 51% for server cogny.siprossii.com.
+[1490164750] INFO: SERVICE ALERT: cogny;CPU;OK;HARD;4;OK - CPU usage is 51% for server cogny.siprossii.com.
+[1490165009] INFO: RETENTION SAVE
+[1490165010] WARNING: SERVICE ALERT: cogny;Mysql long running procs;WARNING;HARD;4;WARNING - 2 long running processes
+[1490165010] WARNING: SERVICE NOTIFICATION: imported_admin;cogny;Mysql long running procs;WARNING;notify-service-by-email;WARNING - 2 long running processes
+[1490165010] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 350>30
+[1490165010] WARNING: SERVICE NOTIFICATION: guest;cogny;Mysql long running procs;WARNING;notify-service-by-email;WARNING - 2 long running processes
+[1490165016] INFO: SERVICE NOTIFICATION: guest;cogny;Mysql long running procs;OK;notify-service-by-email;OK - 0 long running processes
+[1490165016] INFO: SERVICE ALERT: cogny;Mysql long running procs;OK;HARD;4;OK - 0 long running processes
+[1490165016] INFO: SERVICE NOTIFICATION: imported_admin;cogny;Mysql long running procs;OK;notify-service-by-email;OK - 0 long running processes
+[1490165096] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490165213] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 85>30
+[1490165515] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;2;CRITICAL - svc_t 73>30
+[1490165607] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;1;CRITICAL - CPU usage is 97% for server cogny.siprossii.com.
+[1490165607] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 222>30
+[1490165653] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490165814] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;3;CRITICAL - svc_t 367>30
+[1490165853] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;4;OK - data received
+[1490165905] WARNING: SERVICE ALERT: cogny;CPU;WARNING;SOFT;2;WARNING - CPU usage is 85% for server cogny.siprossii.com.
+[1490165923] INFO: RETENTION SAVE
+[1490165927] INFO: RETENTION SAVE
+[1490166001] INFO: TIMEPERIOD TRANSITION: north_hours;0;1
+[1490166005] ERROR: HOST NOTIFICATION: northman;passive-01;DOWN;notify-host-by-email;Freshness period expired
+[1490166177] INFO: RETENTION SAVE
+[1490166205] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 126>30
+[1490166205] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;3;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
+[1490166205] ERROR: SERVICE ALERT: cogny;Mysql threads;CRITICAL;SOFT;1;CRITICAL - 288 client connection threads
+[1490166223] INFO: SERVICE FLAPPING ALERT: cogny;I/O stats disk 2;STARTED; Service appears to have started flapping (53.9% change >= 50.0% threshold)
+[1490166223] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490166333] ERROR: SERVICE ALERT: m2m-asso.fr;Https;CRITICAL;SOFT;1;HTTP CRITICAL: HTTP/1.1 502 Bad Gateway - 323 bytes in 0.093 second response time
+[1490166453] INFO: SERVICE ALERT: m2m-asso.fr;Https;OK;SOFT;2;HTTP OK: HTTP/1.1 200 OK - 2765 bytes in 0.179 second response time
+[1490166504] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;HARD;4;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
+[1490166504] ERROR: SERVICE NOTIFICATION: guest;cogny;CPU;CRITICAL;notify-service-by-email;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
+[1490166505] ERROR: SERVICE ALERT: cogny;Mysql threads;CRITICAL;SOFT;2;CRITICAL - 407 client connection threads
+[1490166505] ERROR: SERVICE NOTIFICATION: imported_admin;cogny;CPU;CRITICAL;notify-service-by-email;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
+[1490166804] ERROR: SERVICE ALERT: cogny;Mysql threads;CRITICAL;SOFT;3;CRITICAL - 594 client connection threads
+[1490166804] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 58>30
+[1490166833] INFO: RETENTION SAVE
+[1490166835] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490167105] ERROR: SERVICE NOTIFICATION: imported_admin;cogny;Mysql threads;CRITICAL;notify-service-by-email;CRITICAL - 762 client connection threads
+[1490167105] ERROR: SERVICE ALERT: cogny;Mysql long running procs;CRITICAL;SOFT;1;CRITICAL - 377 long running processes
+[1490167105] ERROR: SERVICE NOTIFICATION: guest;cogny;Mysql threads;CRITICAL;notify-service-by-email;CRITICAL - 762 client connection threads
+[1490167105] ERROR: SERVICE ALERT: cogny;Mysql threads;CRITICAL;HARD;4;CRITICAL - 762 client connection threads
+[1490167135] INFO: SERVICE ALERT: cogny;Mysql long running procs;OK;SOFT;2;OK - 0 long running processes
+[1490167705] ERROR: SERVICE ALERT: cogny;I/O stats;CRITICAL;SOFT;1;CRITICAL - svc_t 41>30
+[1490167737] INFO: RETENTION SAVE
+[1490167740] INFO: RETENTION SAVE
+[1490167773] INFO: SERVICE ALERT: cogny;Mysql threads;OK;HARD;4;OK - 23 client connection threads
+[1490167773] INFO: SERVICE NOTIFICATION: imported_admin;cogny;Mysql threads;OK;notify-service-by-email;OK - 23 client connection threads
+[1490167773] INFO: SERVICE NOTIFICATION: guest;cogny;Mysql threads;OK;notify-service-by-email;OK - 23 client connection threads
+[1490167978] INFO: EXTERNAL COMMAND: [1490164361] ACKNOWLEDGE_SVC_PROBLEM;cogny;CPU;2;1;1;admin;Acknowledge requested from WebUI
+[1490167978] INFO: SERVICE NOTIFICATION: imported_admin;cogny;CPU;ACKNOWLEDGEMENT (CRITICAL);notify-service-by-email;CRITICAL - CPU usage is 100% for server cogny.siprossii.com.
+[1490167978] INFO: SERVICE ACKNOWLEDGE ALERT: cogny;CPU;STARTED; Service problem has been acknowledged
+[1490167978] INFO: SERVICE NOTIFICATION: guest;cogny;CPU;ACKNOWLEDGEMENT (CRITICAL);notify-service-by-email;CRITICAL - CPU usage is 100% for server cogny.siprossii.com.
+[1490167978] INFO: EXTERNAL COMMAND: [1490164375] SCHEDULE_SVC_DOWNTIME;cogny;CPU;1490167966;1490175166;1;0;86400;admin;Downtime requested from WebUI
+[1490167978] INFO: SERVICE DOWNTIME ALERT: cogny;CPU;STARTED; Service has entered a period of scheduled downtime
+[1490167992] INFO: RETENTION SAVE
+[1490168005] INFO: SERVICE ACKNOWLEDGE ALERT: cogny;CPU;EXPIRED; Service problem acknowledge expired
+[1490168005] INFO: EXTERNAL COMMAND: [1490168001] process_service_check_result;cogny;CPU;0;Output from WebUI
+[1490168005] INFO: SERVICE ALERT: cogny;CPU;OK;HARD;4;Output from WebUI
+[1490168006] ERROR: SERVICE ALERT: cogny;I/O stats;CRITICAL;SOFT;2;CRITICAL - svc_t 110>30
+[1490168031] INFO: SERVICE ALERT: cogny;I/O stats;OK;SOFT;3;OK - data received
+[1490168212] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 165>30
+[1490168257] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490168306] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 133>30
+[1490168606] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;2;CRITICAL - svc_t 183>30
+[1490168655] INFO: RETENTION SAVE
+[1490168906] WARNING: SERVICE ALERT: cogny;CPU;WARNING;SOFT;1;WARNING - CPU usage is 93% for server cogny.siprossii.com.
+[1490168906] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;3;CRITICAL - svc_t 33>30
+[1490168924] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;4;OK - data received
+[1490169205] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;2;CRITICAL - CPU usage is 100% for server cogny.siprossii.com.
+[1490169284] INFO: SERVICE ALERT: cogny;CPU;OK;SOFT;3;OK - CPU usage is 4% for server cogny.siprossii.com.
+[1490169457] INFO: SERVICE FLAPPING ALERT: lachassagne;I/O stats disk 2;STOPPED; Service appears to have stopped flapping (24.5% change < 25.0% threshold)
+[1490169505] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 203>30
+[1490169506] ERROR: SERVICE ALERT: cogny;Mysql long running procs;CRITICAL;SOFT;1;CRITICAL - 17 long running processes
+[1490169551] INFO: RETENTION SAVE
+[1490169554] INFO: RETENTION SAVE
+[1490169601] INFO: TIMEPERIOD TRANSITION: workhours;0;1
+[1490169606] INFO: SERVICE ALERT: cogny;Mysql long running procs;OK;SOFT;2;OK - 0 long running processes
+[1490169610] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490169805] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;1;CRITICAL - CPU usage is 100% for server cogny.siprossii.com.
+[1490169807] INFO: RETENTION SAVE
+[1490170012] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 349>30
+[1490170056] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490170105] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;2;CRITICAL - CPU usage is 100% for server cogny.siprossii.com.
+[1490170105] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 153>30
+[1490170404] WARNING: SERVICE ALERT: cogny;Mysql threads;WARNING;SOFT;1;WARNING - 101 client connection threads
+[1490170404] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;3;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
+[1490170404] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;2;CRITICAL - svc_t 31>30
+[1490170479] INFO: RETENTION SAVE
+[1490170525] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;3;OK - data received
+[1490170706] WARNING: SERVICE ALERT: cogny;Mysql threads;WARNING;SOFT;2;WARNING - 130 client connection threads
+[1490170706] ERROR: SERVICE ALERT: cogny;I/O stats;CRITICAL;SOFT;1;CRITICAL - svc_t 45>30
+[1490170706] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;HARD;4;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
+[1490170728] INFO: SERVICE ALERT: cogny;Mysql threads;OK;SOFT;3;OK - 90 client connection threads
+[1490170778] INFO: SERVICE ALERT: cogny;I/O stats;OK;SOFT;2;OK - data received
+[1490171004] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 38>30
+[1490171306] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;2;CRITICAL - svc_t 198>30
+[1490171365] INFO: RETENTION SAVE
+[1490171368] INFO: RETENTION SAVE
+[1490171606] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;3;CRITICAL - svc_t 140>30
+[1490171650] INFO: RETENTION SAVE
+[1490171906] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;HARD;4;CRITICAL - svc_t 52>30
+[1490171906] WARNING: SERVICE ALERT: cogny;Mysql connection time;WARNING;SOFT;1;WARNING - 1.04 seconds to connect as root
+[1490171923] INFO: SERVICE ALERT: cogny;Mysql connection time;OK;SOFT;2;OK - 0.08 seconds to connect as root
+[1490172000] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;HARD;4;OK - data received
+[1490172204] WARNING: SERVICE ALERT: cogny;CPU;WARNING;HARD;4;WARNING - CPU usage is 90% for server cogny.siprossii.com.
+[1490172303] INFO: RETENTION SAVE
+[1490172504] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 110>30
+[1490172504] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;HARD;4;CRITICAL - CPU usage is 97% for server cogny.siprossii.com.
+[1490172617] INFO: SERVICE ALERT: cogny;CPU;OK;HARD;4;OK - CPU usage is 58% for server cogny.siprossii.com.
+[1490172712] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 104>30
+[1490172779] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490172805] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;2;CRITICAL - svc_t 322>30
+[1490172866] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;3;OK - data received
+[1490173107] ERROR: SERVICE ALERT: cogny;Mysql long running procs;CRITICAL;SOFT;1;CRITICAL - 82 long running processes
+[1490173163] INFO: SERVICE ALERT: cogny;Mysql long running procs;OK;SOFT;2;OK - 0 long running processes
+[1490173177] INFO: RETENTION SAVE
+[1490173181] INFO: RETENTION SAVE
+[1490173270] INFO: SERVICE ALERT: denice;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490173350] INFO: SERVICE ALERT: denice;NTP;OK;SOFT;2;NTP OK: Offset 0.07598900795 secs
+[1490173407] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;1;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
+[1490173407] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 38>30
+[1490173407] ERROR: SERVICE ALERT: cogny;Mysql threads;CRITICAL;SOFT;1;CRITICAL - 152 client connection threads
+[1490173465] INFO: RETENTION SAVE
+[1490173612] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - writes 21011>18000
+[1490173673] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490173705] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;2;CRITICAL - svc_t 406>30
+[1490173705] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;2;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
+[1490173705] ERROR: SERVICE ALERT: cogny;Mysql threads;CRITICAL;SOFT;2;CRITICAL - 172 client connection threads
+[1490173804] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490173813] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;3;OK - data received
+[1490173840] INFO: SERVICE ALERT: chazay;NTP;OK;SOFT;2;NTP OK: Offset -0.001378178596 secs
+[1490173872] INFO: SERVICE ALERT: denice;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490173933] INFO: SERVICE ALERT: denice;NTP;OK;SOFT;2;NTP OK: Offset -0.01677286625 secs
+[1490174005] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;3;CRITICAL - CPU usage is 100% for server cogny.siprossii.com.
+[1490174005] WARNING: SERVICE ALERT: cogny;Mysql threads;WARNING;SOFT;3;WARNING - 137 client connection threads
+[1490174126] INFO: RETENTION SAVE
+[1490174305] WARNING: SERVICE ALERT: cogny;CPU;WARNING;HARD;4;WARNING - CPU usage is 89% for server cogny.siprossii.com.
+[1490174305] WARNING: SERVICE ALERT: cogny;Mysql threads;WARNING;HARD;4;WARNING - 108 client connection threads
+[1490174305] WARNING: SERVICE NOTIFICATION: guest;cogny;Mysql threads;WARNING;notify-service-by-email;WARNING - 108 client connection threads
+[1490174305] WARNING: SERVICE NOTIFICATION: imported_admin;cogny;Mysql threads;WARNING;notify-service-by-email;WARNING - 108 client connection threads
+[1490174305] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 236>30
+[1490174345] INFO: SERVICE ALERT: cogny;Mysql threads;OK;HARD;4;OK - 92 client connection threads
+[1490174345] INFO: SERVICE NOTIFICATION: imported_admin;cogny;Mysql threads;OK;notify-service-by-email;OK - 92 client connection threads
+[1490174345] INFO: SERVICE NOTIFICATION: guest;cogny;Mysql threads;OK;notify-service-by-email;OK - 92 client connection threads
+[1490174471] INFO: SERVICE ALERT: denice;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490174479] INFO: SERVICE ALERT: denice;NTP;OK;SOFT;2;NTP OK: Offset -0.01269757748 secs
+[1490174550] INFO: TIMEPERIOD TRANSITION: north_hours;-1;1
+[1490174550] INFO: TIMEPERIOD TRANSITION: workhours;-1;1
+[1490174550] INFO: TIMEPERIOD TRANSITION: 24x7;-1;1
+[1490174551] INFO: RETENTION LOAD
+[1490174553] INFO: RETENTION LOAD
+[1490174553] INFO: RETENTION LOAD
+[1490174554] INFO: CURRENT SERVICE STATE: pi1;Processus;UNREACHABLE;HARD;0;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490174554] INFO: RETENTION LOAD
+[1490174554] INFO: CURRENT SERVICE STATE: pi1;Disk /var;UNREACHABLE;HARD;0;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490174554] INFO: CURRENT SERVICE STATE: pi1;Disk root;UNREACHABLE;HARD;0;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490174554] INFO: CURRENT SERVICE STATE: pi1;Zombies;UNREACHABLE;HARD;0;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490174554] INFO: CURRENT SERVICE STATE: pi1;Disk /tmp;UNREACHABLE;HARD;0;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490174554] INFO: CURRENT HOST STATE: m2m-asso.fr;UP;HARD;1;OK: FreeBSD charnay.fullsave.info 10.0-RELEASE-p9 - up 218 days 6 hours 30 minutes
+[1490174554] INFO: CURRENT SERVICE STATE: m2m-asso.fr;Http;OK;HARD;1;HTTP OK: HTTP/1.1 301 Moved Permanently - 244 bytes in 0.380 second response time
+[1490174554] INFO: CURRENT SERVICE STATE: pi1;Processus;UNREACHABLE;HARD;0;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490174554] INFO: CURRENT SERVICE STATE: pi1;Disk /tmp;UNREACHABLE;HARD;0;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490174554] INFO: CURRENT SERVICE STATE: pi1;Disk /usr;UNREACHABLE;HARD;0;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490174554] ERROR: CURRENT HOST STATE: pi1;DOWN;HARD;2;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490174554] INFO: CURRENT SERVICE STATE: pi1;Nrpe-status;UNREACHABLE;HARD;0;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490174554] ERROR: CURRENT SERVICE STATE: m2m-asso.fr;HttpsCertificate;CRITICAL;HARD;3;connect to address m2m-asso.fr and port 443: Connection refused
+[1490174554] INFO: CURRENT SERVICE STATE: pi1;Disk root;UNREACHABLE;HARD;0;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490174554] INFO: CURRENT HOST STATE: charnay;UP;HARD;1;OK: FreeBSD charnay.fullsave.info 10.0-RELEASE-p9 - up 238 days 2 hours 30 minutes
+[1490174554] INFO: CURRENT SERVICE STATE: pi1;Users;UNREACHABLE;HARD;0;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490174554] ERROR: CURRENT SERVICE STATE: m2m-asso.fr;Dns;CRITICAL;HARD;0;[Errno 2] No such file or directory
+[1490174554] INFO: CURRENT SERVICE STATE: pi1;Users;UNREACHABLE;HARD;0;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490174554] INFO: CURRENT SERVICE STATE: pi1;Disk /var;UNREACHABLE;HARD;0;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490174554] ERROR: CURRENT HOST STATE: pi1;DOWN;HARD;2;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490174554] INFO: CURRENT SERVICE STATE: m2m-asso.fr;Https;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 2765 bytes in 0.197 second response time
+[1490174554] ERROR: CURRENT HOST STATE: pi2;DOWN;HARD;2;Alarm timeout
+[1490174554] INFO: CURRENT SERVICE STATE: pi1;Zombies;UNREACHABLE;HARD;0;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490174554] INFO: RETENTION LOAD
+[1490174554] INFO: CURRENT SERVICE STATE: pi1;Disk /usr;UNREACHABLE;HARD;0;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490174554] INFO: RETENTION LOAD
+[1490174554] INFO: CURRENT SERVICE STATE: pi1;Nrpe-status;UNREACHABLE;HARD;0;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490174554] ERROR: CURRENT HOST STATE: pi2;DOWN;HARD;2;Alarm timeout
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;nsca_uptime;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;dev_BluetoothReader;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;svc_ScreenSaver;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;Maintenance;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;svc_Management;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;dev_ContactReader;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;svc_Activity;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;svc_Printing_A;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;dev_ReceiptPrinter;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT HOST STATE: charnay;UP;HARD;1;OK: FreeBSD charnay.fullsave.info 10.0-RELEASE-p9 - up 238 days 2 hours 30 minutes
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;svc_ScreenSaver;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;nsca_services;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;svc_Activity;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;dev_IOUI;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;dev_DisplayUI;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;dev_BarcodeReader;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;svc_Payment_A;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;dev_BarcodeReader;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;dev_DisplayUI;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;svc_Printing_A;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] ERROR: CURRENT HOST STATE: passive-02;DOWN;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;nsca_services;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;svc_Disk;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;nsca_memory;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] ERROR: CURRENT HOST STATE: passive-01;DOWN;HARD;1;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;Maintenance;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;nsca_disk;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;svc_Monitoring;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;nsca_cpu;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;dev_ContactlessReader;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: m2m-asso.fr;Http;OK;HARD;1;HTTP OK: HTTP/1.1 301 Moved Permanently - 244 bytes in 0.380 second response time
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;svc_TagReading_A;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;svc_Payment_A;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;nsca_disk;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;dev_ContactReader;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;dev_DisplayUI;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;Application;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;svc_TagReading_D;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;dev_TouchUI;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;dev_CBPayment;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;svc_ScreenSaver;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;svc_TagReading_C;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;nsca_uptime;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;dev_CBPayment;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] ERROR: CURRENT HOST STATE: passive-02;DOWN;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;dev_IOUI;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;svc_Session;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;dev_BarcodeReader;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;svc_Payment_A;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;svc_TagReading_B;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;Application;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;svc_TagReading_B;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;svc_Activity;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;Application;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;dev_ReceiptPrinter;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;svc_Printing_A;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;svc_Alarm;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;nsca_uptime;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;dev_Network;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;svc_TagReading_C;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;svc_Printing_A;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;dev_SoundUI;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;svc_Session;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;dev_IOUI;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;Maintenance;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;dev_SoundUI;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;svc_Management;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: m2m-asso.fr;Https;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 2765 bytes in 0.197 second response time
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;svc_ScreenSaver;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;dev_ContactlessReader;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;svc_TagReading_B;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;svc_Disk;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;dev_DisplayUI;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;svc_Alarm;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;dev_BarcodeReader;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;dev_BluetoothReader;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;nsca_services;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT HOST STATE: m2m-asso.fr;UP;HARD;1;OK: FreeBSD charnay.fullsave.info 10.0-RELEASE-p9 - up 218 days 6 hours 30 minutes
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;svc_Activity;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;svc_TagReading_C;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;dev_BluetoothReader;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;dev_ContactlessReader;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;svc_TagReading_B;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;svc_TagReading_C;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;nsca_cpu;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;svc_Session;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;svc_Disk;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;dev_SoundUI;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;dev_ContactlessReader;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;nsca_uptime;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;dev_TouchUI;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;svc_Alarm;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;dev_ContactReader;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;nsca_services;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;svc_TagReading_A;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;nsca_memory;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;svc_Monitoring;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;svc_Payment_A;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;dev_SoundUI;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;dev_ContactReader;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;dev_CBPayment;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;nsca_cpu;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;svc_TagReading_A;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;dev_IOUI;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;dev_Network;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;svc_TagReading_A;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;dev_ReceiptPrinter;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;dev_ReceiptPrinter;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] ERROR: CURRENT HOST STATE: passive-01;DOWN;HARD;1;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;svc_Disk;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;nsca_disk;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;nsca_disk;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] ERROR: CURRENT SERVICE STATE: m2m-asso.fr;HttpsCertificate;CRITICAL;HARD;3;connect to address m2m-asso.fr and port 443: Connection refused
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;svc_Alarm;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;svc_TagReading_D;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;nsca_memory;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;svc_TagReading_D;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;nsca_cpu;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;dev_TouchUI;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;dev_Network;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;svc_Monitoring;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;dev_BluetoothReader;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;nsca_memory;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;dev_Network;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;svc_Monitoring;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;Application;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;svc_TagReading_D;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;dev_TouchUI;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;svc_Session;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;svc_Management;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] ERROR: CURRENT SERVICE STATE: m2m-asso.fr;Dns;CRITICAL;HARD;0;[Errno 2] No such file or directory
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;Maintenance;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-02;svc_Management;UNREACHABLE;HARD;0;Freshness period expired
+[1490174555] INFO: CURRENT SERVICE STATE: passive-01;dev_CBPayment;UNREACHABLE;HARD;0;Freshness period expired
+[1490174567] INFO: RETENTION LOAD
+[1490174570] INFO: CURRENT SERVICE STATE: denice;Nrpe-status;OK;HARD;1;NRPE v2.15
+[1490174570] INFO: CURRENT SERVICE STATE: lachassagne;Processus;OK;HARD;1;PROCS OK: 259 processes
+[1490174570] ERROR: CURRENT SERVICE STATE: alignak_glpi;Disk /usr;CRITICAL;HARD;4;NRPE: Command 'check_usr' not defined
+[1490174570] INFO: CURRENT SERVICE STATE: lachassagne;Nrpe-status;OK;HARD;1;NRPE v2.15
+[1490174570] INFO: CURRENT SERVICE STATE: cogny;Zombies;OK;HARD;1;PROCS OK: 0 processes with STATE = Z
+[1490174570] INFO: CURRENT SERVICE STATE: lachassagne;Disk tmp;OK;HARD;1;DISK OK - free space: /tmp 62573 MB (99% inode=99%);
+[1490174570] INFO: CURRENT SERVICE STATE: chazay;I/O stats;OK;HARD;1;OK - data received
+[1490174570] INFO: CURRENT SERVICE STATE: denice;HttpsCertificate;UNKNOWN;HARD;0;
+[1490174570] INFO: CURRENT SERVICE STATE: denice;Shinken Main Poller;OK;HARD;1;TCP OK - 0.000 second response time on 10.0.2.7 port 7771
+[1490174570] INFO: CURRENT SERVICE STATE: cogny;IPMI SDR;OK;HARD;1;All sensors OK
+[1490174570] ERROR: CURRENT SERVICE STATE: chazay;RAID controller;CRITICAL;HARD;0;NRPE: Command 'check_raid' not defined
+[1490174570] INFO: CURRENT SERVICE STATE: lachassagne;NTP;OK;HARD;1;NTP OK: Offset -0.0213958025 secs
+[1490174570] INFO: CURRENT SERVICE STATE: denice;Shinken Main Arbiter;OK;HARD;1;TCP OK - 0.000 second response time on 10.0.2.7 port 7770
+[1490174570] ERROR: CURRENT SERVICE STATE: lachassagne;System up-to-date;CRITICAL;HARD;0;CHECKPKGAUDIT CRITICAL - found 169 vulnerable(s) pkg(s) in : alignak, base_php7, base_webserver, durieuxfamily, elasticsearch, etherpad, glpi_fdj, grafana, graphite_fdj, kibana_ipmfrance, lachassagne.siprossii.com, mysql_fdj, mysql_master_ipm, saas_backend, tannierelouveteaux
+[1490174570] INFO: CURRENT SERVICE STATE: denice;IPMI sensors;OK;HARD;1;OK:  Fan1A RPM is at 2280 RPM,  Fan2A RPM is at 2280 RPM,  Fan3A RPM is at 2280 RPM,  Fan4A RPM is at 2280 RPM,  Fan5A RPM is at 2400 RPM,  Fan6A RPM is at 2400 RPM,  Inlet Temp is 19C,  Exhaust Temp is 41C,  Temp is 60C,  Temp is 65C,  Fan7A RPM is at 2400 RPM,  Fan1B RPM is at 2160 RPM,  Fan2B RPM is at 2160 RPM,  Fan3B RPM is at 2280 RPM,  Fan4B RPM is at 2160 RPM,  Fan5B RPM is at 2280 RPM,  Fan6B RPM is at 2280 RPM,  Fan7B RPM is at 2280 RPM
+[1490174570] INFO: CURRENT HOST STATE: alignak_glpi;UP;HARD;1;NRPE v2.15
+[1490174570] INFO: CURRENT SERVICE STATE: denice;Shinken Second Web service;OK;HARD;1;TCP OK - 0.000 second response time on 10.0.2.5 port 27760
+[1490174570] INFO: CURRENT SERVICE STATE: lachassagne;Mysql tmp tables;UNKNOWN;HARD;0;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490174570] ERROR: CURRENT SERVICE STATE: alignak_glpi;Disk /var;CRITICAL;HARD;0;NRPE: Command 'check_var' not defined
+[1490174570] INFO: CURRENT SERVICE STATE: cogny;Https;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 2575 bytes in 0.188 second response time
+[1490174570] INFO: CURRENT SERVICE STATE: cogny;Disk var;OK;HARD;1;DISK OK - free space: /var 64738 MB (97% inode=99%);
+[1490174570] INFO: CURRENT SERVICE STATE: chazay;CPU;OK;HARD;1;OK - CPU usage is 42% for server chazay.siprossii.com.
+[1490174570] INFO: CURRENT SERVICE STATE: cogny;I/O stats;OK;HARD;1;OK - data received
+[1490174570] INFO: CURRENT SERVICE STATE: chazay;IPMI sensors;OK;HARD;1;OK:  CPU Temp is 47C,  System Temp is 28C,  Peripheral Temp is 26C,  PCH Temp is 43C
+[1490174570] INFO: CURRENT HOST STATE: chazay;UP;HARD;1;NRPE v2.15
+[1490174570] INFO: CURRENT SERVICE STATE: lachassagne;Disk usr;OK;HARD;1;DISK OK - free space: /usr 62573 MB (90% inode=99%);
+[1490174570] INFO: CURRENT SERVICE STATE: cogny;Disk 2;OK;HARD;1;DISK OK - free space: /zdisk2 220896 MB (99% inode=99%);
+[1490174570] ERROR: CURRENT SERVICE STATE: chazay;System up-to-date;CRITICAL;HARD;0;CHECKPKGAUDIT CRITICAL - found 89 vulnerable(s) pkg(s) in : alignak, alignak_backend, alignak_graphite, alignak_packaging, alignak_webui, application_backend, application_frontend, chazay.siprossii.com, glpi, mongo, mysql, webui, wordpress
+[1490174570] INFO: CURRENT SERVICE STATE: cogny;VPN switch check;OK;HARD;1;Racoon vpn tunnel check ok: 93.174.144.11
+[1490174570] ERROR: CURRENT SERVICE STATE: chazay;Opened files;CRITICAL;HARD;0;NRPE: Command 'check_openedfiles' not defined
+[1490174570] INFO: CURRENT SERVICE STATE: cogny;Processus;OK;HARD;1;PROCS OK: 1182 processes
+[1490174570] INFO: CURRENT SERVICE STATE: chazay;Https;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 2932 bytes in 0.110 second response time
+[1490174570] INFO: CURRENT SERVICE STATE: denice;Shinken Main Web service;OK;HARD;1;TCP OK - 0.000 second response time on 10.0.2.7 port 7760
+[1490174570] INFO: CURRENT SERVICE STATE: cogny;RAID controller;OK;HARD;1;OK: mfid0:279G:RAID-1:OPTIMAL mfid1:1676G:RAID-5:OPTIMAL Drives:0
+[1490174570] INFO: CURRENT SERVICE STATE: chazay;Memory;OK;HARD;1;Memory OK - 41.6% (14285336576 kB) used
+[1490174570] ERROR: CURRENT SERVICE STATE: chazay;Disk 2;CRITICAL;HARD;0;NRPE: Command 'check_disk_disk2' not defined
+[1490174570] INFO: CURRENT SERVICE STATE: lachassagne;CPU;OK;HARD;1;OK - CPU usage is 4% for server lachassagne.siprossii.com.
+[1490174570] INFO: CURRENT SERVICE STATE: alignak_glpi;Nrpe-status;OK;HARD;1;NRPE v2.15
+[1490174570] INFO: CURRENT SERVICE STATE: chazay;Disk root;OK;HARD;1;DISK OK - free space: / 414006 MB (94% inode=99%);
+[1490174570] ERROR: CURRENT SERVICE STATE: denice;Disk /tmp;CRITICAL;HARD;0;NRPE: Command 'check_tmp' not defined
+[1490174570] ERROR: CURRENT SERVICE STATE: chazay;Disk /usr;CRITICAL;HARD;0;NRPE: Command 'check_usr' not defined
+[1490174570] INFO: CURRENT SERVICE STATE: lachassagne;IPMI sensors;OK;HARD;1;OK:
+[1490174570] INFO: CURRENT SERVICE STATE: denice;Shinken Second Poller;OK;HARD;1;TCP OK - 0.000 second response time on 10.0.2.5 port 7771
+[1490174570] INFO: CURRENT SERVICE STATE: denice;Memory;OK;HARD;1;Memory OK - 26.2% (9018241024 kB) used
+[1490174570] ERROR: CURRENT SERVICE STATE: lachassagne;Disk /var;CRITICAL;HARD;0;NRPE: Command 'check_var' not defined
+[1490174570] INFO: CURRENT SERVICE STATE: lachassagne;Disk var;OK;HARD;1;DISK OK - free space: /var 62573 MB (98% inode=99%);
+[1490174570] INFO: CURRENT SERVICE STATE: cogny;Mysql long running procs;OK;HARD;1;OK - 0 long running processes
+[1490174570] INFO: CURRENT SERVICE STATE: denice;Disk root;OK;HARD;1;DISK OK - free space: / 55805 MB (98% inode=99%);
+[1490174570] INFO: CURRENT SERVICE STATE: chazay;Nrpe-status;OK;HARD;1;NRPE v2.15
+[1490174570] INFO: CURRENT SERVICE STATE: denice;Zombies;OK;HARD;1;PROCS OK: 0 processes with STATE = Z
+[1490174570] ERROR: CURRENT SERVICE STATE: chazay;I/O stats disk 2;CRITICAL;HARD;0;NRPE: Command 'check_iostat_bsd_disk2' not defined
+[1490174570] INFO: CURRENT SERVICE STATE: chazay;Zombies;OK;HARD;1;PROCS OK: 0 processes with STATE = Z
+[1490174570] INFO: CURRENT SERVICE STATE: cogny;IPMI sensors;OK;HARD;1;OK:  Fan1A RPM is at 5640 RPM,  Fan2A RPM is at 5640 RPM,  Fan3A RPM is at 5520 RPM,  Fan4A RPM is at 5520 RPM,  Fan5A RPM is at 5760 RPM,  Fan6A RPM is at 5640 RPM,  Inlet Temp is 20C,  Exhaust Temp is 32C,  Temp is 54C,  Fan7A RPM is at 5640 RPM,  Fan1B RPM is at 5160 RPM,  Fan2B RPM is at 5280 RPM,  Fan3B RPM is at 5400 RPM,  Fan4B RPM is at 5160 RPM,  Fan5B RPM is at 5400 RPM,  Fan6B RPM is at 5400 RPM,  Fan7B RPM is at 5400 RPM
+[1490174570] ERROR: CURRENT SERVICE STATE: chazay;Disk var;CRITICAL;HARD;4;NRPE: Command 'check_disk_var' not defined
+[1490174570] INFO: CURRENT SERVICE STATE: lachassagne;Zombies;OK;HARD;1;PROCS OK: 0 processes with STATE = Z
+[1490174570] INFO: CURRENT SERVICE STATE: cogny;Disk root;OK;HARD;1;DISK OK - free space: / 64738 MB (97% inode=99%);
+[1490174570] INFO: CURRENT SERVICE STATE: denice;Shinken Main Receiver;OK;HARD;1;TCP OK - 0.000 second response time on 10.0.2.7 port 7773
+[1490174570] ERROR: CURRENT SERVICE STATE: alignak_glpi;Disk /tmp;CRITICAL;HARD;0;NRPE: Command 'check_tmp' not defined
+[1490174570] INFO: CURRENT SERVICE STATE: denice;Firewall routes;OK;HARD;1;PF OK - states: 3316 (6% - limit: 50000)
+[1490174570] INFO: CURRENT SERVICE STATE: cogny;Memory;OK;HARD;1;Memory OK - 39.2% (53928529920 kB) used
+[1490174570] INFO: CURRENT SERVICE STATE: denice;Opened files;OK;HARD;1;OK kern.openfiles: 1890 (less than 63535 / 65035 [ kern.maxfiles: 65535 ])
+[1490174570] INFO: CURRENT SERVICE STATE: denice;IPMI SDR;OK;HARD;1;All sensors OK
+[1490174570] INFO: CURRENT SERVICE STATE: lachassagne;IPMI SDR;OK;HARD;1;All sensors OK
+[1490174570] INFO: CURRENT SERVICE STATE: lachassagne;I/O stats disk 2;OK;HARD;1;OK - data received
+[1490174570] INFO: CURRENT SERVICE STATE: chazay;Processus;OK;HARD;1;PROCS OK: 205 processes
+[1490174570] ERROR: CURRENT SERVICE STATE: denice;Disk /usr;CRITICAL;HARD;0;NRPE: Command 'check_usr' not defined
+[1490174570] INFO: CURRENT SERVICE STATE: denice;NTP;OK;HARD;1;NTP OK: Offset -0.01269757748 secs
+[1490174570] INFO: CURRENT SERVICE STATE: cogny;Opened files;OK;HARD;1;OK kern.openfiles: 15591 (less than 63535 / 65035 [ kern.maxfiles: 65535 ])
+[1490174570] ERROR: CURRENT SERVICE STATE: alignak_glpi;Disk root;CRITICAL;HARD;0;NRPE: Command 'check_root' not defined
+[1490174570] INFO: CURRENT SERVICE STATE: denice;Shinken Second Arbiter;OK;HARD;1;TCP OK - 0.000 second response time on 10.0.2.5 port 7770
+[1490174570] INFO: CURRENT SERVICE STATE: denice;Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1490174570] INFO: CURRENT SERVICE STATE: denice;Processus;OK;HARD;1;PROCS OK: 200 processes
+[1490174570] INFO: CURRENT SERVICE STATE: lachassagne;RAID controller;OK;HARD;1;OK: mfid0:136G:RAID-1:OPTIMAL mfid1:1676G:RAID-5:OPTIMAL Drives:0
+[1490174570] INFO: CURRENT SERVICE STATE: lachassagne;I/O stats;OK;HARD;1;OK - data received
+[1490174570] WARNING: CURRENT SERVICE STATE: cogny;CPU;WARNING;HARD;4;WARNING - CPU usage is 89% for server cogny.siprossii.com.
+[1490174570] INFO: CURRENT SERVICE STATE: lachassagne;Mysql connection time;UNKNOWN;HARD;0;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490174570] ERROR: CURRENT SERVICE STATE: lachassagne;Disk /tmp;CRITICAL;HARD;0;NRPE: Command 'check_tmp' not defined
+[1490174570] INFO: CURRENT SERVICE STATE: denice;Shinken Second Broker;OK;HARD;1;TCP OK - 0.000 second response time on 10.0.2.5 port 7772
+[1490174570] INFO: CURRENT HOST STATE: localhost;UP;HARD;1;OK: test.monitor.run 4261747196 FreeBSD - up 126 days 22 hours 37 minutes
+[1490174570] INFO: CURRENT SERVICE STATE: chazay;HttpsCertificate;OK;HARD;1;OK - Certificate '*.kiosks.ipmfrance.com' will expire on Tue Sep 26 00:59:59 2017.
+[1490174570] INFO: CURRENT SERVICE STATE: denice;Shinken Main Reactionner;OK;HARD;1;TCP OK - 0.000 second response time on 10.0.2.7 port 7769
+[1490174570] ERROR: CURRENT SERVICE STATE: denice;Http;CRITICAL;HARD;0;CRITICAL - Socket timeout
+[1490174570] INFO: CURRENT SERVICE STATE: denice;Shinken Main Broker;OK;HARD;1;TCP OK - 0.000 second response time on 10.0.2.7 port 7772
+[1490174570] INFO: CURRENT SERVICE STATE: cogny;Firewall routes;OK;HARD;1;PF OK - states: 5916 (9% - limit: 60000)
+[1490174570] INFO: CURRENT SERVICE STATE: alignak_glpi;Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1490174570] INFO: CURRENT SERVICE STATE: alignak_glpi;Processus;OK;HARD;1;PROCS OK: 205 processes
+[1490174570] ERROR: CURRENT HOST STATE: always_down;DOWN;HARD;2;Alarm timeout
+[1490174570] INFO: CURRENT SERVICE STATE: cogny;Mysql threads;OK;HARD;1;OK - 92 client connection threads
+[1490174570] ERROR: CURRENT SERVICE STATE: denice;Dns;CRITICAL;HARD;0;[Errno 2] No such file or directory
+[1490174570] ERROR: CURRENT SERVICE STATE: denice;Disk /var;CRITICAL;HARD;0;NRPE: Command 'check_var' not defined
+[1490174570] ERROR: CURRENT SERVICE STATE: lachassagne;Mysql long running procs;CRITICAL;HARD;0;NRPE: Command 'check_mysql_health_long-running-procs' not defined
+[1490174570] INFO: CURRENT SERVICE STATE: cogny;Http;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 2535 bytes in 0.161 second response time
+[1490174570] ERROR: CURRENT SERVICE STATE: denice;System up-to-date;CRITICAL;HARD;0;CHECKPKGAUDIT CRITICAL - found 53 vulnerable(s) pkg(s) in : denice.siprossii.com, logstash, mongodb, shinken24, shinken2_dev
+[1490174570] INFO: CURRENT SERVICE STATE: cogny;Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1490174570] INFO: CURRENT SERVICE STATE: lachassagne;Firewall routes;OK;HARD;1;PF OK - states: 999 (1.66% - limit: 60000)
+[1490174570] INFO: CURRENT SERVICE STATE: cogny;GLPI proxy;OK;HARD;1;TCP OK - 0.000 second response time on 10.0.1.252 port 80
+[1490174570] INFO: CURRENT SERVICE STATE: denice;RAID controller;OK;HARD;1;OK: mfid0:136G:RAID-1:OPTIMAL Drives:0
+[1490174570] INFO: CURRENT SERVICE STATE: cogny;TCP proxy;OK;HARD;1;TCP OK - 0.000 second response time on 10.0.1.252 port 5667
+[1490174570] WARNING: CURRENT SERVICE STATE: chazay;IPMI SDR;WARNING;HARD;0;NRPE: Unable to read output
+[1490174570] INFO: CURRENT SERVICE STATE: lachassagne;Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1490174570] INFO: RETENTION LOAD
+[1490174570] INFO: CURRENT SERVICE STATE: denice;I/O stats;OK;HARD;1;OK - data received
+[1490174570] ERROR: CURRENT SERVICE STATE: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 236>30
+[1490174570] INFO: CURRENT SERVICE STATE: denice;Disk tmp;OK;HARD;1;DISK OK - free space: /tmp 55805 MB (99% inode=99%);
+[1490174570] ERROR: CURRENT SERVICE STATE: cogny;Disk /var;CRITICAL;HARD;0;NRPE: Command 'check_var' not defined
+[1490174570] INFO: CURRENT SERVICE STATE: denice;Disk var;OK;HARD;1;DISK OK - free space: /var 55800 MB (98% inode=99%);
+[1490174570] INFO: CURRENT SERVICE STATE: chazay;Http;OK;HARD;1;HTTP OK: HTTP/1.1 302 Found - 554 bytes in 0.012 second response time
+[1490174570] INFO: CURRENT SERVICE STATE: cogny;HttpsCertificate;OK;HARD;1;OK - Certificate '*.kiosks.ipmfrance.com' will expire on Tue Sep 26 00:59:59 2017.
+[1490174570] ERROR: CURRENT SERVICE STATE: chazay;Disk tmp;CRITICAL;HARD;0;NRPE: Command 'check_disk_tmp' not defined
+[1490174570] INFO: CURRENT SERVICE STATE: chazay;Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1490174570] INFO: CURRENT SERVICE STATE: denice;Https;UNKNOWN;HARD;0;
+[1490174570] INFO: CURRENT SERVICE STATE: cogny;Nrpe-status;OK;HARD;1;NRPE v2.15
+[1490174570] INFO: CURRENT SERVICE STATE: denice;Disk usr;OK;HARD;1;DISK OK - free space: /usr 55800 MB (47% inode=99%);
+[1490174570] INFO: CURRENT SERVICE STATE: lachassagne;Disk root;OK;HARD;1;DISK OK - free space: / 62573 MB (97% inode=99%);
+[1490174570] ERROR: CURRENT SERVICE STATE: cogny;Dns;CRITICAL;HARD;0;[Errno 2] No such file or directory
+[1490174570] INFO: CURRENT HOST STATE: lachassagne;UP;HARD;1;NRPE v2.15
+[1490174570] INFO: CURRENT SERVICE STATE: cogny;VPN traffic;OK;HARD;1;Average IN: 784.71Kbps (0.78%), Average OUT: 0.00bps (0.00%) Total RX: 0.00Bytes, Total TX: 0.00Bytes
+[1490174570] INFO: CURRENT SERVICE STATE: denice;Shinken Second Scheduler;OK;HARD;1;TCP OK - 0.000 second response time on 10.0.2.5 port 7768
+[1490174570] INFO: CURRENT SERVICE STATE: lachassagne;Opened files;OK;HARD;1;OK kern.openfiles: 1746 (less than 1044259 / 1045759 [ kern.maxfiles: 1046259 ])
+[1490174570] ERROR: CURRENT SERVICE STATE: cogny;Disk /tmp;CRITICAL;HARD;0;NRPE: Command 'check_tmp' not defined
+[1490174570] INFO: CURRENT SERVICE STATE: cogny;NSCA Proxy;OK;HARD;1;TCP OK - 0.000 second response time on 10.0.1.252 port 5667
+[1490174570] INFO: CURRENT SERVICE STATE: cogny;NTP;OK;HARD;1;NTP OK: Offset -0.0280200243 secs
+[1490174570] INFO: CURRENT SERVICE STATE: denice;Shinken Second Reactionner;OK;HARD;1;TCP OK - 0.000 second response time on 10.0.2.5 port 7769
+[1490174570] INFO: CURRENT SERVICE STATE: denice;CPU;OK;HARD;1;OK - CPU usage is 10% for server denice.siprossii.com.
+[1490174570] INFO: CURRENT SERVICE STATE: cogny;Glpi Traffic;OK;HARD;1;Average IN: 95.50Mbps (9.55%), Average OUT: 95.36Mbps (9.54%) Total RX: 0.00Bytes, Total TX: 0.00Bytes
+[1490174570] INFO: CURRENT SERVICE STATE: cogny;Disk tmp;OK;HARD;1;DISK OK - free space: /tmp 64721 MB (99% inode=99%);
+[1490174570] INFO: CURRENT SERVICE STATE: denice;Shinken Main Scheduler;OK;HARD;1;TCP OK - 0.000 second response time on 10.0.2.7 port 7768
+[1490174570] INFO: CURRENT SERVICE STATE: alignak_glpi;Zombies;OK;HARD;1;PROCS OK: 0 processes with STATE = Z
+[1490174570] ERROR: CURRENT SERVICE STATE: chazay;Disk /tmp;CRITICAL;HARD;0;NRPE: Command 'check_tmp' not defined
+[1490174570] ERROR: CURRENT SERVICE STATE: chazay;Disk /var;CRITICAL;HARD;0;NRPE: Command 'check_var' not defined
+[1490174570] ERROR: CURRENT SERVICE STATE: chazay;Disk usr;CRITICAL;HARD;0;NRPE: Command 'check_disk_usr' not defined
+[1490174570] ERROR: CURRENT SERVICE STATE: lachassagne;Disk /usr;CRITICAL;HARD;0;NRPE: Command 'check_usr' not defined
+[1490174570] INFO: CURRENT SERVICE STATE: chazay;NTP;OK;HARD;1;NTP OK: Offset -2.765655518e-05 secs
+[1490174570] INFO: CURRENT HOST STATE: cogny;UP;HARD;1;NRPE v2.15
+[1490174570] INFO: CURRENT SERVICE STATE: cogny;Mysql tmp tables;OK;HARD;1;OK - 52.22% of 1256 tables were created on disk
+[1490174570] INFO: CURRENT HOST STATE: denice;UP;HARD;1;NRPE v2.15
+[1490174570] INFO: CURRENT SERVICE STATE: cogny;Disk usr;OK;HARD;1;DISK OK - free space: /usr 64731 MB (81% inode=99%);
+[1490174570] ERROR: CURRENT SERVICE STATE: cogny;Disk /usr;CRITICAL;HARD;0;NRPE: Command 'check_usr' not defined
+[1490174570] INFO: CURRENT SERVICE STATE: denice;Shinken Second Receiver;OK;HARD;1;TCP OK - 0.000 second response time on 10.0.2.5 port 7773
+[1490174570] INFO: CURRENT SERVICE STATE: lachassagne;Memory;OK;HARD;1;Memory OK - 59.9% (20580061184 kB) used
+[1490174570] INFO: CURRENT SERVICE STATE: cogny;System up-to-date;UNKNOWN;HARD;0;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490174570] INFO: CURRENT SERVICE STATE: cogny;Mysql connection time;OK;HARD;1;OK - 0.10 seconds to connect as root
+[1490174570] INFO: CURRENT SERVICE STATE: lachassagne;Mysql threads;UNKNOWN;HARD;0;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490174570] INFO: CURRENT SERVICE STATE: lachassagne;Disk 2;OK;HARD;1;DISK OK - free space: /disk2 389267 MB (95% inode=99%);
+[1490174688] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490174859] INFO: RETENTION LOAD
+[1490174859] INFO: RETENTION LOAD
+[1490174859] ERROR: CURRENT SERVICE STATE: m2m-asso.fr;HttpsCertificate;CRITICAL;HARD;3;connect to address m2m-asso.fr and port 443: Connection refused
+[1490174859] INFO: CURRENT SERVICE STATE: m2m-asso.fr;Https;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 2765 bytes in 0.185 second response time
+[1490174859] INFO: RETENTION LOAD
+[1490174859] INFO: CURRENT SERVICE STATE: m2m-asso.fr;Http;OK;HARD;1;HTTP OK: HTTP/1.1 301 Moved Permanently - 244 bytes in 0.765 second response time
+[1490174859] INFO: CURRENT HOST STATE: charnay;UP;HARD;1;OK: FreeBSD charnay.fullsave.info 10.0-RELEASE-p9 - up 238 days 2 hours 35 minutes
+[1490174859] INFO: RETENTION LOAD
+[1490174859] ERROR: CURRENT SERVICE STATE: m2m-asso.fr;Dns;CRITICAL;HARD;0;[Errno 2] No such file or directory
+[1490174859] INFO: CURRENT HOST STATE: m2m-asso.fr;UP;HARD;1;OK: FreeBSD charnay.fullsave.info 10.0-RELEASE-p9 - up 218 days 6 hours 30 minutes
+[1490174859] INFO: RETENTION LOAD
+[1490174859] INFO: RETENTION LOAD
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;svc_Activity;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;dev_TouchUI;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;svc_Monitoring;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: pi1;Disk /tmp;UNREACHABLE;HARD;0;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490174863] INFO: CURRENT SERVICE STATE: pi1;Disk root;UNREACHABLE;HARD;0;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;svc_Printing_A;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;svc_TagReading_D;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;Application;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;Maintenance;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;svc_ScreenSaver;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: pi1;Users;UNREACHABLE;HARD;0;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490174863] INFO: CURRENT SERVICE STATE: pi1;Zombies;UNREACHABLE;HARD;0;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;svc_Disk;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;Maintenance;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;Application;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;dev_TouchUI;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;dev_SoundUI;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] ERROR: CURRENT HOST STATE: pi1;DOWN;HARD;2;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;dev_ContactReader;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;svc_Session;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;dev_IOUI;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;dev_TouchUI;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;Maintenance;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;svc_Monitoring;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;dev_ContactlessReader;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;nsca_uptime;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: pi1;Disk /var;UNREACHABLE;HARD;0;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;svc_Alarm;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;nsca_cpu;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;dev_ContactReader;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;dev_ReceiptPrinter;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;svc_TagReading_B;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;svc_TagReading_D;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;svc_TagReading_C;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;dev_Network;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;nsca_disk;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;svc_TagReading_A;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;svc_TagReading_B;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;dev_BluetoothReader;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;dev_BarcodeReader;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;svc_Management;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;nsca_services;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;svc_ScreenSaver;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;dev_IOUI;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;nsca_cpu;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;svc_Session;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;dev_ContactReader;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: pi1;Disk /tmp;UNREACHABLE;HARD;0;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;svc_Printing_A;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;svc_TagReading_B;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;Maintenance;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;dev_BluetoothReader;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;nsca_services;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;dev_BarcodeReader;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: pi1;Zombies;UNREACHABLE;HARD;0;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;svc_ScreenSaver;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT HOST STATE: m2m-asso.fr;UP;HARD;1;OK: FreeBSD charnay.fullsave.info 10.0-RELEASE-p9 - up 218 days 6 hours 30 minutes
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;nsca_disk;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: pi1;Processus;UNREACHABLE;HARD;0;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;nsca_uptime;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] ERROR: CURRENT HOST STATE: passive-02;DOWN;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;nsca_uptime;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;svc_Payment_A;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;dev_DisplayUI;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;dev_CBPayment;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;svc_Alarm;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] ERROR: CURRENT HOST STATE: pi1;DOWN;HARD;2;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;dev_SoundUI;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;dev_ReceiptPrinter;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: pi1;Nrpe-status;UNREACHABLE;HARD;0;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;dev_BluetoothReader;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] ERROR: CURRENT HOST STATE: pi2;DOWN;HARD;2;Alarm timeout
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;svc_Payment_A;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;Application;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;dev_CBPayment;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;dev_SoundUI;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;svc_Session;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;nsca_cpu;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;nsca_services;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;nsca_memory;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT HOST STATE: charnay;UP;HARD;1;OK: FreeBSD charnay.fullsave.info 10.0-RELEASE-p9 - up 238 days 2 hours 35 minutes
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;svc_Monitoring;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: pi1;Disk /usr;UNREACHABLE;HARD;0;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;svc_TagReading_C;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;nsca_disk;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;dev_ContactReader;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: m2m-asso.fr;Https;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 2765 bytes in 0.185 second response time
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;dev_CBPayment;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;dev_ContactlessReader;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;dev_IOUI;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;dev_CBPayment;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;dev_BluetoothReader;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;nsca_uptime;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: pi1;Nrpe-status;UNREACHABLE;HARD;0;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;svc_Alarm;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: m2m-asso.fr;Http;OK;HARD;1;HTTP OK: HTTP/1.1 301 Moved Permanently - 244 bytes in 0.765 second response time
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;nsca_services;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;svc_Activity;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: pi1;Disk root;UNREACHABLE;HARD;0;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;svc_Management;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;Application;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] ERROR: CURRENT SERVICE STATE: m2m-asso.fr;Dns;CRITICAL;HARD;0;[Errno 2] No such file or directory
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;svc_Activity;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;svc_Disk;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;dev_ContactlessReader;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;dev_ReceiptPrinter;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;svc_TagReading_A;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;svc_TagReading_C;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;dev_TouchUI;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;dev_ContactlessReader;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;svc_Printing_A;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;svc_Alarm;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] ERROR: CURRENT HOST STATE: pi2;DOWN;HARD;2;Alarm timeout
+[1490174863] INFO: CURRENT SERVICE STATE: pi1;Disk /usr;UNREACHABLE;HARD;0;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;svc_Session;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;svc_TagReading_A;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] ERROR: CURRENT HOST STATE: passive-01;DOWN;HARD;1;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;dev_DisplayUI;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;svc_TagReading_A;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;svc_Monitoring;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;svc_Management;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;dev_IOUI;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;nsca_memory;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] ERROR: CURRENT HOST STATE: passive-02;DOWN;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;svc_TagReading_D;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;dev_BarcodeReader;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: pi1;Disk /var;UNREACHABLE;HARD;0;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;nsca_cpu;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;svc_ScreenSaver;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;nsca_memory;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;dev_Network;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] ERROR: CURRENT HOST STATE: passive-01;DOWN;HARD;1;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;dev_ReceiptPrinter;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;nsca_disk;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;svc_Disk;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;dev_Network;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;svc_Payment_A;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;dev_DisplayUI;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] ERROR: CURRENT SERVICE STATE: m2m-asso.fr;HttpsCertificate;CRITICAL;HARD;3;connect to address m2m-asso.fr and port 443: Connection refused
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;svc_Disk;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;nsca_memory;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;svc_Payment_A;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;dev_SoundUI;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;dev_BarcodeReader;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;svc_TagReading_B;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;svc_TagReading_D;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;svc_Management;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;dev_Network;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;svc_TagReading_C;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: pi1;Users;UNREACHABLE;HARD;0;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;svc_Activity;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-01;dev_DisplayUI;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: passive-02;svc_Printing_A;UNREACHABLE;HARD;0;Freshness period expired
+[1490174863] INFO: CURRENT SERVICE STATE: pi1;Processus;UNREACHABLE;HARD;0;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490174864] INFO: TIMEPERIOD TRANSITION: workhours;-1;1
+[1490174864] INFO: TIMEPERIOD TRANSITION: north_hours;-1;1
+[1490174864] INFO: TIMEPERIOD TRANSITION: 24x7;-1;1
+[1490174874] INFO: RETENTION LOAD
+[1490174876] INFO: CURRENT SERVICE STATE: denice;I/O stats;OK;HARD;1;OK - data received
+[1490174876] INFO: CURRENT SERVICE STATE: cogny;Disk usr;OK;HARD;1;DISK OK - free space: /usr 63998 MB (81% inode=99%);
+[1490174876] INFO: CURRENT SERVICE STATE: lachassagne;Disk usr;OK;HARD;1;DISK OK - free space: /usr 62572 MB (90% inode=99%);
+[1490174876] INFO: CURRENT SERVICE STATE: alignak_glpi;Processus;OK;HARD;1;PROCS OK: 205 processes
+[1490174876] INFO: CURRENT SERVICE STATE: cogny;Nrpe-status;OK;HARD;1;NRPE v2.15
+[1490174876] INFO: CURRENT SERVICE STATE: cogny;Disk 2;OK;HARD;1;DISK OK - free space: /zdisk2 220887 MB (99% inode=99%);
+[1490174876] INFO: CURRENT SERVICE STATE: lachassagne;Nrpe-status;OK;HARD;1;NRPE v2.15
+[1490174876] ERROR: CURRENT SERVICE STATE: denice;Http;CRITICAL;HARD;0;CRITICAL - Socket timeout
+[1490174876] INFO: CURRENT SERVICE STATE: cogny;I/O stats disk 2;OK;HARD;1;OK - data received
+[1490174876] INFO: CURRENT SERVICE STATE: denice;RAID controller;OK;HARD;1;OK: mfid0:136G:RAID-1:OPTIMAL Drives:0
+[1490174876] INFO: CURRENT SERVICE STATE: lachassagne;IPMI SDR;OK;HARD;1;All sensors OK
+[1490174876] INFO: CURRENT SERVICE STATE: denice;Shinken Main Arbiter;OK;HARD;1;TCP OK - 0.000 second response time on 10.0.2.7 port 7770
+[1490174876] INFO: CURRENT SERVICE STATE: cogny;I/O stats;OK;HARD;1;OK - data received
+[1490174876] INFO: CURRENT SERVICE STATE: denice;Shinken Second Broker;OK;HARD;1;TCP OK - 0.000 second response time on 10.0.2.5 port 7772
+[1490174876] INFO: CURRENT SERVICE STATE: denice;Shinken Second Receiver;OK;HARD;1;TCP OK - 0.000 second response time on 10.0.2.5 port 7773
+[1490174876] INFO: CURRENT SERVICE STATE: denice;Shinken Second Web service;OK;HARD;1;TCP OK - 0.000 second response time on 10.0.2.5 port 27760
+[1490174876] INFO: CURRENT SERVICE STATE: cogny;RAID controller;OK;HARD;1;OK: mfid0:279G:RAID-1:OPTIMAL mfid1:1676G:RAID-5:OPTIMAL Drives:0
+[1490174876] INFO: CURRENT SERVICE STATE: lachassagne;Mysql connection time;UNKNOWN;HARD;0;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490174876] INFO: CURRENT SERVICE STATE: denice;IPMI sensors;OK;HARD;1;OK:  Fan1A RPM is at 2280 RPM,  Fan2A RPM is at 2280 RPM,  Fan3A RPM is at 2280 RPM,  Fan4A RPM is at 2280 RPM,  Fan5A RPM is at 2400 RPM,  Fan6A RPM is at 2400 RPM,  Inlet Temp is 19C,  Exhaust Temp is 41C,  Temp is 60C,  Temp is 65C,  Fan7A RPM is at 2400 RPM,  Fan1B RPM is at 2160 RPM,  Fan2B RPM is at 2160 RPM,  Fan3B RPM is at 2280 RPM,  Fan4B RPM is at 2160 RPM,  Fan5B RPM is at 2280 RPM,  Fan6B RPM is at 2280 RPM,  Fan7B RPM is at 2280 RPM
+[1490174876] ERROR: CURRENT SERVICE STATE: chazay;System up-to-date;CRITICAL;HARD;0;CHECKPKGAUDIT CRITICAL - found 89 vulnerable(s) pkg(s) in : alignak, alignak_backend, alignak_graphite, alignak_packaging, alignak_webui, application_backend, application_frontend, chazay.siprossii.com, glpi, mongo, mysql, webui, wordpress
+[1490174876] INFO: CURRENT SERVICE STATE: cogny;IPMI sensors;OK;HARD;1;OK:  Fan1A RPM is at 5640 RPM,  Fan2A RPM is at 5640 RPM,  Fan3A RPM is at 5520 RPM,  Fan4A RPM is at 5520 RPM,  Fan5A RPM is at 5760 RPM,  Fan6A RPM is at 5640 RPM,  Inlet Temp is 20C,  Exhaust Temp is 32C,  Temp is 54C,  Fan7A RPM is at 5640 RPM,  Fan1B RPM is at 5160 RPM,  Fan2B RPM is at 5280 RPM,  Fan3B RPM is at 5400 RPM,  Fan4B RPM is at 5160 RPM,  Fan5B RPM is at 5400 RPM,  Fan6B RPM is at 5400 RPM,  Fan7B RPM is at 5400 RPM
+[1490174876] INFO: CURRENT SERVICE STATE: cogny;Http;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 2535 bytes in 0.161 second response time
+[1490174876] INFO: CURRENT SERVICE STATE: alignak_glpi;Nrpe-status;OK;HARD;1;NRPE v2.15
+[1490174876] INFO: CURRENT SERVICE STATE: cogny;Disk var;OK;HARD;1;DISK OK - free space: /var 64645 MB (97% inode=99%);
+[1490174876] ERROR: CURRENT SERVICE STATE: chazay;RAID controller;CRITICAL;HARD;0;NRPE: Command 'check_raid' not defined
+[1490174876] INFO: CURRENT SERVICE STATE: denice;Shinken Main Receiver;OK;HARD;1;TCP OK - 0.000 second response time on 10.0.2.7 port 7773
+[1490174876] INFO: CURRENT SERVICE STATE: cogny;VPN switch check;OK;HARD;1;Racoon vpn tunnel check ok: 93.174.144.11
+[1490174876] INFO: CURRENT SERVICE STATE: lachassagne;Zombies;OK;HARD;1;PROCS OK: 0 processes with STATE = Z
+[1490174876] INFO: CURRENT SERVICE STATE: cogny;HttpsCertificate;OK;HARD;1;OK - Certificate '*.kiosks.ipmfrance.com' will expire on Tue Sep 26 00:59:59 2017.
+[1490174876] INFO: CURRENT SERVICE STATE: cogny;Mysql tmp tables;OK;HARD;1;OK - 52.22% of 1370 tables were created on disk
+[1490174876] ERROR: CURRENT SERVICE STATE: alignak_glpi;Disk /tmp;CRITICAL;HARD;0;NRPE: Command 'check_tmp' not defined
+[1490174876] INFO: CURRENT SERVICE STATE: chazay;Http;OK;HARD;1;HTTP OK: HTTP/1.1 302 Found - 554 bytes in 0.012 second response time
+[1490174876] INFO: CURRENT SERVICE STATE: denice;Processus;OK;HARD;1;PROCS OK: 200 processes
+[1490174876] INFO: CURRENT SERVICE STATE: lachassagne;IPMI sensors;OK;HARD;1;OK:
+[1490174876] INFO: CURRENT SERVICE STATE: cogny;Disk tmp;OK;HARD;1;DISK OK - free space: /tmp 64697 MB (99% inode=99%);
+[1490174876] INFO: CURRENT SERVICE STATE: chazay;NTP;OK;HARD;1;NTP OK: Offset 0.000226855278 secs
+[1490174876] INFO: CURRENT SERVICE STATE: denice;Disk tmp;OK;HARD;1;DISK OK - free space: /tmp 55783 MB (99% inode=99%);
+[1490174876] INFO: CURRENT SERVICE STATE: denice;Disk usr;OK;HARD;1;DISK OK - free space: /usr 55791 MB (47% inode=99%);
+[1490174876] ERROR: CURRENT SERVICE STATE: chazay;I/O stats disk 2;CRITICAL;HARD;0;NRPE: Command 'check_iostat_bsd_disk2' not defined
+[1490174876] INFO: CURRENT SERVICE STATE: denice;Shinken Main Web service;OK;HARD;1;TCP OK - 0.000 second response time on 10.0.2.7 port 7760
+[1490174876] INFO: CURRENT SERVICE STATE: cogny;NTP;OK;HARD;1;NTP OK: Offset -0.01402771473 secs
+[1490174876] ERROR: CURRENT SERVICE STATE: denice;System up-to-date;CRITICAL;HARD;0;CHECKPKGAUDIT CRITICAL - found 53 vulnerable(s) pkg(s) in : denice.siprossii.com, logstash, mongodb, shinken24, shinken2_dev
+[1490174876] INFO: CURRENT SERVICE STATE: lachassagne;Disk 2;OK;HARD;1;DISK OK - free space: /disk2 389278 MB (95% inode=99%);
+[1490174876] INFO: CURRENT HOST STATE: chazay;UP;HARD;1;NRPE v2.15
+[1490174876] INFO: CURRENT SERVICE STATE: cogny;Mysql threads;OK;HARD;1;OK - 92 client connection threads
+[1490174876] INFO: CURRENT SERVICE STATE: denice;Disk root;OK;HARD;1;DISK OK - free space: / 55805 MB (98% inode=99%);
+[1490174876] ERROR: CURRENT SERVICE STATE: chazay;Disk /usr;CRITICAL;HARD;0;NRPE: Command 'check_usr' not defined
+[1490174876] INFO: CURRENT SERVICE STATE: chazay;IPMI sensors;OK;HARD;1;OK:  CPU Temp is 47C,  System Temp is 28C,  Peripheral Temp is 26C,  PCH Temp is 43C
+[1490174876] INFO: CURRENT SERVICE STATE: lachassagne;Disk var;OK;HARD;1;DISK OK - free space: /var 62572 MB (98% inode=99%);
+[1490174876] INFO: CURRENT SERVICE STATE: denice;Shinken Main Scheduler;OK;HARD;1;TCP OK - 0.000 second response time on 10.0.2.7 port 7768
+[1490174876] INFO: CURRENT SERVICE STATE: lachassagne;RAID controller;OK;HARD;1;OK: mfid0:136G:RAID-1:OPTIMAL mfid1:1676G:RAID-5:OPTIMAL Drives:0
+[1490174876] ERROR: CURRENT SERVICE STATE: lachassagne;Disk /var;CRITICAL;HARD;0;NRPE: Command 'check_var' not defined
+[1490174876] INFO: CURRENT SERVICE STATE: denice;Zombies;OK;HARD;1;PROCS OK: 0 processes with STATE = Z
+[1490174876] ERROR: CURRENT SERVICE STATE: chazay;Opened files;CRITICAL;HARD;0;NRPE: Command 'check_openedfiles' not defined
+[1490174876] INFO: CURRENT SERVICE STATE: denice;Disk var;OK;HARD;1;DISK OK - free space: /var 55792 MB (98% inode=99%);
+[1490174876] INFO: CURRENT SERVICE STATE: cogny;System up-to-date;UNKNOWN;HARD;0;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490174876] INFO: CURRENT SERVICE STATE: cogny;Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1490174876] INFO: CURRENT SERVICE STATE: denice;CPU;OK;HARD;1;OK - CPU usage is 9% for server denice.siprossii.com.
+[1490174876] INFO: CURRENT SERVICE STATE: cogny;NSCA Proxy;OK;HARD;1;TCP OK - 0.000 second response time on 10.0.1.252 port 5667
+[1490174876] INFO: CURRENT SERVICE STATE: cogny;Https;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 2575 bytes in 0.197 second response time
+[1490174876] INFO: CURRENT HOST STATE: cogny;UP;HARD;1;NRPE v2.15
+[1490174876] ERROR: CURRENT SERVICE STATE: lachassagne;System up-to-date;CRITICAL;HARD;0;CHECKPKGAUDIT CRITICAL - found 169 vulnerable(s) pkg(s) in : alignak, base_php7, base_webserver, durieuxfamily, elasticsearch, etherpad, glpi_fdj, grafana, graphite_fdj, kibana_ipmfrance, lachassagne.siprossii.com, mysql_fdj, mysql_master_ipm, saas_backend, tannierelouveteaux
+[1490174876] ERROR: CURRENT SERVICE STATE: chazay;Disk var;CRITICAL;HARD;4;NRPE: Command 'check_disk_var' not defined
+[1490174876] INFO: CURRENT SERVICE STATE: chazay;Zombies;OK;HARD;1;PROCS OK: 0 processes with STATE = Z
+[1490174876] ERROR: CURRENT SERVICE STATE: chazay;Disk /tmp;CRITICAL;HARD;0;NRPE: Command 'check_tmp' not defined
+[1490174876] ERROR: CURRENT SERVICE STATE: denice;Disk /usr;CRITICAL;HARD;0;NRPE: Command 'check_usr' not defined
+[1490174876] INFO: CURRENT SERVICE STATE: lachassagne;Disk root;OK;HARD;1;DISK OK - free space: / 62572 MB (97% inode=99%);
+[1490174876] INFO: RETENTION LOAD
+[1490174876] INFO: CURRENT SERVICE STATE: cogny;Firewall routes;OK;HARD;1;PF OK - states: 5022 (8% - limit: 60000)
+[1490174876] INFO: CURRENT SERVICE STATE: lachassagne;Disk tmp;OK;HARD;1;DISK OK - free space: /tmp 62572 MB (99% inode=99%);
+[1490174876] INFO: CURRENT SERVICE STATE: denice;Memory;OK;HARD;1;Memory OK - 26.3% (9031880704 kB) used
+[1490174876] INFO: CURRENT SERVICE STATE: lachassagne;Opened files;OK;HARD;1;OK kern.openfiles: 1761 (less than 1044259 / 1045759 [ kern.maxfiles: 1046259 ])
+[1490174876] ERROR: CURRENT SERVICE STATE: cogny;Disk /var;CRITICAL;HARD;0;NRPE: Command 'check_var' not defined
+[1490174876] INFO: CURRENT SERVICE STATE: cogny;Glpi Traffic;OK;HARD;1;Average IN: 95.50Mbps (9.55%), Average OUT: 95.36Mbps (9.54%) Total RX: 0.00Bytes, Total TX: 0.00Bytes
+[1490174876] INFO: CURRENT SERVICE STATE: denice;Shinken Main Reactionner;OK;HARD;1;TCP OK - 0.000 second response time on 10.0.2.7 port 7769
+[1490174876] INFO: CURRENT HOST STATE: lachassagne;UP;HARD;1;NRPE v2.15
+[1490174876] ERROR: CURRENT SERVICE STATE: denice;Dns;CRITICAL;HARD;0;[Errno 2] No such file or directory
+[1490174876] ERROR: CURRENT SERVICE STATE: alignak_glpi;Disk /var;CRITICAL;HARD;0;NRPE: Command 'check_var' not defined
+[1490174876] INFO: CURRENT SERVICE STATE: lachassagne;NTP;OK;HARD;1;NTP OK: Offset -0.01368701458 secs
+[1490174876] INFO: CURRENT SERVICE STATE: lachassagne;Processus;OK;HARD;1;PROCS OK: 259 processes
+[1490174876] INFO: CURRENT SERVICE STATE: denice;HttpsCertificate;UNKNOWN;HARD;0;
+[1490174876] INFO: CURRENT SERVICE STATE: chazay;I/O stats;OK;HARD;1;OK - data received
+[1490174876] INFO: CURRENT SERVICE STATE: denice;Https;UNKNOWN;HARD;0;
+[1490174876] INFO: CURRENT SERVICE STATE: lachassagne;I/O stats;OK;HARD;1;OK - data received
+[1490174876] INFO: CURRENT SERVICE STATE: denice;NTP;OK;HARD;1;NTP OK: Offset -0.003006696701 secs
+[1490174876] ERROR: CURRENT SERVICE STATE: denice;Disk /tmp;CRITICAL;HARD;0;NRPE: Command 'check_tmp' not defined
+[1490174876] ERROR: CURRENT SERVICE STATE: chazay;Disk /var;CRITICAL;HARD;0;NRPE: Command 'check_var' not defined
+[1490174876] ERROR: CURRENT HOST STATE: always_down;DOWN;HARD;2;Alarm timeout
+[1490174876] INFO: CURRENT SERVICE STATE: cogny;IPMI SDR;OK;HARD;1;All sensors OK
+[1490174876] INFO: CURRENT SERVICE STATE: cogny;Processus;OK;HARD;1;PROCS OK: 1183 processes
+[1490174876] INFO: CURRENT SERVICE STATE: denice;Shinken Second Reactionner;OK;HARD;1;TCP OK - 0.000 second response time on 10.0.2.5 port 7769
+[1490174876] INFO: CURRENT SERVICE STATE: lachassagne;Memory;OK;HARD;1;Memory OK - 76.4% (26260533248 kB) used
+[1490174876] ERROR: CURRENT SERVICE STATE: chazay;Disk usr;CRITICAL;HARD;0;NRPE: Command 'check_disk_usr' not defined
+[1490174876] INFO: CURRENT SERVICE STATE: cogny;TCP proxy;OK;HARD;1;TCP OK - 0.001 second response time on 10.0.1.252 port 5667
+[1490174876] ERROR: CURRENT SERVICE STATE: chazay;Disk 2;CRITICAL;HARD;0;NRPE: Command 'check_disk_disk2' not defined
+[1490174876] INFO: CURRENT SERVICE STATE: chazay;Memory;OK;HARD;1;Memory OK - 41.6% (14284099584 kB) used
+[1490174876] INFO: CURRENT SERVICE STATE: denice;Firewall routes;OK;HARD;1;PF OK - states: 4711 (9% - limit: 50000)
+[1490174876] ERROR: CURRENT SERVICE STATE: lachassagne;Mysql long running procs;CRITICAL;HARD;0;NRPE: Command 'check_mysql_health_long-running-procs' not defined
+[1490174876] INFO: CURRENT SERVICE STATE: lachassagne;Firewall routes;OK;HARD;1;PF OK - states: 1142 (1.90% - limit: 60000)
+[1490174876] WARNING: CURRENT SERVICE STATE: chazay;IPMI SDR;WARNING;HARD;0;NRPE: Unable to read output
+[1490174876] WARNING: CURRENT SERVICE STATE: cogny;CPU;WARNING;HARD;4;WARNING - CPU usage is 89% for server cogny.siprossii.com.
+[1490174876] INFO: CURRENT SERVICE STATE: denice;Shinken Second Arbiter;OK;HARD;1;TCP OK - 0.000 second response time on 10.0.2.5 port 7770
+[1490174876] INFO: CURRENT SERVICE STATE: denice;Shinken Main Broker;OK;HARD;1;TCP OK - 0.000 second response time on 10.0.2.7 port 7772
+[1490174876] INFO: CURRENT SERVICE STATE: denice;Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1490174876] INFO: CURRENT SERVICE STATE: lachassagne;Mysql tmp tables;UNKNOWN;HARD;0;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490174876] ERROR: CURRENT SERVICE STATE: lachassagne;Disk /tmp;CRITICAL;HARD;0;NRPE: Command 'check_tmp' not defined
+[1490174876] INFO: CURRENT SERVICE STATE: chazay;Processus;OK;HARD;1;PROCS OK: 206 processes
+[1490174876] INFO: CURRENT SERVICE STATE: denice;IPMI SDR;OK;HARD;1;All sensors OK
+[1490174876] INFO: CURRENT SERVICE STATE: cogny;Zombies;OK;HARD;1;PROCS OK: 0 processes with STATE = Z
+[1490174876] INFO: CURRENT SERVICE STATE: cogny;VPN traffic;OK;HARD;1;Average IN: 784.71Kbps (0.78%), Average OUT: 0.00bps (0.00%) Total RX: 0.00Bytes, Total TX: 0.00Bytes
+[1490174876] ERROR: CURRENT SERVICE STATE: alignak_glpi;Disk /usr;CRITICAL;HARD;4;NRPE: Command 'check_usr' not defined
+[1490174876] INFO: CURRENT SERVICE STATE: denice;Shinken Main Poller;OK;HARD;1;TCP OK - 0.000 second response time on 10.0.2.7 port 7771
+[1490174876] INFO: CURRENT SERVICE STATE: cogny;Disk root;OK;HARD;1;DISK OK - free space: / 64707 MB (97% inode=99%);
+[1490174876] INFO: CURRENT SERVICE STATE: cogny;Memory;OK;HARD;1;Memory OK - 39.2% (53861167104 kB) used
+[1490174876] ERROR: CURRENT SERVICE STATE: cogny;Dns;CRITICAL;HARD;0;[Errno 2] No such file or directory
+[1490174876] ERROR: CURRENT SERVICE STATE: cogny;Disk /usr;CRITICAL;HARD;0;NRPE: Command 'check_usr' not defined
+[1490174876] ERROR: CURRENT SERVICE STATE: chazay;Disk tmp;CRITICAL;HARD;0;NRPE: Command 'check_disk_tmp' not defined
+[1490174876] INFO: CURRENT SERVICE STATE: cogny;GLPI proxy;OK;HARD;1;TCP OK - 0.001 second response time on 10.0.1.252 port 80
+[1490174876] INFO: CURRENT SERVICE STATE: chazay;HttpsCertificate;OK;HARD;1;OK - Certificate '*.kiosks.ipmfrance.com' will expire on Tue Sep 26 00:59:59 2017.
+[1490174876] ERROR: CURRENT SERVICE STATE: cogny;Disk /tmp;CRITICAL;HARD;0;NRPE: Command 'check_tmp' not defined
+[1490174876] ERROR: CURRENT SERVICE STATE: alignak_glpi;Disk root;CRITICAL;HARD;0;NRPE: Command 'check_root' not defined
+[1490174876] INFO: CURRENT SERVICE STATE: denice;Shinken Second Poller;OK;HARD;1;TCP OK - 0.000 second response time on 10.0.2.5 port 7771
+[1490174876] INFO: CURRENT SERVICE STATE: denice;Nrpe-status;OK;HARD;1;NRPE v2.15
+[1490174876] INFO: CURRENT SERVICE STATE: alignak_glpi;Zombies;OK;HARD;1;PROCS OK: 0 processes with STATE = Z
+[1490174876] INFO: CURRENT SERVICE STATE: chazay;CPU;OK;HARD;1;OK - CPU usage is 53% for server chazay.siprossii.com.
+[1490174876] INFO: CURRENT SERVICE STATE: alignak_glpi;Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1490174876] ERROR: CURRENT SERVICE STATE: lachassagne;Disk /usr;CRITICAL;HARD;0;NRPE: Command 'check_usr' not defined
+[1490174876] INFO: CURRENT SERVICE STATE: cogny;Mysql connection time;OK;HARD;1;OK - 0.11 seconds to connect as root
+[1490174876] ERROR: CURRENT SERVICE STATE: denice;Disk /var;CRITICAL;HARD;0;NRPE: Command 'check_var' not defined
+[1490174876] INFO: CURRENT SERVICE STATE: lachassagne;I/O stats disk 2;OK;HARD;1;OK - data received
+[1490174876] INFO: CURRENT SERVICE STATE: denice;Opened files;OK;HARD;1;OK kern.openfiles: 1888 (less than 63535 / 65035 [ kern.maxfiles: 65535 ])
+[1490174876] INFO: CURRENT HOST STATE: denice;UP;HARD;1;NRPE v2.15
+[1490174876] INFO: CURRENT SERVICE STATE: denice;Shinken Second Scheduler;OK;HARD;1;TCP OK - 0.000 second response time on 10.0.2.5 port 7768
+[1490174876] INFO: CURRENT SERVICE STATE: lachassagne;Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1490174876] INFO: CURRENT SERVICE STATE: chazay;Https;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 2932 bytes in 0.107 second response time
+[1490174876] INFO: CURRENT SERVICE STATE: cogny;Mysql long running procs;OK;HARD;1;OK - 1 long running processes
+[1490174876] INFO: CURRENT HOST STATE: alignak_glpi;UP;HARD;1;NRPE v2.15
+[1490174876] INFO: CURRENT SERVICE STATE: cogny;Opened files;OK;HARD;1;OK kern.openfiles: 15492 (less than 63535 / 65035 [ kern.maxfiles: 65535 ])
+[1490174876] INFO: CURRENT SERVICE STATE: chazay;Disk root;OK;HARD;1;DISK OK - free space: / 414003 MB (94% inode=99%);
+[1490174876] INFO: CURRENT SERVICE STATE: chazay;Nrpe-status;OK;HARD;1;NRPE v2.15
+[1490174876] INFO: CURRENT SERVICE STATE: lachassagne;CPU;OK;HARD;1;OK - CPU usage is 3% for server lachassagne.siprossii.com.
+[1490174876] INFO: CURRENT HOST STATE: localhost;UP;HARD;1;OK: test.monitor.run 4261747196 FreeBSD - up 126 days 22 hours 47 minutes
+[1490174876] INFO: CURRENT SERVICE STATE: chazay;Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1490174876] INFO: CURRENT SERVICE STATE: lachassagne;Mysql threads;UNKNOWN;HARD;0;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490174963] INFO: SERVICE FLAPPING ALERT: cogny;CPU;STARTED; Service appears to have started flapping (50.4% change >= 50.0% threshold)
+[1490174963] INFO: SERVICE ALERT: cogny;CPU;OK;HARD;4;OK - CPU usage is 15% for server cogny.siprossii.com.
+[1490175167] INFO: SERVICE DOWNTIME ALERT: cogny;CPU;STOPPED; Service has exited from a period of scheduled downtime
+[1490175187] ERROR: SERVICE ALERT: cogny;NSCA Proxy;CRITICAL;SOFT;1;connect to address 10.0.1.252 and port 5667: Connection refused
+[1490175259] INFO: SERVICE ALERT: cogny;NSCA Proxy;OK;SOFT;2;TCP OK - 0.000 second response time on 10.0.1.252 port 5667
+[1490175412] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 95>30
+[1490175479] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490175504] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 348>30
+[1490175504] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;1;CRITICAL - CPU usage is 100% for server cogny.siprossii.com.
+[1490175805] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;2;CRITICAL - CPU usage is 98% for server cogny.siprossii.com.
+[1490175805] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;2;CRITICAL - svc_t 61>30
+[1490175835] INFO: SERVICE ALERT: cogny;CPU;OK;SOFT;3;OK - CPU usage is 95% for server cogny.siprossii.com.
+[1490175927] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;3;OK - data received
+[1490176407] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;1;CRITICAL - CPU usage is 96% for server cogny.siprossii.com.
+[1490176616] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 189>30
+[1490176673] INFO: RETENTION SAVE
+[1490176673] INFO: RETENTION SAVE
+[1490176673] INFO: RETENTION SAVE
+[1490176699] INFO: RETENTION SAVE
+[1490176708] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;2;CRITICAL - CPU usage is 97% for server cogny.siprossii.com.
+[1490176709] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490177005] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 97>30
+[1490177005] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;3;CRITICAL - CPU usage is 100% for server cogny.siprossii.com.
+[1490177030] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490177173] INFO: SERVICE ALERT: denice;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490177239] INFO: SERVICE ALERT: denice;NTP;OK;SOFT;2;NTP OK: Offset 0.08622658253 secs
+[1490177305] WARNING: SERVICE ALERT: cogny;CPU;WARNING;HARD;4;WARNING - CPU usage is 94% for server cogny.siprossii.com.
+[1490177903] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 80>30
+[1490177903] WARNING: SERVICE ALERT: cogny;Mysql threads;WARNING;SOFT;1;WARNING - 119 client connection threads
+[1490177960] INFO: SERVICE ALERT: cogny;Mysql threads;OK;SOFT;2;OK - 94 client connection threads
+[1490178072] INFO: SERVICE ALERT: denice;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490178194] INFO: SERVICE FLAPPING ALERT: denice;NTP;STARTED; Service appears to have started flapping (50.5% change >= 50.0% threshold)
+[1490178194] INFO: SERVICE ALERT: denice;NTP;OK;SOFT;2;NTP OK: Offset -0.0139939785 secs
+[1490178209] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;HARD;4;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
+[1490178209] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;2;CRITICAL - svc_t 340>30
+[1490178486] INFO: RETENTION SAVE
+[1490178486] INFO: RETENTION SAVE
+[1490178491] INFO: RETENTION SAVE
+[1490178506] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;3;CRITICAL - svc_t 37>30
+[1490178506] ERROR: SERVICE ALERT: cogny;I/O stats;CRITICAL;SOFT;1;CRITICAL - writes 24179>18000
+[1490178522] INFO: RETENTION SAVE
+[1490178542] INFO: SERVICE ALERT: cogny;I/O stats;OK;SOFT;2;OK - data received
+[1490178547] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;4;OK - data received
+[1490178578] INFO: SERVICE ALERT: cogny;CPU;OK;HARD;4;OK - CPU usage is 26% for server cogny.siprossii.com.
+[1490178607] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490178716] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 178>30
+[1490178726] INFO: SERVICE ALERT: chazay;NTP;OK;SOFT;2;NTP OK: Offset 0.001059651375 secs
+[1490178807] WARNING: SERVICE ALERT: cogny;Mysql threads;WARNING;SOFT;1;WARNING - 125 client connection threads
+[1490178808] ERROR: SERVICE ALERT: cogny;Mysql long running procs;CRITICAL;SOFT;1;CRITICAL - 25 long running processes
+[1490178818] INFO: SERVICE ALERT: cogny;Mysql threads;OK;SOFT;2;OK - 66 client connection threads
+[1490178910] INFO: SERVICE ALERT: cogny;Mysql long running procs;OK;SOFT;2;OK - 0 long running processes
+[1490179012] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;2;CRITICAL - svc_t 156>30
+[1490179067] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;3;OK - data received
+[1490179108] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;1;CRITICAL - CPU usage is 100% for server cogny.siprossii.com.
+[1490179108] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 189>30
+[1490179118] INFO: SERVICE ALERT: cogny;CPU;OK;SOFT;2;OK - CPU usage is 95% for server cogny.siprossii.com.
+[1490179409] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;2;CRITICAL - svc_t 249>30
+[1490179706] WARNING: SERVICE ALERT: cogny;CPU;WARNING;SOFT;1;WARNING - CPU usage is 94% for server cogny.siprossii.com.
+[1490179706] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;3;CRITICAL - svc_t 147>30
+[1490179870] INFO: SERVICE ALERT: denice;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490179916] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 31>30
+[1490179956] INFO: SERVICE ALERT: denice;NTP;OK;SOFT;2;NTP OK: Offset 0.05292534828 secs
+[1490179997] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490180008] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;HARD;4;CRITICAL - writes 20831>18000
+[1490180008] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;2;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
+[1490180298] INFO: RETENTION SAVE
+[1490180298] INFO: RETENTION SAVE
+[1490180303] INFO: RETENTION SAVE
+[1490180308] WARNING: SERVICE ALERT: cogny;CPU;WARNING;SOFT;3;WARNING - CPU usage is 92% for server cogny.siprossii.com.
+[1490180344] INFO: RETENTION SAVE
+[1490180364] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;HARD;4;OK - data received
+[1490180604] WARNING: SERVICE ALERT: cogny;CPU;WARNING;HARD;4;WARNING - CPU usage is 82% for server cogny.siprossii.com.
+[1490180649] INFO: SERVICE ALERT: cogny;CPU;OK;HARD;4;OK - CPU usage is 95% for server cogny.siprossii.com.
+[1490180706] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490180762] INFO: SERVICE ALERT: chazay;NTP;OK;SOFT;2;NTP OK: Offset -0.002431869507 secs
+[1490180905] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 192>30
+[1490181207] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;1;CRITICAL - CPU usage is 98% for server cogny.siprossii.com.
+[1490181207] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;2;CRITICAL - svc_t 94>30
+[1490181226] INFO: SERVICE ALERT: cogny;CPU;OK;SOFT;2;OK - CPU usage is 15% for server cogny.siprossii.com.
+[1490181507] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;3;CRITICAL - svc_t 286>30
+[1490181808] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;HARD;4;CRITICAL - svc_t 196>30
+[1490181808] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;1;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
+[1490181808] ERROR: SERVICE ALERT: cogny;I/O stats;CRITICAL;SOFT;1;CRITICAL - svc_t 68>30
+[1490181824] INFO: SERVICE ALERT: cogny;I/O stats;OK;SOFT;2;OK - data received
+[1490182106] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;2;CRITICAL - CPU usage is 98% for server cogny.siprossii.com.
+[1490182111] INFO: RETENTION SAVE
+[1490182111] INFO: RETENTION SAVE
+[1490182121] INFO: RETENTION SAVE
+[1490182126] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;HARD;4;OK - data received
+[1490182167] INFO: RETENTION SAVE
+[1490182203] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490182289] INFO: SERVICE ALERT: chazay;NTP;OK;SOFT;2;NTP OK: Offset 0.003239989281 secs
+[1490182407] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;3;CRITICAL - CPU usage is 100% for server cogny.siprossii.com.
+[1490182708] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;HARD;4;CRITICAL - CPU usage is 100% for server cogny.siprossii.com.
+[1490182948] INFO: SERVICE FLAPPING ALERT: denice;NTP;STOPPED; Service appears to have stopped flapping (22.7% change < 25.0% threshold)
+[1490183306] WARNING: SERVICE ALERT: cogny;CPU;WARNING;HARD;4;WARNING - CPU usage is 85% for server cogny.siprossii.com.
+[1490183306] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 32>30
+[1490183326] INFO: SERVICE ALERT: cogny;CPU;OK;HARD;4;OK - CPU usage is 68% for server cogny.siprossii.com.
+[1490183608] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;2;CRITICAL - svc_t 104>30
+[1490183720] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;3;OK - data received
+[1490183816] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 242>30
+[1490183928] INFO: RETENTION SAVE
+[1490183929] INFO: RETENTION SAVE
+[1490183934] INFO: RETENTION SAVE
+[1490183990] INFO: RETENTION SAVE
+[1490184112] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;2;CRITICAL - svc_t 464>30
+[1490184133] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;3;OK - data received
+[1490184208] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 100>30
+[1490184208] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;1;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
+[1490184326] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490184505] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;2;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
+[1490184806] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;3;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
+[1490184806] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 166>30
+[1490184903] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490184934] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490184995] INFO: SERVICE ALERT: chazay;NTP;OK;SOFT;2;NTP OK: Offset 0.03258907795 secs
+[1490185108] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;HARD;4;CRITICAL - CPU usage is 97% for server cogny.siprossii.com.
+[1490185408] ERROR: SERVICE ALERT: cogny;I/O stats;CRITICAL;SOFT;1;CRITICAL - writes 19946>18000
+[1490185408] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 135>30
+[1490185408] WARNING: SERVICE ALERT: cogny;Mysql connection time;WARNING;SOFT;1;WARNING - 1.03 seconds to connect as root
+[1490185460] INFO: SERVICE ALERT: cogny;Mysql connection time;OK;SOFT;2;OK - 0.08 seconds to connect as root
+[1490185474] INFO: SERVICE ALERT: cogny;I/O stats;OK;SOFT;2;OK - data received
+[1490185709] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;2;CRITICAL - svc_t 217>30
+[1490185709] WARNING: SERVICE ALERT: cogny;Mysql threads;WARNING;SOFT;1;WARNING - 102 client connection threads
+[1490185741] INFO: RETENTION SAVE
+[1490185741] INFO: RETENTION SAVE
+[1490185751] INFO: RETENTION SAVE
+[1490185772] INFO: SERVICE ALERT: cogny;Mysql threads;OK;SOFT;2;OK - 46 client connection threads
+[1490185786] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;3;OK - data received
+[1490185817] INFO: RETENTION SAVE
+[1490186174] INFO: SERVICE ALERT: denice;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490186215] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 130>30
+[1490186242] INFO: SERVICE ALERT: denice;NTP;OK;SOFT;2;NTP OK: Offset 0.01889443398 secs
+[1490186293] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490186307] WARNING: SERVICE ALERT: cogny;CPU;WARNING;HARD;4;WARNING - CPU usage is 91% for server cogny.siprossii.com.
+[1490186605] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 104>30
+[1490186906] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;HARD;4;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
+[1490186907] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;2;CRITICAL - svc_t 177>30
+[1490187003] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490187017] INFO: SERVICE ALERT: cogny;CPU;OK;HARD;4;OK - CPU usage is 79% for server cogny.siprossii.com.
+[1490187063] INFO: SERVICE ALERT: chazay;NTP;OK;SOFT;2;NTP OK: Offset -0.003116488457 secs
+[1490187074] INFO: SERVICE ALERT: denice;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490187207] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;3;CRITICAL - svc_t 147>30
+[1490187301] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;4;OK - data received
+[1490187374] INFO: SERVICE ALERT: denice;NTP;UNKNOWN;SOFT;2;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490187435] INFO: SERVICE ALERT: denice;NTP;OK;SOFT;3;NTP OK: Offset 0.06381511688 secs
+[1490187507] WARNING: SERVICE ALERT: cogny;Mysql threads;WARNING;SOFT;1;WARNING - 113 client connection threads
+[1490187507] WARNING: SERVICE ALERT: cogny;Mysql connection time;WARNING;SOFT;1;WARNING - 1.46 seconds to connect as root
+[1490187507] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;1;CRITICAL - CPU usage is 97% for server cogny.siprossii.com.
+[1490187529] INFO: SERVICE ALERT: cogny;Mysql connection time;OK;SOFT;2;OK - 0.08 seconds to connect as root
+[1490187555] INFO: RETENTION SAVE
+[1490187555] INFO: RETENTION SAVE
+[1490187565] INFO: RETENTION SAVE
+[1490187606] INFO: SERVICE ALERT: cogny;Mysql threads;OK;SOFT;2;OK - 29 client connection threads
+[1490187606] INFO: SERVICE ALERT: cogny;CPU;OK;SOFT;2;OK - CPU usage is 95% for server cogny.siprossii.com.
+[1490187638] INFO: RETENTION SAVE
+[1490187808] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 508>30
+[1490187838] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490188105] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;1;CRITICAL - CPU usage is 98% for server cogny.siprossii.com.
+[1490188409] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;2;CRITICAL - CPU usage is 98% for server cogny.siprossii.com.
+[1490188409] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 237>30
+[1490188572] INFO: SERVICE ALERT: denice;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490188639] INFO: SERVICE ALERT: denice;NTP;OK;SOFT;2;NTP OK: Offset -0.02565395832 secs
+[1490188705] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;2;CRITICAL - svc_t 174>30
+[1490188705] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;3;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
+[1490188727] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;3;OK - data received
+[1490188913] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 187>30
+[1490189005] WARNING: SERVICE ALERT: cogny;CPU;WARNING;HARD;4;WARNING - CPU usage is 94% for server cogny.siprossii.com.
+[1490189010] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490189307] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;HARD;4;CRITICAL - CPU usage is 96% for server cogny.siprossii.com.
+[1490189307] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 52>30
+[1490189368] INFO: RETENTION SAVE
+[1490189368] INFO: RETENTION SAVE
+[1490189379] INFO: RETENTION SAVE
+[1490189462] INFO: RETENTION SAVE
+[1490189529] INFO: EXTERNAL COMMAND: [1490185918] SCHEDULE_FORCED_HOST_CHECK;pi2;1490185918
+[1490189605] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;2;CRITICAL - svc_t 135>30
+[1490189903] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;3;CRITICAL - svc_t 141>30
+[1490189903] WARNING: SERVICE ALERT: cogny;CPU;WARNING;HARD;4;WARNING - CPU usage is 85% for server cogny.siprossii.com.
+[1490190208] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;HARD;4;CRITICAL - svc_t 420>30
+[1490190414] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 241>30
+[1490190506] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;HARD;4;CRITICAL - CPU usage is 98% for server cogny.siprossii.com.
+[1490190511] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490190552] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;HARD;4;OK - data received
+[1490191108] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 192>30
+[1490191183] INFO: RETENTION SAVE
+[1490191184] INFO: RETENTION SAVE
+[1490191194] INFO: RETENTION SAVE
+[1490191200] INFO: SERVICE ALERT: cogny;CPU;OK;HARD;4;OK - CPU usage is 95% for server cogny.siprossii.com.
+[1490191291] INFO: RETENTION SAVE
+[1490191317] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 150>30
+[1490191354] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490191406] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;2;CRITICAL - svc_t 468>30
+[1490191507] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490191523] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;3;OK - data received
+[1490191596] INFO: SERVICE ALERT: chazay;NTP;OK;SOFT;2;NTP OK: Offset -0.003190398216 secs
+[1490192010] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;1;CRITICAL - CPU usage is 97% for server cogny.siprossii.com.
+[1490192010] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 249>30
+[1490192123] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490192310] WARNING: SERVICE ALERT: cogny;CPU;WARNING;SOFT;2;WARNING - CPU usage is 88% for server cogny.siprossii.com.
+[1490192405] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490192608] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;3;CRITICAL - CPU usage is 97% for server cogny.siprossii.com.
+[1490192706] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;2;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490192732] INFO: SERVICE ALERT: chazay;NTP;OK;SOFT;3;NTP OK: Offset 0.0006860494614 secs
+[1490192907] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 75>30
+[1490192907] INFO: SERVICE ALERT: cogny;I/O stats;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490192907] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;HARD;4;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
+[1490192984] INFO: SERVICE ALERT: cogny;I/O stats;OK;SOFT;2;OK - data received
+[1490192994] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490192994] INFO: RETENTION SAVE
+[1490193001] INFO: RETENTION SAVE
+[1490193011] INFO: RETENTION SAVE
+[1490193110] INFO: RETENTION SAVE
+[1490193509] WARNING: SERVICE ALERT: cogny;CPU;WARNING;HARD;4;WARNING - CPU usage is 89% for server cogny.siprossii.com.
+[1490193904] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490194016] INFO: SERVICE ALERT: chazay;NTP;OK;SOFT;2;NTP OK: Offset -0.01377129555 secs
+[1490194109] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;HARD;4;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
+[1490194109] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 315>30
+[1490194109] ERROR: SERVICE ALERT: cogny;Mysql long running procs;CRITICAL;SOFT;1;CRITICAL - 53 long running processes
+[1490194126] INFO: SERVICE ALERT: cogny;Mysql long running procs;OK;SOFT;2;OK - 0 long running processes
+[1490194181] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490194316] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - writes 19577>18000
+[1490194385] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490194405] WARNING: SERVICE ALERT: cogny;Mysql connection time;WARNING;SOFT;1;WARNING - 2.06 seconds to connect as root
+[1490194430] INFO: SERVICE ALERT: cogny;Mysql connection time;OK;SOFT;2;OK - 0.08 seconds to connect as root
+[1490194809] INFO: RETENTION SAVE
+[1490194809] INFO: RETENTION SAVE
+[1490194824] INFO: RETENTION SAVE
+[1490194932] INFO: RETENTION SAVE
+[1490195312] WARNING: SERVICE ALERT: cogny;CPU;WARNING;HARD;4;WARNING - CPU usage is 85% for server cogny.siprossii.com.
+[1490195338] INFO: SERVICE ALERT: cogny;CPU;OK;HARD;4;OK - CPU usage is 95% for server cogny.siprossii.com.
+[1490195607] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 85>30
+[1490195684] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490195906] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;1;CRITICAL - CPU usage is 100% for server cogny.siprossii.com.
+[1490195998] INFO: SERVICE ALERT: cogny;CPU;OK;SOFT;2;OK - CPU usage is 95% for server cogny.siprossii.com.
+[1490196208] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 386>30
+[1490196506] ERROR: SERVICE ALERT: cogny;I/O stats;CRITICAL;SOFT;1;CRITICAL - svc_t 40>30
+[1490196506] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;2;CRITICAL - svc_t 37>30
+[1490196506] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;1;CRITICAL - CPU usage is 98% for server cogny.siprossii.com.
+[1490196544] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;3;OK - data received
+[1490196610] INFO: SERVICE ALERT: cogny;I/O stats;OK;SOFT;2;OK - data received
+[1490196620] INFO: RETENTION SAVE
+[1490196624] INFO: RETENTION SAVE
+[1490196641] INFO: RETENTION SAVE
+[1490196756] INFO: RETENTION SAVE
+[1490196808] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;2;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
+[1490197108] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;3;CRITICAL - CPU usage is 96% for server cogny.siprossii.com.
+[1490197108] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 117>30
+[1490197145] INFO: SERVICE ALERT: cogny;CPU;OK;SOFT;4;OK - CPU usage is 95% for server cogny.siprossii.com.
+[1490197209] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490197326] INFO: SERVICE ALERT: chazay;NTP;OK;SOFT;2;NTP OK: Offset -0.001147389412 secs
+[1490197407] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;2;CRITICAL - svc_t 35>30
+[1490197707] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;3;CRITICAL - svc_t 52>30
+[1490197799] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;4;OK - data received
+[1490197915] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 51>30
+[1490198008] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;1;CRITICAL - CPU usage is 100% for server cogny.siprossii.com.
+[1490198013] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490198100] INFO: SERVICE ALERT: cogny;CPU;OK;SOFT;2;OK - CPU usage is 80% for server cogny.siprossii.com.
+[1490198171] INFO: SERVICE ALERT: denice;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490198206] INFO: SERVICE ALERT: denice;NTP;OK;SOFT;2;NTP OK: Offset 0.06401526928 secs
+[1490198306] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 199>30
+[1490198402] INFO: TIMEPERIOD TRANSITION: workhours;1;0
+[1490198437] INFO: RETENTION SAVE
+[1490198437] INFO: RETENTION SAVE
+[1490198458] INFO: RETENTION SAVE
+[1490198514] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 434>30
+[1490198580] INFO: RETENTION SAVE
+[1490198605] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;1;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
+[1490198605] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;2;CRITICAL - svc_t 80>30
+[1490198706] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490198716] INFO: SERVICE ALERT: chazay;NTP;OK;SOFT;2;NTP OK: Offset 0.0002845525742 secs
+[1490198813] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;2;CRITICAL - svc_t 280>30
+[1490198839] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;3;OK - data received
+[1490198907] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;2;CRITICAL - CPU usage is 96% for server cogny.siprossii.com.
+[1490198907] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;3;CRITICAL - svc_t 147>30
+[1490199206] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;3;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
+[1490199206] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;HARD;4;CRITICAL - svc_t 261>30
+[1490199505] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;HARD;4;CRITICAL - CPU usage is 100% for server cogny.siprossii.com.
+[1490199874] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;HARD;4;OK - data received
+[1490200016] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - writes 19046>18000
+[1490200072] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490200248] INFO: RETENTION SAVE
+[1490200252] INFO: RETENTION SAVE
+[1490200273] INFO: RETENTION SAVE
+[1490200401] INFO: RETENTION SAVE
+[1490200406] WARNING: SERVICE ALERT: cogny;CPU;WARNING;HARD;4;WARNING - CPU usage is 92% for server cogny.siprossii.com.
+[1490200406] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 230>30
+[1490200421] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490200706] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;HARD;4;CRITICAL - CPU usage is 97% for server cogny.siprossii.com.
+[1490201009] WARNING: SERVICE ALERT: cogny;CPU;WARNING;HARD;4;WARNING - CPU usage is 93% for server cogny.siprossii.com.
+[1490201905] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 278>30
+[1490201971] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490202065] INFO: RETENTION SAVE
+[1490202065] INFO: RETENTION SAVE
+[1490202091] INFO: RETENTION SAVE
+[1490202206] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;HARD;4;CRITICAL - CPU usage is 96% for server cogny.siprossii.com.
+[1490202227] INFO: RETENTION SAVE
+[1490202507] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 124>30
+[1490202528] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490202808] WARNING: SERVICE ALERT: cogny;CPU;WARNING;HARD;4;WARNING - CPU usage is 94% for server cogny.siprossii.com.
+[1490203206] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490203311] INFO: SERVICE ALERT: chazay;NTP;OK;SOFT;2;NTP OK: Offset -0.0003378391266 secs
+[1490203406] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;HARD;4;CRITICAL - CPU usage is 97% for server cogny.siprossii.com.
+[1490203709] ERROR: SERVICE ALERT: cogny;I/O stats;CRITICAL;SOFT;1;CRITICAL - writes 20044>18000
+[1490203709] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 117>30
+[1490203729] INFO: SERVICE ALERT: cogny;I/O stats;OK;SOFT;2;OK - data received
+[1490203877] INFO: RETENTION SAVE
+[1490203877] INFO: RETENTION SAVE
+[1490203902] INFO: RETENTION SAVE
+[1490204010] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;2;CRITICAL - svc_t 102>30
+[1490204010] WARNING: SERVICE ALERT: cogny;CPU;WARNING;HARD;4;WARNING - CPU usage is 81% for server cogny.siprossii.com.
+[1490204035] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;3;OK - data received
+[1490204050] INFO: RETENTION SAVE
+[1490204605] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 88>30
+[1490204605] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;HARD;4;CRITICAL - CPU usage is 100% for server cogny.siprossii.com.
+[1490204699] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490205004] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490205014] INFO: SERVICE ALERT: chazay;NTP;OK;SOFT;2;NTP OK: Offset -0.001352310181 secs
+[1490205206] WARNING: SERVICE ALERT: cogny;CPU;WARNING;HARD;4;WARNING - CPU usage is 82% for server cogny.siprossii.com.
+[1490205206] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 86>30
+[1490205287] INFO: SERVICE ALERT: cogny;CPU;OK;HARD;4;OK - CPU usage is 65% for server cogny.siprossii.com.
+[1490205296] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490205692] INFO: RETENTION SAVE
+[1490205693] INFO: RETENTION SAVE
+[1490205715] INFO: RETENTION SAVE
+[1490205874] INFO: RETENTION SAVE
+[1490206107] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 201>30
+[1490206107] WARNING: SERVICE ALERT: cogny;CPU;WARNING;SOFT;1;WARNING - CPU usage is 92% for server cogny.siprossii.com.
+[1490206208] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490206406] WARNING: SERVICE ALERT: cogny;CPU;WARNING;SOFT;2;WARNING - CPU usage is 92% for server cogny.siprossii.com.
+[1490206706] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;3;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
+[1490207008] WARNING: SERVICE ALERT: cogny;CPU;WARNING;HARD;4;WARNING - CPU usage is 94% for server cogny.siprossii.com.
+[1490207307] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;HARD;4;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
+[1490207404] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490207469] INFO: SERVICE ALERT: chazay;NTP;OK;SOFT;2;NTP OK: Offset 0.005353450775 secs
+[1490207506] INFO: RETENTION SAVE
+[1490207506] INFO: RETENTION SAVE
+[1490207532] INFO: RETENTION SAVE
+[1490207643] INFO: SERVICE ALERT: cogny;CPU;OK;HARD;4;OK - CPU usage is 71% for server cogny.siprossii.com.
+[1490207695] INFO: RETENTION SAVE
+[1490207909] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 390>30
+[1490208207] WARNING: SERVICE ALERT: cogny;CPU;WARNING;SOFT;1;WARNING - CPU usage is 85% for server cogny.siprossii.com.
+[1490208207] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;2;CRITICAL - svc_t 297>30
+[1490208507] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;3;CRITICAL - svc_t 299>30
+[1490208507] WARNING: SERVICE ALERT: cogny;CPU;WARNING;SOFT;2;WARNING - CPU usage is 82% for server cogny.siprossii.com.
+[1490208605] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490208635] INFO: SERVICE ALERT: chazay;NTP;OK;SOFT;2;NTP OK: Offset -0.0006009340286 secs
+[1490208807] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;HARD;4;CRITICAL - svc_t 490>30
+[1490208807] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;3;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
+[1490209109] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;HARD;4;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
+[1490209120] INFO: SERVICE ALERT: cogny;CPU;OK;HARD;4;OK - CPU usage is 73% for server cogny.siprossii.com.
+[1490209204] INFO: TIMEPERIOD TRANSITION: north_hours;1;0
+[1490209321] INFO: RETENTION SAVE
+[1490209332] INFO: RETENTION SAVE
+[1490209348] INFO: RETENTION SAVE
+[1490209521] INFO: RETENTION SAVE
+[1490209707] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;1;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
+[1490209780] INFO: SERVICE ALERT: cogny;CPU;OK;SOFT;2;OK - CPU usage is 65% for server cogny.siprossii.com.
+[1490210066] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;HARD;4;OK - data received
+[1490210307] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;1;CRITICAL - CPU usage is 100% for server cogny.siprossii.com.
+[1490210419] INFO: SERVICE ALERT: cogny;CPU;OK;SOFT;2;OK - CPU usage is 59% for server cogny.siprossii.com.
+[1490210606] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 58>30
+[1490210704] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490210725] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490210790] INFO: SERVICE ALERT: chazay;NTP;OK;SOFT;2;NTP OK: Offset -0.001912713051 secs
+[1490210908] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;1;CRITICAL - CPU usage is 100% for server cogny.siprossii.com.
+[1490211132] INFO: RETENTION SAVE
+[1490211137] INFO: RETENTION SAVE
+[1490211168] INFO: RETENTION SAVE
+[1490211209] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 46>30
+[1490211209] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;2;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
+[1490211316] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490211347] INFO: RETENTION SAVE
+[1490211419] ERROR: SERVICE ALERT: lachassagne;Firewall routes;CRITICAL;SOFT;1;PF CRITICAL - states: 16062 (26.77% - limit: 60000)
+[1490211507] WARNING: SERVICE ALERT: cogny;CPU;WARNING;SOFT;3;WARNING - CPU usage is 93% for server cogny.siprossii.com.
+[1490211527] INFO: SERVICE ALERT: lachassagne;Firewall routes;OK;SOFT;2;PF OK - states: 1060 (1.76% - limit: 60000)
+[1490211670] INFO: SERVICE ALERT: denice;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490211690] INFO: SERVICE ALERT: denice;NTP;OK;SOFT;2;NTP OK: Offset 0.02992975712 secs
+[1490211807] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;HARD;4;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
+[1490212272] INFO: SERVICE ALERT: denice;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490212334] INFO: SERVICE ALERT: denice;NTP;OK;SOFT;2;NTP OK: Offset 0.05456352234 secs
+[1490212517] INFO: SERVICE ALERT: cogny;CPU;OK;HARD;4;OK - CPU usage is 75% for server cogny.siprossii.com.
+[1490212948] INFO: RETENTION SAVE
+[1490212954] INFO: RETENTION SAVE
+[1490212986] INFO: RETENTION SAVE
+[1490213008] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;1;CRITICAL - CPU usage is 100% for server cogny.siprossii.com.
+[1490213080] INFO: SERVICE ALERT: cogny;CPU;OK;SOFT;2;OK - CPU usage is 35% for server cogny.siprossii.com.
+[1490213173] INFO: RETENTION SAVE
+[1490213905] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 36>30
+[1490213982] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490214308] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490214374] INFO: SERVICE ALERT: denice;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490214396] INFO: SERVICE ALERT: chazay;NTP;OK;SOFT;2;NTP OK: Offset -0.0006338357925 secs
+[1490214416] INFO: SERVICE ALERT: denice;NTP;OK;SOFT;2;NTP OK: Offset -0.004754781723 secs
+[1490214760] INFO: RETENTION SAVE
+[1490214765] INFO: RETENTION SAVE
+[1490214801] INFO: RETENTION SAVE
+[1490214806] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 79>30
+[1490214992] INFO: RETENTION SAVE
+[1490215043] ERROR: HOST NOTIFICATION: imported_admin;always_down;DOWN;notify-host-by-email;Alarm timeout
+[1490215109] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;2;CRITICAL - svc_t 326>30
+[1490215232] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;3;OK - data received
+[1490215506] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490215580] INFO: SERVICE ALERT: chazay;NTP;OK;SOFT;2;NTP OK: Offset -0.002386569977 secs
+[1490215615] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - writes 20941>18000
+[1490215655] INFO: SERVICE ALERT: cogny;VPN traffic;UNKNOWN;SOFT;1;NRPE: Unable to read output
+[1490215666] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490215730] INFO: SERVICE ALERT: cogny;VPN traffic;OK;SOFT;2;Average IN: 140.20Kbps (0.14%), Average OUT: 0.00bps (0.00%) Total RX: 0.00Bytes, Total TX: 0.00Bytes
+[1490216576] INFO: RETENTION SAVE
+[1490216582] INFO: RETENTION SAVE
+[1490216618] INFO: RETENTION SAVE
+[1490216683] INFO: SERVICE FLAPPING ALERT: cogny;CPU;STOPPED; Service appears to have stopped flapping (22.6% change < 25.0% threshold)
+[1490216819] INFO: RETENTION SAVE
+[1490217032] INFO: SERVICE FLAPPING ALERT: cogny;I/O stats disk 2;STOPPED; Service appears to have stopped flapping (24.6% change < 25.0% threshold)
+[1490218108] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 101>30
+[1490218390] INFO: RETENTION SAVE
+[1490218396] INFO: RETENTION SAVE
+[1490218406] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;2;CRITICAL - svc_t 204>30
+[1490218432] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;3;OK - data received
+[1490218436] INFO: RETENTION SAVE
+[1490218574] INFO: SERVICE ALERT: denice;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490218641] INFO: RETENTION SAVE
+[1490218873] INFO: SERVICE ALERT: denice;NTP;UNKNOWN;SOFT;2;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490218986] INFO: SERVICE ALERT: denice;NTP;OK;SOFT;3;NTP OK: Offset 0.03459143639 secs
+[1490219308] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 36>30
+[1490219343] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490219512] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - writes 18176>18000
+[1490219604] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490220204] INFO: RETENTION SAVE
+[1490220210] INFO: RETENTION SAVE
+[1490220255] INFO: RETENTION SAVE
+[1490220463] INFO: RETENTION SAVE
+[1490221915] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - writes 20226>18000
+[1490221981] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
+[1490222014] INFO: RETENTION SAVE
+[1490222024] INFO: RETENTION SAVE
+[1490222071] INFO: RETENTION SAVE
+[1490222285] INFO: RETENTION SAVE
+[1490223113] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - writes 19432>18000
+[1490223179] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
