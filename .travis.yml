@@ -35,7 +35,7 @@ jobs:
       script:
         # Static code analysis
         # -- pycodestyle (former pep8)
-        - pycodestyle --max-line-length=100 --exclude='*.pyc, *.cfg, *.log' --ignore='E402' --ignore='W504' alignak_module_mongo_logs/*
+        - pycodestyle --max-line-length=100 --exclude='*.pyc, *.cfg, *.log' --ignore='E402' --ignore='W504' --ignore='W606' alignak_module_mongo_logs/*
         # -- pylint
         - pylint --rcfile=.pylintrc -r no alignak_module_mongo_logs
         # -- pep257

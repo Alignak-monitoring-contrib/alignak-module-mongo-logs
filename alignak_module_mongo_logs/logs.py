@@ -27,21 +27,8 @@ import time
 import datetime
 import queue
 import logging
-from logging import Formatter
-from logging.handlers import TimedRotatingFileHandler
-from logging.config import dictConfig as logger_dictConfig
 
 from collections import deque
-
-try:
-    from pymongo import MongoClient
-    from pymongo.errors import AutoReconnect, ConnectionFailure
-except ImportError:
-    logger.error('[mongo-logs] Can not import pymongo and/or MongoClient'
-                 'Your pymongo lib is too old. '
-                 'Please install it with a 3.x+ version from '
-                 'https://pypi.python.org/pypi/pymongo')
-    raise
 
 from alignak.stats import Stats
 from alignak.basemodule import BaseModule
@@ -52,6 +39,16 @@ logger = logging.getLogger(__name__)  # pylint: disable=invalid-name
 for handler in logger.parent.handlers:
     if isinstance(handler, logging.StreamHandler):
         logger.parent.removeHandler(handler)
+
+try:
+    from pymongo import MongoClient
+    from pymongo.errors import AutoReconnect, ConnectionFailure
+except ImportError:
+    logger.error('[mongo-logs] Can not import pymongo and/or MongoClient'
+                 'Your pymongo lib is too old. '
+                 'Please install it with a 3.x+ version from '
+                 'https://pypi.python.org/pypi/pymongo')
+    raise
 
 # pylint: disable=invalid-name
 properties = {
@@ -68,6 +65,7 @@ SWITCHING = 3
 
 
 class MongoLogsError(Exception):
+    """Specific module exception"""
     pass
 
 
@@ -140,14 +138,8 @@ class MonitoringLogsCollector(BaseModule):
         self.uri = getattr(mod_conf, 'uri', 'mongodb://localhost')
         logger.info('mongo uri: %s', self.uri)
 
-        self.replica_set = getattr(mod_conf, 'replica_set', None)
-        if self.replica_set and int(pymongo.version[0]) < 3:
-            logger.error('Can not initialize module with '
-                         'replica_set because your pymongo lib is too old. '
-                         'Please install it with a 3.x+ version from '
-                         'https://pypi.python.org/pypi/pymongo')
-            return
-
+        # self.replica_set = getattr(mod_conf, 'replica_set', None)
+        #
         self.database = getattr(mod_conf, 'database', 'alignak')
         logger.info('database: %s', self.database)
 
@@ -169,8 +161,8 @@ class MonitoringLogsCollector(BaseModule):
         max_logs_age = getattr(mod_conf, 'max_logs_age', '365')
         maxmatch = re.match(r'^(\d+)([dwmy]*)$', max_logs_age)
         if not maxmatch:
-            logger.error('Wrong format for max_logs_age. '
-                         'Must be <number>[d|w|m|y] or <number> and not %s' % max_logs_age)
+            logger.error("Wrong format for max_logs_age. "
+                         "Must be <number>[d|w|m|y] or <number> and not %s", max_logs_age)
             return
         else:
             if not maxmatch.group(2):
@@ -231,22 +223,20 @@ class MonitoringLogsCollector(BaseModule):
             self.next_logs_rotation = time.time()
 
             logger.info('database connection established')
-        except ConnectionFailure as e:
-            logger.error("Server is not available: %s", str(e))
+        except ConnectionFailure as exp:
+            logger.error("Server is not available: %s", str(exp))
             return False
-        except Exception as e:
-            logger.error("Could not open the database", str(e))
+        except Exception as exp:
+            logger.error("Could not open the database: %s", str(exp))
             raise MongoLogsError
 
         return True
 
     def close(self):
+        """Close the DB connection"""
         self.is_connected = DISCONNECTED
         self.con.close()
         logger.info('database connection closed')
-
-    def commit(self):
-        pass
 
     def rotate_logs(self):
         """
@@ -267,7 +257,8 @@ class MonitoringLogsCollector(BaseModule):
         today0000 = datetime.datetime(today.year, today.month, today.day, 0, 0, 0)
         today0005 = datetime.datetime(today.year, today.month, today.day, 0, 5, 0)
         oldest = today0000 - datetime.timedelta(days=self.max_logs_age)
-        result = self.db[self.logs_collection].delete_many({u'time': {'$lt': time.mktime(oldest.timetuple())}})
+        result = self.db[self.logs_collection].delete_many({
+            u'time': {'$lt': time.mktime(oldest.timetuple())}})
         logger.info("removed %d logs older than %s days.", result.deleted_count, self.max_logs_age)
 
         if now < time.mktime(today0005.timetuple()):
@@ -277,7 +268,8 @@ class MonitoringLogsCollector(BaseModule):
 
         # See you tomorrow
         self.next_logs_rotation = time.mktime(next_rotation.timetuple())
-        logger.info("next log rotation at %s " % time.asctime(time.localtime(self.next_logs_rotation)))
+        logger.info("next log rotation at %s ",
+                    time.asctime(time.localtime(self.next_logs_rotation)))
 
     def commit_logs(self):
         """
@@ -295,7 +287,8 @@ class MonitoringLogsCollector(BaseModule):
 
         logger.debug("commiting ...")
 
-        logger.debug("%d lines to insert in database (max insertion is %d lines)", len(self.logs_cache), self.commit_volume)
+        logger.debug("%d lines to insert in database (max insertion is %d lines)",
+                     len(self.logs_cache), self.commit_volume)
 
         # Flush all the stored log lines
         logs_to_commit = 1
@@ -313,7 +306,8 @@ class MonitoringLogsCollector(BaseModule):
                 break
             except Exception as exp:
                 logger.error("exception: %s", str(exp))
-        logger.debug("time to prepare %s logs for commit (%2.4f)", logs_to_commit, time.time() - now)
+        logger.debug("time to prepare %s logs for commit (%2.4f)",
+                     logs_to_commit, time.time() - now)
 
         now = time.time()
         try:
@@ -339,7 +333,8 @@ class MonitoringLogsCollector(BaseModule):
         Brok 8120c349-b1f3-473f-bf2e-9909d4c00a5d (2019-12-17 09:04:02.776266) 'monitoring_log':
         {
             'instance_id': u'SchedulerLink_1',
-            u'message': u'SERVICE ALERT: my-mongo-primary;Up-to-date;UNKNOWN;HARD;4;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.',
+            u'message': u'SERVICE ALERT: my-mongo-primary;Up-to-date;UNKNOWN;HARD;4;
+                CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.',
             u'level': u'info'
         }
         """

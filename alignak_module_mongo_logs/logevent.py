@@ -150,11 +150,11 @@ EVENT_TYPES = {
         # ex: "[1402515279] SERVICE NOTIFICATION:
         # admin;localhost;check-ssh;CRITICAL;notify-service-by-email;Connection refused"
 
-        # HOST NOTIFICATION: notified;south_host_005;DOWN;1;notify-host-by-log;I am always Up but sometimes Down...
-        # {'state': u'1', 'host_name': u'south_host_005', 'time': 1576575712.016455, 'service_description': u'DOWN', 'message': u'HOST NOTIFICATION: notified;south_host_005;DOWN;1;notify-host-by-log;I am always Up but sometimes Down...', 'type': u'HOST NOTIFICATION', 'contact_name': u'notified', 'plugin_output': u'I am always Up but sometimes Down...', 'command_name': u'notify-host-by-log'}
+        # HOST NOTIFICATION: notified;south_host_005;DOWN;1;
+        #   notify-host-by-log;I am always Up but sometimes Down...
 
-        # SERVICE NOTIFICATION: notified;north_host_001;dummy_critical;CRITICAL;1;notify-service-by-log;north_host_001-dummy_critical-2
-        # {'state': u'CRITICAL', 'host_name': u'north_host_001', 'time': 1576575601.863446, 'service_description': u'dummy_critical', 'message': u'SERVICE NOTIFICATION: notified;north_host_001;dummy_critical;CRITICAL;1;notify-service-by-log;north_host_001-dummy_critical-2', 'type': u'SERVICE NOTIFICATION', 'contact_name': u'notified', 'plugin_output': u'notify-service-by-log', 'command_name': u'1'}
+        # SERVICE NOTIFICATION: notified;north_host_001;dummy_critical;CRITICAL;1;
+        #   notify-service-by-log;north_host_001-dummy_critical-2
         'pattern': r'\[([0-9]{10})\] (HOST|SERVICE) (NOTIFICATION): '
                    r'([^\;]*);([^\;]*);(?:([^\;]*);)?([^\;]*);([^\;]*);([^\;]*);([^\;]*)',
         'properties': [
