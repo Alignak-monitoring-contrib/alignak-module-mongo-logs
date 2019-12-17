@@ -316,17 +316,17 @@ class TestModules(AlignakTest):
         self.clear_logs()
 
         # Kill the external module (normal stop is .stop_process)
+        time.sleep(3.0)
         my_module.kill()
-        time.sleep(0.1)
         index = 0
         self.assert_log_match("Killing external module", index)
         index = index + 1
         # todo: This log is not expected! But it is probably because of the py.test ...
         # Indeed the broker daemon that the module is attached to is receiving a SIGTERM !!!
-        self.assert_log_match(
-            re.escape("logs is still living 10 seconds after a normal kill, I help it to die"),
-            index)
-        index = index + 1
+        # self.assert_log_match(
+        #     re.escape("logs is still living 10 seconds after a normal kill, I help it to die"),
+        #     index)
+        # index = index + 1
         self.assert_log_match("External module killed", index)
         index = index + 1
 
@@ -385,15 +385,11 @@ class TestModules(AlignakTest):
         # time.sleep(5.0)
         self.show_logs()
         print("My module PID 2: %s" % my_module.process.pid)
-        time.sleep(0.2)
+        time.sleep(1.0)
         self.assertFalse(my_module.process.is_alive())
         index = 0
         self.assert_log_match("Killing external module", index)
         index = index +1
-        # # todo: This log is not expected! But it is probably because of the py.test ...
-        # # Indeed the receiver daemon that the module is attached to is receiving a SIGTERM !!!
-        # self.assert_log_match(re.escape("'web-services' is still living 10 seconds after a normal kill, I help it to die"), index)
-        # index = index +1
         self.assert_log_match("External module killed", index)
         index = index +1
 
@@ -421,6 +417,8 @@ class TestModules(AlignakTest):
         self.assert_log_match("Trying to restart module: logs", index)
         index = index +1
         self.assert_log_match("Trying to initialize module: logs", index)
+        index = index +1
+        self.assert_log_match("Module logs is initialized.", index)
         index = index +1
         self.assert_log_match("Restarting logs...", index)
         index = index +1
