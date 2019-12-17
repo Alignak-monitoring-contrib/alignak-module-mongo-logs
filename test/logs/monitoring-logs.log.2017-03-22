@@ -253,7 +253,7 @@
 [1490165923] INFO: RETENTION SAVE
 [1490165927] INFO: RETENTION SAVE
 [1490166001] INFO: TIMEPERIOD TRANSITION: north_hours;0;1
-[1490166005] ERROR: HOST NOTIFICATION: northman;passive-01;DOWN;notify-host-by-email;Freshness period expired
+[1490166005] ERROR: HOST NOTIFICATION: northman;passive-01;DOWN;1;notify-host-by-email;Freshness period expired
 [1490166177] INFO: RETENTION SAVE
 [1490166205] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 126>30
 [1490166205] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;3;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
@@ -1407,7 +1407,7 @@
 [1490214801] INFO: RETENTION SAVE
 [1490214806] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 79>30
 [1490214992] INFO: RETENTION SAVE
-[1490215043] ERROR: HOST NOTIFICATION: imported_admin;always_down;DOWN;notify-host-by-email;Alarm timeout
+[1490215043] ERROR: HOST NOTIFICATION: imported_admin;always_down;DOWN;1;notify-host-by-email;Alarm timeout
 [1490215109] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;2;CRITICAL - svc_t 326>30
 [1490215232] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;3;OK - data received
 [1490215506] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.

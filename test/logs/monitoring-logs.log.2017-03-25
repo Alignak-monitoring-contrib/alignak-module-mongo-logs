@@ -2262,7 +2262,7 @@
 [1490449272] INFO: CURRENT SERVICE STATE: passive-01;svc_Payment_A;UNREACHABLE;HARD;0;Freshness period expired
 [1490449272] INFO: CURRENT SERVICE STATE: passive-02;nsca_disk;UNREACHABLE;HARD;0;Freshness period expired
 [1490449272] INFO: CURRENT SERVICE STATE: passive-02;nsca_uptime;UNREACHABLE;HARD;0;Freshness period expired
-[1490449272] ERROR: HOST NOTIFICATION: guest;test2;DOWN;notify-host-by-email;<wpl> (1000,100%) must be an integer percentage
+[1490449272] ERROR: HOST NOTIFICATION: guest;test2;DOWN;1;notify-host-by-email;<wpl> (1000,100%) must be an integer percentage
 [1490449272] INFO: CURRENT HOST STATE: charnay;UP;HARD;1;OK: FreeBSD charnay.fullsave.info 10.0-RELEASE-p9 - up 241 days 6 hours 48 minutes
 [1490449272] INFO: CURRENT SERVICE STATE: denice;Firewall routes;OK;HARD;1;PF OK - states: 2517 (5% - limit: 50000)
 [1490449272] ERROR: CURRENT SERVICE STATE: cogny;Dns;CRITICAL;HARD;0;[Errno 2] No such file or directory
@@ -2288,7 +2288,7 @@
 [1490449272] INFO: CURRENT SERVICE STATE: lachassagne;Users;OK;HARD;1;USERS OK - 0 users currently logged in
 [1490449272] INFO: CURRENT SERVICE STATE: lachassagne;Disk root;OK;HARD;1;DISK OK - free space: / 62176 MB (97% inode=99%);
 [1490449272] INFO: CURRENT SERVICE STATE: passive-01;svc_Monitoring;UNREACHABLE;HARD;0;Freshness period expired
-[1490449272] ERROR: HOST NOTIFICATION: imported_admin;test2;DOWN;notify-host-by-email;<wpl> (1000,100%) must be an integer percentage
+[1490449272] ERROR: HOST NOTIFICATION: imported_admin;test2;DOWN;1;notify-host-by-email;<wpl> (1000,100%) must be an integer percentage
 [1490449272] INFO: CURRENT SERVICE STATE: denice;Shinken Second Broker;OK;HARD;1;TCP OK - 0.000 second response time on 10.0.2.5 port 7772
 [1490449272] INFO: CURRENT SERVICE STATE: passive-02;nsca_memory;UNREACHABLE;HARD;0;Freshness period expired
 [1490449272] INFO: CURRENT SERVICE STATE: passive-01;Maintenance;UNREACHABLE;HARD;0;Freshness period expired

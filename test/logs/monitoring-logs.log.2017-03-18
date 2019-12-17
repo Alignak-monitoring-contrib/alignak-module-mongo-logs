@@ -660,7 +660,7 @@
 [1489868347] INFO: RETENTION SAVE
 [1489868541] INFO: RETENTION SAVE
 [1489869079] INFO: RETENTION SAVE
-[1489869441] ERROR: HOST NOTIFICATION: imported_admin;always_down;DOWN;notify-host-by-email;Alarm timeout
+[1489869441] ERROR: HOST NOTIFICATION: imported_admin;always_down;DOWN;1;notify-host-by-email;Alarm timeout
 [1489869567] INFO: SERVICE FLAPPING ALERT: cogny;I/O stats disk 2;STOPPED; Service appears to have stopped flapping (23.8% change < 25.0% threshold)
 [1489869718] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 201>30
 [1489869822] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received

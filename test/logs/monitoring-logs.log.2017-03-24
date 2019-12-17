@@ -253,7 +253,7 @@
 [1490338679] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;2;CRITICAL - CPU usage is 100% for server cogny.siprossii.com.
 [1490338802] INFO: TIMEPERIOD TRANSITION: north_hours;0;1
 [1490338806] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;3;OK - data received
-[1490338807] ERROR: HOST NOTIFICATION: northman;passive-01;DOWN;notify-host-by-email;Freshness period expired
+[1490338807] ERROR: HOST NOTIFICATION: northman;passive-01;DOWN;1;notify-host-by-email;Freshness period expired
 [1490338913] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 236>30
 [1490338976] ERROR: SERVICE ALERT: cogny;Mysql threads;CRITICAL;SOFT;2;CRITICAL - 184 client connection threads
 [1490338976] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;3;CRITICAL - CPU usage is 100% for server cogny.siprossii.com.
@@ -1202,9 +1202,9 @@
 [1490362664] INFO: HOST ALERT: test;UP;HARD;0;Host assumed to be UP
 [1490362690] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
 [1490362744] INFO: SERVICE ALERT: cogny;CPU;OK;HARD;4;OK - CPU usage is 17% for server cogny.siprossii.com.
-[1490362852] ERROR: HOST NOTIFICATION: guest;test2;DOWN;notify-host-by-email;<wpl> (1000,100%) must be an integer percentage
+[1490362852] ERROR: HOST NOTIFICATION: guest;test2;DOWN;1;notify-host-by-email;<wpl> (1000,100%) must be an integer percentage
 [1490362852] ERROR: HOST ALERT: test2;DOWN;HARD;0;<wpl> (1000,100%) must be an integer percentage
-[1490362852] ERROR: HOST NOTIFICATION: imported_admin;test2;DOWN;notify-host-by-email;<wpl> (1000,100%) must be an integer percentage
+[1490362852] ERROR: HOST NOTIFICATION: imported_admin;test2;DOWN;1;notify-host-by-email;<wpl> (1000,100%) must be an integer percentage
 [1490362889] INFO: TIMEPERIOD TRANSITION: north_hours;-1;1
 [1490362889] INFO: TIMEPERIOD TRANSITION: workhours;-1;1
 [1490362889] INFO: TIMEPERIOD TRANSITION: 24x7;-1;1

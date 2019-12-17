@@ -215,7 +215,7 @@
 [1490595576] INFO: HOST ALERT: passive-01;UP;HARD;1;coucou...
 [1490595576] INFO: EXTERNAL COMMAND: PROCESS_HOST_CHECK_RESULT;passive-01;0;coucou...
 Long coucou...
-[1490595576] INFO: HOST NOTIFICATION: northman;passive-01;UP;notify-host-by-email;coucou...
+[1490595576] INFO: HOST NOTIFICATION: northman;passive-01;UP;0;notify-host-by-email;coucou...
 [1490595771] ERROR: SERVICE ALERT: cogny;Mysql threads;CRITICAL;SOFT;3;CRITICAL - 200 client connection threads
 [1490595870] INFO: RETENTION LOAD
 [1490595870] INFO: CURRENT SERVICE STATE: pi1;Nrpe-status;UNREACHABLE;HARD;0;CHECK_NRPE: Socket timeout after 10 seconds.
@@ -6570,8 +6570,8 @@ coucou2
 [1490621809] INFO: RETENTION SAVE
 [1490621901] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;3;CRITICAL - CPU usage is 98% for server cogny.siprossii.com.
 [1490621999] WARNING: SERVICE ALERT: lachassagne;Memory;WARNING;SOFT;2;Memory WARNING - 84.0% (28862377984 kB) used
-[1490622052] ERROR: HOST NOTIFICATION: imported_admin;test2;DOWN;notify-host-by-email;<wpl> (1000,100%) must be an integer percentage
-[1490622052] ERROR: HOST NOTIFICATION: guest;test2;DOWN;notify-host-by-email;<wpl> (1000,100%) must be an integer percentage
+[1490622052] ERROR: HOST NOTIFICATION: imported_admin;test2;DOWN;1;notify-host-by-email;<wpl> (1000,100%) must be an integer percentage
+[1490622052] ERROR: HOST NOTIFICATION: guest;test2;DOWN;1;notify-host-by-email;<wpl> (1000,100%) must be an integer percentage
 [1490622202] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;HARD;4;CRITICAL - CPU usage is 100% for server cogny.siprossii.com.
 [1490622260] INFO: SERVICE ALERT: cogny;CPU;OK;HARD;4;OK - CPU usage is 65% for server cogny.siprossii.com.
 [1490622302] WARNING: SERVICE ALERT: lachassagne;Memory;WARNING;SOFT;3;Memory WARNING - 85.3% (29314260992 kB) used

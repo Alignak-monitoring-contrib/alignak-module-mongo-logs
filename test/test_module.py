@@ -52,9 +52,10 @@ class TestModules(AlignakTest):
 
         :return:
         """
-        self.setup_with_file('./etc/cfg_default.cfg')
+        self.setup_with_file('./etc/cfg_default.cfg', dispatching=True)
         self.assertTrue(self.conf_is_correct)
         self.show_configuration_logs()
+        self.show_logs()
 
         # No arbiter modules created
         modules = [m.module_alias for m in self._arbiter.link_to_myself.modules]
@@ -62,7 +63,7 @@ class TestModules(AlignakTest):
 
         # The only existing broker module is logs declared in the configuration
         modules = [m.module_alias for m in self._broker_daemon.modules]
-        self.assertListEqual(modules, ['logs'])
+        self.assertListEqual(modules, ['mongo-logs'])
 
         # No scheduler modules
         modules = [m.module_alias for m in self._scheduler_daemon.modules]
@@ -74,7 +75,7 @@ class TestModules(AlignakTest):
         Test if the module manager manages correctly all the modules
         :return:
         """
-        self.setup_with_file('etc/cfg_default.cfg')
+        self.setup_with_file('etc/cfg_default.cfg', dispatching=True)
         self.assertTrue(self.conf_is_correct)
         self.clear_logs()
 
@@ -321,7 +322,7 @@ class TestModules(AlignakTest):
         self.assert_log_match("Killing external module", index)
         index = index + 1
         # todo: This log is not expected! But it is probably because of the py.test ...
-        # Indeed the receiver daemon that the module is attached to is receiving a SIGTERM !!!
+        # Indeed the broker daemon that the module is attached to is receiving a SIGTERM !!!
         self.assert_log_match(
             re.escape("logs is still living 10 seconds after a normal kill, I help it to die"),
             index)
@@ -354,9 +355,11 @@ class TestModules(AlignakTest):
         my_module.last_init_try = -5
         self.modulemanager.check_alive_instances()
         self.modulemanager.try_to_restart_deads()
-        self.assert_log_match("Trying to restart module: log", index)
+        self.assert_log_match("Trying to restart module: logs", index)
         index = index +1
-        self.assert_log_match("Trying to initialize module: log", index)
+        self.assert_log_match("Trying to initialize module: logs", index)
+        index = index +1
+        self.assert_log_match("Module logs is initialized.", index)
         index = index +1
         self.assert_log_match("Restarting logs...", index)
         index = index +1

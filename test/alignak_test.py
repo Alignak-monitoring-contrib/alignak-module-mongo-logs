@@ -711,6 +711,7 @@ define host {
         # The main arbiter and scheduler daemons
         self._arbiter = None
         self._scheduler_daemon = None
+        self._broker_daemon = None
         self._scheduler = None
         self.conf_is_correct = False
         self.configuration_warnings = []

@@ -1217,7 +1217,7 @@
 [1489733902] WARNING: SERVICE ALERT: cogny;Mysql threads;WARNING;SOFT;1;WARNING - 104 client connection threads
 [1489733902] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;2;CRITICAL - CPU usage is 100% for server cogny.siprossii.com.
 [1489734000] INFO: TIMEPERIOD TRANSITION: north_hours;-1;1
-[1489734003] ERROR: HOST NOTIFICATION: northman;passive-01;DOWN;notify-host-by-email;Freshness period expired
+[1489734003] ERROR: HOST NOTIFICATION: northman;passive-01;DOWN;1;notify-host-by-email;Freshness period expired
 [1489734004] ERROR: HOST ALERT: passive-01;DOWN;HARD;1;Freshness period expired
 [1489734073] ERROR: SERVICE ALERT: denice;Shinken Main Web service;CRITICAL;SOFT;2;connect to address 10.0.2.7 and port 7760: Connection refused
 [1489734073] ERROR: SERVICE ALERT: denice;Shinken Main Arbiter;CRITICAL;SOFT;2;connect to address 10.0.2.7 and port 7770: Connection refused
@@ -1800,7 +1800,7 @@
 [1489782151] INFO: SERVICE ALERT: denice;NTP;OK;SOFT;2;NTP OK: Offset -0.01378679276 secs
 [1489782151] INFO: SERVICE FLAPPING ALERT: denice;NTP;STARTED; Service appears to have started flapping (50.6% change >= 50.0% threshold)
 [1489783020] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 146>30
-[1489783040] ERROR: HOST NOTIFICATION: imported_admin;always_down;DOWN;notify-host-by-email;Alarm timeout
+[1489783040] ERROR: HOST NOTIFICATION: imported_admin;always_down;DOWN;1;notify-host-by-email;Alarm timeout
 [1489783274] INFO: RETENTION SAVE
 [1489783280] INFO: RETENTION SAVE
 [1489783319] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;2;CRITICAL - svc_t 280>30

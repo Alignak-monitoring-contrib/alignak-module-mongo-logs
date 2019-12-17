@@ -276,7 +276,7 @@
 [1490252278] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;2;CRITICAL - CPU usage is 100% for server cogny.siprossii.com.
 [1490252278] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;2;CRITICAL - svc_t 79>30
 [1490252328] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;3;OK - data received
-[1490252404] ERROR: HOST NOTIFICATION: northman;passive-01;DOWN;notify-host-by-email;Freshness period expired
+[1490252404] ERROR: HOST NOTIFICATION: northman;passive-01;DOWN;1;notify-host-by-email;Freshness period expired
 [1490252404] INFO: TIMEPERIOD TRANSITION: north_hours;0;1
 [1490252404] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
 [1490252470] INFO: SERVICE ALERT: chazay;NTP;OK;SOFT;2;NTP OK: Offset -0.006475329399 secs
@@ -318,7 +318,7 @@
 [1490253788] INFO: SERVICE ALERT: alignak_glpi;Zombies;UNREACHABLE;SOFT;2;CHECK_NRPE: Socket timeout after 10 seconds.
 [1490253788] INFO: SERVICE ALERT: alignak_glpi;Nrpe-status;UNREACHABLE;HARD;2;CHECK_NRPE: Socket timeout after 10 seconds.
 [1490253788] INFO: SERVICE ALERT: alignak_glpi;Processus;UNREACHABLE;SOFT;2;CHECK_NRPE: Socket timeout after 10 seconds.
-[1490253788] ERROR: HOST NOTIFICATION: imported_admin;alignak_glpi;DOWN;notify-host-by-email;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490253788] ERROR: HOST NOTIFICATION: imported_admin;alignak_glpi;DOWN;1;notify-host-by-email;CHECK_NRPE: Socket timeout after 10 seconds.
 [1490253788] INFO: SERVICE ALERT: alignak_glpi;Users;UNREACHABLE;SOFT;2;CHECK_NRPE: Socket timeout after 10 seconds.
 [1490253789] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
 [1490253789] INFO: SERVICE FLAPPING ALERT: cogny;I/O stats disk 2;STARTED; Service appears to have started flapping (53.5% change >= 50.0% threshold)
@@ -332,7 +332,7 @@
 [1490253850] INFO: SERVICE ALERT: chazay;I/O stats;UNREACHABLE;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
 [1490253850] INFO: SERVICE ALERT: chazay;Http;UNREACHABLE;SOFT;2;CRITICAL - Socket timeout
 [1490253850] INFO: SERVICE ALERT: chazay;Users;UNREACHABLE;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
-[1490253850] ERROR: HOST NOTIFICATION: imported_admin;chazay;DOWN;notify-host-by-email;CHECK_NRPE: Socket timeout after 10 seconds.
+[1490253850] ERROR: HOST NOTIFICATION: imported_admin;chazay;DOWN;1;notify-host-by-email;CHECK_NRPE: Socket timeout after 10 seconds.
 [1490253850] INFO: SERVICE ALERT: chazay;HttpsCertificate;UNREACHABLE;SOFT;2;CRITICAL - Socket timeout
 [1490253850] INFO: SERVICE ALERT: chazay;Zombies;UNREACHABLE;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
 [1490253850] INFO: SERVICE ALERT: chazay;Https;UNREACHABLE;SOFT;2;CRITICAL - Socket timeout
@@ -512,12 +512,12 @@
 [1490261575] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;2;CRITICAL - CPU usage is 98% for server cogny.siprossii.com.
 [1490261575] INFO: HOST ALERT: alignak_glpi;UP;HARD;2;NRPE v2.15
 [1490261576] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;2;CRITICAL - svc_t 322>30
-[1490261576] INFO: HOST NOTIFICATION: imported_admin;alignak_glpi;UP;notify-host-by-email;NRPE v2.15
+[1490261576] INFO: HOST NOTIFICATION: imported_admin;alignak_glpi;UP;0;notify-host-by-email;NRPE v2.15
 [1490261591] INFO: SERVICE ALERT: alignak_glpi;Processus;OK;HARD;4;PROCS OK: 205 processes
 [1490261617] INFO: SERVICE ALERT: alignak_glpi;Users;OK;HARD;4;USERS OK - 0 users currently logged in
 [1490261617] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
 [1490261639] INFO: HOST ALERT: chazay;UP;HARD;2;NRPE v2.15
-[1490261639] INFO: HOST NOTIFICATION: imported_admin;chazay;UP;notify-host-by-email;NRPE v2.15
+[1490261639] INFO: HOST NOTIFICATION: imported_admin;chazay;UP;0;notify-host-by-email;NRPE v2.15
 [1490261878] WARNING: SERVICE ALERT: cogny;CPU;WARNING;SOFT;3;WARNING - CPU usage is 81% for server cogny.siprossii.com.
 [1490261878] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;3;CRITICAL - writes 22808>18000
 [1490261919] INFO: RETENTION SAVE

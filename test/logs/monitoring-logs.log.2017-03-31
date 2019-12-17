@@ -264,7 +264,7 @@
 [1490940164] INFO: EXTERNAL COMMAND: [1490940053] PROCESS_SERVICE_CHECK_RESULT;ek4000-0006;svc_Disk;0;Ok - Init|'DiskInserted'=235c
 [1490940164] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 317>30
 [1490940164] INFO: HOST ACKNOWLEDGE ALERT: ek4000-0006;EXPIRED; Host problem acknowledge expired
-[1490940165] INFO: HOST NOTIFICATION: imported_admin;ek4000-0006;UP;notify-host-by-email;EK4000-0006 is alive, uptime is 52 seconds (0 days 0 hours 0 minutes 52 seconds 947 ms)
+[1490940165] INFO: HOST NOTIFICATION: imported_admin;ek4000-0006;UP;0;notify-host-by-email;EK4000-0006 is alive, uptime is 52 seconds (0 days 0 hours 0 minutes 52 seconds 947 ms)
 [1490940165] INFO: SERVICE ALERT: ek4000-0006;svc_Disk;OK;HARD;1;Ok - Init
 [1490940165] INFO: SERVICE ALERT: ek4000-0006;dev_SoundUI;UNREACHABLE;HARD;1;Freshness period expired
 [1490940165] INFO: EXTERNAL COMMAND: [1490940053] PROCESS_SERVICE_CHECK_RESULT;ek4000-0006;svc_Session;0;Ok - Init|'SessionsClosed'=213c 'SessionsInactive'=120c 'SessionsMax'=1c 'SessionsOpened'=214c
@@ -273,7 +273,7 @@
 [1490940165] INFO: SERVICE ALERT: ek4000-0006;svc_Disk;UNREACHABLE;HARD;1;Freshness period expired
 [1490940165] INFO: SERVICE ALERT: ek4000-0006;dev_TouchUI;UNREACHABLE;HARD;1;Freshness period expired
 [1490940165] INFO: HOST ALERT: ek4000-0006;UP;HARD;1;EK4000-0006 is alive, uptime is 52 seconds (0 days 0 hours 0 minutes 52 seconds 947 ms)
-[1490940165] INFO: HOST NOTIFICATION: guest;ek4000-0006;UP;notify-host-by-email;EK4000-0006 is alive, uptime is 52 seconds (0 days 0 hours 0 minutes 52 seconds 947 ms)
+[1490940165] INFO: HOST NOTIFICATION: guest;ek4000-0006;UP;0;notify-host-by-email;EK4000-0006 is alive, uptime is 52 seconds (0 days 0 hours 0 minutes 52 seconds 947 ms)
 [1490940165] INFO: EXTERNAL COMMAND: [1490940065] PROCESS_SERVICE_CHECK_RESULT;ek4000-0006;dev_TouchUI;0;Ok -  Microsoft Input Configuration Device (Microsoft Input Configuration Device) - Init
 [1490940165] INFO: EXTERNAL COMMAND: [1490940075] PROCESS_HOST_CHECK_RESULT;ek4000-0006;0;EK4000-0006 is alive, uptime is 52 seconds (0 days 0 hours 0 minutes 52 seconds 947 ms)|'Uptime'=52
 [1490940165] INFO: SERVICE FLAPPING ALERT: ek4000-0006;svc_TagReading_A;STARTED; Service appears to have started flapping (31.2% change >= 30.0% threshold)
@@ -1152,10 +1152,10 @@
 [1490951834] INFO: SERVICE ALERT: ek3022sg-0001;svc_Management;OK;HARD;1;Ok - Init
 [1490951834] INFO: SERVICE ALERT: ek3022sg-0001;DemoSocGen1;OK;HARD;1;Application started.
 [1490951923] INFO: EXTERNAL COMMAND: [1490951754] PROCESS_SERVICE_CHECK_RESULT;ek4000-0006;dev_Network;0;LAN - Up - Connected - Init|'NetworkNotAvailable'=10c
-[1490951924] INFO: HOST NOTIFICATION: imported_admin;ek3022sg-0001;UP;notify-host-by-email;EK3022SG-0001 is alive, uptime is 185 seconds (0 days 0 hours 3 minutes 5 seconds 805 ms)
+[1490951924] INFO: HOST NOTIFICATION: imported_admin;ek3022sg-0001;UP;0;notify-host-by-email;EK3022SG-0001 is alive, uptime is 185 seconds (0 days 0 hours 3 minutes 5 seconds 805 ms)
 [1490951924] INFO: EXTERNAL COMMAND: [1490951827] PROCESS_HOST_CHECK_RESULT;ek3022sg-0001;0;EK3022SG-0001 is alive, uptime is 185 seconds (0 days 0 hours 3 minutes 5 seconds 805 ms)|'Uptime'=185
 [1490951924] INFO: EXTERNAL COMMAND: [1490951757] PROCESS_SERVICE_CHECK_RESULT;ek4000-0006;svc_Session;0;Ok - Init|'SessionsClosed'=218c 'SessionsInactive'=123c 'SessionsMax'=1c 'SessionsOpened'=220c
-[1490951924] INFO: HOST NOTIFICATION: guest;ek3022sg-0001;UP;notify-host-by-email;EK3022SG-0001 is alive, uptime is 185 seconds (0 days 0 hours 3 minutes 5 seconds 805 ms)
+[1490951924] INFO: HOST NOTIFICATION: guest;ek3022sg-0001;UP;0;notify-host-by-email;EK3022SG-0001 is alive, uptime is 185 seconds (0 days 0 hours 3 minutes 5 seconds 805 ms)
 [1490951924] INFO: EXTERNAL COMMAND: [1490951753] PROCESS_SERVICE_CHECK_RESULT;ek4000-0006;svc_TagReading_A;2;Hardware - Init
 [1490951924] INFO: EXTERNAL COMMAND: [1490951756] PROCESS_SERVICE_CHECK_RESULT;ek4000-0006;dev_ContactlessReader;2;Offline - Init|'TagRead'=14c
 [1490951924] INFO: EXTERNAL COMMAND: [1490951768] PROCESS_SERVICE_CHECK_RESULT;ek3022sg-0001;svc_Session;0;Ok - Session closed (65s)|'SessionDuration'=65s 'SessionsClosed'=108c 'SessionsInactive'=64c 'SessionsOpened'=110c
@@ -1529,8 +1529,8 @@
 [1490954926] INFO: EXTERNAL COMMAND: [1490954775] PROCESS_HOST_CHECK_RESULT;ek4000-0006;0;EK4000-0006 is alive, uptime is 14753 seconds (0 days 4 hours 5 minutes 53 seconds 92 ms)|'Uptime'=14753
 [1490954926] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;HARD;4;CRITICAL - CPU usage is 100% for server cogny.siprossii.com.
 [1490954926] INFO: RETENTION SAVE
-[1490954926] ERROR: HOST NOTIFICATION: guest;test_fred_2;DOWN;notify-host-by-email;Freshness period expired
-[1490954926] ERROR: HOST NOTIFICATION: imported_admin;test_fred_2;DOWN;notify-host-by-email;Freshness period expired
+[1490954926] ERROR: HOST NOTIFICATION: guest;test_fred_2;DOWN;1;notify-host-by-email;Freshness period expired
+[1490954926] ERROR: HOST NOTIFICATION: imported_admin;test_fred_2;DOWN;1;notify-host-by-email;Freshness period expired
 [1490954926] INFO: RETENTION SAVE
 [1490955006] INFO: EXTERNAL COMMAND: [1490954906] PROCESS_SERVICE_CHECK_RESULT;ek3022sg-0001;nsca_uptime;1;WARNING: uptime: 0:17h, boot: 2017-03-31 09:51:17 (UTC)|'uptime'=1029s;2100;90000
 [1490955006] INFO: EXTERNAL COMMAND: [1490954864] PROCESS_SERVICE_CHECK_RESULT;ek3022sg-0001;nsca_uptime;1;WARNING: uptime: 0:16h, boot: 2017-03-31 09:51:17 (UTC)|'uptime'=987s;2100;90000
@@ -1753,11 +1753,11 @@
 [1490959387] INFO: EXTERNAL COMMAND: [1490959297] PROCESS_HOST_CHECK_RESULT;ek3022sg-0001;0;EK3022SG-0001 is alive, uptime is 5424 seconds (0 days 1 hours 30 minutes 24 seconds 830 ms)|'Uptime'=5424
 [1490959387] INFO: EXTERNAL COMMAND: [1490959275] PROCESS_HOST_CHECK_RESULT;ek4000-0006;0;EK4000-0006 is alive, uptime is 19253 seconds (0 days 5 hours 20 minutes 53 seconds 168 ms)|'Uptime'=19253
 [1490959469] INFO: SERVICE FLAPPING ALERT: chazay;NTP;STOPPED; Service appears to have stopped flapping (22.0% change < 25.0% threshold)
-[1490959559] ERROR: HOST NOTIFICATION: guest;passive-03;DOWN;notify-host-by-email;Freshness period expired
+[1490959559] ERROR: HOST NOTIFICATION: guest;passive-03;DOWN;1;notify-host-by-email;Freshness period expired
 [1490959559] INFO: EXTERNAL COMMAND: [1490959468] PROCESS_SERVICE_CHECK_RESULT;ek3022sg-0001;DemoSocGen1;0;Application started.|'avec_rdv'=43c 'client_avec_nom'=27c 'client_sans_nom'=25c 'conseiller_EvaRivire'=4c 'conseiller_FrancisDureterre'=3c 'conseiller_GraldineDurand'=2c 'conseiller_HectorMontalibert'=5c 'conseiller_IsabelleRegattini'=5c 'EvaRivire'=1c 'GraldineDurand'=3c 'HectorMontalibert'=3c 'sans_conseiller'=4c 'sans_rdv'=19c 'skAppCritical'=3c
 [1490959559] INFO: EXTERNAL COMMAND: [1490959468] PROCESS_SERVICE_CHECK_RESULT;ek3022sg-0001;svc_Session;0;Ok - Screensaver|'SessionsClosed'=132c 'SessionsInactive'=79c 'SessionsOpened'=134c
 [1490959559] INFO: EXTERNAL COMMAND: [1490959443] PROCESS_SERVICE_CHECK_RESULT;ek3022sg-0001;nsca_memory;0;physical: Total: 1.893GB - Used: 819.785MB (42%) - Free: 1.093GB (57%), virtual: Total: 128TB - Used: 150.047MB (0%) - Free: 128TB (99%), committed: Total: 2.643GB - Used: 1.092GB (41%) - Free: 1.551GB (58%), committed: Total: 2.643GB - Used: 1.092GB (41%) - Free: 1.551GB (58%)|'physical'=0.80057GB;1.41998;1.70398;0;1.89331 'physical %'=42%;75;90;0;100 'virtual'=0.00014TB;96;115.2;0;128 'virtual %'=0%;75;90;0;100 'committed'=1.09195GB;1.98248;2.37898;0;2.64331 'committed %'=41%;75;90;0;100 'committed'=1.09195GB;1.98248;2.37898;0;2.64331 'committed %'=41%;75;90;0;100
-[1490959559] ERROR: HOST NOTIFICATION: imported_admin;passive-03;DOWN;notify-host-by-email;Freshness period expired
+[1490959559] ERROR: HOST NOTIFICATION: imported_admin;passive-03;DOWN;1;notify-host-by-email;Freshness period expired
 [1490959559] INFO: EXTERNAL COMMAND: [1490959468] PROCESS_SERVICE_CHECK_RESULT;ek3022sg-0001;svc_Screensaver;0;Ok|'ScreensaverOff'=84c 'ScreensaverOn'=109c
 [1490959649] INFO: EXTERNAL COMMAND: [1490959498] PROCESS_SERVICE_CHECK_RESULT;ek3022sg-0001;svc_Screensaver;0;Ok|'ScreensaverOff'=84c 'ScreensaverOn'=110c
 [1490959649] INFO: EXTERNAL COMMAND: [1490959505] PROCESS_HOST_CHECK_RESULT;ek3022sg-0001;0;EK3022SG-0001 is alive, uptime is 5633 seconds (0 days 1 hours 33 minutes 53 seconds 79 ms)|'Uptime'=5633
@@ -1801,10 +1801,10 @@
 [1490960508] INFO: EXTERNAL COMMAND: [1490960390] PROCESS_SERVICE_CHECK_RESULT;ek3022sg-0001;svc_Screensaver;0;Ok|'ScreensaverOff'=86c 'ScreensaverOn'=112c
 [1490960508] INFO: EXTERNAL COMMAND: [1490960361] PROCESS_SERVICE_CHECK_RESULT;ek3022sg-0001;svc_Screensaver;0;Ok|'ScreensaverOff'=86c 'ScreensaverOn'=111c
 [1490960508] INFO: EXTERNAL COMMAND: [1490960388] PROCESS_HOST_CHECK_RESULT;ek3022sg-0001;0;EK3022SG-0001 is alive, uptime is 6515 seconds (0 days 1 hours 48 minutes 35 seconds 606 ms)|'Uptime'=6515
-[1490960508] ERROR: HOST NOTIFICATION: imported_admin;master-0000;DOWN;notify-host-by-email;Freshness period expired
+[1490960508] ERROR: HOST NOTIFICATION: imported_admin;master-0000;DOWN;1;notify-host-by-email;Freshness period expired
 [1490960508] INFO: EXTERNAL COMMAND: [1490960359] PROCESS_SERVICE_CHECK_RESULT;ek3022sg-0001;DemoSocGen1;0;Application started.|'avec_rdv'=43c 'client_avec_nom'=28c 'client_sans_nom'=25c 'conseiller_EvaRivire'=4c 'conseiller_FrancisDureterre'=3c 'conseiller_GraldineDurand'=2c 'conseiller_HectorMontalibert'=5c 'conseiller_IsabelleRegattini'=5c 'EvaRivire'=1c 'GraldineDurand'=3c 'HectorMontalibert'=3c 'sans_conseiller'=4c 'sans_rdv'=20c 'skAppCritical'=3c
 [1490960508] INFO: EXTERNAL COMMAND: [1490960360] PROCESS_SERVICE_CHECK_RESULT;ek3022sg-0001;svc_Session;0;Ok - Screensaver|'SessionsClosed'=133c 'SessionsInactive'=80c 'SessionsOpened'=135c
-[1490960508] ERROR: HOST NOTIFICATION: guest;master-0000;DOWN;notify-host-by-email;Freshness period expired
+[1490960508] ERROR: HOST NOTIFICATION: guest;master-0000;DOWN;1;notify-host-by-email;Freshness period expired
 [1490960588] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;1;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
 [1490960588] INFO: EXTERNAL COMMAND: [1490960499] PROCESS_SERVICE_CHECK_RESULT;ek3022sg-0001;nsca_disk;0;OK All 1 drive(s) are ok|'C: used'=13.31294GB;22.28832;25.2601;0;29.71777 'C: used %'=45%;75;85;0;100
 [1490960588] INFO: EXTERNAL COMMAND: [1490960464] PROCESS_SERVICE_CHECK_RESULT;ek3022sg-0001;nsca_uptime;0;OK: uptime: 01:49h, boot: 2017-03-31 09:51:17 (UTC)|'uptime'=6587s;2100;90000
@@ -2103,9 +2103,9 @@
 [1490967795] INFO: EXTERNAL COMMAND: [1490967675] PROCESS_HOST_CHECK_RESULT;ek4000-0006;0;EK4000-0006 is alive, uptime is 27653 seconds (0 days 7 hours 40 minutes 53 seconds 393 ms)|'Uptime'=27653
 [1490967795] INFO: EXTERNAL COMMAND: [1490967623] PROCESS_SERVICE_CHECK_RESULT;ek3022sg-0001;svc_Session;0;Ok - Session opened|'SessionsClosed'=144c 'SessionsInactive'=91c 'SessionsOpened'=147c
 [1490967795] INFO: EXTERNAL COMMAND: [1490967674] PROCESS_SERVICE_CHECK_RESULT;ek3022sg-0001;svc_Session;0;Ok - Session closed (49s)|'SessionDuration'=49s 'SessionsClosed'=145c 'SessionsInactive'=92c 'SessionsOpened'=147c
-[1490967795] ERROR: HOST NOTIFICATION: guest;test2;DOWN;notify-host-by-email;<wpl> (1000,100%) must be an integer percentage
+[1490967795] ERROR: HOST NOTIFICATION: guest;test2;DOWN;1;notify-host-by-email;<wpl> (1000,100%) must be an integer percentage
 [1490967795] INFO: EXTERNAL COMMAND: [1490967633] PROCESS_SERVICE_CHECK_RESULT;ek3022sg-0001;DemoSocGen1;0;Application started.|'avec_rdv'=62c 'client_avec_nom'=46c 'client_sans_nom'=27c 'conseiller_AudreyMilluy'=2c 'conseiller_EmmanuelCrespeau'=1c 'conseiller_EvaRivire'=4c 'conseiller_FrancisDureterre'=3c 'conseiller_GraldineDurand'=3c 'conseiller_HectorMontalibert'=5c 'conseiller_IsabelleRegattini'=5c 'conseiller_MaximeDe Linares'=1c 'conseiller_SbastienDmo'=2c 'EvaRivire'=1c 'GraldineDurand'=3c 'HectorMontalibert'=3c 'sans_conseiller'=4c 'sans_rdv'=31c 'skAppCritical'=3c
-[1490967795] ERROR: HOST NOTIFICATION: imported_admin;test2;DOWN;notify-host-by-email;<wpl> (1000,100%) must be an integer percentage
+[1490967795] ERROR: HOST NOTIFICATION: imported_admin;test2;DOWN;1;notify-host-by-email;<wpl> (1000,100%) must be an integer percentage
 [1490967795] INFO: EXTERNAL COMMAND: [1490967673] PROCESS_SERVICE_CHECK_RESULT;ek3022sg-0001;DemoSocGen1;0;Application started.|'avec_rdv'=62c 'client_avec_nom'=46c 'client_sans_nom'=27c 'conseiller_AudreyMilluy'=2c 'conseiller_EmmanuelCrespeau'=1c 'conseiller_EvaRivire'=4c 'conseiller_FrancisDureterre'=3c 'conseiller_GraldineDurand'=3c 'conseiller_HectorMontalibert'=5c 'conseiller_IsabelleRegattini'=5c 'conseiller_MaximeDe Linares'=1c 'conseiller_SbastienDmo'=2c 'EvaRivire'=1c 'GraldineDurand'=3c 'HectorMontalibert'=3c 'sans_conseiller'=4c 'sans_rdv'=31c 'skAppCritical'=3c
 [1490967885] INFO: SERVICE ALERT: cogny;CPU;OK;HARD;4;OK - CPU usage is 41% for server cogny.siprossii.com.
 [1490967885] INFO: SERVICE NOTIFICATION: guest;cogny;CPU;OK;notify-service-by-email;OK - CPU usage is 41% for server cogny.siprossii.com.
@@ -2225,7 +2225,7 @@
 [1490970197] INFO: EXTERNAL COMMAND: [1490970075] PROCESS_SERVICE_CHECK_RESULT;ek3022sg-0001;svc_Session;0;Ok - Session opened|'SessionsClosed'=148c 'SessionsInactive'=95c 'SessionsOpened'=151c
 [1490970197] INFO: EXTERNAL COMMAND: [1490970058] PROCESS_HOST_CHECK_RESULT;ek3022sg-0001;0;EK3022SG-0001 is alive, uptime is 16185 seconds (0 days 4 hours 29 minutes 45 seconds 779 ms)|'Uptime'=16185
 [1490970197] INFO: EXTERNAL COMMAND: [1490970065] PROCESS_SERVICE_CHECK_RESULT;ek3022sg-0001;svc_Screensaver;0;Ok|'ScreensaverOff'=103c 'ScreensaverOn'=129c
-[1490970197] ERROR: HOST NOTIFICATION: northman;passive-01;DOWN;notify-host-by-email;Freshness period expired
+[1490970197] ERROR: HOST NOTIFICATION: northman;passive-01;DOWN;1;notify-host-by-email;Freshness period expired
 [1490970197] INFO: EXTERNAL COMMAND: [1490970084] PROCESS_SERVICE_CHECK_RESULT;ek3022sg-0001;DemoSocGen1;0;Application started.|'avec_rdv'=75c 'client_avec_nom'=58c 'client_sans_nom'=29c 'conseiller_AudreyMilluy'=3c 'conseiller_DmonstrationSige'=1c 'conseiller_EmmanuelCrespeau'=3c 'conseiller_EvaRivire'=4c 'conseiller_FrancisDureterre'=3c 'conseiller_GraldineDurand'=3c 'conseiller_HectorMontalibert'=5c 'conseiller_IsabelleRegattini'=5c 'conseiller_MaximeDe Linares'=1c 'conseiller_SbastienDmo'=2c 'EvaRivire'=1c 'GraldineDurand'=3c 'HectorMontalibert'=3c 'sans_conseiller'=6c 'sans_rdv'=34c
 [1490970197] INFO: EXTERNAL COMMAND: [1490970074] PROCESS_SERVICE_CHECK_RESULT;ek3022sg-0001;DemoSocGen1;0;Application started.|'skAppCritical'=3c
 [1490970197] INFO: EXTERNAL COMMAND: [1490970072] PROCESS_SERVICE_CHECK_RESULT;ek3022sg-0001;DemoSocGen1;0;Application started.|'avec_rdv'=74c 'client_avec_nom'=57c 'client_sans_nom'=29c 'conseiller_AudreyMilluy'=3c 'conseiller_DmonstrationSige'=1c 'conseiller_EmmanuelCrespeau'=2c 'conseiller_EvaRivire'=4c 'conseiller_FrancisDureterre'=3c 'conseiller_GraldineDurand'=3c 'conseiller_HectorMontalibert'=5c 'conseiller_IsabelleRegattini'=5c 'conseiller_MaximeDe Linares'=1c 'conseiller_SbastienDmo'=2c 'EvaRivire'=1c 'GraldineDurand'=3c 'HectorMontalibert'=3c 'sans_conseiller'=6c 'sans_rdv'=34c
@@ -2793,8 +2793,8 @@
 [1490990260] INFO: EXTERNAL COMMAND: [1490990123] PROCESS_HOST_CHECK_RESULT;ek3022sg-0001;0;EK3022SG-0001 is alive, uptime is 36250 seconds (0 days 10 hours 4 minutes 10 seconds 554 ms)|'Uptime'=36250
 [1490990350] ERROR: HOST ALERT: ek4000-0006;DOWN;HARD;1;Freshness period expired
 [1490990351] INFO: EXTERNAL COMMAND: [1490990217] PROCESS_SERVICE_CHECK_RESULT;ek3022sg-0001;nsca_uptime;0;OK: uptime: 10:5h, boot: 2017-03-31 09:51:16 (UTC)|'uptime'=36341s;2100;90000
-[1490990351] ERROR: HOST NOTIFICATION: guest;ek4000-0006;DOWN;notify-host-by-email;Freshness period expired
-[1490990351] ERROR: HOST NOTIFICATION: imported_admin;ek4000-0006;DOWN;notify-host-by-email;Freshness period expired
+[1490990351] ERROR: HOST NOTIFICATION: guest;ek4000-0006;DOWN;1;notify-host-by-email;Freshness period expired
+[1490990351] ERROR: HOST NOTIFICATION: imported_admin;ek4000-0006;DOWN;1;notify-host-by-email;Freshness period expired
 [1490990522] INFO: EXTERNAL COMMAND: [1490990355] PROCESS_HOST_CHECK_RESULT;ek3022sg-0001;0;EK3022SG-0001 is alive, uptime is 36482 seconds (0 days 10 hours 8 minutes 2 seconds 992 ms)|'Uptime'=36482
 [1490990612] WARNING: SERVICE ALERT: lachassagne;Memory;WARNING;SOFT;1;Memory WARNING - 80.2% (27567165440 kB) used
 [1490990708] INFO: SERVICE ALERT: lachassagne;Memory;OK;SOFT;2;Memory OK - 79.3% (27241181184 kB) used

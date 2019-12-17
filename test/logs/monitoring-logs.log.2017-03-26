@@ -460,8 +460,8 @@
 [1490535268] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
 [1490535472] WARNING: SERVICE ALERT: cogny;CPU;WARNING;SOFT;3;WARNING - CPU usage is 93% for server cogny.siprossii.com.
 [1490535616] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 154>30
-[1490535652] ERROR: HOST NOTIFICATION: guest;test2;DOWN;notify-host-by-email;<wpl> (1000,100%) must be an integer percentage
-[1490535652] ERROR: HOST NOTIFICATION: imported_admin;test2;DOWN;notify-host-by-email;<wpl> (1000,100%) must be an integer percentage
+[1490535652] ERROR: HOST NOTIFICATION: guest;test2;DOWN;1;notify-host-by-email;<wpl> (1000,100%) must be an integer percentage
+[1490535652] ERROR: HOST NOTIFICATION: imported_admin;test2;DOWN;1;notify-host-by-email;<wpl> (1000,100%) must be an integer percentage
 [1490535695] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
 [1490535772] WARNING: SERVICE ALERT: cogny;CPU;WARNING;HARD;4;WARNING - CPU usage is 94% for server cogny.siprossii.com.
 [1490536071] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;HARD;4;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.

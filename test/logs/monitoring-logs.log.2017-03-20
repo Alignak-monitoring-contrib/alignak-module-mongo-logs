@@ -853,7 +853,7 @@
 [1489993105] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 209>30
 [1489993137] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
 [1489993201] INFO: TIMEPERIOD TRANSITION: north_hours;-1;1
-[1489993204] ERROR: HOST NOTIFICATION: northman;passive-01;DOWN;notify-host-by-email;Freshness period expired
+[1489993204] ERROR: HOST NOTIFICATION: northman;passive-01;DOWN;1;notify-host-by-email;Freshness period expired
 [1489993253] INFO: RETENTION SAVE
 [1489993254] INFO: RETENTION SAVE
 [1489993257] INFO: RETENTION SAVE
@@ -2053,7 +2053,7 @@
 [1490041009] INFO: RETENTION SAVE
 [1490041706] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 38>30
 [1490041800] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
-[1490042240] ERROR: HOST NOTIFICATION: imported_admin;always_down;DOWN;notify-host-by-email;Alarm timeout
+[1490042240] ERROR: HOST NOTIFICATION: imported_admin;always_down;DOWN;1;notify-host-by-email;Alarm timeout
 [1490042514] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 149>30
 [1490042534] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
 [1490042591] INFO: RETENTION SAVE

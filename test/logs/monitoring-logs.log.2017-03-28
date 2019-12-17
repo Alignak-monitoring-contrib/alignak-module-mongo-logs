@@ -5544,9 +5544,9 @@ Sent from master-0000
 [1490688659] ERROR: SERVICE NOTIFICATION: imported_admin;chazay;RAID controller;CRITICAL;notify-service-by-email;NRPE: Command 'check_raid' not defined
 [1490688659] ERROR: SERVICE NOTIFICATION: imported_admin;chazay;Opened files;CRITICAL;notify-service-by-email;NRPE: Command 'check_openedfiles' not defined
 [1490688659] ERROR: SERVICE NOTIFICATION: guest;chazay;Opened files;CRITICAL;notify-service-by-email;NRPE: Command 'check_openedfiles' not defined
-[1490688761] ERROR: HOST NOTIFICATION: guest;test_fred;DOWN;notify-host-by-email;Freshness period expired
+[1490688761] ERROR: HOST NOTIFICATION: guest;test_fred;DOWN;1;notify-host-by-email;Freshness period expired
 [1490688761] ERROR: HOST ALERT: test_fred;DOWN;HARD;0;Freshness period expired
-[1490688761] ERROR: HOST NOTIFICATION: imported_admin;test_fred;DOWN;notify-host-by-email;Freshness period expired
+[1490688761] ERROR: HOST NOTIFICATION: imported_admin;test_fred;DOWN;1;notify-host-by-email;Freshness period expired
 [1490688868] WARNING: SERVICE ALERT: cogny;CPU;WARNING;SOFT;1;WARNING - CPU usage is 94% for server cogny.siprossii.com.
 [1490688884] ERROR: SERVICE ALERT: chazay;Http;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 10 seconds
 [1490689001] INFO: SERVICE ALERT: chazay;Http;OK;SOFT;2;HTTP OK: HTTP/1.1 302 Found - 554 bytes in 0.013 second response time
@@ -11110,8 +11110,8 @@ Sent from master-0000
 [1490700096] ERROR: CURRENT SERVICE STATE: chazay;I/O stats disk 2;CRITICAL;HARD;0;NRPE: Command 'check_iostat_bsd_disk2' not defined
 [1490700096] ERROR: CURRENT SERVICE STATE: m2m-asso.fr;Dns;CRITICAL;HARD;0;[Errno 2] No such file or directory
 [1490700096] WARNING: CURRENT HOST STATE: passive-03;UNREACHABLE;HARD;0;
-[1490700376] ERROR: HOST NOTIFICATION: guest;passive-03;DOWN;notify-host-by-email;Freshness period expired
-[1490700376] ERROR: HOST NOTIFICATION: imported_admin;passive-03;DOWN;notify-host-by-email;Freshness period expired
+[1490700376] ERROR: HOST NOTIFICATION: guest;passive-03;DOWN;1;notify-host-by-email;Freshness period expired
+[1490700376] ERROR: HOST NOTIFICATION: imported_admin;passive-03;DOWN;1;notify-host-by-email;Freshness period expired
 [1490700376] ERROR: HOST ALERT: passive-03;DOWN;HARD;0;Freshness period expired
 [1490700527] INFO: SERVICE ALERT: cogny;CPU;OK;SOFT;4;OK - CPU usage is 95% for server cogny.siprossii.com.
 [1490700527] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;3;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
@@ -11829,8 +11829,8 @@ Sent from master-0000
 [1490703025] INFO: CURRENT SERVICE STATE: passive-02;dev_CBPayment;UNREACHABLE;HARD;0;Freshness period expired
 [1490703185] INFO: SERVICE ALERT: chazay;CPU;OK;SOFT;2;OK - CPU usage is 64% for server chazay.siprossii.com.
 [1490703185] WARNING: SERVICE ALERT: chazay;CPU;WARNING;SOFT;1;WARNING - CPU usage is 84% for server chazay.siprossii.com.
-[1490703626] ERROR: HOST NOTIFICATION: imported_admin;master-0000;DOWN;notify-host-by-email;Freshness period expired
-[1490703626] ERROR: HOST NOTIFICATION: guest;master-0000;DOWN;notify-host-by-email;Freshness period expired
+[1490703626] ERROR: HOST NOTIFICATION: imported_admin;master-0000;DOWN;1;notify-host-by-email;Freshness period expired
+[1490703626] ERROR: HOST NOTIFICATION: guest;master-0000;DOWN;1;notify-host-by-email;Freshness period expired
 [1490703626] ERROR: HOST ALERT: master-0000;DOWN;HARD;1;Freshness period expired
 [1490704046] INFO: SERVICE ALERT: cogny;CPU;OK;HARD;4;OK - CPU usage is 95% for server cogny.siprossii.com.
 [1490704046] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 215>30
@@ -11886,8 +11886,8 @@ Sent from master-0000
 [1490708382] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
 [1490708382] INFO: SERVICE NOTIFICATION: guest;lachassagne;Memory;OK;notify-service-by-email;Memory OK - 74.9% (25735233536 kB) used
 [1490708383] INFO: SERVICE ALERT: lachassagne;Memory;OK;HARD;4;Memory OK - 74.9% (25735233536 kB) used
-[1490708724] ERROR: HOST NOTIFICATION: imported_admin;test2;DOWN;notify-host-by-email;<wpl> (1000,100%) must be an integer percentage
-[1490708724] ERROR: HOST NOTIFICATION: guest;test2;DOWN;notify-host-by-email;<wpl> (1000,100%) must be an integer percentage
+[1490708724] ERROR: HOST NOTIFICATION: imported_admin;test2;DOWN;1;notify-host-by-email;<wpl> (1000,100%) must be an integer percentage
+[1490708724] ERROR: HOST NOTIFICATION: guest;test2;DOWN;1;notify-host-by-email;<wpl> (1000,100%) must be an integer percentage
 [1490708915] WARNING: SERVICE ALERT: cogny;CPU;WARNING;HARD;4;WARNING - CPU usage is 94% for server cogny.siprossii.com.
 [1490709167] INFO: CURRENT SERVICE STATE: ek3022sg-0001;svc_Disk;UNKNOWN;HARD;0;
 [1490709167] INFO: CURRENT SERVICE STATE: ek3022sg-0001;dev_ContactReader;UNKNOWN;HARD;0;
@@ -12312,7 +12312,7 @@ Sent from master-0000
 [1490710918] INFO: RETENTION SAVE
 [1490710918] INFO: RETENTION SAVE
 [1490710918] INFO: RETENTION SAVE
-[1490711078] ERROR: HOST NOTIFICATION: northman;passive-01;DOWN;notify-host-by-email;Freshness period expired
+[1490711078] ERROR: HOST NOTIFICATION: northman;passive-01;DOWN;1;notify-host-by-email;Freshness period expired
 [1490711078] ERROR: HOST ALERT: passive-01;DOWN;HARD;1;Freshness period expired
 [1490711078] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 62>30
 [1490711078] INFO: SERVICE ALERT: cogny;I/O stats disk 2;OK;SOFT;2;OK - data received
@@ -13171,10 +13171,10 @@ Sent from master-0000
 [1490714992] INFO: EXTERNAL COMMAND: DISABLE_HOST_CHECK;master-0000
 [1490714992] INFO: EXTERNAL COMMAND: PROCESS_HOST_CHECK_RESULT;master-0000;0;master-0000 is alive (0d 10h 42m 23s)|Uptime=38543s
 [1490714992] INFO: EXTERNAL COMMAND: ENABLE_PASSIVE_HOST_CHECKS;master-0000
-[1490714992] INFO: HOST NOTIFICATION: imported_admin;master-0000;UP;notify-host-by-email;master-0000 is alive (0d 10h 42m 23s)
+[1490714992] INFO: HOST NOTIFICATION: imported_admin;master-0000;UP;0;notify-host-by-email;master-0000 is alive (0d 10h 42m 23s)
 [1490714993] INFO: HOST ALERT: master-0000;UP;HARD;1;master-0000 is alive (0d 10h 42m 23s)
 [1490714993] ERROR: SERVICE ALERT: cogny;NTP;CRITICAL;SOFT;1;NTP CRITICAL: Offset unknown
-[1490714993] INFO: HOST NOTIFICATION: guest;master-0000;UP;notify-host-by-email;master-0000 is alive (0d 10h 42m 23s)
+[1490714993] INFO: HOST NOTIFICATION: guest;master-0000;UP;0;notify-host-by-email;master-0000 is alive (0d 10h 42m 23s)
 [1490714993] INFO: SERVICE ALERT: denice;NTP;OK;SOFT;3;NTP OK: Offset -0.01364421844 secs
 [1490715089] INFO: CURRENT SERVICE STATE: passive-01;svc_Activity;UNREACHABLE;HARD;0;Freshness period expired
 [1490715089] ERROR: CURRENT SERVICE STATE: m2m-asso.fr;HttpsCertificate;CRITICAL;HARD;3;connect to address m2m-asso.fr and port 443: Connection refused
@@ -15230,8 +15230,8 @@ Sent from master-0000
 [1490716552] ERROR: CURRENT SERVICE STATE: alignak_glpi;Disk /var;CRITICAL;HARD;0;NRPE: Command 'check_var' not defined
 [1490716552] ERROR: CURRENT SERVICE STATE: chazay;Disk /tmp;CRITICAL;HARD;0;NRPE: Command 'check_tmp' not defined
 [1490716560] ERROR: HOST ALERT: ek3022sg-0001;DOWN;HARD;1;Freshness period expired
-[1490716560] ERROR: HOST NOTIFICATION: guest;ek3022sg-0001;DOWN;notify-host-by-email;Freshness period expired
-[1490716560] ERROR: HOST NOTIFICATION: imported_admin;ek3022sg-0001;DOWN;notify-host-by-email;Freshness period expired
+[1490716560] ERROR: HOST NOTIFICATION: guest;ek3022sg-0001;DOWN;1;notify-host-by-email;Freshness period expired
+[1490716560] ERROR: HOST NOTIFICATION: imported_admin;ek3022sg-0001;DOWN;1;notify-host-by-email;Freshness period expired
 [1490716585] INFO: EXTERNAL COMMAND: [1490716583] PROCESS_SERVICE_CHECK_RESULT;ek3022sg-0001;svc_Session;0;Ok - Screensaver|'SessionsClosed'=49c 'SessionsInactive'=31c 'SessionsOpened'=49c
 [1490716586] INFO: EXTERNAL COMMAND: [1490716584] PROCESS_SERVICE_CHECK_RESULT;ek3022sg-0001;svc_Session;0;Ok - Session opened|'SessionsClosed'=49c 'SessionsInactive'=31c 'SessionsOpened'=50c
 [1490716587] INFO: EXTERNAL COMMAND: [1490716585] PROCESS_SERVICE_CHECK_RESULT;ek3022sg-0001;svc_Session;0;Ok - Session closed (67s)|'SessionDuration'=67s 'SessionsClosed'=50c 'SessionsInactive'=32c 'SessionsOpened'=50c
@@ -15644,8 +15644,8 @@ Sent from master-0000
 [1490717033] INFO: CURRENT SERVICE STATE: chazay;HttpsCertificate;OK;HARD;1;OK - Certificate '*.kiosks.ipmfrance.com' will expire on Tue Sep 26 00:59:00 2017.
 [1490717033] INFO: CURRENT SERVICE STATE: cogny;Http;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 2535 bytes in 0.128 second response time
 [1490717041] ERROR: HOST ALERT: ek3022sg-0001;DOWN;HARD;1;Freshness period expired
-[1490717041] ERROR: HOST NOTIFICATION: guest;ek3022sg-0001;DOWN;notify-host-by-email;Freshness period expired
-[1490717041] ERROR: HOST NOTIFICATION: imported_admin;ek3022sg-0001;DOWN;notify-host-by-email;Freshness period expired
+[1490717041] ERROR: HOST NOTIFICATION: guest;ek3022sg-0001;DOWN;1;notify-host-by-email;Freshness period expired
+[1490717041] ERROR: HOST NOTIFICATION: imported_admin;ek3022sg-0001;DOWN;1;notify-host-by-email;Freshness period expired
 [1490717074] INFO: EXTERNAL COMMAND: [1490717072] PROCESS_SERVICE_CHECK_RESULT;ek3022sg-0001;svc_Session;0;Ok - Init|'SessionsClosed'=50c 'SessionsInactive'=32c 'SessionsOpened'=50c
 [1490717074] INFO: EXTERNAL COMMAND: [1490717071] PROCESS_SERVICE_CHECK_RESULT;ek3022sg-0001;svc_Monitoring;0;Ok - Init|'NscaCritical'=138c 'NscaOk'=1543c
 [1490717074] INFO: EXTERNAL COMMAND: [1490717072] PROCESS_SERVICE_CHECK_RESULT;ek3022sg-0001;svc_Management;0;Ok - Init
@@ -16062,9 +16062,9 @@ Sent from master-0000
 [1490717214] INFO: CURRENT SERVICE STATE: cogny;Glpi Traffic;OK;HARD;1;Average IN: 74.22Mbps (7.42%), Average OUT: 74.10Mbps (7.41%) Total RX: 0.00Bytes, Total TX: 0.00Bytes
 [1490717214] INFO: CURRENT SERVICE STATE: denice;Disk usr;OK;HARD;1;DISK OK - free space: /usr 54539 MB (46% inode=99%);
 [1490717214] INFO: CURRENT SERVICE STATE: passive-02;dev_SoundUI;UNREACHABLE;HARD;0;Freshness period expired
-[1490717223] ERROR: HOST NOTIFICATION: guest;ek3022sg-0001;DOWN;notify-host-by-email;Freshness period expired
+[1490717223] ERROR: HOST NOTIFICATION: guest;ek3022sg-0001;DOWN;1;notify-host-by-email;Freshness period expired
 [1490717223] ERROR: HOST ALERT: ek3022sg-0001;DOWN;HARD;1;Freshness period expired
-[1490717223] ERROR: HOST NOTIFICATION: imported_admin;ek3022sg-0001;DOWN;notify-host-by-email;Freshness period expired
+[1490717223] ERROR: HOST NOTIFICATION: imported_admin;ek3022sg-0001;DOWN;1;notify-host-by-email;Freshness period expired
 [1490717438] INFO: SERVICE ALERT: denice;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
 [1490717442] INFO: SERVICE ALERT: denice;NTP;OK;SOFT;2;NTP OK: Offset 0.01292538643 secs
 [1490718340] INFO: CURRENT SERVICE STATE: passive-01;svc_Management;UNREACHABLE;HARD;0;Freshness period expired
@@ -16467,8 +16467,8 @@ Sent from master-0000
 [1490718341] INFO: CURRENT SERVICE STATE: m2m-asso.fr;Https;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 2765 bytes in 0.230 second response time
 [1490718341] ERROR: CURRENT SERVICE STATE: chazay;RAID controller;CRITICAL;HARD;0;NRPE: Command 'check_raid' not defined
 [1490718341] ERROR: CURRENT SERVICE STATE: chazay;Disk 2;CRITICAL;HARD;0;NRPE: Command 'check_disk_disk2' not defined
-[1490718350] ERROR: HOST NOTIFICATION: imported_admin;ek3022sg-0001;DOWN;notify-host-by-email;Freshness period expired
-[1490718350] ERROR: HOST NOTIFICATION: guest;ek3022sg-0001;DOWN;notify-host-by-email;Freshness period expired
+[1490718350] ERROR: HOST NOTIFICATION: imported_admin;ek3022sg-0001;DOWN;1;notify-host-by-email;Freshness period expired
+[1490718350] ERROR: HOST NOTIFICATION: guest;ek3022sg-0001;DOWN;1;notify-host-by-email;Freshness period expired
 [1490718350] ERROR: HOST ALERT: ek3022sg-0001;DOWN;HARD;1;Freshness period expired
 [1490718413] INFO: TIMEPERIOD TRANSITION: north_hours;-1;1
 [1490718414] INFO: CURRENT SERVICE STATE: ek3022sg-0001;svc_Activity;UNKNOWN;HARD;0;
@@ -16876,11 +16876,11 @@ Sent from master-0000
 [1490718415] INFO: CURRENT SERVICE STATE: passive-03;nsca_uptime;UNREACHABLE;HARD;0;Freshness period expired
 [1490718415] INFO: CURRENT SERVICE STATE: ek3022sg-0001;dev_CBPayment;UNKNOWN;HARD;0;
 [1490718415] INFO: CURRENT SERVICE STATE: passive-01;svc_TagReading_D;UNREACHABLE;HARD;0;Freshness period expired
-[1490718422] ERROR: HOST NOTIFICATION: imported_admin;ek3022sg-0001;DOWN;notify-host-by-email;Freshness period expired
+[1490718422] ERROR: HOST NOTIFICATION: imported_admin;ek3022sg-0001;DOWN;1;notify-host-by-email;Freshness period expired
 [1490718422] ERROR: HOST ALERT: ek3022sg-0001;DOWN;HARD;1;Freshness period expired
-[1490718422] ERROR: HOST NOTIFICATION: guest;ek3022sg-0001;DOWN;notify-host-by-email;Freshness period expired
-[1490718462] ERROR: HOST NOTIFICATION: imported_admin;master-0000;DOWN;notify-host-by-email;Freshness period expired
-[1490718462] ERROR: HOST NOTIFICATION: guest;master-0000;DOWN;notify-host-by-email;Freshness period expired
+[1490718422] ERROR: HOST NOTIFICATION: guest;ek3022sg-0001;DOWN;1;notify-host-by-email;Freshness period expired
+[1490718462] ERROR: HOST NOTIFICATION: imported_admin;master-0000;DOWN;1;notify-host-by-email;Freshness period expired
+[1490718462] ERROR: HOST NOTIFICATION: guest;master-0000;DOWN;1;notify-host-by-email;Freshness period expired
 [1490718462] ERROR: HOST ALERT: master-0000;DOWN;HARD;1;Freshness period expired
 [1490718741] ERROR: SERVICE ALERT: cogny;I/O stats;CRITICAL;SOFT;1;CRITICAL - writes 24083>18000
 [1490718838] INFO: SERVICE ALERT: cogny;I/O stats;OK;SOFT;2;OK - data received

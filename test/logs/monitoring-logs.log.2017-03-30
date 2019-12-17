@@ -785,7 +785,7 @@ Ok - Init
 [1490857380] INFO: EXTERNAL COMMAND: [1490857292] PROCESS_SERVICE_CHECK_RESULT;ek4000-0006;svc_TagReading_A;2;Hardware - Init
 [1490857380] INFO: EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;ek4000-0006;svc_Session;0;Ok - Init|'SessionsClosed'=187c 'SessionsInactive'=100c 'SessionsMax'=1c 'SessionsOpened'=189c
 Ok - Init
-[1490857380] INFO: HOST NOTIFICATION: guest;ek4000-0006;UP;notify-host-by-email;EK4000-0006 is alive, uptime is 3652 seconds (0 days 1 hours 0 minutes 52 seconds 840 ms)
+[1490857380] INFO: HOST NOTIFICATION: guest;ek4000-0006;UP;0;notify-host-by-email;EK4000-0006 is alive, uptime is 3652 seconds (0 days 1 hours 0 minutes 52 seconds 840 ms)
 [1490857380] INFO: EXTERNAL COMMAND: [1490857308] PROCESS_SERVICE_CHECK_RESULT;ek4000-0006;dev_TouchUI;0;Ok -  Microsoft Input Configuration Device (Microsoft Input Configuration Device) - Init
 [1490857380] INFO: SERVICE ALERT: ek4000-0006;svc_Monitoring;OK;HARD;1;Ok - Init
 [1490857380] INFO: EXTERNAL COMMAND: [1490857291] PROCESS_SERVICE_CHECK_RESULT;ek4000-0006;svc_Session;0;Ok - Init|'SessionsClosed'=187c 'SessionsInactive'=100c 'SessionsMax'=1c 'SessionsOpened'=188c
@@ -795,7 +795,7 @@ Ok - Init
 [1490857380] INFO: EXTERNAL COMMAND: [1490857295] PROCESS_SERVICE_CHECK_RESULT;ek4000-0006;dev_ContactlessReader;2;Offline - Init|'TagRead'=14c
 [1490857380] INFO: EXTERNAL COMMAND: [1490857272] PROCESS_HOST_CHECK_RESULT;ek4000-0006;0;EK4000-0006 is alive, uptime is 3652 seconds (0 days 1 hours 0 minutes 52 seconds 840 ms)|'Uptime'=3652
 [1490857380] INFO: EXTERNAL COMMAND: PROCESS_HOST_CHECK_RESULT;ek4000-0006;0;ek4000-0006 is alive (0d 1h 01m 13s)|Uptime=3673s
-[1490857380] INFO: HOST NOTIFICATION: imported_admin;ek4000-0006;UP;notify-host-by-email;EK4000-0006 is alive, uptime is 3652 seconds (0 days 1 hours 0 minutes 52 seconds 840 ms)
+[1490857380] INFO: HOST NOTIFICATION: imported_admin;ek4000-0006;UP;0;notify-host-by-email;EK4000-0006 is alive, uptime is 3652 seconds (0 days 1 hours 0 minutes 52 seconds 840 ms)
 [1490857434] INFO: EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;ek4000-0006;svc_Session;0;Ok - Session closed (40s)|'SessionDuration'=40s 'SessionsClosed'=188c 'SessionsInactive'=101c 'SessionsMax'=1c 'SessionsOpened'=189c
 Ok - Session closed (40s)
 [1490857434] INFO: EXTERNAL COMMAND: PROCESS_HOST_CHECK_RESULT;ek4000-0006;0;ek4000-0006 is alive (0d 1h 01m 57s)|Uptime=3717s
@@ -1711,11 +1711,11 @@ Ok - Session opened
 [1490868480] INFO: RETENTION SAVE
 [1490868480] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 274>30
 [1490868480] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;HARD;4;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
-[1490868480] ERROR: HOST NOTIFICATION: guest;test_fred_2;DOWN;notify-host-by-email;Freshness period expired
+[1490868480] ERROR: HOST NOTIFICATION: guest;test_fred_2;DOWN;1;notify-host-by-email;Freshness period expired
 [1490868480] ERROR: SERVICE ALERT: cogny;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 43>30
 [1490868480] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
 [1490868480] INFO: SERVICE FLAPPING ALERT: lachassagne;I/O stats disk 2;STARTED; Service appears to have started flapping (52.1% change >= 50.0% threshold)
-[1490868480] ERROR: HOST NOTIFICATION: imported_admin;test_fred_2;DOWN;notify-host-by-email;Freshness period expired
+[1490868480] ERROR: HOST NOTIFICATION: imported_admin;test_fred_2;DOWN;1;notify-host-by-email;Freshness period expired
 [1490868480] INFO: RETENTION SAVE
 [1490868480] INFO: RETENTION SAVE
 [1490868783] INFO: CURRENT SERVICE STATE: passive-01;dev_ContactReader;UNREACHABLE;HARD;0;Freshness period expired
@@ -2857,8 +2857,8 @@ Ok - Session opened
 [1490873006] INFO: EXTERNAL COMMAND: [1490872872] PROCESS_HOST_CHECK_RESULT;ek4000-0006;0;EK4000-0006 is alive, uptime is 19253 seconds (0 days 5 hours 20 minutes 53 seconds 73 ms)|'Uptime'=19253
 [1490873006] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;3;CRITICAL - CPU usage is 96% for server cogny.siprossii.com.
 [1490873006] WARNING: SERVICE ALERT: lachassagne;Memory;WARNING;SOFT;2;Memory WARNING - 82.9% (28493201408 kB) used
-[1490873077] ERROR: HOST NOTIFICATION: guest;passive-03;DOWN;notify-host-by-email;Freshness period expired
-[1490873077] ERROR: HOST NOTIFICATION: imported_admin;passive-03;DOWN;notify-host-by-email;Freshness period expired
+[1490873077] ERROR: HOST NOTIFICATION: guest;passive-03;DOWN;1;notify-host-by-email;Freshness period expired
+[1490873077] ERROR: HOST NOTIFICATION: imported_admin;passive-03;DOWN;1;notify-host-by-email;Freshness period expired
 [1490873077] INFO: SERVICE ALERT: cogny;CPU;OK;SOFT;4;OK - CPU usage is 77% for server cogny.siprossii.com.
 [1490873328] INFO: EXTERNAL COMMAND: [1490873212] PROCESS_SERVICE_CHECK_RESULT;ek4000-0006;nsca_services;1;WARNING:  delayed (clr_optimization_v4.0.30319_32: stopped, sppsvc: stopped)
 [1490873328] INFO: EXTERNAL COMMAND: [1490873172] PROCESS_HOST_CHECK_RESULT;ek4000-0006;0;EK4000-0006 is alive, uptime is 19553 seconds (0 days 5 hours 25 minutes 53 seconds 93 ms)|'Uptime'=19553
@@ -2877,8 +2877,8 @@ Ok - Session opened
 [1490873889] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;2;CRITICAL - svc_t 35>30
 [1490873968] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;3;OK - data received
 [1490873968] INFO: SERVICE ALERT: chazay;NTP;OK;SOFT;2;NTP OK: Offset -0.001242995262 secs
-[1490874039] ERROR: HOST NOTIFICATION: imported_admin;master-0000;DOWN;notify-host-by-email;Freshness period expired
-[1490874039] ERROR: HOST NOTIFICATION: guest;master-0000;DOWN;notify-host-by-email;Freshness period expired
+[1490874039] ERROR: HOST NOTIFICATION: imported_admin;master-0000;DOWN;1;notify-host-by-email;Freshness period expired
+[1490874039] ERROR: HOST NOTIFICATION: guest;master-0000;DOWN;1;notify-host-by-email;Freshness period expired
 [1490874189] INFO: RETENTION SAVE
 [1490874189] INFO: RETENTION SAVE
 [1490874189] INFO: RETENTION SAVE
@@ -2938,8 +2938,8 @@ Ok - Session opened
 [1490877461] INFO: EXTERNAL COMMAND: [1490877372] PROCESS_HOST_CHECK_RESULT;ek4000-0006;0;EK4000-0006 is alive, uptime is 23753 seconds (0 days 6 hours 35 minutes 53 seconds 151 ms)|'Uptime'=23753
 [1490877541] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;1;CRITICAL - CPU usage is 97% for server cogny.siprossii.com.
 [1490877611] INFO: SERVICE ALERT: cogny;CPU;OK;SOFT;2;OK - CPU usage is 75% for server cogny.siprossii.com.
-[1490877700] ERROR: HOST NOTIFICATION: guest;ek3022sg-0001;DOWN;notify-host-by-email;Freshness period expired
-[1490877701] ERROR: HOST NOTIFICATION: imported_admin;ek3022sg-0001;DOWN;notify-host-by-email;Freshness period expired
+[1490877700] ERROR: HOST NOTIFICATION: guest;ek3022sg-0001;DOWN;1;notify-host-by-email;Freshness period expired
+[1490877701] ERROR: HOST NOTIFICATION: imported_admin;ek3022sg-0001;DOWN;1;notify-host-by-email;Freshness period expired
 [1490877771] INFO: RETENTION SAVE
 [1490877771] INFO: RETENTION SAVE
 [1490877771] INFO: EXTERNAL COMMAND: [1490877672] PROCESS_HOST_CHECK_RESULT;ek4000-0006;0;EK4000-0006 is alive, uptime is 24053 seconds (0 days 6 hours 40 minutes 53 seconds 155 ms)|'Uptime'=24053
@@ -3541,13 +3541,13 @@ Ok - Session opened
 [1490881085] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;SOFT;2;CRITICAL - CPU usage is 99% for server cogny.siprossii.com.
 [1490881085] INFO: EXTERNAL COMMAND: [1490880972] PROCESS_HOST_CHECK_RESULT;ek4000-0006;0;EK4000-0006 is alive, uptime is 27353 seconds (0 days 7 hours 35 minutes 53 seconds 231 ms)|'Uptime'=27353
 [1490881165] INFO: SERVICE ALERT: chazay;NTP;OK;SOFT;2;NTP OK: Offset 0.007987260818 secs
-[1490881405] ERROR: HOST NOTIFICATION: imported_admin;test2;DOWN;notify-host-by-email;<wpl> (1000,100%) must be an integer percentage
+[1490881405] ERROR: HOST NOTIFICATION: imported_admin;test2;DOWN;1;notify-host-by-email;<wpl> (1000,100%) must be an integer percentage
 [1490881406] INFO: EXTERNAL COMMAND: [1490881272] PROCESS_HOST_CHECK_RESULT;ek4000-0006;0;EK4000-0006 is alive, uptime is 27653 seconds (0 days 7 hours 40 minutes 53 seconds 204 ms)|'Uptime'=27653
 [1490881406] WARNING: SERVICE ALERT: cogny;CPU;WARNING;SOFT;3;WARNING - CPU usage is 87% for server cogny.siprossii.com.
 [1490881406] INFO: RETENTION SAVE
 [1490881406] INFO: RETENTION SAVE
 [1490881406] INFO: RETENTION SAVE
-[1490881406] ERROR: HOST NOTIFICATION: guest;test2;DOWN;notify-host-by-email;<wpl> (1000,100%) must be an integer percentage
+[1490881406] ERROR: HOST NOTIFICATION: guest;test2;DOWN;1;notify-host-by-email;<wpl> (1000,100%) must be an integer percentage
 [1490881406] INFO: RETENTION SAVE
 [1490881726] INFO: SERVICE ALERT: lachassagne;I/O stats disk 2;OK;SOFT;2;OK - data received
 [1490881726] ERROR: SERVICE ALERT: lachassagne;I/O stats disk 2;CRITICAL;SOFT;1;CRITICAL - svc_t 217>30
@@ -3598,7 +3598,7 @@ Ok - Session opened
 [1490883238] WARNING: SERVICE ALERT: cogny;CPU;WARNING;HARD;4;WARNING - CPU usage is 93% for server cogny.siprossii.com.
 [1490883478] INFO: EXTERNAL COMMAND: [1490883372] PROCESS_HOST_CHECK_RESULT;ek4000-0006;0;EK4000-0006 is alive, uptime is 29753 seconds (0 days 8 hours 15 minutes 53 seconds 233 ms)|'Uptime'=29753
 [1490883478] ERROR: SERVICE ALERT: cogny;CPU;CRITICAL;HARD;4;CRITICAL - CPU usage is 97% for server cogny.siprossii.com.
-[1490883798] ERROR: HOST NOTIFICATION: northman;passive-01;DOWN;notify-host-by-email;Freshness period expired
+[1490883798] ERROR: HOST NOTIFICATION: northman;passive-01;DOWN;1;notify-host-by-email;Freshness period expired
 [1490883798] INFO: EXTERNAL COMMAND: [1490883672] PROCESS_HOST_CHECK_RESULT;ek4000-0006;0;EK4000-0006 is alive, uptime is 30053 seconds (0 days 8 hours 20 minutes 53 seconds 237 ms)|'Uptime'=30053
 [1490883798] WARNING: SERVICE ALERT: cogny;CPU;WARNING;HARD;4;WARNING - CPU usage is 90% for server cogny.siprossii.com.
 [1490884038] INFO: SERVICE ALERT: chazay;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
@@ -4006,8 +4006,8 @@ Ok - Session opened
 [1490903419] INFO: SERVICE ALERT: lachassagne;Memory;OK;SOFT;3;Memory OK - 78.3% (26904412160 kB) used
 [1490903741] INFO: SERVICE FLAPPING ALERT: lachassagne;System up-to-date;STARTED; Service appears to have started flapping (50.7% change >= 50.0% threshold)
 [1490904061] ERROR: HOST ALERT: ek4000-0006;DOWN;HARD;1;Freshness period expired
-[1490904061] ERROR: HOST NOTIFICATION: imported_admin;ek4000-0006;DOWN;notify-host-by-email;Freshness period expired
-[1490904061] ERROR: HOST NOTIFICATION: guest;ek4000-0006;DOWN;notify-host-by-email;Freshness period expired
+[1490904061] ERROR: HOST NOTIFICATION: imported_admin;ek4000-0006;DOWN;1;notify-host-by-email;Freshness period expired
+[1490904061] ERROR: HOST NOTIFICATION: guest;ek4000-0006;DOWN;1;notify-host-by-email;Freshness period expired
 [1490904621] INFO: SERVICE FLAPPING ALERT: cogny;CPU;STOPPED; Service appears to have stopped flapping (21.9% change < 25.0% threshold)
 [1490904941] INFO: RETENTION SAVE
 [1490904941] INFO: SERVICE ALERT: denice;NTP;UNKNOWN;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
