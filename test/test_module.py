@@ -511,3 +511,150 @@ class TestModules(AlignakTest):
         self.assert_log_match(re.escape(
             "max_logs_age: 365"
         ), i)
+
+    def test_module_start_parameters(self):
+        """Test the module initialization function, no parameters, using default
+        :return:
+        """
+        # Obliged to call to get a self.logger...
+        self.setup_with_file('etc/cfg_default.cfg')
+        self.assertTrue(self.conf_is_correct)
+
+        # Clear logs
+        self.clear_logs()
+
+        # -----
+        # Default initialization
+        # -----
+        # Create an Alignak module
+        mod = Module({
+            'module_alias': 'logs',
+            'module_types': 'logs',
+            'python_name': 'alignak_module_mongo_logs',
+            'uri': 'mongodb://my-mongo',
+            'database': 'alignak-test',
+            'db_test_period': '300',
+            'logs_collection': 'logs-test',
+            'commit_volume': '100',
+            'commit_period': '600',
+            'max_logs_age': '365'
+        })
+
+        instance = alignak_module_mongo_logs.get_instance(mod)
+        self.assertIsInstance(instance, BaseModule)
+
+        i = 0
+        self.assert_log_match(re.escape(
+            "StatsD configuration: localhost:8125, prefix: alignak, enabled: False, graphite: False"
+        ), i)
+        i += 1
+        self.assert_log_match(re.escape(
+            "mongo uri: mongodb://my-mongo"
+        ), i)
+        i += 1
+        self.assert_log_match(re.escape(
+            "database: alignak-test"
+        ), i)
+        i += 1
+        self.assert_log_match(re.escape(
+            "periodical commit period: 600s"
+        ), i)
+        i += 1
+        self.assert_log_match(re.escape(
+            "periodical commit volume: 100 lines"
+        ), i)
+        i += 1
+        self.assert_log_match(re.escape(
+            "periodical DB connection test period: 300s"
+        ), i)
+        i += 1
+        self.assert_log_match(re.escape(
+            "logs collection: logs-test"
+        ), i)
+        i += 1
+        self.assert_log_match(re.escape(
+            "max_logs_age: 365"
+        ), i)
+
+    def _module_max_age(self, max_logs_age, days):
+        """Test the module initialization function
+        - max_age
+        :return:
+        """
+        # Obliged to call to get a self.logger...
+        self.setup_with_file('etc/cfg_default.cfg')
+        self.assertTrue(self.conf_is_correct)
+
+        # Clear logs
+        self.clear_logs()
+
+        # -----
+        # Default initialization
+        # -----
+        # Create an Alignak module
+        mod = Module({
+            'module_alias': 'logs',
+            'module_types': 'logs',
+            'python_name': 'alignak_module_mongo_logs',
+            'max_logs_age': max_logs_age
+        })
+
+        instance = alignak_module_mongo_logs.get_instance(mod)
+        self.assertIsInstance(instance, BaseModule)
+
+        i = 0
+        self.assert_log_match(re.escape(
+            "StatsD configuration: localhost:8125, prefix: alignak, enabled: False, graphite: False"
+        ), i)
+        i += 1
+        self.assert_log_match(re.escape(
+            "mongo uri: mongodb://localhost"
+        ), i)
+        i += 1
+        self.assert_log_match(re.escape(
+            "database: alignak"
+        ), i)
+        i += 1
+        self.assert_log_match(re.escape(
+            "periodical commit period: 60s"
+        ), i)
+        i += 1
+        self.assert_log_match(re.escape(
+            "periodical commit volume: 1000 lines"
+        ), i)
+        i += 1
+        self.assert_log_match(re.escape(
+            "periodical DB connection test period: 0s"
+        ), i)
+        i += 1
+        self.assert_log_match(re.escape(
+            "logs collection: logs"
+        ), i)
+        i += 1
+        self.assert_log_match(re.escape(
+            "max_logs_age: %d" % days
+        ), i)
+
+    def test_module_max_age_365(self):
+        """Test the module max_age: 365"""
+        self._module_max_age('365', 365)
+
+    def test_module_max_age_365d(self):
+        """Test the module max_age: 365d"""
+        self._module_max_age('365d', 365)
+
+    def test_module_max_age_7d(self):
+        """Test the module max_age: 7d"""
+        self._module_max_age('7d', 7)
+
+    def test_module_max_age_1w(self):
+        """Test the module max_age: 1w"""
+        self._module_max_age('1w', 7)
+
+    def test_module_max_age_1m(self):
+        """Test the module max_age: 1m"""
+        self._module_max_age('1m', 31)
+
+    def test_module_max_age_1y(self):
+        """Test the module max_age: 1y"""
+        self._module_max_age('1y', 365)
