@@ -30,6 +30,9 @@ import logging
 
 from collections import deque
 
+from pymongo import MongoClient
+from pymongo.errors import AutoReconnect, ConnectionFailure
+
 from alignak.stats import Stats
 from alignak.basemodule import BaseModule
 
@@ -39,16 +42,6 @@ logger = logging.getLogger(__name__)  # pylint: disable=invalid-name
 for handler in logger.parent.handlers:
     if isinstance(handler, logging.StreamHandler):
         logger.parent.removeHandler(handler)
-
-try:
-    from pymongo import MongoClient
-    from pymongo.errors import AutoReconnect, ConnectionFailure
-except ImportError:
-    logger.error('[mongo-logs] Can not import pymongo and/or MongoClient'
-                 'Your pymongo lib is too old. '
-                 'Please install it with a 3.x+ version from '
-                 'https://pypi.python.org/pypi/pymongo')
-    raise
 
 # pylint: disable=invalid-name
 properties = {
@@ -345,135 +338,32 @@ class MonitoringLogsCollector(BaseModule):
             if not event.valid:
                 logger.warning("No monitoring event detected from: %s", brok.data['message'])
                 return False
+            logger.warning("Detected: %s", event)
 
             # -------------------------------------------
             # Add an history event
-            self.statsmgr.counter('monitoring-event-get.%s' % event.event_type, 1)
+            self.statsmgr.counter('monitoring-event-get.%s' % event.pattern, 1)
 
-            data = {}
-            if event.event_type == 'TIMEPERIOD':
-                data = {
-                    "time": brok.creation_time,
-                    "message": brok.data['message'],
-                    "plugin_output": event.data['output'],
-                    "type": event.data['event_type'] + ' ' + event.data['state_type']
-                }
-
-            if event.event_type == 'RETENTION':
-                data = {
-                    "time": brok.creation_time,
-                    "message": brok.data['message'],
-                    "plugin_output": event.data['output'],
-                    "type": event.data['event_type'] + ' ' + event.data['state_type']
-                }
-
-            if event.event_type == 'NOTIFICATION':
-                data = {
-                    "time": brok.creation_time,
-                    "message": brok.data['message'],
-                    "host_name": event.data['hostname'],
-                    "service_description": event.data['service_desc'] or '',
-                    "state": event.data['state'],
-                    "contact_name": event.data['contact'],
-                    "command_name": event.data['notification_method'],
-                    "notification_number": event.data['count'],
-                    "plugin_output": event.data['output'],
-                    "type": event.data['notification_type'] + ' ' + event.data['event_type']
-                }
-
-            if event.event_type == 'ALERT':
-                data = {
-                    "time": brok.creation_time,
-                    "message": brok.data['message'],
-                    "host_name": event.data['hostname'],
-                    "service_description": event.data['service_desc'] or '',
-                    "state": event.data['state'],
-                    "state_type": event.data['state_type'],
-                    "attempts": event.data['attempts'],
-                    "plugin_output": event.data['output'],
-                    "type": event.data['alert_type'] + ' ' + event.data['event_type']
-                }
-
-            if event.event_type == 'DOWNTIME':
-                downtime_type = "monitoring.downtime_start"
-                if event.data['state'] == 'STOPPED':
-                    downtime_type = "monitoring.downtime_end"
-                if event.data['state'] == 'CANCELLED':
-                    downtime_type = "monitoring.downtime_cancelled"
-
-                data = {
-                    "time": brok.creation_time,
-                    "message": brok.data['message'],
-                    "host_name": event.data['hostname'],
-                    "service_description": event.data['service_desc'] or '',
-                    "type": downtime_type,
-                }
-
-            if event.event_type == 'FLAPPING':
-                data = {
-                    "time": brok.creation_time,
-                    "message": brok.data['message'],
-                    "host_name": event.data['hostname'],
-                    "service_description": event.data['service_desc'] or '',
-                    "state": event.data['state'],
-                    "plugin_output": event.data['output'],
-                    "type": event.data['alert_type'] + ' ' + event.data['event_type']
-                }
-
-            if event.event_type == 'EVENT':
-                data = {
-                    "time": brok.creation_time,
-                    "message": brok.data['message'],
-                    "host_name": event.data['hostname'],
-                    "service_description": event.data['service_desc'] or 'n/a',
-                    "state": event.data['state'],
-                    "state_type": event.data['state_type'],
-                    "attempts": event.data['attempts'],
-                    "plugin_output": event.data['output'],
-                    "type": event.data['item_type'] + ' ' + event.data['event_type']
-                }
-
-            if event.event_type == 'COMMENT':
-                data = {
-                    "time": brok.creation_time,
-                    "message": brok.data['message'],
-                    "host_name": event.data['hostname'],
-                    "service_description": event.data['service_desc'] or '',
-                    "contact_name": event.data['author'] or 'Alignak',
-                    "plugin_output": event.data['comment'],
-                    "type": event.data['comment_type'] + ' ' + event.data['event_type']
-                }
-
-            if event.event_type == 'ACKNOWLEDGE':
-                data = {
-                    "time": brok.creation_time,
-                    "message": brok.data['message'],
-                    "host_name": event.data['hostname'],
-                    "service_description": event.data['service_desc'] or '',
-                    "state": event.data['state'],
-                    "plugin_output": event.data['output'],
-                    "type": event.data['ack_type'] + ' ' + event.data['event_type']
-                }
-
-            if event.event_type == 'DOWNTIME':
-                data = {
-                    "time": brok.creation_time,
-                    "message": brok.data['message'],
-                    "host_name": event.data['hostname'],
-                    "service_description": event.data['service_desc'] or '',
-                    "state": event.data['state'],
-                    "plugin_output": event.data['output'],
-                    "type": event.data['downtime_type'] + ' ' + event.data['event_type']
-                }
-
-            if data:
-                logger.debug('store log line values: %s', data)
-                self.logs_cache.append(data)
-                self.statsmgr.counter('monitoring-event-stored.%s' % event.event_type, 1)
-            else:
-                self.statsmgr.counter('monitoring-event-ignored.%s' % event.event_type, 1)
+            if event.pattern not in [
+                'TIMEPERIOD TRANSITION', 'RETENTION LOAD', 'RETENTION SAVE',
+                'CURRENT STATE', 'NOTIFICATION', 'ALERT', 'DOWNTIME', 'FLAPPING',
+                'ACTIVE CHECK', 'PASSIVE CHECK',
+                'COMMENT', 'ACKNOWLEDGE', 'DOWNTIME'
+            ]:
+                self.statsmgr.counter('monitoring-event-ignored.%s' % event.pattern, 1)
                 logger.debug("Monitoring event not stored in the DB: %s",
                              brok.data['message'])
+                return False
+
+            data = {
+                'message': brok.data['message']
+            }
+            data.update(event.data)
+
+            logger.debug('store log line values: %s', data)
+            self.logs_cache.append(data)
+            self.statsmgr.counter('monitoring-event-stored.%s' % event.pattern, 1)
+
         except ValueError:
             logger.warning("Unable to decode a monitoring event from: %s", brok.data['message'])
 

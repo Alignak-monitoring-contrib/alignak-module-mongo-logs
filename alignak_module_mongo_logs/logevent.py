@@ -64,24 +64,31 @@ EVENT_TYPE_PATTERN = re.compile(
     r'HOST FLAPPING ALERT|SERVICE FLAPPING ALERT)($|: .*)'
 )
 EVENT_TYPES = {
-    'TIMEPERIOD': {
-        # [1490998324] RETENTION SAVE
-        'pattern': r'^\[([0-9]{10})] (TIMEPERIOD) (TRANSITION): (.*)',
+    'TIMEPERIOD_TRANSITION': {
+        # [1490998324] TIMEPERIOD TRANSITION: 24x7;-1;1
+        'pattern': r'^\[([0-9]{10})] (TIMEPERIOD TRANSITION): (.*)',
         'properties': [
             'time',
-            'event_type',  # 'TIMEPERIOD'
-            'state_type',  # 'TRANSITION'
-            'output',  # 'WARNING - load average: 5.04, 4.67, 5.04'
+            'type',     # 'TIMEPERIOD TRANSITION'
+            'output',   # 'WARNING - load average: 5.04, 4.67, 5.04'
         ]
     },
-    'RETENTION': {
-        # [1490998324] RETENTION SAVE
-        'pattern': r'^\[([0-9]{10})] (RETENTION) (LOAD|SAVE): (.*)',
+    'RETENTION_LOAD': {
+        # [1490998324] RETENTION LOAD: scheduler
+        'pattern': r'^\[([0-9]{10})] (RETENTION LOAD): (.*)',
         'properties': [
             'time',
-            'event_type',  # 'RETENTION'
-            'state_type',  # 'LOAD' or 'SAVE'
-            'output',  # 'scheduler name
+            'type',     # 'RETENTION LOAD'
+            'output',   # 'scheduler name
+        ]
+    },
+    'RETENTION_SAVE': {
+        # [1490998324] RETENTION SAVE: scheduler
+        'pattern': r'^\[([0-9]{10})] (RETENTION SAVE): (.*)',
+        'properties': [
+            'time',
+            'type',     # 'RETENTION SAVE'
+            'output',   # 'scheduler name
         ]
     },
     'EXTERNAL': {
@@ -97,53 +104,57 @@ EVENT_TYPES = {
             'parameters',  # ;ek3022sg-0001;svc_Screensaver;0;Ok|'ScreensaverOff'=61c
         ]
     },
-    'CURRENT': {
+    'CURRENT_STATE': {
         # ex: "[1498108167] CURRENT HOST STATE: localhost;UP;HARD;1;Host assumed to be UP"
         # ex: "[1498108167] CURRENT SERVICE STATE: localhost;Maintenance;UNKNOWN;HARD;0;"
-        'pattern': r'^\[([0-9]{10})] CURRENT (HOST|SERVICE) (STATE): '
+        'pattern': r'^\[([0-9]{10})] (CURRENT) (HOST|SERVICE) (STATE): '
                    r'([^\;]*);(?:([^\;]*);)?([^\;]*);([^\;]*);([^\;]*);([^\;]*)',
         'properties': [
             'time',
-            'item_type',  # 'SERVICE' (or could be 'HOST')
-            'event_type',  # 'STATE'
-            'hostname',  # 'localhost'
-            'service_desc',  # 'Maintenance' (or could be None)
-            'state',  # 'UP'
-            'state_type',  # 'HARD'
-            'attempts',  # '0'
-            'output',  # 'WARNING - load average: 5.04, 4.67, 5.04'
+            'type',                 # 'CURRENT'
+            'item_type',            # 'SERVICE' (or could be 'HOST')
+            'type2',                # 'STATE'
+            'host_name',            # 'localhost'
+            'service_description',  # 'Maintenance' (or could be None)
+            'state',                # 'UP'
+            'state_type',           # 'HARD'
+            'attempts',             # '0'
+            'output',               # 'WARNING - load average: 5.04, 4.67, 5.04'
         ]
     },
-    'ACTIVE': {
-        # ex: "[1402515279] ACTIVE SERVICE CHECK: localhost;Nrpe-status;OK;HARD;1;NRPE v2.15"
-        'pattern': r'^\[([0-9]{10})] ACTIVE (HOST|SERVICE) (CHECK): '
-                   r'([^\;]*);(?:([^\;]*);)?([^\;]*);([^\;]*);([^\;]*);([^\;]*)',
+    'ACTIVE_CHECK': {
+        # ex: [1402515279] ACTIVE HOST CHECK: north_host_002;UP;1;I am always Up
+        # ex: [1402515279] ACTIVE SERVICE CHECK: south_host_006;dummy_no_output;OK;1;
+        # Service internal check result: 0
+        'pattern': r'^\[([0-9]{10})] (ACTIVE) (HOST|SERVICE) (CHECK): '
+                   r'([^\;]*);(?:([^\;]*);)?([^\;]*);([^\;]*);([^\;]*)',
         'properties': [
             'time',
-            'item_type',  # 'SERVICE' (or could be 'HOST')
-            'event_type',  # 'CHECK'
-            'hostname',  # 'localhost'
-            'service_desc',  # 'cpu load maui' (or could be None)
-            'state',  # 'WARNING'
-            'state_type',  # 'HARD'
-            'attempts',  # '0'
-            'output',  # 'NRPE v2.15'
+            'type',                 # 'ACTIVE'
+            'item_type',            # 'SERVICE' (or could be 'HOST')
+            'type2',                # 'CHECK'
+            'host_name',            # 'localhost'
+            'service_description',  # 'cpu load maui' (or could be None)
+            'state',                # 'WARNING'
+            'attempts',             # '0'
+            'output',               # 'NRPE v2.15'
         ]
     },
-    'PASSIVE': {
+    'PASSIVE_CHECK': {
         # ex: "[1402515279] PASSIVE SERVICE CHECK: localhost;nsca_uptime;0;OK: uptime: 02:38h,
         # boot: 2017-08-31 06:18:03 (UTC)|'uptime'=9508s;2100;90000"
-        'pattern': r'^\[([0-9]{10})] PASSIVE (HOST|SERVICE) (CHECK): '
+        'pattern': r'^\[([0-9]{10})] (PASSIVE) (HOST|SERVICE) (CHECK): '
                    r'([^\;]*);(?:([^\;]*);)?([^\;]*);([^$]*)',
         'properties': [
             'time',
-            'item_type',  # 'SERVICE' (or could be 'HOST')
-            'event_type',  # 'CHECK'
-            'hostname',  # 'localhost'
-            'service_desc',  # 'cpu load maui' (or could be None)
-            'state_id',  # '0'
-            'output',  # 'K: uptime: 02:38h, boot: 2017-08-31 06:18:03 (UTC)
-            # |'uptime'=9508s;2100;90000'
+            'type',                 # 'PASSIVE'
+            'item_type',            # 'SERVICE' (or could be 'HOST')
+            'type2',                # 'CHECK'
+            'host_name',            # 'localhost'
+            'service_description',  # 'nsca_uptime' (or could be None)
+            'state_id',             # '0'
+            'output',               # 'OK: uptime: 02:38h, boot: 2017-08-31 06:18:03 (UTC)
+                                    # |'uptime'=9508s;2100;90000'
         ]
     },
     'NOTIFICATION': {
@@ -159,15 +170,15 @@ EVENT_TYPES = {
                    r'([^\;]*);([^\;]*);(?:([^\;]*);)?([^\;]*);([^\;]*);([^\;]*);([^\;]*)',
         'properties': [
             'time',
-            'notification_type',  # 'SERVICE' (or could be 'HOST')
-            'event_type',  # 'NOTIFICATION'
-            'contact',  # 'admin'
-            'hostname',  # 'localhost'
-            'service_desc',  # 'check-ssh' (or could be None)
-            'state',  # 'CRITICAL'
-            'count',  # '1'
-            'notification_method',  # 'notify-service-by-email'
-            'output',  # 'Connection refused'
+            'item_type',            # 'SERVICE' (or could be 'HOST')
+            'type',                 # 'NOTIFICATION'
+            'contact_name',         # 'admin'
+            'host_name',            # 'localhost'
+            'service_description',  # 'check-ssh' (or could be None)
+            'state',                # 'CRITICAL'
+            'notification_number',  # '1'
+            'command_name',         # 'notify-service-by-email'
+            'output',               # 'Connection refused'
         ]
     },
     'ALERT': {
@@ -177,14 +188,14 @@ EVENT_TYPES = {
                    r'([^\;]*);(?:([^\;]*);)?([^\;]*);([^\;]*);([^\;]*);([^\;]*)',
         'properties': [
             'time',
-            'alert_type',  # 'SERVICE' (or could be 'HOST')
-            'event_type',  # 'ALERT'
-            'hostname',  # 'localhost'
-            'service_desc',  # 'cpu load maui' (or could be None)
-            'state',  # 'WARNING'
-            'state_type',  # 'HARD'
-            'attempts',  # '4'
-            'output',  # 'WARNING - load average: 5.04, 4.67, 5.04'
+            'item_type',            # 'SERVICE' (or could be 'HOST')
+            'type',                 # 'ALERT'
+            'host_name',            # 'localhost'
+            'service_description',  # 'cpu load maui' (or could be None)
+            'state',                # 'WARNING'
+            'state_type',           # 'HARD'
+            'attempts',             # '4'
+            'output',               # 'WARNING - load average: 5.04, 4.67, 5.04'
         ]
     },
     'EVENT': {
@@ -210,12 +221,12 @@ EVENT_TYPES = {
                    r'([^\;]*);(?:([^\;]*);)?([^\;]*);([^$]*)',
         'properties': [
             'time',
-            'comment_type',  # 'SERVICE' (or could be 'HOST')
-            'event_type',  # 'COMMENT'
-            'hostname',  # 'localhost'
-            'service_desc',  # 'cpu load maui' (or could be None)
-            'author',
-            'comment',  # 'WARNING - load average: 5.04, 4.67, 5.04'
+            'item_type',            # 'SERVICE' (or could be 'HOST')
+            'type',                 # 'COMMENT'
+            'host_name',            # 'localhost'
+            'service_description',  # 'cpu load maui' (or could be None)
+            'contact_name',
+            'output',               # 'WARNING - load average: 5.04, 4.67, 5.04'
         ]
     },
     'ACKNOWLEDGE': {
@@ -225,12 +236,12 @@ EVENT_TYPES = {
                    r'([^\;]*);(?:([^\;]*);)?([^\;]*);([^\;]*)',
         'properties': [
             'time',
-            'ack_type',  # 'SERVICE' or 'HOST'
-            'event_type',  # 'ACKNOWLEDGE'
-            'hostname',  # The hostname
-            'service_desc',  # The service description or None
-            'state',  # 'STARTED' or 'EXPIRED'
-            'output',  # 'Host has been acknowledged'
+            'item_type',            # 'SERVICE' or 'HOST'
+            'type',                 # 'ACKNOWLEDGE'
+            'host_name',            # The hostname
+            'service_description',  # The service description or None
+            'state',                # 'STARTED' or 'EXPIRED'
+            'output',               # 'Host has been acknowledged'
         ]
     },
     'DOWNTIME': {
@@ -240,12 +251,12 @@ EVENT_TYPES = {
                    r'([^\;]*);(?:([^\;]*);)?([^\;]*);([^\;]*)',
         'properties': [
             'time',
-            'downtime_type',  # 'SERVICE' or 'HOST'
-            'event_type',  # 'DOWNTIME'
-            'hostname',  # The hostname
-            'service_desc',  # The service description or None
-            'state',  # 'STOPPED' or 'STARTED'
-            'output',  # 'Service appears to have started flapping (24% change >= 20.0% threshold)'
+            'item_type',            # 'SERVICE' or 'HOST'
+            'type',                 # 'DOWNTIME'
+            'host_name',            # The hostname
+            'service_description',  # The service description or None
+            'state',                # 'STOPPED' or 'STARTED'
+            'output',               # Host has entered a period of scheduled downtime
         ]
     },
     'FLAPPING': {
@@ -259,12 +270,12 @@ EVENT_TYPES = {
         r'([^\;]*);(?:([^\;]*);)?([^\;]*);([^\;]*)',
         'properties': [
             'time',
-            'alert_type',  # 'SERVICE' or 'HOST'
-            'event_type',  # 'FLAPPING'
-            'hostname',  # The hostname
-            'service_desc',  # The service description or None
-            'state',  # 'STOPPED' or 'STARTED'
-            'output',  # 'Service appears to have started flapping (24% change >= 20.0% threshold)'
+            'item_type',            # 'SERVICE' or 'HOST'
+            'type',                 # 'FLAPPING'
+            'host_name',            # The hostname
+            'service_description',  # The service description or None
+            'state',                # 'STOPPED' or 'STARTED'
+            'output',               # 'Service appears to have started flapping ...
         ]
     }
 }
@@ -279,52 +290,71 @@ class LogEvent(object):  # pylint: disable=too-few-public-methods, useless-objec
         self.data = {}
         self.valid = False
         self.time = None
-        self.event_type = 'unknown'
+        # self.event_type = 'unknown'
         self.pattern = 'unknown'
 
         # Find the type of event
         event_type_match = EVENT_TYPE_PATTERN.match(log)
-        if event_type_match:
-            matched = event_type_match.group(1)
-            matched = matched.split()
-            self.pattern = matched[0]
-            if self.pattern in ['HOST', 'SERVICE']:
-                self.pattern = matched[1]
+        if not event_type_match:
+            return
 
-            # parse it with it's pattern
-            if self.pattern in EVENT_TYPES:
-                event_type = EVENT_TYPES[self.pattern]
-                properties_match = re.match(event_type['pattern'], log)
-                if properties_match:
-                    self.valid = True
+        self.pattern = event_type_match.group(1)
+        print("->: %s" % self.pattern)
+        matched = self.pattern.split()
+        # self.pattern = matched[0]
+        if matched[0] in ['HOST', 'SERVICE']:
+            self.pattern = matched[1]
+        self.pattern = self.pattern.replace('HOST', '')
+        self.pattern = self.pattern.replace('SERVICE', '')
+        self.pattern = self.pattern.replace('  ', ' ')
+        print("->: %s" % self.pattern)
 
-                    # Populate self.data with the event's properties
-                    for i, prop in enumerate(event_type['properties']):
-                        # print("Property: %s / %s" % (prop, properties_match.group(i + 1)))
-                        self.data[prop] = properties_match.group(i + 1)
+        event_key = self.pattern.replace(' ', '_')
+        print("-> key: %s" % event_key)
+        if event_key not in EVENT_TYPES:
+            return
 
-                    # Convert the time to int
-                    self.data['time'] = int(self.data['time'])
+        event_type = EVENT_TYPES[event_key]
+        print("->event_type: %s" % event_type)
+        print("->log: %s" % log)
+        properties_match = re.match(event_type['pattern'], log)
+        if not properties_match:
+            print("No match: %s" % properties_match)
+            return
 
-                    # Convert event_type to int
-                    if 'event_type' in self.data:
-                        self.event_type = self.data['event_type']
+        self.valid = True
 
-                    # Convert attempts to int
-                    if 'attempts' in self.data:
-                        self.data['attempts'] = int(self.data['attempts'])
+        # Populate self.data with the event's properties
+        for i, prop in enumerate(event_type['properties']):
+            self.data[prop] = properties_match.group(i + 1)
 
-    def __iter__(self):
-        return self.data.iteritems()
+        # Convert the time to int
+        self.data['time'] = int(self.data['time'])
 
-    def __len__(self):
-        return len(self.data)
+        # Convert some fields to int
+        for field in ['attempts', 'notification_number', 'state_id']:
+            if field in self.data:
+                self.data[field] = int(self.data[field])
 
-    def __getitem__(self, key):
-        return self.data[key]
+        if 'item_type' in self.data:
+            self.data['type'] = self.data['item_type'] + ' ' + self.data['type']
+            if 'type2' in self.data:
+                self.data['type'] = self.data['type'] + ' ' + self.data['type2']
+                del self.data['type2']
 
-    def __contains__(self, key):
-        return key in self.data
+        print("Matched: %s" % self.__dict__)
 
-    def __str__(self):
-        return str(self.data)
+    # def __iter__(self):
+    #     return self.data.iteritems()
+    #
+    # def __len__(self):
+    #     return len(self.data)
+    #
+    # def __getitem__(self, key):
+    #     return self.data[key]
+    #
+    # def __contains__(self, key):
+    #     return key in self.data
+    #
+    # def __str__(self):
+    #     return str(self.data)

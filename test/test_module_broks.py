@@ -154,24 +154,25 @@ class TestModules(AlignakTest):
         b.prepare()
         result = instance.manage_brok(b)
         self.show_logs()
-        print(instance.logs_cache)
         self._assert_logs_queue(instance, [
-            {'time': 1496341800.0, 'message': 'TIMEPERIOD TRANSITION: 24x7;-1;1',
-             'plugin_output': '24x7;-1;1', 'type': 'TIMEPERIOD TRANSITION'}
-        ])
+            {'time': 1496341800, 'type': 'TIMEPERIOD TRANSITION',
+             'message': 'TIMEPERIOD TRANSITION: 24x7;-1;1',
+             'output': '24x7;-1;1'
+        }])
         assert result is True
 
+        # Retention
+        # --------------------
         b = Brok({'type': 'monitoring_log', 'data': {
             'level': 'info',
             'message': 'RETENTION LOAD: scheduler'
         }})
         b.prepare()
         result = instance.manage_brok(b)
-        self.show_logs()
-        print(instance.logs_cache)
         self._assert_logs_queue(instance, [
-            {'time': 1496341800.0, 'message': 'RETENTION LOAD: scheduler',
-             'plugin_output': 'scheduler', 'type': 'RETENTION LOAD'}
+            {'time': 1496341800, 'type': 'RETENTION LOAD',
+             'message': 'RETENTION LOAD: scheduler',
+             'output': 'scheduler'}
         ])
         assert result is True
 
@@ -181,11 +182,163 @@ class TestModules(AlignakTest):
         }})
         b.prepare()
         result = instance.manage_brok(b)
-        self.show_logs()
-        print(instance.logs_cache)
         self._assert_logs_queue(instance, [
-            {'time': 1496341800.0, 'message': 'RETENTION SAVE: scheduler',
-             'plugin_output': 'scheduler', 'type': 'RETENTION SAVE'}
+            {'time': 1496341800, 'type': 'RETENTION SAVE',
+             'message': 'RETENTION SAVE: scheduler',
+             'output': 'scheduler'}
+        ])
+        assert result is True
+
+        # Host / service checks
+        # --------------------
+        # Active checks
+        # ACTIVE HOST CHECK: my-mongo-primary;UP;1;Host assumed to be UP
+        # ACTIVE SERVICE CHECK: docker_shinken;local_check_disk_inode_root;OK;1;
+        # DISK OK - free space: / 2213 MB (5% inode=64%);
+        b = Brok({'type': 'monitoring_log', 'data': {
+            'level': 'info',
+            'message': "ACTIVE HOST CHECK: my-mongo-primary;UP;1;Host assumed to be UP"
+        }})
+        b.prepare()
+        result = instance.manage_brok(b)
+        self._assert_logs_queue(instance, [
+            {'time': 1496341800, 'type': 'HOST ACTIVE CHECK',
+             'message': 'ACTIVE HOST CHECK: my-mongo-primary;UP;1;Host assumed to be UP',
+             'output': 'Host assumed to be UP',
+             'state': 'UP',
+             'attempts': 1,
+             'item_type': 'HOST',
+             'host_name': 'my-mongo-primary',
+             'service_description': None}
+        ])
+        assert result is True
+
+        b = Brok({'type': 'monitoring_log', 'data': {
+            'level': 'info',
+            'message': "ACTIVE SERVICE CHECK: docker_shinken;local_check_disk_inode_root;OK;1;"
+                       "DISK OK - free space: / 2213 MB (5% inode=64%);"
+        }})
+        b.prepare()
+        result = instance.manage_brok(b)
+        self._assert_logs_queue(instance, [
+            {'time': 1496341800, 'type': 'SERVICE ACTIVE CHECK',
+             'message': 'ACTIVE SERVICE CHECK: docker_shinken;local_check_disk_inode_root;OK;1;'
+                        'DISK OK - free space: / 2213 MB (5% inode=64%);',
+             'output': 'DISK OK - free space: / 2213 MB (5% inode=64%)',
+             'state': 'OK',
+             'attempts': 1,
+             'item_type': 'SERVICE',
+             'host_name': 'docker_shinken',
+             'service_description': 'local_check_disk_inode_root'}
+        ])
+        assert result is True
+
+        # Passive checks
+        # ACTIVE HOST CHECK: my-mongo-primary;UP;1;Host assumed to be UP
+        # ACTIVE SERVICE CHECK: docker_shinken;local_check_disk_inode_root;OK;1;
+        # DISK OK - free space: / 2213 MB (5% inode=64%);
+        b = Brok({'type': 'monitoring_log', 'data': {
+            'level': 'info',
+            'message': "PASSIVE HOST CHECK: localhost;0;UP: uptime: 02:38h"
+        }})
+        b.prepare()
+        result = instance.manage_brok(b)
+        self._assert_logs_queue(instance, [
+            {'time': 1496341800, 'type': 'HOST PASSIVE CHECK',
+             'message': 'PASSIVE HOST CHECK: localhost;0;UP: uptime: 02:38h',
+             'output': 'UP: uptime: 02:38h',
+             'state_id': 0,
+             'item_type': 'HOST',
+             'host_name': 'localhost',
+             'service_description': None}
+        ])
+        assert result is True
+
+        b = Brok({'type': 'monitoring_log', 'data': {
+            'level': 'info',
+            'message': "PASSIVE SERVICE CHECK: localhost;nsca_uptime;0;OK: uptime: 02:38h, "
+                       "boot: 2017-08-31 06:18:03 (UTC)|'uptime'=9508s;2100;90000"
+        }})
+        b.prepare()
+        result = instance.manage_brok(b)
+        self._assert_logs_queue(instance, [
+            {'time': 1496341800, 'type': 'SERVICE PASSIVE CHECK',
+             'message': "PASSIVE SERVICE CHECK: localhost;nsca_uptime;0;OK: uptime: 02:38h, "
+                        "boot: 2017-08-31 06:18:03 (UTC)|'uptime'=9508s;2100;90000",
+             'output': "OK: uptime: 02:38h, "
+                       "boot: 2017-08-31 06:18:03 (UTC)|'uptime'=9508s;2100;90000",
+             'state_id': 0,
+             'item_type': 'SERVICE',
+             'host_name': 'localhost',
+             'service_description': 'nsca_uptime'}
+        ])
+        assert result is True
+
+        # Host / service current state:
+        # --------------------
+        # [2019-12-18 10:05:43] INFO: CURRENT HOST STATE: north_host_006;UP;HARD;1;I am always Up
+        # [2019-12-18 10:05:43] WARNING: CURRENT SERVICE STATE: host_2;dummy_unreachable;
+        # UNREACHABLE;HARD;3;host_2-dummy_unreachable-4
+        b = Brok({'type': 'monitoring_log', 'data': {
+            'level': 'error',
+            'message': 'CURRENT HOST STATE: north_host_006;UP;HARD;1;I am always Up'
+        }})
+        b.prepare()
+        result = instance.manage_brok(b)
+        self.show_logs()
+        self._assert_logs_queue(instance, [
+            {'time': 1496341800, 'type': 'HOST CURRENT STATE',
+             'message': 'CURRENT HOST STATE: north_host_006;UP;HARD;1;I am always Up',
+             'output': 'I am always Up',
+             'state_type': 'HARD',
+             'state': 'UP',
+             'attempts': 1,
+             'item_type': 'HOST',
+             'host_name': 'north_host_006',
+             'service_description': None}
+        ])
+        assert result is True
+
+        b = Brok({'type': 'monitoring_log', 'data': {
+            'level': 'error',
+            'message': 'CURRENT SERVICE STATE: host_2;dummy_unreachable;'
+                       'UNREACHABLE;HARD;3;host_2-dummy_unreachable-4'
+        }})
+        b.prepare()
+        result = instance.manage_brok(b)
+        self._assert_logs_queue(instance, [
+            {'time': 1496341800, 'type': 'SERVICE CURRENT STATE',
+             'message': 'CURRENT SERVICE STATE: host_2;dummy_unreachable;'
+                        'UNREACHABLE;HARD;3;host_2-dummy_unreachable-4',
+             'output': 'host_2-dummy_unreachable-4',
+             'state_type': 'HARD',
+             'state': 'UNREACHABLE',
+             'attempts': 3,
+             'item_type': 'SERVICE',
+             'host_name': 'host_2',
+             'service_description': 'dummy_unreachable'}
+        ])
+        assert result is True
+
+        # Host / service alert
+        # --------------------
+        b = Brok({'type': 'monitoring_log', 'data': {
+            'level': 'info',
+            'message': 'HOST ALERT: internal-router-north;DOWN;HARD;2;'
+                       'I am not always Up, sometimes down'
+        }})
+        b.prepare()
+        result = instance.manage_brok(b)
+        self._assert_logs_queue(instance, [
+            {'time': 1496341800, 'type': 'HOST ALERT',
+             'message': 'HOST ALERT: internal-router-north;DOWN;HARD;2;'
+                        'I am not always Up, sometimes down',
+             'output': 'I am not always Up, sometimes down',
+             'state': 'DOWN', 'state_type': 'HARD',
+             'attempts': 2,
+             'item_type': 'HOST',
+             'host_name': 'internal-router-north',
+             'service_description': None}
         ])
         assert result is True
 
@@ -195,16 +348,42 @@ class TestModules(AlignakTest):
         }})
         b.prepare()
         result = instance.manage_brok(b)
-        self.show_logs()
-        print(instance.logs_cache)
         self._assert_logs_queue(instance, [
-            {'time': 1496341800.0,
+            {'time': 1496341800, 'type': 'SERVICE ALERT',
              'message': 'SERVICE ALERT: cogny;Load;OK;HARD;4;OK - load average: 0.74, 0.89, 1.03',
-             'plugin_output': 'OK - load average: 0.74, 0.89, 1.03',
-             'type': 'SERVICE ALERT',
-             'state': 'OK', 'state_type': 'HARD',
+             'output': 'OK - load average: 0.74, 0.89, 1.03',
+             'state': 'OK',
+             'state_type': 'HARD',
              'attempts': 4,
-             'host_name': 'cogny', 'service_description': 'Load'}
+             'item_type': 'SERVICE',
+             'host_name': 'cogny',
+             'service_description': 'Load'}
+        ])
+        assert result is True
+
+        # Host / service notification
+        # --------------------
+        # [2019-12-18 08:12:22] ERROR: HOST NOTIFICATION: notified;south_host_007;DOWN;2;
+        # notify-host-by-log;I am always Up but sometimes Down :(
+        b = Brok({'type': 'monitoring_log', 'data': {
+            'level': 'warning',
+            'message': 'HOST NOTIFICATION: notified;south_host_007;DOWN;2;notify-host-by-log;'
+                       'I am always Up but sometimes Down :('
+        }})
+        b.prepare()
+        result = instance.manage_brok(b)
+        self._assert_logs_queue(instance, [
+            {'time': 1496341800, 'type': 'HOST NOTIFICATION',
+             'message': 'HOST NOTIFICATION: notified;south_host_007;DOWN;2;notify-host-by-log;'
+                        'I am always Up but sometimes Down :(',
+             'output': 'I am always Up but sometimes Down :(',
+             'command_name': 'notify-host-by-log',
+             'contact_name': 'notified',
+             'state': 'DOWN',
+             'notification_number': 2,
+             'item_type': 'HOST',
+             'host_name': 'south_host_007',
+             'service_description': None}
         ])
         assert result is True
 
@@ -215,38 +394,23 @@ class TestModules(AlignakTest):
         }})
         b.prepare()
         result = instance.manage_brok(b)
-        self.show_logs()
-        print(instance.logs_cache)
         self._assert_logs_queue(instance, [
-            {'time': 1496341800.0,
+            {'time': 1496341800, 'type': 'SERVICE NOTIFICATION',
              'message': 'SERVICE NOTIFICATION: notified;north_host_001;dummy_critical;CRITICAL;1;'
                         'notify-service-by-log;north_host_001-dummy_critical-2 is ko',
-             'plugin_output': 'north_host_001-dummy_critical-2 is ko',
-             'type': 'SERVICE NOTIFICATION',
-             'command_name': 'notify-service-by-log', 'contact_name': 'notified',
-             'state': 'CRITICAL', 'notification_number': '1',
-             'host_name': 'north_host_001', 'service_description': 'dummy_critical'}
+             'output': 'north_host_001-dummy_critical-2 is ko',
+             'command_name': 'notify-service-by-log',
+             'contact_name': 'notified',
+             'state': 'CRITICAL',
+             'notification_number': 1,
+             'item_type': 'SERVICE',
+             'host_name': 'north_host_001',
+             'service_description': 'dummy_critical'}
         ])
         assert result is True
 
-        b = Brok({'type': 'monitoring_log', 'data': {
-            'level': 'info',
-            'message': 'CURRENT SERVICE STATE: lachassagne;Zombies;'
-                       'OK;HARD;1;PROCS OK: 0 processes with STATE = Z'
-        }})
-        b.prepare()
-        result = instance.manage_brok(b)
-        self.show_logs()
-        print(instance.logs_cache)
-        #
-        #
-        # Unhandled message!
-        #
-        #
-        self._assert_logs_queue(instance, [])
-        assert result is True
-
         # Host acknowledgement:
+        # --------------------
         # [2019-12-18 08:52:21] INFO: HOST ACKNOWLEDGE ALERT: my-elasticsearch-es1;STARTED;
         # Host problem has been acknowledged
         # [2019-12-18 08:52:24] INFO: HOST ACKNOWLEDGE ALERT: my-elasticsearch-es1;EXPIRED;
@@ -258,16 +422,15 @@ class TestModules(AlignakTest):
         }})
         b.prepare()
         result = instance.manage_brok(b)
-        self.show_logs()
-        print(instance.logs_cache)
         self._assert_logs_queue(instance, [
-            {'time': 1496341800.0,
+            {'time': 1496341800, 'type': 'HOST ACKNOWLEDGE',
              'message': 'HOST ACKNOWLEDGE ALERT: my-elasticsearch-es1;STARTED; '
                         'Host problem has been acknowledged',
-             'plugin_output': ' Host problem has been acknowledged',
-             'type': 'HOST ACKNOWLEDGE',
+             'output': ' Host problem has been acknowledged',
              'state': 'STARTED',
-             'host_name': 'my-elasticsearch-es1', 'service_description': ''}
+             'item_type': 'HOST',
+             'host_name': 'my-elasticsearch-es1',
+             'service_description': None}
         ])
         assert result is True
 
@@ -278,20 +441,20 @@ class TestModules(AlignakTest):
         }})
         b.prepare()
         result = instance.manage_brok(b)
-        self.show_logs()
-        print(instance.logs_cache)
         self._assert_logs_queue(instance, [
-            {'time': 1496341800.0,
+            {'time': 1496341800, 'type': 'HOST ACKNOWLEDGE',
              'message': 'HOST ACKNOWLEDGE ALERT: my-elasticsearch-es1;EXPIRED; '
                         'Host problem has been acknowledged',
-             'plugin_output': ' Host problem has been acknowledged',
-             'type': 'HOST ACKNOWLEDGE',
+             'output': ' Host problem has been acknowledged',
              'state': 'EXPIRED',
-             'host_name': 'my-elasticsearch-es1', 'service_description': ''}
+             'item_type': 'HOST',
+             'host_name': 'my-elasticsearch-es1',
+             'service_description': None}
         ])
         assert result is True
 
         # Service acknowledgement:
+        # --------------------
         # [2019-12-18 08:52:21] INFO: SERVICE ACKNOWLEDGE ALERT: my-elasticsearch-es1;
         # check-es-http-alive;STARTED; Service problem has been acknowledged
         b = Brok({'type': 'monitoring_log', 'data': {
@@ -301,28 +464,30 @@ class TestModules(AlignakTest):
         }})
         b.prepare()
         result = instance.manage_brok(b)
-        self.show_logs()
-        print(instance.logs_cache)
         self._assert_logs_queue(instance, [
-            {'time': 1496341800.0,
+            {'time': 1496341800, 'type': 'SERVICE ACKNOWLEDGE',
              'message': 'SERVICE ACKNOWLEDGE ALERT: my-elasticsearch-es1;check-es-http-alive;'
                         'STARTED; Service problem has been acknowledged',
-             'plugin_output': ' Service problem has been acknowledged',
-             'type': 'SERVICE ACKNOWLEDGE',
+             'output': ' Service problem has been acknowledged',
              'state': 'STARTED',
-             'host_name': 'my-elasticsearch-es1', 'service_description': 'check-es-http-alive'}
+             'item_type': 'SERVICE',
+             'host_name': 'my-elasticsearch-es1',
+             'service_description': 'check-es-http-alive'}
         ])
         assert result is True
 
-        # Host downtimes
+        # Host / service downtimes
+        # --------------------
         # [2019-12-18 09:19:01] INFO: HOST DOWNTIME ALERT: my-secured-elasticsearch-es2;STARTED;
         # Host has entered a period of scheduled downtime
         # [2019-12-18 09:19:01] INFO: HOST NOTIFICATION: notified;my-secured-elasticsearch-es2;
-        # DOWNTIMESTART (DOWN);2;notify-host-by-log;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+        # DOWNTIMESTART (DOWN);2;notify-host-by-log;CHECK_NRPE STATE UNKNOWN:
+        # Socket timeout after 10 seconds.
         # [2019-12-18 09:20:00] INFO: HOST DOWNTIME ALERT: my-secured-elasticsearch-es2;STOPPED;
         # Host has exited from a period of scheduled downtime
         # [2019-12-18 09:20:00] INFO: HOST NOTIFICATION: notified;my-secured-elasticsearch-es2;
-        # DOWNTIMEEND (DOWN);2;notify-host-by-log;CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.
+        # DOWNTIMEEND (DOWN);2;notify-host-by-log;CHECK_NRPE STATE UNKNOWN:
+        # Socket timeout after 10 seconds.
         b = Brok({'type': 'monitoring_log', 'data': {
             'level': 'error',
             'message': 'HOST DOWNTIME ALERT: my-secured-elasticsearch-es2;STARTED; '
@@ -330,19 +495,17 @@ class TestModules(AlignakTest):
         }})
         b.prepare()
         result = instance.manage_brok(b)
-        self.show_logs()
-        print(instance.logs_cache)
         self._assert_logs_queue(instance, [
-            {'time': 1496341800.0,
+            {'time': 1496341800, 'type': 'HOST DOWNTIME',
              'message': 'HOST DOWNTIME ALERT: my-secured-elasticsearch-es2;STARTED; '
                         'Host has entered a period of scheduled downtime',
-             'plugin_output': ' Host has entered a period of scheduled downtime',
-             'type': 'HOST DOWNTIME',
+             'output': ' Host has entered a period of scheduled downtime',
              'state': 'STARTED',
-             'host_name': 'my-secured-elasticsearch-es2', 'service_description': ''}
+             'item_type': 'HOST',
+             'host_name': 'my-secured-elasticsearch-es2',
+             'service_description': None}
         ])
         assert result is True
-
 
         # [2019-12-18 09:19:01] INFO: SERVICE DOWNTIME ALERT: my-secured-elasticsearch-es2;
         # check-es-http-alive;STARTED; Service has entered a period of scheduled downtime
@@ -353,21 +516,20 @@ class TestModules(AlignakTest):
         }})
         b.prepare()
         result = instance.manage_brok(b)
-        self.show_logs()
-        print(instance.logs_cache)
         self._assert_logs_queue(instance, [
-            {'time': 1496341800.0,
+            {'time': 1496341800, 'type': 'SERVICE DOWNTIME',
              'message': 'SERVICE DOWNTIME ALERT: my-secured-elasticsearch-es2;check-es-http-alive;'
                         'STARTED; Service has entered a period of scheduled downtime',
-             'plugin_output': ' Service has entered a period of scheduled downtime',
-             'type': 'SERVICE DOWNTIME',
+             'output': ' Service has entered a period of scheduled downtime',
              'state': 'STARTED',
+             'item_type': 'SERVICE',
              'host_name': 'my-secured-elasticsearch-es2',
              'service_description': 'check-es-http-alive'}
         ])
         assert result is True
 
         # Host / service checks flapping
+        # --------------------
         # SERVICE FLAPPING ALERT: my-elasticsearch-es3;check-es-status;STARTED;
         # Service appears to have started flapping (101.0% change >= 50.0% threshold)
         b = Brok({'type': 'monitoring_log', 'data': {
@@ -377,54 +539,22 @@ class TestModules(AlignakTest):
         }})
         b.prepare()
         result = instance.manage_brok(b)
-        self.show_logs()
-        print(instance.logs_cache)
         self._assert_logs_queue(instance, [
-            {'time': 1496341800.0,
+            {'time': 1496341800, 'type': 'SERVICE FLAPPING',
              'message': 'SERVICE FLAPPING ALERT: my-elasticsearch-es3;check-es-status;STARTED;'
-                        'Service appears to have started flapping (101.0% change >= 50.0% threshold)',
-             'plugin_output': 'Service appears to have started flapping (101.0% change >= 50.0% threshold)',
-             'type': 'SERVICE FLAPPING',
+                        'Service appears to have started flapping (101.0% change >= '
+                        '50.0% threshold)',
+             'output': 'Service appears to have started flapping (101.0% change >= '
+                       '50.0% threshold)',
              'state': 'STARTED',
+             'item_type': 'SERVICE',
              'host_name': 'my-elasticsearch-es3',
              'service_description': 'check-es-status'}
         ])
         assert result is True
 
-        b = Brok({'type': 'monitoring_log', 'data': {
-            'level': 'info',
-            'message': "ACTIVE SERVICE CHECK: localhost;Nrpe-status;OK;HARD;1;NRPE v2.15"
-        }})
-        b.prepare()
-        result = instance.manage_brok(b)
-        self.show_logs()
-        print(instance.logs_cache)
-        #
-        #
-        # Unhandled message!
-        #
-        #
-        self._assert_logs_queue(instance, [])
-        assert result is True
-
-        b = Brok({'type': 'monitoring_log', 'data': {
-            'level': 'info',
-            'message': "PASSIVE SERVICE CHECK: localhost;nsca_uptime;0;OK: uptime: 02:38h, "
-                       "boot: 2017-08-31 06:18:03 (UTC)|'uptime'=9508s;2100;90000"
-        }})
-        b.prepare()
-        result = instance.manage_brok(b)
-        self.show_logs()
-        print(instance.logs_cache)
-        #
-        #
-        # Unhandled message!
-        #
-        #
-        self._assert_logs_queue(instance, [])
-        assert result is True
-
-        # Comments:
+        # Host / service comments:
+        # --------------------
         # HOST COMMENT: docker_shinken;admin;Comment for this host
         # SERVICE COMMENT: docker_shinken;local_check_disk;admin;Comment for this service
         b = Brok({'type': 'monitoring_log', 'data': {
@@ -434,15 +564,13 @@ class TestModules(AlignakTest):
         }})
         b.prepare()
         result = instance.manage_brok(b)
-        self.show_logs()
-        print(instance.logs_cache)
         self._assert_logs_queue(instance, [
-            {'time': 1496341800.0,
+            {'time': 1496341800, 'type': 'SERVICE COMMENT',
              'message': 'SERVICE COMMENT: docker_shinken;local_check_disk;admin;'
                         'Comment for this service',
-             'type': 'SERVICE COMMENT',
              'contact_name': 'admin',
-             'plugin_output': 'Comment for this service',
+             'output': 'Comment for this service',
+             'item_type': 'SERVICE',
              'host_name': 'docker_shinken',
              'service_description': 'local_check_disk'}
         ])
@@ -454,16 +582,14 @@ class TestModules(AlignakTest):
         }})
         b.prepare()
         result = instance.manage_brok(b)
-        self.show_logs()
-        print(instance.logs_cache)
         self._assert_logs_queue(instance, [
-            {'time': 1496341800.0,
+            {'time': 1496341800, 'type': 'HOST COMMENT',
              'message': 'HOST COMMENT: docker_shinken;admin;Comment for this host',
-             'type': 'HOST COMMENT',
              'contact_name': 'admin',
-             'plugin_output': 'Comment for this host',
+             'output': 'Comment for this host',
+             'item_type': 'HOST',
              'host_name': 'docker_shinken',
-             'service_description': ''}
+             'service_description': None}
         ])
         assert result is True
 
@@ -473,16 +599,14 @@ class TestModules(AlignakTest):
         }})
         b.prepare()
         result = instance.manage_brok(b)
-        self.show_logs()
-        print(instance.logs_cache)
         self._assert_logs_queue(instance, [
-            {'time': 1496341800.0,
+            {'time': 1496341800, 'type': 'HOST COMMENT',
              'message': 'HOST COMMENT: test;alignak;Host comment 2',
-             'type': 'HOST COMMENT',
              'contact_name': 'alignak',
-             'plugin_output': 'Host comment 2',
+             'output': 'Host comment 2',
+             'item_type': 'HOST',
              'host_name': 'test',
-             'service_description': ''}
+             'service_description': None}
         ])
         assert result is True
 
@@ -492,15 +616,13 @@ class TestModules(AlignakTest):
         }})
         b.prepare()
         result = instance.manage_brok(b)
-        self.show_logs()
-        print(instance.logs_cache)
         self._assert_logs_queue(instance, [
-            {'time': 1496341800.0,
+            {'time': 1496341800, 'type': 'HOST COMMENT',
              'message': 'HOST COMMENT: test;alignak;Host comment 3',
-             'type': 'HOST COMMENT',
              'contact_name': 'alignak',
-             'plugin_output': 'Host comment 3',
+             'output': 'Host comment 3',
+             'item_type': 'HOST',
              'host_name': 'test',
-             'service_description': ''}
+             'service_description': None}
         ])
         assert result is True
