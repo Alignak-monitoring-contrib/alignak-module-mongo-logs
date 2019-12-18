@@ -336,13 +336,15 @@ class MonitoringLogsCollector(BaseModule):
                 CHECK_NRPE STATE UNKNOWN: Socket timeout after 10 seconds.',
             u'level': u'info'
         }
+
+        :return: False if the data are not useful, else True
         """
         # Try to get a monitoring event from the brok data
         try:
             event = LogEvent(('[%s] ' % int(time.time())) + brok.data['message'])
             if not event.valid:
                 logger.warning("No monitoring event detected from: %s", brok.data['message'])
-                return
+                return False
 
             # -------------------------------------------
             # Add an history event
@@ -374,6 +376,7 @@ class MonitoringLogsCollector(BaseModule):
                     "state": event.data['state'],
                     "contact_name": event.data['contact'],
                     "command_name": event.data['notification_method'],
+                    "notification_number": event.data['count'],
                     "plugin_output": event.data['output'],
                     "type": event.data['notification_type'] + ' ' + event.data['event_type']
                 }
@@ -413,6 +416,7 @@ class MonitoringLogsCollector(BaseModule):
                     "host_name": event.data['hostname'],
                     "service_description": event.data['service_desc'] or '',
                     "state": event.data['state'],
+                    "plugin_output": event.data['output'],
                     "type": event.data['alert_type'] + ' ' + event.data['event_type']
                 }
 
@@ -434,8 +438,9 @@ class MonitoringLogsCollector(BaseModule):
                     "time": brok.creation_time,
                     "message": brok.data['message'],
                     "host_name": event.data['hostname'],
-                    "service_description": event.data['service_desc'] or 'n/a',
+                    "service_description": event.data['service_desc'] or '',
                     "contact_name": event.data['author'] or 'Alignak',
+                    "plugin_output": event.data['comment'],
                     "type": event.data['comment_type'] + ' ' + event.data['event_type']
                 }
 
@@ -446,7 +451,7 @@ class MonitoringLogsCollector(BaseModule):
                     "host_name": event.data['hostname'],
                     "service_description": event.data['service_desc'] or '',
                     "state": event.data['state'],
-                    "contact_name": event.data['author'] or 'Alignak',
+                    "plugin_output": event.data['output'],
                     "type": event.data['ack_type'] + ' ' + event.data['event_type']
                 }
 
@@ -457,7 +462,7 @@ class MonitoringLogsCollector(BaseModule):
                     "host_name": event.data['hostname'],
                     "service_description": event.data['service_desc'] or '',
                     "state": event.data['state'],
-                    "contact_name": event.data['author'] or 'Alignak',
+                    "plugin_output": event.data['output'],
                     "type": event.data['downtime_type'] + ' ' + event.data['event_type']
                 }
 
@@ -472,7 +477,7 @@ class MonitoringLogsCollector(BaseModule):
         except ValueError:
             logger.warning("Unable to decode a monitoring event from: %s", brok.data['message'])
 
-        return
+        return True
 
     def manage_brok(self, brok):
         """We got the data to manage
@@ -490,11 +495,9 @@ class MonitoringLogsCollector(BaseModule):
         if level not in ['debug', 'info', 'warning', 'error', 'critical']:
             return False
 
-        logger.warning("Got monitoring log brok: %s", brok)
+        logger.debug("Got a monitoring log brok: %s", brok)
 
-        self.manage_log_brok(brok)
-
-        return True
+        return self.manage_log_brok(brok)
 
     def main(self):
         """Main loop of the process
