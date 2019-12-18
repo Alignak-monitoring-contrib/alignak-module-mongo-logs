@@ -65,6 +65,7 @@ class TestParseLogEvent(AlignakTest):
                     log = log.replace('INFO: ', '')
                     log = log.replace('WARNING: ', '')
                     log = log.replace('ERROR: ', '')
+                    print("Log: %s" % log)
                     event = LogEvent(log)
                     if not event.valid:
                         if 'RETENTION' not in log:
@@ -79,15 +80,13 @@ class TestParseLogEvent(AlignakTest):
     def test_comment_service(self):
         self.maxDiff = None
 
-        log = '[1508398291] INFO: SERVICE COMMENT: mos-0005;Velib;Alignak WS;Keypad: Run Maintenance'
         log = '[1402515279] SERVICE COMMENT: pi2;load;alignak;Service comment'
         expected = {
-            'hostname': 'pi2', 'event_type': 'COMMENT', 'service_desc': 'load',
-            'comment_type': 'SERVICE', 'time': 1402515279,
-            'author': 'alignak', 'comment': 'Service comment'
+            'time': 1402515279, 'item_type': 'SERVICE', 'type': 'SERVICE COMMENT',
+            'host_name': 'pi2', 'service_description': 'load', 'contact_name': 'alignak',
+            'output': 'Service comment'
         }
         event = LogEvent(log)
-        print(event)
         assert event.data == expected
 
     def test_comment_host(self):
@@ -95,25 +94,23 @@ class TestParseLogEvent(AlignakTest):
 
         log = '[1402515279] HOST COMMENT: pi2;alignak;Host comment'
         expected = {
-            'hostname': 'pi2', 'event_type': 'COMMENT', 'service_desc': None,
-            'comment_type': 'HOST', 'time': 1402515279,
-            'author': 'alignak', 'comment': 'Host comment'
+            'time': 1402515279, 'item_type': 'HOST', 'type': 'HOST COMMENT', 'host_name': 'pi2',
+            'service_description': None, 'contact_name': 'alignak', 'output': 'Host comment'
         }
         event = LogEvent(log)
-        print(event)
         assert event.data == expected
 
     def test_ack_service(self):
         self.maxDiff = None
 
-        log = '[1402515279] SERVICE ACKNOWLEDGE ALERT: pi2;load;STARTED;Service problem has been acknowledged'
+        log = '[1402515279] SERVICE ACKNOWLEDGE ALERT: pi2;load;STARTED;' \
+              'Service problem has been acknowledged'
         expected = {
-            'hostname': 'pi2', 'event_type': 'ACKNOWLEDGE', 'service_desc': 'load',
-            'state': 'STARTED', 'ack_type': 'SERVICE', 'time': 1402515279,
+            'time': 1402515279, 'item_type': 'SERVICE', 'type': 'SERVICE ACKNOWLEDGE',
+            'host_name': 'pi2', 'service_description': 'load', 'state': 'STARTED',
             'output': 'Service problem has been acknowledged'
         }
         event = LogEvent(log)
-        print(event)
         assert event.data == expected
 
     def test_ack_host(self):
@@ -121,93 +118,68 @@ class TestParseLogEvent(AlignakTest):
 
         log = '[1402515279] HOST ACKNOWLEDGE ALERT: pi2;STARTED;Host problem has been acknowledged'
         expected = {
-            'hostname': 'pi2', 'event_type': 'ACKNOWLEDGE', 'service_desc': None,
-            'state': 'STARTED', 'ack_type': 'HOST', 'time': 1402515279,
+            'time': 1402515279, 'item_type': 'HOST', 'type': 'HOST ACKNOWLEDGE', 'host_name': 'pi2',
+            'service_description': None, 'state': 'STARTED',
             'output': 'Host problem has been acknowledged'
         }
         event = LogEvent(log)
-        print(event)
         assert event.data == expected
 
     def test_notification_service(self):
-        log = '[1402515279] SERVICE NOTIFICATION: notified;north_host_001;dummy_critical;CRITICAL;1;notify-service-by-log;north_host_001-dummy_critical-2 failed'
+        log = '[1402515279] SERVICE NOTIFICATION: notified;north_host_001;dummy_critical;' \
+              'CRITICAL;1;notify-service-by-log;north_host_001-dummy_critical-2 failed'
         expected = {
-            'hostname': 'north_host_001',
-            'event_type': 'NOTIFICATION',
-            'notification_type': 'SERVICE',
-            'service_desc': 'dummy_critical',
-            'state': 'CRITICAL',
-            'contact': 'notified',
-            'time': 1402515279,
-            'count': '1',
-            'notification_method': 'notify-service-by-log',
-            'output': 'north_host_001-dummy_critical-2 failed',
+            'time': 1402515279, 'item_type': 'SERVICE', 'type': 'SERVICE NOTIFICATION',
+            'contact_name': 'notified', 'host_name': 'north_host_001',
+            'service_description': 'dummy_critical', 'state': 'CRITICAL', 'notification_number': 1,
+            'command_name': 'notify-service-by-log',
+            'output': 'north_host_001-dummy_critical-2 failed'
         }
         event = LogEvent(log)
         assert event.data == expected
         assert event.valid is True
 
     def test_notification_host(self):
-        log = '[1402515279] HOST NOTIFICATION: notified;south_host_005;DOWN;1;notify-host-by-log;I am always Up but sometimes Down...'
+        log = '[1402515279] HOST NOTIFICATION: notified;south_host_005;DOWN;1;' \
+              'notify-host-by-log;I am always Up but sometimes Down...'
         expected = {
-            'event_type': 'NOTIFICATION',
-            'notification_type': 'HOST',
-            'hostname': 'south_host_005',
-            'service_desc': None,
-            'state': 'DOWN',
-            'contact': 'notified',
-            'time': 1402515279,
-            'notification_method': 'notify-host-by-log',
-            'count': '1',
-            'output': 'I am always Up but sometimes Down...',
+            'time': 1402515279, 'item_type': 'HOST', 'type': 'HOST NOTIFICATION',
+            'contact_name': 'notified', 'host_name': 'south_host_005', 'service_description': None,
+            'state': 'DOWN', 'notification_number': 1, 'command_name': 'notify-host-by-log',
+            'output': 'I am always Up but sometimes Down...'
         }
         event = LogEvent(log)
         assert event.data == expected
 
     def test_alert_service(self):
-        log = '[1329144231] SERVICE ALERT: south_host_000;dummy_random;UNREACHABLE;HARD;3;Service internal check result: 4'
+        log = '[1329144231] SERVICE ALERT: south_host_000;dummy_random;UNREACHABLE;HARD;3;' \
+              'Service internal check result: 4'
         expected = {
-            'alert_type': 'SERVICE',
-            'event_type': 'ALERT',
-            'hostname': 'south_host_000',
-            'service_desc': 'dummy_random',
-            'attempts': 3,
-            'state_type': 'HARD',
-            'state': 'UNREACHABLE',
-            'time': 1329144231,
+            'time': 1329144231, 'item_type': 'SERVICE', 'type': 'SERVICE ALERT',
+            'host_name': 'south_host_000', 'service_description': 'dummy_random',
+            'state': 'UNREACHABLE', 'state_type': 'HARD', 'attempts': 3,
             'output': 'Service internal check result: 4'
         }
         event = LogEvent(log)
         assert event.data == expected
 
     def test_alert_host(self):
-        log = '[1329144231] HOST ALERT: south_host_003;DOWN;SOFT;2;I am always Up but sometimes Down...'
+        log = '[1329144231] HOST ALERT: south_host_003;DOWN;SOFT;2;' \
+              'I am always Up but sometimes Down...'
         expected = {
-            'alert_type': 'HOST',
-            'event_type': 'ALERT',
-            'hostname': 'south_host_003',
-            'service_desc': None,
-            'attempts': 2,
-            'state_type': 'SOFT',
-            'state': 'DOWN',
-            'time': 1329144231,
-            'output': 'I am always Up but sometimes Down...'
-        }
+            'time': 1329144231, 'item_type': 'HOST', 'type': 'HOST ALERT',
+            'host_name': 'south_host_003', 'service_description': None, 'state': 'DOWN',
+            'state_type': 'SOFT', 'attempts': 2, 'output': 'I am always Up but sometimes Down...'        }
         event = LogEvent(log)
         assert event.data == expected
 
     def test_event_handler_service(self):
-        log = '[1329144231] SERVICE EVENT HANDLER: host-01;Output-Load;OK;HARD;0;g_service_event_handler'
+        log = '[1329144231] SERVICE EVENT HANDLER: host-01;Output-Load;OK;HARD;0;' \
+              'g_service_event_handler'
         expected = {
-            'item_type': 'SERVICE',
-            'event_type': 'EVENT HANDLER',
-            'hostname': 'host-01',
-            'service_desc': 'Output-Load',
-            'attempts': 0,
-            'state_type': 'HARD',
-            'state': 'OK',
-            'time': 1329144231,
-            'output': 'g_service_event_handler',
+            'time': 1329144231, 'item_type': 'SERVICE', 'type': 'SERVICE EVENT HANDLER',
+            'host_name': 'host-01', 'service_description': 'Output-Load', 'state': 'OK',
+            'state_type': 'HARD', 'attempts': 0, 'output': 'g_service_event_handler'
         }
         event = LogEvent(log)
         assert event.data == expected
@@ -215,15 +187,9 @@ class TestParseLogEvent(AlignakTest):
     def test_event_handler_host(self):
         log = '[1329144231] HOST EVENT HANDLER: host-01;DOWN;HARD;0;g_host_event_handler'
         expected = {
-            'item_type': 'HOST',
-            'event_type': 'EVENT HANDLER',
-            'hostname': 'host-01',
-            'service_desc': None,
-            'attempts': 0,
-            'state_type': 'HARD',
-            'state': 'DOWN',
-            'time': 1329144231,
-            'output': 'g_host_event_handler',
+            'time': 1329144231, 'item_type': 'HOST', 'type': 'HOST EVENT HANDLER',
+            'host_name': 'host-01', 'service_description': None, 'state': 'DOWN',
+            'state_type': 'HARD', 'attempts': 0, 'output': 'g_host_event_handler'
         }
         event = LogEvent(log)
         assert event.data == expected
@@ -231,27 +197,20 @@ class TestParseLogEvent(AlignakTest):
     def test_downtime_alert_host(self):
         log = '[1279250211] HOST DOWNTIME ALERT: testhost;STARTED; Host has entered a period of scheduled downtime'
         expected = {
-            'event_type': 'DOWNTIME',
-            'hostname': 'testhost',
-            'service_desc': None,
-            'state': 'STARTED',
-            'time': 1279250211,
-            'output': ' Host has entered a period of scheduled downtime',
-            'downtime_type': 'HOST'
+            'time': 1279250211, 'item_type': 'HOST', 'type': 'HOST DOWNTIME',
+            'host_name': 'testhost', 'service_description': None, 'state': 'STARTED',
+            'output': ' Host has entered a period of scheduled downtime'
         }
         event = LogEvent(log)
         assert event.data == expected
 
     def test_downtime_alert_service(self):
-        log = '[1279250211] SERVICE DOWNTIME ALERT: testhost;check_ssh;STARTED; Service has entered a period of scheduled downtime'
+        log = '[1279250211] SERVICE DOWNTIME ALERT: testhost;check_ssh;STARTED; ' \
+              'Service has entered a period of scheduled downtime'
         expected = {
-            'event_type': 'DOWNTIME',
-            'hostname': 'testhost',
-            'service_desc': 'check_ssh',
-            'state': 'STARTED',
-            'time': 1279250211,
-            'output': ' Service has entered a period of scheduled downtime',
-            'downtime_type': 'SERVICE'
+            'time': 1279250211, 'item_type': 'SERVICE', 'type': 'SERVICE DOWNTIME',
+            'host_name': 'testhost', 'service_description': 'check_ssh', 'state': 'STARTED',
+            'output': ' Service has entered a period of scheduled downtime'
         }
         event = LogEvent(log)
         assert event.data == expected
@@ -259,36 +218,25 @@ class TestParseLogEvent(AlignakTest):
     def test_retention(self):
         log = '[1498111760] RETENTION SAVE: scheduler-master'
         expected = {
-            'time': 1498111760,
-            'event_type': 'RETENTION',
-            'state_type': 'SAVE',
-            'output': 'scheduler-master'
+            'time': 1498111760, 'type': 'RETENTION SAVE', 'output': 'scheduler-master'
         }
         event = LogEvent(log)
         assert event.data == expected
 
         log = '[1498111760] RETENTION LOAD: scheduler-master'
         expected = {
-            'time': 1498111760,
-            'event_type': 'RETENTION',
-            'state_type': 'LOAD',
-            'output': 'scheduler-master'
+            'time': 1498111760, 'type': 'RETENTION LOAD', 'output': 'scheduler-master'
         }
         event = LogEvent(log)
+        print(event)
         assert event.data == expected
 
     def test_host_current_state(self):
         log = '[1498108167] CURRENT HOST STATE: localhost;UP;HARD;1;Host assumed to be UP'
         expected = {
-            'item_type': 'HOST',
-            'event_type': 'STATE',
-            'hostname': 'localhost',
-            'service_desc': None,
-            'state_type': 'HARD',
-            'state': 'UP',
-            'attempts': 1,
-            'output': 'Host assumed to be UP',
-            'time': 1498108167
+            'time': 1498108167, 'type': 'HOST CURRENT STATE', 'item_type': 'HOST',
+            'host_name': 'localhost', 'service_description': None, 'state': 'UP',
+            'state_type': 'HARD', 'attempts': 1, 'output': 'Host assumed to be UP'
         }
         event = LogEvent(log)
         assert event.data == expected
@@ -296,46 +244,29 @@ class TestParseLogEvent(AlignakTest):
     def test_service_current_state(self):
         log = '[1498108167] CURRENT SERVICE STATE: localhost;Maintenance;UNKNOWN;HARD;0;'
         expected = {
-            'item_type': 'SERVICE',
-            'event_type': 'STATE',
-            'hostname': 'localhost',
-            'service_desc': 'Maintenance',
-            'state_type': 'HARD',
-            'state': 'UNKNOWN',
-            'attempts': 0,
-            'output': '',
-            'time': 1498108167
+            'time': 1498108167, 'type': 'SERVICE CURRENT STATE', 'item_type': 'SERVICE',
+            'host_name': 'localhost', 'service_description': 'Maintenance', 'state': 'UNKNOWN',
+            'state_type': 'HARD', 'attempts': 0, 'output': ''
         }
         event = LogEvent(log)
         assert event.data == expected
 
     def test_active_check(self):
-        log = '[1498108167] ACTIVE HOST CHECK: localhost;OK;HARD;1;Host is up'
+        log = '[1498108167] ACTIVE HOST CHECK: my-mongo-primary;UP;1;Host assumed to be UP'
         expected = {
-            'item_type': 'HOST',
-            'event_type': 'CHECK',
-            'hostname': 'localhost',
-            'service_desc': None,
-            'state': 'OK',
-            'state_type': 'HARD',
-            'attempts': 1,
-            'output': 'Host is up',
-            'time': 1498108167
+            'time': 1498108167, 'type': 'HOST ACTIVE CHECK', 'item_type': 'HOST',
+            'host_name': 'my-mongo-primary', 'service_description': None, 'state': 'UP',
+            'attempts': 1, 'output': 'Host assumed to be UP'
         }
         event = LogEvent(log)
         assert event.data == expected
 
-        log = '[1498108167] ACTIVE SERVICE CHECK: localhost;Nrpe-status;OK;HARD;1;NRPE v2.15'
+        log = '[1498108167] ACTIVE SERVICE CHECK: docker_shinken;local_check_disk_inode_root;OK;' \
+              '1;DISK OK - free space: / 2213 MB (5% inode=64%);'
         expected = {
-            'item_type': 'SERVICE',
-            'event_type': 'CHECK',
-            'hostname': 'localhost',
-            'service_desc': 'Nrpe-status',
-            'state': 'OK',
-            'state_type': 'HARD',
-            'attempts': 1,
-            'output': 'NRPE v2.15',
-            'time': 1498108167
+            'time': 1498108167, 'type': 'SERVICE ACTIVE CHECK', 'item_type': 'SERVICE',
+            'host_name': 'docker_shinken', 'service_description': 'local_check_disk_inode_root',
+            'state': 'OK', 'attempts': 1, 'output': 'DISK OK - free space: / 2213 MB (5% inode=64%)'
         }
         event = LogEvent(log)
         assert event.data == expected
@@ -344,14 +275,10 @@ class TestParseLogEvent(AlignakTest):
         log = "[1498108167] PASSIVE HOST CHECK: localhost;0;Host is alive, uptime is 2291 seconds " \
               "(0 days 0 hours 38 minutes 11 seconds 215 ms)|'Uptime'=2291"
         expected = {
-            'item_type': 'HOST',
-            'event_type': 'CHECK',
-            'hostname': 'localhost',
-            'service_desc': None,
-            'state_id': '0',
-            'output': "Host is alive, uptime is 2291 seconds (0 days 0 hours 38 minutes 11 seconds 215 ms)"
-                      "|'Uptime'=2291",
-            'time': 1498108167
+            'time': 1498108167, 'type': 'HOST PASSIVE CHECK', 'item_type': 'HOST',
+            'host_name': 'localhost', 'service_description': None, 'state_id': 0,
+            'output': "Host is alive, uptime is 2291 seconds (0 days 0 hours 38 minutes "
+                      "11 seconds 215 ms)|'Uptime'=2291"
         }
         event = LogEvent(log)
         assert event.data == expected
@@ -359,42 +286,31 @@ class TestParseLogEvent(AlignakTest):
         log = "[1498108167] PASSIVE SERVICE CHECK: localhost;nsca_uptime;0;OK: uptime: 02:38h, " \
               "boot: 2017-08-31 06:18:03 (UTC)|'uptime'=9508s;2100;90000"
         expected = {
-            'item_type': 'SERVICE',
-            'event_type': 'CHECK',
-            'hostname': 'localhost',
-            'service_desc': 'nsca_uptime',
-            'state_id': '0',
-            'output': "OK: uptime: 02:38h, "
-                      "boot: 2017-08-31 06:18:03 (UTC)|'uptime'=9508s;2100;90000",
-            'time': 1498108167
+            'time': 1498108167, 'type': 'SERVICE PASSIVE CHECK', 'item_type': 'SERVICE',
+            'host_name': 'localhost', 'service_description': 'nsca_uptime', 'state_id': 0,
+            'output': "OK: uptime: 02:38h, boot: 2017-08-31 06:18:03 (UTC)|'uptime'=9508s;2100;90000"
         }
         event = LogEvent(log)
         assert event.data == expected
 
     def test_host_flapping(self):
-        log = '[1375301662] HOST FLAPPING ALERT: hostbw;STARTED; Host appears to have started flapping (20.1% change > 20.0% threshold)'
+        log = '[1375301662] HOST FLAPPING ALERT: hostbw;STARTED; Host appears to have ' \
+              'started flapping (20.1% change > 20.0% threshold)'
         expected = {
-            'alert_type': 'HOST',
-            'event_type': 'FLAPPING',
-            'hostname': 'hostbw',
-            'output': ' Host appears to have started flapping (20.1% change > 20.0% threshold)',
-            'service_desc': None,
-            'state': 'STARTED',
-            'time': 1375301662
+            'time': 1375301662, 'item_type': 'HOST', 'type': 'HOST FLAPPING', 'host_name': 'hostbw',
+            'service_description': None, 'state': 'STARTED',
+            'output': ' Host appears to have started flapping (20.1% change > 20.0% threshold)'
         }
         event = LogEvent(log)
         assert event.data == expected
 
     def test_service_flapping(self):
-        log = '[1375301662] SERVICE FLAPPING ALERT: testhost;check_ssh;STARTED; Service appears to have started flapping (24.2% change >= 20.0% threshold)'
+        log = '[1375301662] SERVICE FLAPPING ALERT: testhost;check_ssh;STARTED; Service appears ' \
+              'to have started flapping (24.2% change >= 20.0% threshold)'
         expected = {
-            'alert_type': 'SERVICE',
-            'event_type': 'FLAPPING',
-            'hostname': 'testhost',
-            'output': ' Service appears to have started flapping (24.2% change >= 20.0% threshold)',
-            'service_desc': 'check_ssh',
-            'state': 'STARTED',
-            'time': 1375301662
+            'time': 1375301662, 'item_type': 'SERVICE', 'type': 'SERVICE FLAPPING',
+            'host_name': 'testhost', 'service_description': 'check_ssh', 'state': 'STARTED',
+            'output': ' Service appears to have started flapping (24.2% change >= 20.0% threshold)'
         }
         event = LogEvent(log)
         assert event.data == expected

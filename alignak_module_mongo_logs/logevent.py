@@ -204,14 +204,14 @@ EVENT_TYPES = {
                    r'([^\;]*);(?:([^\;]*);)?([^\;]*);([^\;]*);([^\;]*);([^\;]*)',
         'properties': [
             'time',
-            'item_type',  # 'SERVICE' (or could be 'HOST')
-            'event_type',  # 'EVENT HANDLER'
-            'hostname',  # 'localhost'
-            'service_desc',  # 'cpu load maui' (or could be None)
-            'state',  # 'WARNING'
-            'state_type',  # 'HARD'
-            'attempts',  # '4'
-            'output',  # 'g_host_event_handler'
+            'item_type',            # 'SERVICE' (or could be 'HOST')
+            'type',                 # 'EVENT HANDLER'
+            'host_name',            # 'localhost'
+            'service_description',  # 'cpu load maui' (or could be None)
+            'state',                # 'WARNING'
+            'state_type',           # 'HARD'
+            'attempts',             # '4'
+            'output',               # 'g_host_event_handler'
         ]
     },
     'COMMENT': {
@@ -299,7 +299,6 @@ class LogEvent(object):  # pylint: disable=too-few-public-methods, useless-objec
             return
 
         self.pattern = event_type_match.group(1)
-        print("->: %s" % self.pattern)
         matched = self.pattern.split()
         # self.pattern = matched[0]
         if matched[0] in ['HOST', 'SERVICE']:
@@ -307,19 +306,14 @@ class LogEvent(object):  # pylint: disable=too-few-public-methods, useless-objec
         self.pattern = self.pattern.replace('HOST', '')
         self.pattern = self.pattern.replace('SERVICE', '')
         self.pattern = self.pattern.replace('  ', ' ')
-        print("->: %s" % self.pattern)
 
         event_key = self.pattern.replace(' ', '_')
-        print("-> key: %s" % event_key)
         if event_key not in EVENT_TYPES:
             return
 
         event_type = EVENT_TYPES[event_key]
-        print("->event_type: %s" % event_type)
-        print("->log: %s" % log)
         properties_match = re.match(event_type['pattern'], log)
         if not properties_match:
-            print("No match: %s" % properties_match)
             return
 
         self.valid = True
@@ -334,7 +328,10 @@ class LogEvent(object):  # pylint: disable=too-few-public-methods, useless-objec
         # Convert some fields to int
         for field in ['attempts', 'notification_number', 'state_id']:
             if field in self.data:
-                self.data[field] = int(self.data[field])
+                try:
+                    self.data[field] = int(self.data[field])
+                except ValueError:
+                    self.data[field] = -1
 
         if 'item_type' in self.data:
             self.data['type'] = self.data['item_type'] + ' ' + self.data['type']
@@ -342,19 +339,17 @@ class LogEvent(object):  # pylint: disable=too-few-public-methods, useless-objec
                 self.data['type'] = self.data['type'] + ' ' + self.data['type2']
                 del self.data['type2']
 
-        print("Matched: %s" % self.__dict__)
+    def __iter__(self):
+        return self.data.iteritems()
 
-    # def __iter__(self):
-    #     return self.data.iteritems()
-    #
-    # def __len__(self):
-    #     return len(self.data)
-    #
-    # def __getitem__(self, key):
-    #     return self.data[key]
-    #
-    # def __contains__(self, key):
-    #     return key in self.data
-    #
-    # def __str__(self):
-    #     return str(self.data)
+    def __len__(self):
+        return len(self.data)
+
+    def __getitem__(self, key):
+        return self.data[key]
+
+    def __contains__(self, key):
+        return key in self.data
+
+    def __str__(self):
+        return str(self.data)
