@@ -344,12 +344,10 @@ class MonitoringLogsCollector(BaseModule):
             # Add an history event
             self.statsmgr.counter('monitoring-event-get.%s' % event.pattern, 1)
 
-            if event.pattern not in [
-                'TIMEPERIOD TRANSITION', 'RETENTION LOAD', 'RETENTION SAVE',
-                'CURRENT STATE', 'NOTIFICATION', 'ALERT', 'DOWNTIME', 'FLAPPING',
-                'ACTIVE CHECK', 'PASSIVE CHECK',
-                'COMMENT', 'ACKNOWLEDGE', 'DOWNTIME'
-            ]:
+            if event.pattern not in ['TIMEPERIOD TRANSITION', 'RETENTION LOAD', 'RETENTION SAVE',
+                                     'CURRENT STATE', 'NOTIFICATION', 'ALERT', 'DOWNTIME',
+                                     'FLAPPING', 'ACTIVE CHECK', 'PASSIVE CHECK',
+                                     'COMMENT', 'ACKNOWLEDGE', 'DOWNTIME']:
                 self.statsmgr.counter('monitoring-event-ignored.%s' % event.pattern, 1)
                 logger.debug("Monitoring event not stored in the DB: %s",
                              brok.data['message'])
