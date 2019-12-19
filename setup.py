@@ -18,6 +18,12 @@ with open(os.path.join('version.py')) as fh:
     exec(fh.read(), manifest)
 # The `manifest` dictionary now contains the package metadata
 
+# read the contents of your README file
+from os import path
+this_directory = path.abspath(path.dirname(__file__))
+with open(path.join(this_directory, 'README.rst')) as f:
+    long_description = f.read()
+
 # Get the package name from the manifest
 package_name = manifest["__pkg_name__"]
 
@@ -81,7 +87,8 @@ setup(
     url=manifest["__git_url__"],
     license=manifest["__license__"],
     description=manifest["__description__"],
-    long_description=open('README.rst').read(),
+    long_description=long_description,
+    long_description_content_type='text/x-rst',
 
     classifiers = manifest["__classifiers__"],
 

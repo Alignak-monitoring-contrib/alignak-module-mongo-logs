@@ -2,6 +2,7 @@ Alignak Log MongoDB Module
 ==========================
 
 **Note** that this module is only useful to get the Alignak monitoring logs in a Mongo DB if you do not use the Alignak backend
+
 -----
 
 *Alignak module for the monitoring logs*
