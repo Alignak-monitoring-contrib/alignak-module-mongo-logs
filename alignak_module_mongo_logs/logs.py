@@ -204,12 +204,12 @@ class MonitoringLogsCollector(BaseModule):
         logger.info("trying to connect MongoDB: %s", self.uri)
         self.con = MongoClient(self.uri, connect=False)
         try:
-            result = self.con.admin.command("ismaster")
-            logger.info("connected to MongoDB, admin: %s", result)
+            self.con.admin.command("ismaster")
+            logger.info("connected to MongoDB")
             logger.debug("server information: %s", self.con.server_info())
 
             self.db = getattr(self.con, self.database)
-            logger.info("connected to the database: %s (%s)", self.database, self.db)
+            logger.info("connected to the database: %s", self.database)
 
             self.is_connected = CONNECTED
             self.next_logs_rotation = time.time()
@@ -269,6 +269,7 @@ class MonitoringLogsCollector(BaseModule):
         queued logs (commit_volume) to insert them in the DB
         """
         if not self.logs_cache:
+            self.statsmgr.gauge('committed-logs', 0)
             return
 
         if not self.is_connected == CONNECTED:
@@ -306,16 +307,19 @@ class MonitoringLogsCollector(BaseModule):
             # Insert lines to commit
             result = self.db[self.logs_collection].insert_many(some_logs)
             logger.debug("inserted %d logs.", len(result.inserted_ids))
+            self.statsmgr.gauge('committed-logs', len(result.inserted_ids))
 
             # Request the server to flush data on files
             self.con.fsync(async=True)
         except AutoReconnect as exp:
-            logger.error("Autoreconnect exception when inserting lines: %s", str(exp))
+            self.statsmgr.gauge('committed-logs', 0)
+            logger.error("Auto-reconnect exception when inserting lines: %s", str(exp))
             self.is_connected = SWITCHING
             # Abort commit ... will be finished next time!
         except Exception as exp:
+            self.statsmgr.gauge('committed-logs', 0)
             self.close()
-            logger.error("Database error occurred when commiting: %s", exp)
+            logger.error("Database error occurred when committing: %s", exp)
         logger.debug("time to insert %s logs (%2.4f)", logs_to_commit, time.time() - now)
 
     def manage_log_brok(self, brok):
@@ -338,17 +342,18 @@ class MonitoringLogsCollector(BaseModule):
             if not event.valid:
                 logger.warning("No monitoring event detected from: %s", brok.data['message'])
                 return False
-            logger.warning("Detected: %s", event)
+            logger.debug("Detected: %s", event)
 
             # -------------------------------------------
             # Add an history event
-            self.statsmgr.counter('monitoring-event-get.%s' % event.pattern, 1)
+            metric = event.pattern.strip().replace(" ", "_")
+            self.statsmgr.counter('monitoring-event-got.%s' % metric, 1)
 
             if event.pattern not in ['TIMEPERIOD TRANSITION', 'RETENTION LOAD', 'RETENTION SAVE',
                                      'CURRENT STATE', 'NOTIFICATION', 'ALERT', 'DOWNTIME',
                                      'FLAPPING', 'ACTIVE CHECK', 'PASSIVE CHECK',
                                      'COMMENT', 'ACKNOWLEDGE', 'DOWNTIME']:
-                self.statsmgr.counter('monitoring-event-ignored.%s' % event.pattern, 1)
+                self.statsmgr.counter('monitoring-event-ignored.%s' % metric, 1)
                 logger.debug("Monitoring event not stored in the DB: %s",
                              brok.data['message'])
                 return False
@@ -360,7 +365,6 @@ class MonitoringLogsCollector(BaseModule):
 
             logger.debug('store log line values: %s', data)
             self.logs_cache.append(data)
-            self.statsmgr.counter('monitoring-event-stored.%s' % event.pattern, 1)
 
         except ValueError:
             logger.warning("Unable to decode a monitoring event from: %s", brok.data['message'])
@@ -371,7 +375,7 @@ class MonitoringLogsCollector(BaseModule):
         """We got the data to manage
 
         :param brok: Brok object
-        :type brok: object
+        :type brok: alignak.brok.Brok
         :return: False if a backend post error happens
         """
         logger.debug("manage brok: %s", brok.type)
@@ -379,12 +383,12 @@ class MonitoringLogsCollector(BaseModule):
         if brok.type not in ['monitoring_log']:
             return False
 
-        level = brok.data['level'].lower()
-        if level not in ['debug', 'info', 'warning', 'error', 'critical']:
-            return False
+        # Do not care about level information!
+        # level = brok.data['level'].lower()
+        # if level not in ['debug', 'info', 'warning', 'error', 'critical']:
+        #     return False
 
         logger.debug("Got a monitoring log brok: %s", brok)
-
         return self.manage_log_brok(brok)
 
     def main(self):
@@ -414,7 +418,7 @@ class MonitoringLogsCollector(BaseModule):
             # DB connection test ?
             if self.db_test_period and db_test_connection < now:
                 logger.info("Testing database connection ...")
-                # Test connection every 5 seconds ...
+                # Test connection periodically...
                 db_test_connection = now + self.db_test_period
                 if self.is_connected == DISCONNECTED:
                     logger.warning("Trying to connect database ...")
@@ -422,14 +426,14 @@ class MonitoringLogsCollector(BaseModule):
 
             # Logs commit ?
             if db_commit_next_time < now:
-                logger.info("Logs commit time ...")
+                logger.debug("Logs commit time ...")
                 # Commit periodically ...
                 db_commit_next_time = now + self.commit_period
                 self.commit_logs()
 
             # Logs rotation ?
             if self.next_logs_rotation < now:
-                logger.info("Logs rotation time ...")
+                logger.debug("Logs rotation time ...")
                 self.rotate_logs()
 
             # Broks management ...

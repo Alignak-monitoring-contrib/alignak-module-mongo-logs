@@ -72,6 +72,50 @@ To configure this module for Mongo DB:
 
 - edit the module configuration file to set the MongoDB parameters
 
+Metrics
+-------
+
+This module is able to push metrics to an external TSDB (Graphite, InfluxDB). Configure the metrics parameters in the configuration:
+::
+
+   ; --------------------------------------------------------------------
+   ; Module internal metrics
+   ; Export module metrics to a statsd server.
+   ; By default at localhost:8125 (UDP) with the alignak prefix
+   ; Default is not enabled
+   ; --------------------------------------------------------------------
+   ;statsd_host = localhost
+   ; For StatsD
+   ;statsd_port = 8125
+   ; For Graphite
+   ;statsd_port = 2004
+   ; Default
+   ;statsd_prefix=alignak
+   ; Use this prefix to use the alignak name in the metrics hierarchy
+   ;statsd_prefix=%(alignak_name)s.modules
+   ; Default is disabled
+   ;statsd_enabled = 0
+   ;graphite_enabled = 0
+   ; --------------------------------------------------------------------
+
+
+Available metrics:
+
+- `committed-logs` counts the DB commited logs
+- `monitoring-event-got.%s` counts the detected events
+- `monitoring-event-ignored.%s` counts the ignored events (not DB commited)
+- `queue-size` is the module message queue size. If greater than 1, it indicates a module overload because the queue should be emptied on each loop turn
+- `managed-broks-time` is the broks management duration on each loop turn
+
+**Note** that only the events in this list are DB commited: ['TIMEPERIOD TRANSITION', 'RETENTION LOAD', 'RETENTION SAVE', 'CURRENT STATE', 'NOTIFICATION', 'ALERT', 'DOWNTIME', 'FLAPPING', 'ACTIVE CHECK', 'PASSIVE CHECK', 'COMMENT', 'ACKNOWLEDGE', 'DOWNTIME']
+
+An example Grafana dashboard:
+
+.. image:: ./doc/_static/images/grafana.png
+   :scale: 90 %
+
+
+
 Bugs, issues and contributing
 -----------------------------
 
